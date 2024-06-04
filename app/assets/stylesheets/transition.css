@@ -1,0 +1,38 @@
+:root {
+  /****************************************************************
+  * Transition Property
+  * Variables for controlling which CSS properties transition.
+  * transition-property: var(--transition);
+  *****************************************************************/
+  --transition-none:      none;
+  --transition-all:       all;
+  --transition:           background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  --transition-colors:    background-color, border-color, color, fill, stroke;
+  --transition-opacity:   opacity;
+  --transition-shadow:    box-shadow;
+  --transition-transform: transform;
+
+  /****************************************************************
+  * Transition Timing
+  * Variables for controlling the timing of CSS transitions.
+  * transition-duration|transition-delay: var(--time-75);
+  *****************************************************************/
+  --time-75:   75ms;
+  --time-100:  100ms;
+  --time-150:  150ms;
+  --time-200:  200ms;
+  --time-300:  300ms;
+  --time-500:  500ms;
+  --time-700:  700ms;
+  --time-1000: 1000ms;
+
+  /****************************************************************
+  * Transition Timing Function
+  * Variables for controlling the easing of CSS transitions.
+  * transition-timing-function: var(--ease-linear);
+  *****************************************************************/
+  --ease-linear: linear;
+  --ease-in:     cubic-bezier(0.4, 0, 1, 1);
+  --ease-out:    cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+}

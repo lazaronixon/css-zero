@@ -1,0 +1,57 @@
+:root {
+  /****************************************************************
+  * Scale
+  * Variables for scaling elements with transform.
+  * transform: var(--scale-0);
+  *****************************************************************/
+  --scale-0:   0;
+  --scale-50:  0.50;
+  --scale-75:  0.75;
+  --scale-90:  0.90;
+  --scale-95:  0.95;
+  --scale-100: 1;
+  --scale-105: 1.05;
+  --scale-110: 1.10;
+  --scale-125: 1.25;
+  --scale-150: 1.50;
+
+  /****************************************************************
+  * Rotate
+  * Variables for rotating elements with transform.
+  * transform: var(--rotate-45);
+  *****************************************************************/
+  --rotate-0:   0deg;
+  --rotate-1:   1deg;
+  --rotate-2:   2deg;
+  --rotate-3:   3deg;
+  --rotate-6:   6deg;
+  --rotate-12:  12deg;
+  --rotate-45:  45deg;
+  --rotate-90:  90deg;
+  --rotate-180: 180deg;
+
+  /****************************************************************
+  * Translate
+  * Variables for translating elements with transform.
+  * transform: var(--translate-1-2);
+  *****************************************************************/
+  --translate-1-2:  50%;
+  --translate-1-3:  33.333333%;
+  --translate-2-3:  66.666667%;
+  --translate-1-4:  25%;
+  --translate-2-4:  50%;
+  --translate-3-4:  75%;
+  --translate-full: 100%;
+
+  /****************************************************************
+  * Skew
+  * Varibles for skewing elements with transform.
+  * transform: var(--skew-3);
+  *****************************************************************/
+  --skew-0:  0deg;
+  --skew-1:  1deg;
+  --skew-2:  2deg;
+  --skew-3:  3deg;
+  --skew-6:  6deg;
+  --skew-12: 12deg;
+}

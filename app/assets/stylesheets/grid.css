@@ -1,0 +1,38 @@
+:root {
+  /****************************************************************
+  * Grid Template
+  * Variables for specifying the columns/rows in a grid layout.
+  * grid-template-columns|grid-template-rows: var(--grid-1);
+  *****************************************************************/
+  --grid-1:  repeat(1, minmax(0, 1fr));
+  --grid-2:  repeat(2, minmax(0, 1fr));
+  --grid-3:  repeat(3, minmax(0, 1fr));
+  --grid-4:  repeat(4, minmax(0, 1fr));
+  --grid-5:  repeat(5, minmax(0, 1fr));
+  --grid-6:  repeat(6, minmax(0, 1fr));
+  --grid-7:  repeat(7, minmax(0, 1fr));
+  --grid-8:  repeat(8, minmax(0, 1fr));
+  --grid-9:  repeat(9, minmax(0, 1fr));
+  --grid-10: repeat(10, minmax(0, 1fr));
+  --grid-11: repeat(11, minmax(0, 1fr));
+  --grid-12: repeat(12, minmax(0, 1fr));
+
+  /****************************************************************
+  * Grid Start / End
+  * Variables for controlling how elements are sized and placed across grid columns/rows.
+  * grid-column|grid-row: var(--span-1);
+  *****************************************************************/
+  --span-1:  span 1 / span 1;
+  --span-2:  span 2 / span 2;
+  --span-3:  span 3 / span 3;
+  --span-4:  span 4 / span 4;
+  --span-5:  span 5 / span 5;
+  --span-6:  span 6 / span 6;
+  --span-7:  span 7 / span 7;
+  --span-8:  span 8 / span 8;
+  --span-9:  span 9 / span 9;
+  --span-10: span 10 / span 10;
+  --span-11: span 11 / span 11;
+  --span-12: span 12 / span 12;
+  --span-full: 1 / -1;
+}

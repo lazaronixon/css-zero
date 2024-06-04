@@ -1,0 +1,105 @@
+:root {
+  /****************************************************************
+  * Blur
+  * Variables for applying blur filters to an element.
+  * filter|backdrop-filter: var(--blur);
+  *****************************************************************/
+  --blur-none: blur(0);
+  --blur-sm:   blur(4px);
+  --blur:      blur(8px);
+  --blur-md:   blur(12px);
+  --blur-lg:   blur(16px);
+  --blur-xl:   blur(24px);
+  --blur-2xl:  blur(40px);
+  --blur-3xl:  blur(64px);
+
+  /****************************************************************
+  * Brightness
+  * Variables for applying brightness filters to an element.
+  * filter|backdrop-filter: var(--brightness-50);
+  *****************************************************************/
+  --brightness-0:   brightness(0);
+  --brightness-50:  brightness(0.5);
+  --brightness-75:  brightness(0.75);
+  --brightness-90:  brightness(0.9);
+  --brightness-95:  brightness(0.95);
+  --brightness-100: brightness(1);
+  --brightness-105: brightness(1.05);
+  --brightness-110: brightness(1.1);
+  --brightness-125: brightness(1.25);
+  --brightness-150: brightness(1.5);
+  --brightness-200: brightness(2);
+
+  /****************************************************************
+  * Contrast
+  * Variables for applying contrast filters to an element.
+  * filter|backdrop-filter: var(--contrast-50);
+  *****************************************************************/
+  --contrast-0:   contrast(0);
+  --contrast-50:  contrast(0.5);
+  --contrast-75:  contrast(0.75);
+  --contrast-100: contrast(1);
+  --contrast-125: contrast(1.25);
+  --contrast-150: contrast(1.5);
+  --contrast-200: contrast(2);
+
+  /****************************************************************
+  * Drop Shadow
+  * Variables for applying drop-shadow filters to an element.
+  * filter|backdrop-filter: var(--drop-shadow);
+  *****************************************************************/
+  --drop-shadow-none: drop-shadow(0 0 #0000);
+  --drop-shadow-sm:   drop-shadow(0 1px 1px rgba(0, 0, 0, 0.05));
+  --drop-shadow:      drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));
+  --drop-shadow-md:   drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));
+  --drop-shadow-lg:   drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.1));
+  --drop-shadow-xl:   drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03)) drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
+  --drop-shadow-2xl:  drop-shadow(0 25px 25px rgba(0, 0, 0, 0.15));
+
+  /****************************************************************
+  * Grayscale
+  * Variables for applying grayscale filters to an element.
+  * filter|backdrop-filter: var(--grayscale);
+  *****************************************************************/
+  --grayscale-0: grayscale(0);
+  --grayscale:   grayscale(100%);
+
+  /****************************************************************
+  * Hue Rotate
+  * Variables for applying hue-rotate filters to an element.
+  * filter|backdrop-filter: var(--hue-rotate-15);
+  *****************************************************************/
+  --hue-rotate-0:   hue-rotate(0deg);
+  --hue-rotate-15:  hue-rotate(15deg);
+  --hue-rotate-30:  hue-rotate(30deg);
+  --hue-rotate-60:  hue-rotate(60deg);
+  --hue-rotate-90:  hue-rotate(90deg);
+  --hue-rotate-180: hue-rotate(180deg);
+
+  /****************************************************************
+  * Invert
+  * Variables for applying invert filters to an element.
+  * filter|backdrop-filter: var(--invert);
+  *****************************************************************/
+  --invert-0: invert(0);
+  --invert:   invert(100%);
+
+  /****************************************************************
+  * Saturate
+  * Variables for applying saturation filters to an element.
+  * filter|backdrop-filter: var(--saturate-50);
+  *****************************************************************/
+  --saturate-0:   saturate(0);
+  --saturate-50:  saturate(0.5);
+  --saturate-100: saturate(1);
+  --saturate-150: saturate(1.5);
+  --saturate-200: saturate(2);
+
+  /****************************************************************
+  * Sepia
+  * Variables for applying sepia filters to an element.
+  * filter|backdrop-filter: var(--sepia);
+  *****************************************************************/
+  --sepia-0: sepia(0);
+  --sepia:   sepia(100%);
+}
