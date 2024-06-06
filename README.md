@@ -14,9 +14,9 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as asset pipel
 
 ```css
 .component {
-  background-color: var(--red-500);
-  height: var(--size-4);
+  background-color: var(--red-500);  
   border-radius: var(--rounded);
+  height: var(--size-4);
 
   @media (--md) {
     display: none;
@@ -25,7 +25,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as asset pipel
 ```
 
 ```html
-  <div class="component push--bottom">
+  <div class="component push-block--end">
     <p>content here...</p>
   </div>
 ```
