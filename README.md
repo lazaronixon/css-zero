@@ -25,7 +25,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as asset pipel
 ```
 
 ```html
-  <div class="component push-block--end">
+  <div class="component mbe-md">
     <p>content here...</p>
   </div>
 ```
