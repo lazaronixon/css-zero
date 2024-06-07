@@ -49,7 +49,6 @@
 .align--start { text-align: start; }
 .align--center { text-align: center; }
 .align--end { text-align: end; }
-.centered { margin-inline: auto; }
 
 /****************************************************************
 * Text
@@ -147,13 +146,8 @@
 .flush-inline--start { margin-inline-start: 0; }
 .flush-inline--end { margin-inline-end: 0; }
 
-.auto { margin: auto; }
-.auto-block { margin-block: auto; }
-.auto-block--start { margin-block-start: auto; }
-.auto-block--end { margin-block-end: auto; }
-.auto-inline { margin-inline: auto; }
-.auto-inline--start { margin-inline-start: auto; }
-.auto-inline--end { margin-inline-end: auto; }
+.center { margin-inline: auto; }
+.center-block { margin-block: auto; }
 
 /****************************************************************
 * Padding
