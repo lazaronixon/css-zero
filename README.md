@@ -1,6 +1,6 @@
 # CSS Zero
 
-An opinionated CSS starter kit for your application. You can think of it as a "no build" Tailwind CSS.
+An opinionated CSS starter kit for your application. You can think of it like a "no build" Tailwind CSS.
 
 ## Installation
 
@@ -8,7 +8,7 @@ An opinionated CSS starter kit for your application. You can think of it as a "n
 bundle add css-zero
 ```
 
-This gem requires [propshaft](https://github.com/rails/propshaft) as asset pipeline.
+This gem requires [propshaft](https://github.com/rails/propshaft) as the asset pipeline.
 
 ## Usage
 

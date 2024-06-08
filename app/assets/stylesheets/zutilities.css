@@ -71,7 +71,7 @@
 .leading-tight { line-height: var(--leading-tight); }
 .leading-normal { line-height: var(--leading-normal); }
 
-.text-inherit	{ color: inherit; }
+.text-inherit { color: inherit; }
 
 .text-xs { font-size: var(--text-xs); }
 .text-sm { font-size: var(--text-sm); }
