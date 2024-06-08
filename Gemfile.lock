@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    css-zero (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.2.1)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-23
+
+DEPENDENCIES
+  css-zero!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.5.10
