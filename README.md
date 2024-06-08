@@ -18,7 +18,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
   border-radius: var(--rounded);
   height: var(--size-4);
 
-  @media (--md) {
+  @media (min-width: 48rem) {
     display: none;
   }
 }
@@ -37,7 +37,6 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 - [Border](app/assets/stylesheets/borders.css)
 - [Typography](app/assets/stylesheets/typography.css)
 - [Effects](app/assets/stylesheets/effects.css)
-- [Breakpoints](app/assets/stylesheets/breakpoints.css)
 - [Grid](app/assets/stylesheets/grid.css)
 - [Filters](app/assets/stylesheets/filters.css)
 - [Transform](app/assets/stylesheets/transform.css)
