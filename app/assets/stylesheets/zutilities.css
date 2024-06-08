@@ -101,11 +101,6 @@
 .inline { display: inline; }
 .inline-block { display: inline-block; }
 
-.contents { display: contents; }
-
-.hidden { display: none; }
-.invisible { visibility: hidden; }
-
 .relative { position: relative; }
 
 .min-w-0 { min-inline-size: 0; }

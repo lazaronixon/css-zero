@@ -332,3 +332,11 @@ video {
 [hidden] {
   display: none !important;
 }
+
+/*
+  Make elements with the HTML contents attribute become pseudo-box by default.
+*/
+
+[contents] {
+  display: contents !important;
+}
