@@ -41,6 +41,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 - [Filters](app/assets/stylesheets/filters.css)
 - [Transform](app/assets/stylesheets/transform.css)
 - [Transition](app/assets/stylesheets/transition.css)
+- [Animations](app/assets/stylesheets/animations.css)
 - [Utilities](app/assets/stylesheets/zutilities.css)
 
 ## Development
