@@ -68,17 +68,19 @@
   --size-full:  100%;
 
   /****************************************************************
-  * Max Width
+  * Widths
   *****************************************************************/
-  --max-w-xs:  20rem; /* 320px */
-  --max-w-sm:  24rem; /* 384px */
-  --max-w-md:  28rem; /* 448px */
-  --max-w-lg:  32rem; /* 512px */
-  --max-w-xl:  36rem; /* 576px */
-  --max-w-2xl: 42rem; /* 672px */
-  --max-w-3xl: 48rem; /* 768px */
-  --max-w-4xl: 56rem; /* 896px */
-  --max-w-5xl: 64rem; /* 1024px */
-  --max-w-6xl: 72rem; /* 1152px */
-  --max-w-7xl: 80rem; /* 1280px */
+  --width-3xs: 16rem; /* 256px */
+  --width-2xs: 18rem; /* 288px */
+  --width-xs:  20rem; /* 320px */
+  --width-sm:  24rem; /* 384px */
+  --width-md:  28rem; /* 448px */
+  --width-lg:  32rem; /* 512px */
+  --width-xl:  36rem; /* 576px */
+  --width-2xl: 42rem; /* 672px */
+  --width-3xl: 48rem; /* 768px */
+  --width-4xl: 56rem; /* 896px */
+  --width-5xl: 64rem; /* 1024px */
+  --width-6xl: 72rem; /* 1152px */
+  --width-7xl: 80rem; /* 1280px */
 }
