@@ -47,7 +47,7 @@
 /****************************************************************
 * Text
 *****************************************************************/
-.font-normal { font-weight: var(--font-normal); }
+.font-normal { font-weight: var(--font-normal); font-style: normal; }
 .font-medium { font-weight: var(--font-medium); }
 .font-bold { font-weight: var(--font-bold); }
 
@@ -70,8 +70,6 @@
 
 .leading-tight { line-height: var(--leading-tight); }
 .leading-normal { line-height: var(--leading-normal); }
-
-.text-inherit { color: inherit; }
 
 .text-xs { font-size: var(--text-xs); }
 .text-sm { font-size: var(--text-sm); }
