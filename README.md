@@ -12,22 +12,22 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 
 ## Usage
 
-```css
-.component {
-  background-color: var(--red-500);  
-  border-radius: var(--rounded);
-  height: var(--size-4);
+```html
+  <h1 class="text-xl font-bold mb-md">
+    Write most page content using utility classes. Use what is available or add more when needed.
+  </h1>
 
-  @media (min-width: 48rem) {
-    display: none;
-  }
-}
+  <div class="component">
+    Write custom CSS using predefined variables for more complex stuff.
+  </div>
 ```
 
-```html
-  <div class="component mbe-md">
-    <p>content here...</p>
-  </div>
+```css
+.component {
+  background-color: var(--red-500);
+  border-radius: var(--rounded);
+  height: var(--size-4);
+}
 ```
 
 ## Files
