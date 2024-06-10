@@ -43,13 +43,14 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 - [Transition](app/assets/stylesheets/transition.css)
 - [Animations](app/assets/stylesheets/animations.css)
 - [Utilities](app/assets/stylesheets/zutilities.css)
+- [Buttons](app/assets/stylesheets/buttons.css)
 
 ## Customization
 
+Global level
+
 ```css
 :root {
-  --color-negative: var(--pink-700);
-  --color-postive: var(--lime-700);
   --color-bg: white;
   --color-bg-surface: var(--zinc-100);
   --color-text: var(--zinc-950);
@@ -58,6 +59,17 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
   --color-border: var(--zinc-200);
 }
 ```
+
+Component level
+
+```css
+.btn--colored {
+  --btn-background: var(--cyan-500);
+  --btn-color: var(--cyan-950);
+}
+```
+
+Style level
 
 ```html
 <div class="flex flex-column w-full gap" style="--row-gap: 0.5rem">

@@ -1,0 +1,32 @@
+.btn {
+  align-items: center;
+  background-color: var(--btn-background, var(--color-primary));
+  border-radius: var(--btn-border-radius, var(--rounded-lg));
+  border: 1px solid var(--btn-border-color, transparent);
+  color: var(--btn-color, white);
+  column-gap: var(--btn-column-gap, var(--size-1));
+  cursor: pointer;
+  display: inline-flex;
+  font-size: var(--btn-font-size, var(--text-sm));
+  font-weight: var(--btn-font-weight, var(--font-semibold));
+  justify-content: center;
+  line-height: var(--btn-line-height, var(--leading-6));
+  padding: var(--btn-padding, var(--size-1_5) var(--size-3_5));
+  text-align: center;
+
+  &:disabled {
+    pointer-events: none;
+    filter: var(--grayscale) opacity(0.5);
+  }
+}
+
+.btn--plain {
+  --btn-background: transparent;
+  --btn-border-color: var(--color-border);
+  --btn-color: var(--color-text);
+}
+
+.btn--outline {
+  --btn-background: transparent;
+  --btn-color: var(--color-text);
+}

@@ -74,8 +74,6 @@
 .text-primary { color: var(--color-text); }
 .text-reversed { color: var(--color-text-reversed); }
 .text-subtle { color: var(--color-text-subtle); }
-.text-negative { color: var(--color-negative); }
-.text-positive { color: var(--color-positive); }
 
 .text-xs { font-size: var(--text-xs); }
 .text-sm { font-size: var(--text-sm); }

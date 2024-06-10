@@ -265,8 +265,7 @@
   --rose-950: #4c0519;
 
   /* Abstractions */
-  --color-negative: var(--pink-700);
-  --color-postive: var(--lime-700);
+  --color-primary: var(--zinc-900);
   --color-bg: white;
   --color-bg-surface: var(--zinc-100);
   --color-text: var(--zinc-950);
@@ -276,8 +275,7 @@
 
   /* Redefine named color values for dark mode */
   @media (prefers-color-scheme: dark) {
-    --color-negative: var(--pink-400);
-    --color-postive: var(--lime-300);
+    --color-primary: var(--zinc-600);
     --color-bg: var(--zinc-900);
     --color-bg-surface: var(--zinc-950);
     --color-text: white;
