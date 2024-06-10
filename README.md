@@ -13,13 +13,13 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 ## Usage
 
 ```html
-  <h1 class="text-xl font-bold mb-md">
-    Write most page content using utility classes. Use what is available or add more when needed.
-  </h1>
+<h1 class="text-xl font-bold mb-md">
+  Write most page content using utility classes. Use what is available or add more when needed.
+</h1>
 
-  <div class="component">
-    Write custom CSS using predefined variables for more complex stuff.
-  </div>
+<div class="component">
+  Write custom CSS using predefined variables for more complex stuff.
+</div>
 ```
 
 ```css
@@ -30,7 +30,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 }
 ```
 
-## Files
+## Reference
 
 - [Sizes](app/assets/stylesheets/sizes.css)
 - [Colors](app/assets/stylesheets/colors.css)
@@ -43,6 +43,27 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 - [Transition](app/assets/stylesheets/transition.css)
 - [Animations](app/assets/stylesheets/animations.css)
 - [Utilities](app/assets/stylesheets/zutilities.css)
+
+## Customization
+
+```css
+:root {
+  --color-negative: var(--pink-700);
+  --color-postive: var(--lime-700);
+  --color-bg: white;
+  --color-bg-surface: var(--zinc-100);
+  --color-text: var(--zinc-950);
+  --color-text-reversed: white;
+  --color-text-subtle: var(--zinc-600);
+  --color-border: var(--zinc-200);
+}
+```
+
+```html
+<div class="flex flex-column w-full gap" style="--row-gap: 0.5rem">
+  More HTML tags here...
+</div>
+```
 
 ## Development
 
