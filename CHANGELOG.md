@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+## [0.0.4] - 2024-06-10
+- Add radius utility classes
+
 ## [0.0.3] - 2024-06-10
 
 - Changed border utility classes
