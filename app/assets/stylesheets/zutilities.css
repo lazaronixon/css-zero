@@ -84,13 +84,14 @@
 /****************************************************************
 * Border
 *****************************************************************/
-.border-0 { border-width: 0px; }
-.border-t { border-top-width: 1px; }
-.border-b { border-bottom-width: 1px; }
-.border-l { border-left-width: 1px; }
-.border-r { border-right-width: 1px; }
-.border { border-width: 1px; }
-.rounded-full { border-radius: 9999px; }
+.border-0 { border: 0; }
+.border { border: var(--border-size, 1px) solid var(--color-border); }
+.border-t { border-top: var(--border-size, 1px) solid var(--color-border); }
+.border-b { border-bottom: var(--border-size, 1px) solid var(--color-border); }
+.border-l { border-left: var(--border-size, 1px) solid var(--color-border); }
+.border-r { border-right: var(--border-size, 1px) solid var(--color-border); }
+
+.border-radius { border-radius: var(--border-radius, 0.5rem); }
 
 /****************************************************************
 * Layout

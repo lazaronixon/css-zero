@@ -1,4 +1,5 @@
 :root {
+  /* Named color values */
   --slate-50:  #f8fafc;
   --slate-100: #f1f5f9;
   --slate-200: #e2e8f0;
@@ -262,4 +263,12 @@
   --rose-800: #9f1239;
   --rose-900: #881337;
   --rose-950: #4c0519;
+
+  /* Abstractions */
+  --color-border: var(--zinc-200);
+
+  /* Redefine named color values for dark mode */
+  @media (prefers-color-scheme: dark) {
+    --color-border: rgba(255, 255, 255, 0.1);
+  }
 }
