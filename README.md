@@ -54,7 +54,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
   --color-bg-surface: var(--zinc-100);
   --color-text: var(--zinc-950);
   --color-text-reversed: white;
-  --color-text-subtle: var(--zinc-600);
+  --color-text-subtle: var(--zinc-500);
   --color-border: var(--zinc-200);
 }
 ```
