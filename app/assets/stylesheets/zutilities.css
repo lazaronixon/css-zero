@@ -71,6 +71,12 @@
 .leading-tight { line-height: var(--leading-tight); }
 .leading-normal { line-height: var(--leading-normal); }
 
+.text-primary { color: var(--color-text); }
+.text-reversed { color: var(--color-text-reversed); }
+.text-subtle { color: var(--color-text-subtle); }
+.text-negative { color: var(--color-negative); }
+.text-positive { color: var(--color-positive); }
+
 .text-xs { font-size: var(--text-xs); }
 .text-sm { font-size: var(--text-sm); }
 .text-base { font-size: var(--text-base); }
@@ -80,6 +86,14 @@
 .text-3xl { font-size: var(--text-3xl); }
 .text-4xl { font-size: var(--text-4xl); }
 .text-5xl { font-size: var(--text-5xl); }
+
+/****************************************************************
+* Background
+*****************************************************************/
+.bg-main { background-color: var(--color-bg); }
+.bg-white { background-color: var(--color-text-reversed); }
+.bg-surface { background-color: var(--color-bg-surface); }
+.bg-transparent { background-color: transparent; }
 
 /****************************************************************
 * Border

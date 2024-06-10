@@ -265,10 +265,23 @@
   --rose-950: #4c0519;
 
   /* Abstractions */
+  --color-negative: var(--pink-700);
+  --color-postive: var(--lime-700);
+  --color-bg: white;
+  --color-bg-surface: var(--zinc-100);
+  --color-text: var(--zinc-950);
+  --color-text-reversed: white;
+  --color-text-subtle: var(--zinc-600);
   --color-border: var(--zinc-200);
 
   /* Redefine named color values for dark mode */
   @media (prefers-color-scheme: dark) {
+    --color-negative: var(--pink-400);
+    --color-postive: var(--lime-300);
+    --color-bg: var(--zinc-900);
+    --color-bg-surface: var(--zinc-950);
+    --color-text: white;
+    --color-text-reversed: var(--zinc-950);
     --color-border: rgba(255, 255, 255, 0.1);
   }
 }
