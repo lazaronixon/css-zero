@@ -94,6 +94,14 @@
 .border-radius { border-radius: var(--border-radius, 0.5rem); }
 
 /****************************************************************
+* Shadow
+*****************************************************************/
+.shadow { box-shadow: var(--shadow); }
+.shadow-md { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+.shadow-xl { box-shadow: var(--shadow-xl); }
+
+/****************************************************************
 * Layout
 *****************************************************************/
 .block { display: block; }
