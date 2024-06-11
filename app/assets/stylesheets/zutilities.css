@@ -107,6 +107,7 @@
 .rounded { border-radius: var(--rounded); }
 .rounded-lg { border-radius: var(--rounded-lg); }
 .rounded-full { border-radius: var(--rounded-full); }
+.rounded-none { border-radius: none; }
 
 /****************************************************************
 * Shadow
@@ -115,6 +116,7 @@
 .shadow-md { box-shadow: var(--shadow-md); }
 .shadow-lg { box-shadow: var(--shadow-lg); }
 .shadow-xl { box-shadow: var(--shadow-xl); }
+.shadow-none { box-shadow: none; }
 
 /****************************************************************
 * Layout
