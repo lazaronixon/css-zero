@@ -14,10 +14,6 @@
   padding: var(--btn-padding, var(--size-1_5) var(--size-3_5));
   text-align: center;
 
-  &:hover {
-    filter: var(--opaqueness-90);
-  }
-
   &:disabled {
     filter: var(--grayscale) var(--opaqueness-25);
     pointer-events: none;
