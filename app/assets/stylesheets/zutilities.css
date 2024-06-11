@@ -34,17 +34,6 @@
 }
 
 /****************************************************************
-* Alignment
-*****************************************************************/
-.align-top { vertical-align: top; }
-.align-bottom { vertical-align: bottom; }
-.align-middle { vertical-align: middle; }
-
-.text-start { text-align: start; }
-.text-end { text-align: end; }
-.text-center { text-align: center; }
-
-/****************************************************************
 * Text
 *****************************************************************/
 .font-normal { font-weight: var(--font-normal); font-style: normal; }
@@ -70,6 +59,10 @@
 
 .leading-tight { line-height: var(--leading-tight); }
 .leading-normal { line-height: var(--leading-normal); }
+
+.text-start { text-align: start; }
+.text-end { text-align: end; }
+.text-center { text-align: center; }
 
 .text-primary { color: var(--color-text); }
 .text-reversed { color: var(--color-text-reversed); }
