@@ -37,16 +37,16 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 
 ```html+erb
 <div class="flex flex-col items-center gap">
-  <button class="btn">Primary button</button>
+  <button class="btn btn--primary">Primary button</button>
+  <button class="btn">Outline button</button>
   <button class="btn btn--plain">Plain button</button>
-  <button class="btn btn--outline">Outline button</button>
   <button class="btn" disabled>Disabled button</button>
 
-  <button class="btn">
+  <button class="btn btn--primary">
     <%= image_tag "plus-white.svg" %> <span>Icon Button</span>
   </button>
 
-  <button class="btn" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
+  <button class="btn btn--primary" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
     Colored button
   </button>
 
