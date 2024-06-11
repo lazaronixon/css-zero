@@ -32,8 +32,9 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 
 ## Buttons
 
-<img width="302" alt="Buttons Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/424164a4-bb55-437e-a310-1ce091e7dd81">
-<img width="302" alt="Button Dark" src="https://github.com/lazaronixon/css-zero/assets/2651240/1a6125ac-3137-4024-8619-551752ae4b0d">
+<img width="302" alt="Button Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/5523f0f1-9f55-42fb-8d3f-77e66f16035c">
+<img width="302" alt="Button Dark" src="https://github.com/lazaronixon/css-zero/assets/2651240/7079d7f9-5141-447d-9a4e-0d098a642d32">
+
 
 ```html+erb
 <div class="flex flex-col items-center gap">
