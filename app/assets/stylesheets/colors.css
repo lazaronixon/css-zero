@@ -270,7 +270,7 @@
   --color-bg-surface: var(--zinc-100);
   --color-text: var(--zinc-950);
   --color-text-reversed: white;
-  --color-text-subtle: var(--zinc-500);
+  --color-text-subtle: var(--zinc-600);
   --color-border: var(--zinc-200);
 
   /* Filtered color values */
@@ -284,7 +284,6 @@
     --color-bg-surface: var(--zinc-950);
     --color-text: white;
     --color-text-reversed: var(--zinc-950);
-    --color-text-subtle: var(--zinc-400);
     --color-border: rgba(255, 255, 255, 0.15);
     --color-filter-black: var(--invert);
     --color-filter-white: var(--invert-0);
