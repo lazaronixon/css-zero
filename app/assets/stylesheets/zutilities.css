@@ -93,6 +93,10 @@
 .bg-surface { background-color: var(--color-bg-surface); }
 .bg-transparent { background-color: transparent; }
 
+.invert { filter: var(--invert); }
+.colorize-black { filter: var(--color-filter-black); }
+.colorize-white { filter: var(--color-filter-white); }
+
 /****************************************************************
 * Border
 *****************************************************************/

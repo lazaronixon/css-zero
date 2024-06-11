@@ -44,7 +44,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
   <button class="btn" disabled>Disabled button</button>
 
   <button class="btn btn--primary">
-    <%= image_tag "plus-white.svg" %> <span>Icon Button</span>
+    <%= image_tag "plus.svg", class: "invert" %> <span>Icon Button</span>
   </button>
 
   <button class="btn btn--primary" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
@@ -56,21 +56,6 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
   </button>
 </div>
 ```
-
-## Reference
-
-- [Animations](app/assets/stylesheets/animations.css)
-- [Border](app/assets/stylesheets/borders.css)
-- [Buttons](app/assets/stylesheets/buttons.css)
-- [Colors](app/assets/stylesheets/colors.css)
-- [Effects](app/assets/stylesheets/effects.css)
-- [Filters](app/assets/stylesheets/filters.css)
-- [Grid](app/assets/stylesheets/grid.css)
-- [Sizes](app/assets/stylesheets/sizes.css)
-- [Transform](app/assets/stylesheets/transform.css)
-- [Transition](app/assets/stylesheets/transition.css)
-- [Typography](app/assets/stylesheets/typography.css)
-- [Utilities](app/assets/stylesheets/zutilities.css)
 
 ## Customization
 
@@ -103,6 +88,21 @@ Style level
   More HTML tags here...
 </div>
 ```
+
+## Reference
+
+- [Animations](app/assets/stylesheets/animations.css)
+- [Border](app/assets/stylesheets/borders.css)
+- [Buttons](app/assets/stylesheets/buttons.css)
+- [Colors](app/assets/stylesheets/colors.css)
+- [Effects](app/assets/stylesheets/effects.css)
+- [Filters](app/assets/stylesheets/filters.css)
+- [Grid](app/assets/stylesheets/grid.css)
+- [Sizes](app/assets/stylesheets/sizes.css)
+- [Transform](app/assets/stylesheets/transform.css)
+- [Transition](app/assets/stylesheets/transition.css)
+- [Typography](app/assets/stylesheets/typography.css)
+- [Utilities](app/assets/stylesheets/zutilities.css)
 
 ## Development
 

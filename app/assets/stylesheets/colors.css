@@ -273,6 +273,10 @@
   --color-text-subtle: var(--zinc-500);
   --color-border: var(--zinc-200);
 
+  /* Filtered color values */
+  --color-filter-black: var(--invert-0);
+  --color-filter-white: var(--invert);
+
   /* Redefine named color values for dark mode */
   @media (prefers-color-scheme: dark) {
     --color-primary: var(--zinc-600);
@@ -282,5 +286,7 @@
     --color-text-reversed: var(--zinc-950);
     --color-text-subtle: var(--zinc-400);
     --color-border: rgba(255, 255, 255, 0.15);
+    --color-filter-black: var(--invert);
+    --color-filter-white: var(--invert-0);
   }
 }
