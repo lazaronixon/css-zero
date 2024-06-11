@@ -32,40 +32,43 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 
 ## Buttons
 
+<img width="302" alt="Buttons Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/424164a4-bb55-437e-a310-1ce091e7dd81">
+<img width="302" alt="Button Dark" src="https://github.com/lazaronixon/css-zero/assets/2651240/1a6125ac-3137-4024-8619-551752ae4b0d">
+
 ```html+erb
-  <div class="flex flex-col items-center gap">
-    <button class="btn">Primary button</button>
-    <button class="btn btn--plain">Plain button</button>
-    <button class="btn btn--outline">Outline button</button>
-    <button class="btn" disabled>Disabled button</button>
+<div class="flex flex-col items-center gap">
+  <button class="btn">Primary button</button>
+  <button class="btn btn--plain">Plain button</button>
+  <button class="btn btn--outline">Outline button</button>
+  <button class="btn" disabled>Disabled button</button>
 
-    <button class="btn">
-      <%= image_tag "plus-white.svg" %> <span>Icon Button</span>
-    </button>
+  <button class="btn">
+    <%= image_tag "plus-white.svg" %> <span>Icon Button</span>
+  </button>
 
-    <button class="btn" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
-      Colored button
-    </button>
+  <button class="btn" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
+    Colored button
+  </button>
 
-    <button class="btn btn--small">
-      Button small
-    </button>
-  </div>
+  <button class="btn btn--small">
+    Button small
+  </button>
+</div>
 ```
 
 ## Reference
 
-- [Sizes](app/assets/stylesheets/sizes.css)
-- [Colors](app/assets/stylesheets/colors.css)
+- [Animations](app/assets/stylesheets/animations.css)
 - [Border](app/assets/stylesheets/borders.css)
-- [Typography](app/assets/stylesheets/typography.css)
+- [Buttons](app/assets/stylesheets/buttons.css)
+- [Colors](app/assets/stylesheets/colors.css)
 - [Effects](app/assets/stylesheets/effects.css)
-- [Grid](app/assets/stylesheets/grid.css)
 - [Filters](app/assets/stylesheets/filters.css)
+- [Grid](app/assets/stylesheets/grid.css)
+- [Sizes](app/assets/stylesheets/sizes.css)
 - [Transform](app/assets/stylesheets/transform.css)
 - [Transition](app/assets/stylesheets/transition.css)
-- [Animations](app/assets/stylesheets/animations.css)
-- [Buttons](app/assets/stylesheets/buttons.css)
+- [Typography](app/assets/stylesheets/typography.css)
 - [Utilities](app/assets/stylesheets/zutilities.css)
 
 ## Customization
