@@ -102,17 +102,24 @@
 
 .rounded-sm { border-radius: var(--rounded-sm); }
 .rounded { border-radius: var(--rounded); }
+.rounded-md { border-radius: var(--rounded-md); }
 .rounded-lg { border-radius: var(--rounded-lg); }
+.rounded-xl { border-radius: var(--rounded-xl); }
+.rounded-2xl { border-radius: var(--rounded-2xl); }
+.rounded-3xl { border-radius: var(--rounded-3xl); }
 .rounded-full { border-radius: var(--rounded-full); }
 .rounded-none { border-radius: none; }
 
 /****************************************************************
 * Shadow
 *****************************************************************/
+.shadow-xs { box-shadow: var(--shadow-xs); }
+.shadow-sm { box-shadow: var(--shadow-sm); }
 .shadow { box-shadow: var(--shadow); }
 .shadow-md { box-shadow: var(--shadow-md); }
 .shadow-lg { box-shadow: var(--shadow-lg); }
 .shadow-xl { box-shadow: var(--shadow-xl); }
+.shadow-2xl { box-shadow: var(--shadow-2xl); }
 .shadow-none { box-shadow: none; }
 
 /****************************************************************
