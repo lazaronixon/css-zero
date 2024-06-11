@@ -3,7 +3,6 @@
   background-color: var(--btn-background, var(--color-primary));
   border-radius: var(--btn-border-radius, var(--rounded-lg));
   border: 1px solid var(--btn-border-color, transparent);
-  box-shadow: var(--btn-shadow, --shadow);
   color: var(--btn-color, white);
   column-gap: var(--btn-column-gap, var(--size-1));
   cursor: pointer;
@@ -34,7 +33,6 @@
 .btn--outline {
   --btn-background: transparent;
   --btn-color: var(--color-text);
-  --btn-shadow: none;
 }
 
 .btn--small {
