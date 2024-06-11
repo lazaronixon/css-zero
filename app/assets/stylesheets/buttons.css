@@ -30,3 +30,8 @@
   --btn-background: transparent;
   --btn-color: var(--color-text);
 }
+
+.btn--small {
+  --btn-font-size: var(--text-xs);
+  --btn-line-height: var(--leading-5);
+}
