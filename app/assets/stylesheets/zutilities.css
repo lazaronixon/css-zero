@@ -152,34 +152,37 @@
 .mb-sm { margin-block: var(--space-sm); }
 .mb-md { margin-block: var(--space-md); }
 .mb-lg { margin-block: var(--space-lg); }
+.mb-auto { margin-block: auto; }
 
 .mbs-0 { margin-block-start: 0; }
 .mbs-sm { margin-block-start: var(--space-sm); }
 .mbs-md { margin-block-start: var(--space-md); }
 .mbs-lg { margin-block-start: var(--space-lg); }
+.mbs-auto { margin-block-start: auto; }
 
 .mbe-0 { margin-block-end: 0; }
 .mbe-sm { margin-block-end: var(--space-sm); }
 .mbe-md { margin-block-end: var(--space-md); }
 .mbe-lg { margin-block-end: var(--space-lg); }
+.mbe-auto { margin-block-end: auto; }
 
 .mi-0 { margin-inline: 0; }
 .mi-sm { margin-inline: var(--space-sm); }
 .mi-md { margin-inline: var(--space-md); }
 .mi-lg { margin-inline: var(--space-lg); }
+.mi-auto { margin-inline: auto; }
 
 .mis-0 { margin-inline-start: 0; }
 .mis-sm { margin-inline-start: var(--space-sm); }
 .mis-md { margin-inline-start: var(--space-md); }
 .mis-lg { margin-inline-start: var(--space-lg); }
+.mis-auto { margin-inline-start: auto; }
 
 .mie-0 { margin-inline-end: 0; }
 .mie-sm { margin-inline-end: var(--space-sm); }
 .mie-md { margin-inline-end: var(--space-md); }
 .mie-lg { margin-inline-end: var(--space-lg); }
-
-.mi-auto { margin-inline: auto; }
-.mb-auto { margin-block: auto; }
+.mie-auto { margin-inline-end: auto; }
 
 /****************************************************************
 * Padding
