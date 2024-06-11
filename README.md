@@ -30,6 +30,29 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 }
 ```
 
+## Buttons
+
+```html+erb
+  <div class="flex flex-col items-center gap">
+    <button class="btn">Primary button</button>
+    <button class="btn btn--plain">Plain button</button>
+    <button class="btn btn--outline">Outline button</button>
+    <button class="btn" disabled>Disabled button</button>
+
+    <button class="btn">
+      <%= image_tag "plus-white.svg" %> <span>Icon Button</span>
+    </button>
+
+    <button class="btn" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
+      Colored button
+    </button>
+
+    <button class="btn btn--small">
+      Button small
+    </button>
+  </div>
+```
+
 ## Reference
 
 - [Sizes](app/assets/stylesheets/sizes.css)
