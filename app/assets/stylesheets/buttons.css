@@ -15,8 +15,8 @@
   text-align: center;
 
   &:disabled {
+    filter: var(--grayscale) var(--opaqueness-25);
     pointer-events: none;
-    filter: var(--grayscale) opacity(0.5);
   }
 }
 

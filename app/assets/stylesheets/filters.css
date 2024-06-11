@@ -46,7 +46,7 @@
   /****************************************************************
   * Drop Shadow
   * Variables for applying drop-shadow filters to an element.
-  * filter|backdrop-filter: var(--drop-shadow);
+  * filter: var(--drop-shadow);
   *****************************************************************/
   --drop-shadow-none: drop-shadow(0 0 #0000);
   --drop-shadow-sm:   drop-shadow(0 1px 1px rgba(0, 0, 0, 0.05));
@@ -102,4 +102,31 @@
   *****************************************************************/
   --sepia-0: sepia(0);
   --sepia:   sepia(100%);
+
+  /****************************************************************
+  * Opacity
+  * Utilities for applying backdrop opacity filters to an element.
+  * backdrop-filter: var(--opaqueness-45);
+  *****************************************************************/
+  --opaqueness-0:	  opacity(0);
+  --opaqueness-5:	  opacity(0.05);
+  --opaqueness-10:	opacity(0.1);
+  --opaqueness-15:	opacity(0.15);
+  --opaqueness-20:	opacity(0.2);
+  --opaqueness-25:	opacity(0.25);
+  --opaqueness-30:	opacity(0.3);
+  --opaqueness-35:	opacity(0.35);
+  --opaqueness-40:	opacity(0.4);
+  --opaqueness-45:	opacity(0.45);
+  --opaqueness-50:	opacity(0.5);
+  --opaqueness-55:	opacity(0.55);
+  --opaqueness-60:	opacity(0.6);
+  --opaqueness-65:	opacity(0.65);
+  --opaqueness-70:	opacity(0.7);
+  --opaqueness-75:	opacity(0.75);
+  --opaqueness-80:	opacity(0.8);
+  --opaqueness-85:	opacity(0.85);
+  --opaqueness-90:	opacity(0.9);
+  --opaqueness-95:	opacity(0.95);
+  --opaqueness-100: opacity(1);
 }
