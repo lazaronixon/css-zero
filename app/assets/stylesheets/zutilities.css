@@ -37,7 +37,6 @@
 /****************************************************************
 * Text
 *****************************************************************/
-.font-light { font-weight: var(--font-light); }
 .font-normal { font-weight: var(--font-normal); }
 .font-medium { font-weight: var(--font-medium); }
 .font-semibold { font-weight: var(--font-semibold); }
