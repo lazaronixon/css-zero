@@ -32,12 +32,10 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 
 ## Buttons
 
-<img width="302" alt="Button Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/5523f0f1-9f55-42fb-8d3f-77e66f16035c">
-<img width="302" alt="Button Dark" src="https://github.com/lazaronixon/css-zero/assets/2651240/7079d7f9-5141-447d-9a4e-0d098a642d32">
-
+<img width="1010" alt="Buttons Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/df0870ae-86e5-43c4-98c5-86946a467f0c">
 
 ```html+erb
-<div class="flex flex-col items-center gap">
+<div class="flex gap">
   <button class="btn btn--primary">Primary button</button>
   <button class="btn">Outline button</button>
   <button class="btn btn--plain">Plain button</button>
@@ -47,7 +45,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
     <%= image_tag "plus.svg", class: "invert" %> <span>Icon Button</span>
   </button>
 
-  <button class="btn btn--primary" style="--btn-background: var(--cyan-300); --btn-color: var(--cyan-950);">
+  <button class="btn btn--primary" style="--btn-background: #67e8f9; --btn-color: #083344;">
     Colored button
   </button>
 
@@ -57,9 +55,17 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 </div>
 ```
 
+## Inputs
+
+Soon...
+
+## Dialog
+
+Soon...
+
 ## Customization
 
-Global level
+Root level
 
 ```css
 :root {
@@ -72,7 +78,7 @@ Global level
 }
 ```
 
-Component level
+Class level
 
 ```css
 .btn--colored {
@@ -84,7 +90,7 @@ Component level
 Style level
 
 ```html
-<div class="flex flex-column w-full gap" style="--row-gap: 0.5rem">
+<div class="flex flex-column gap" style="--row-gap: 0.5rem">
   More HTML tags here...
 </div>
 ```
