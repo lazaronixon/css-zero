@@ -76,7 +76,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   <button class="btn" disabled>Disabled button</button>
 
   <button class="btn btn--primary">
-    <%= image_tag "plus.svg", class: "invert" %> <span>Icon Button</span>
+    <%= image_tag "plus.svg", role: "presentation", class: "invert" %>
+    <span>Icon button</span>
   </button>
 
   <button class="btn btn--primary" style="--btn-background: #67e8f9; --btn-color: #083344;">
