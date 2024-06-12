@@ -8,17 +8,49 @@ An opinionated CSS starter kit for your application. You can think of it like a 
 bundle add css-zero
 ```
 
-This gem requires [propshaft](https://github.com/rails/propshaft) as the asset pipeline.
+If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) make sure to load all the CSS files in your layout.html.erb.
+
+<details>
+  <summary>Click here to see how</summary>
+
+```html+erb
+<%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
+```
+</details>
+
+If you are using [Sprockets](https://github.com/rails/sprockets) make sure to load all the CSS files in your application.css.
+
+<details>
+  <summary>Click here to see how</summary>
+
+  ```css
+  *= require _reset
+  *= require animations
+  *= require borders
+  *= require buttons
+  *= require colors
+  *= require effects
+  *= require filters
+  *= require grid
+  *= require sizes
+  *= require transform
+  *= require transition
+  *= require typography
+  *= require_tree .
+  *= require_self
+  *= require zutilities
+  ```
+</details>
 
 ## Usage
 
 ```html
 <h1 class="text-xl font-bold mb-md">
-  Write most page content using utility classes. Use what is available or add more when needed.
+  Write most page content using utility classes.
 </h1>
 
 <div class="component">
-  Write custom CSS using predefined variables for more complex stuff.
+  Write custom CSS using predefined variables for components.
 </div>
 ```
 
@@ -35,7 +67,7 @@ This gem requires [propshaft](https://github.com/rails/propshaft) as the asset p
 <img width="1010" alt="Buttons Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/df0870ae-86e5-43c4-98c5-86946a467f0c">
 
 ```html+erb
-<div class="flex gap">
+<div class="flex items-center gap">
   <button class="btn btn--primary">Primary button</button>
   <button class="btn">Outline button</button>
   <button class="btn btn--plain">Plain button</button>
@@ -90,9 +122,9 @@ Class level
 Style level
 
 ```html
-<div class="flex flex-column gap" style="--row-gap: 0.5rem">
-  More HTML tags here...
-</div>
+<button class="btn btn--primary" style="--btn-background: #67e8f9; --btn-color: #083344;">
+  Colored button
+</button>
 ```
 
 ## Reference
