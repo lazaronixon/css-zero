@@ -45,7 +45,7 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 ## Usage
 
 ```html
-<h1 class="text-xl font-bold mb-md">
+<h1 class="text-xl font-bold mb-4">
   Write most page content using utility classes.
 </h1>
 
