@@ -66,7 +66,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Buttons
 
-<img width="1010" alt="Buttons Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/df0870ae-86e5-43c4-98c5-86946a467f0c">
+<img width="1010" alt="buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/ec073c9d-d3b7-4a1e-8e7f-d772ff0e0cb8">
 
 ```html+erb
 <div class="flex items-center gap">
