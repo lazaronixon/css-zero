@@ -62,6 +62,8 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 }
 ```
 
+Check the [CSS files](app/assets/stylesheets) in the repository for reference.
+
 ## Buttons
 
 <img width="1010" alt="Buttons Light" src="https://github.com/lazaronixon/css-zero/assets/2651240/df0870ae-86e5-43c4-98c5-86946a467f0c">
@@ -97,7 +99,7 @@ Soon...
 
 ## Customization
 
-Root level
+### Root level
 
 ```css
 :root {
@@ -110,7 +112,7 @@ Root level
 }
 ```
 
-Class level
+### Class level
 
 ```css
 .btn--colored {
@@ -119,28 +121,13 @@ Class level
 }
 ```
 
-Style level
+### Style level
 
 ```html
 <button class="btn btn--primary" style="--btn-background: #67e8f9; --btn-color: #083344;">
   Colored button
 </button>
 ```
-
-## Reference
-
-- [Animations](app/assets/stylesheets/animations.css)
-- [Border](app/assets/stylesheets/borders.css)
-- [Buttons](app/assets/stylesheets/buttons.css)
-- [Colors](app/assets/stylesheets/colors.css)
-- [Effects](app/assets/stylesheets/effects.css)
-- [Filters](app/assets/stylesheets/filters.css)
-- [Grid](app/assets/stylesheets/grid.css)
-- [Sizes](app/assets/stylesheets/sizes.css)
-- [Transform](app/assets/stylesheets/transform.css)
-- [Transition](app/assets/stylesheets/transition.css)
-- [Typography](app/assets/stylesheets/typography.css)
-- [Utilities](app/assets/stylesheets/zutilities.css)
 
 ## Development
 
