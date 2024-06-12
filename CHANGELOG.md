@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.7] - 2024-06-12
+
+- Change semantic sizes ex: mb-md to mb-4.
+
 ## [0.0.6] - 2024-06-11
 
 - More utility classes
