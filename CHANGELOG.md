@@ -1,9 +1,16 @@
 ## [Unreleased]
 
+## [0.0.6] - 2024-06-11
+
+- More utility classes
+- Improved buttons
+
 ## [0.0.5] - 2024-06-10
+
 - Add buttons
 
 ## [0.0.4] - 2024-06-10
+
 - Add radius utility classes
 
 ## [0.0.3] - 2024-06-10
