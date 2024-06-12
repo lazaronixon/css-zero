@@ -6,20 +6,20 @@
 .flex-wrap { flex-wrap: wrap; }
 .inline-flex { display: inline-flex; }
 
-.justify-end { justify-content: end; }
 .justify-start { justify-content: start; }
 .justify-center { justify-content: center; }
+.justify-end { justify-content: end; }
 .justify-between { justify-content: space-between; }
 
-.items-end { align-items: end; }
 .items-start { align-items: start; }
+.items-end { align-items: end; }
 .items-center { align-items: center; }
 
 .grow { flex-grow: 1; }
 .shrink-0 { flex-shrink: 0; }
 
-.self-end { align-self: end; }
 .self-start { align-self: start; }
+.self-end { align-self: end; }
 .self-center { align-self: center; }
 
 .gap { column-gap: var(--column-gap, 1rem); row-gap: var(--row-gap, 1rem); }
@@ -89,13 +89,14 @@
 /****************************************************************
 * Border
 *****************************************************************/
+.border-0 { border: 0; }
 .border { border: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
 .border-t { border-top: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
 .border-b { border-bottom: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
 .border-l { border-left: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
 .border-r { border-right: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
-.border-0 { border: 0; }
 
+.rounded-none { border-radius: none; }
 .rounded-sm { border-radius: var(--rounded-sm); }
 .rounded { border-radius: var(--rounded); }
 .rounded-md { border-radius: var(--rounded-md); }
@@ -104,11 +105,11 @@
 .rounded-2xl { border-radius: var(--rounded-2xl); }
 .rounded-3xl { border-radius: var(--rounded-3xl); }
 .rounded-full { border-radius: var(--rounded-full); }
-.rounded-none { border-radius: none; }
 
 /****************************************************************
 * Shadow
 *****************************************************************/
+.shadow-none { box-shadow: none; }
 .shadow-xs { box-shadow: var(--shadow-xs); }
 .shadow-sm { box-shadow: var(--shadow-sm); }
 .shadow { box-shadow: var(--shadow); }
@@ -116,7 +117,6 @@
 .shadow-lg { box-shadow: var(--shadow-lg); }
 .shadow-xl { box-shadow: var(--shadow-xl); }
 .shadow-2xl { box-shadow: var(--shadow-2xl); }
-.shadow-none { box-shadow: none; }
 
 /****************************************************************
 * Layout
