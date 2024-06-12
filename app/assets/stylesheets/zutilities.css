@@ -157,6 +157,7 @@
 .m-6 { margin: var(--size-6); }
 .m-8 { margin: var(--size-8); }
 .m-10 { margin: var(--size-10); }
+.m-auto { margin: auto; }
 
 .mb-0 { margin-block: 0; }
 .mb-0\.5 { margin-block: var(--size-0_5); }
