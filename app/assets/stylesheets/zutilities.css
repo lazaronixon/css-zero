@@ -78,8 +78,9 @@
 * Background
 *****************************************************************/
 .bg-main { background-color: var(--color-bg); }
+.bg-black { background-color: var(--color-text); }
 .bg-white { background-color: var(--color-text-reversed); }
-.bg-surface { background-color: var(--color-bg-surface); }
+.bg-shade { background-color: var(--color-border); }
 .bg-transparent { background-color: transparent; }
 
 .invert { filter: var(--invert); }
@@ -126,6 +127,7 @@
 .inline-block { display: inline-block; }
 
 .relative { position: relative; }
+.sticky	{ position: sticky; }
 
 .min-w-0 { min-inline-size: 0; }
 .max-w-full { max-inline-size: 100%; }

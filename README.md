@@ -105,7 +105,6 @@ Soon...
 ```css
 :root {
   --color-bg: white;
-  --color-bg-surface: var(--zinc-100);
   --color-text: var(--zinc-950);
   --color-text-reversed: white;
   --color-text-subtle: var(--zinc-500);
