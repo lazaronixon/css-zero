@@ -5,7 +5,7 @@
   border: 1px solid var(--btn-border-color, var(--color-border));
   box-shadow: var(--btn-shadow, var(--shadow-sm));
   color: var(--btn-color, var(--color-text));
-  column-gap: var(--btn-column-gap, var(--size-1));
+  column-gap: var(--size-2);
   cursor: pointer;
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));

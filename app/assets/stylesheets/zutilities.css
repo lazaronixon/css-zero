@@ -23,6 +23,7 @@
 .self-center { align-self: center; }
 
 .gap { column-gap: var(--column-gap, 1rem); row-gap: var(--row-gap, 1rem); }
+.gap-half { column-gap: 0.5rem); row-gap: 0.5rem); }
 
 /****************************************************************
 * Text
