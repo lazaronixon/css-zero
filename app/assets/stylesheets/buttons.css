@@ -16,7 +16,7 @@
   text-align: center;
 
   &:hover {
-    filter: var(--brightness-90);
+    filter: contrast(0.85);
   }
 
   &:disabled {
