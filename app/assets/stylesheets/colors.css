@@ -283,7 +283,7 @@
     --color-text: white;
     --color-text-reversed: var(--zinc-950);
     --color-text-subtle: var(--zinc-400);
-    --color-border: rgba(255, 255, 255, 0.15);
+    --color-border: var(--zinc-700);
     --color-filter-black: var(--invert);
     --color-filter-white: var(--invert-0);
   }
