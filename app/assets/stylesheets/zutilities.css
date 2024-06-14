@@ -45,8 +45,8 @@
 .break-words { word-break: break-word; }
 .break-all { word-break: break-all; }
 
-.truncate { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
-.text-clip { text-overflow: clip; }
+.overflow-clip { text-overflow: clip; white-space: nowrap; overflow: hidden; }
+.overflow-ellipsis { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 
 .opacity-75 { opacity: var(--opacity-75); }
 .opacity-50 { opacity: var(--opacity-50); }
