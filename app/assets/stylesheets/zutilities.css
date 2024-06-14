@@ -60,6 +60,8 @@
 
 .text-primary { color: var(--color-text); }
 .text-reversed { color: var(--color-text-reversed); }
+.text-negative { color: var(--color-negative); }
+.text-positive { color: var(--color-positive); }
 .text-subtle { color: var(--color-text-subtle); }
 
 .text-xs { font-size: var(--text-xs); }

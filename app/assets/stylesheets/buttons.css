@@ -31,6 +31,18 @@
   --btn-color: white;
 }
 
+.btn--positive {
+  --btn-background: var(--color-positive);
+  --btn-border-color: transparent;
+  --btn-color: white;
+}
+
+.btn--negative {
+  --btn-background: var(--color-negative);
+  --btn-border-color: transparent;
+  --btn-color: white;
+}
+
 .btn--plain {
   --btn-border-color: transparent;
   --btn-shadow: none;
