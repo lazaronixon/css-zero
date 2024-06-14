@@ -136,7 +136,8 @@
 .h-full { block-size: 100%; }
 .w-full { inline-size: 100%; }
 
-.overflow-auto { overflow: auto; }
+.overflow-x-auto { overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; }
+.overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; scroll-behavior: smooth; }
 .overflow-hidden { overflow: hidden; }
 
 .sr-only {
