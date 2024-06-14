@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## [0.0.8] - 2024-06-14
+
+- Added more utility classes
+- Cosmetic on buttons
+
 ## [0.0.7] - 2024-06-12
 
 - Change semantic sizes ex: mb-md to mb-4.
