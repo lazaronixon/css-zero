@@ -28,19 +28,19 @@
 .btn--primary {
   --btn-background: var(--color-primary);
   --btn-border-color: transparent;
-  --btn-color: white;
+  --btn-color: var(--color-text-primary, white);
 }
 
 .btn--positive {
   --btn-background: var(--color-positive);
   --btn-border-color: transparent;
-  --btn-color: white;
+  --btn-color: var(--color-text-positive, white);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-border-color: transparent;
-  --btn-color: white;
+  --btn-color: var(--color-text-negative, white);
 }
 
 .btn--plain {
