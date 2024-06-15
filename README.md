@@ -96,7 +96,17 @@ Soon...
 
 ## Dialog
 
-Soon...
+```html
+<dialog id="my_modal" class="dialog">
+  <h1 class="font-semibold mbe-2">Refund payment</h1>
+  <p class="text-sm text-subtle mbe-10">The refund will be reflected in the customer’s bank account 2 to 3 business days after processing.</p>
+
+  <div class="flex gap justify-end">
+    <form method="dialog"><button class="btn btn--plain">Cancel</button></form>
+    <button class="btn btn--primary">Refund</button>
+  </div>
+</dialog>
+```
 
 ## Customization
 
