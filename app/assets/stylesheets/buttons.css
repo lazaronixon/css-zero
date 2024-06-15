@@ -5,18 +5,17 @@
   border: 1px solid var(--btn-border-color, var(--color-border));
   box-shadow: var(--btn-shadow, var(--shadow-sm));
   color: var(--btn-color, var(--color-text));
-  column-gap: var(--size-2);
+  column-gap: var(--btn-gap, var(--size-2));
   cursor: pointer;
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));
   font-weight: var(--btn-font-weight, var(--font-semibold));
   justify-content: center;
-  line-height: var(--btn-line-height, var(--leading-6));
-  padding: var(--btn-padding, var(--size-1_5) var(--size-3_5));
+  padding: var(--btn-padding, 0.5rem 0.875rem);
   text-align: center;
 
   &:hover {
-    filter: contrast(0.85);
+    filter: contrast(0.8);
   }
 
   &:disabled {
@@ -50,5 +49,4 @@
 
 .btn--small {
   --btn-font-size: var(--text-xs);
-  --btn-line-height: var(--leading-5);
 }
