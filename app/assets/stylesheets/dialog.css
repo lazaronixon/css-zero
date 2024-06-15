@@ -1,0 +1,26 @@
+.dialog {
+  background-color: var(--dialog-background, var(--color-bg));
+  border: 1px solid var(--dialog-border-color, var(--color-border));
+  border-radius: var(--dialog-border-radius, var(--rounded-2xl));
+  box-shadow: var(--dialog-shadow, var(--shadow-lg));
+  color: var(--dialog-color, var(--color-text));
+  margin: auto;
+  max-inline-size: var(--dialog-inline-size, var(--width-lg));
+  padding: var(--dialog-padding, var(--size-8));
+
+  --speed: var(--dialog-speed, var(--time-150));
+
+  opacity: 0;
+  transition: display var(--speed) allow-discrete,
+              opacity var(--speed),
+              overlay var(--speed) allow-discrete;
+
+  &[open] {
+    opacity: 1; @starting-style { opacity: 0; }
+  }
+
+  &::backdrop {
+    background-color: var(--dialog-backdrop-background, var(--zinc-950));
+    opacity: var(--dialog-backdrop-opacity, var(--opacity-25));
+  }
+}
