@@ -96,6 +96,8 @@ Soon...
 
 ## Dialog
 
+<img width="633" alt="Dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/2e2db0cb-86f2-4dfd-8d5e-fbfeb9bde78d">
+
 ```html
 <dialog id="my_modal" class="dialog">
   <h1 class="font-semibold mbe-2">Refund payment</h1>
