@@ -6,9 +6,8 @@
   border-radius: var(--dialog-border-radius, var(--rounded-2xl));
   box-shadow: var(--dialog-shadow, var(--shadow-lg));
   color: var(--dialog-color, var(--color-text));
-  inline-size: var(--dialog-size, var(--width-lg));
   margin: auto;
-  margin-block-start: 20vh;
+  margin-block-start: var(--dialog-position, 20vh);
   max-inline-size: var(--dialog-size, var(--width-lg));
   padding: var(--dialog-padding, var(--size-8));
 
@@ -37,7 +36,8 @@
   @media (max-width: 40rem) {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    margin-block: auto 0;
+    margin-block-start: auto;
+    margin-block-end: 0;
     min-inline-size: var(--size-full);
   }
 }
