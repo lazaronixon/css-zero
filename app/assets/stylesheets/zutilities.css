@@ -143,16 +143,6 @@
 .overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; scroll-behavior: smooth; }
 .overflow-hidden { overflow: hidden; }
 
-.sr-only {
-  position: absolute;
-  width: 1px; height: 1px;
-  padding: 0; margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 /****************************************************************
 * Margin
 *****************************************************************/
@@ -291,3 +281,16 @@
 .pie-6 { padding-inline-end: var(--size-6); }
 .pie-8 { padding-inline-end: var(--size-8); }
 .pie-10 { padding-inline-end: var(--size-10); }
+
+/****************************************************************
+* Accessibility
+*****************************************************************/
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
