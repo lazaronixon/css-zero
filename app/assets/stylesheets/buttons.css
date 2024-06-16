@@ -14,10 +14,6 @@
   padding: var(--btn-padding, 0.5rem 0.875rem);
   text-align: center;
 
-  &:hover {
-    filter: contrast(0.8);
-  }
-
   &:disabled {
     opacity: var(--opacity-50);
     pointer-events: none;
