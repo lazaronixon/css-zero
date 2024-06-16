@@ -274,8 +274,8 @@
   --color-border: var(--zinc-200);
 
   /* Accent colors */
-  --color-negative: var(--red-700);
-  --color-positive: var(--green-700);
+  --color-negative: var(--red-600);
+  --color-positive: var(--green-600);
 
   /* Filtered color values */
   --color-filter-black: var(--invert-0);
