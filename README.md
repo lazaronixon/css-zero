@@ -105,7 +105,7 @@ Soon...
 
   <div class="flex gap justify-end">
     <form method="dialog"><button class="btn btn--plain">Cancel</button></form>
-    <button class="btn btn--primary">Refund</button>
+    <button class="btn">Refund</button>
   </div>
 </dialog>
 ```

@@ -1,6 +1,4 @@
 .dialog {
-  --speed: var(--dialog-speed, var(--time-150));
-
   background-color: var(--dialog-background, var(--color-bg));
   border: 1px solid var(--dialog-border-color, var(--color-border));
   border-radius: var(--dialog-border-radius, var(--rounded-2xl));
@@ -10,6 +8,8 @@
   margin-block-start: var(--dialog-position, 20vh);
   max-inline-size: var(--dialog-size, var(--width-lg));
   padding: var(--dialog-padding, var(--size-8));
+
+  --speed: var(--dialog-speed, var(--time-150));
 
   opacity: 0;
   transition: all var(--speed) allow-discrete;
