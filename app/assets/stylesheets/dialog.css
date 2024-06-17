@@ -9,31 +9,23 @@
   max-inline-size: var(--dialog-size, var(--width-lg));
   padding: var(--dialog-padding, var(--size-8));
 
-  --speed: var(--dialog-speed, var(--time-150));
-
-  opacity: 0;
-  transition: all var(--speed) allow-discrete;
-
   &::backdrop {
-    opacity: 0;
-    transition: all var(--speed) allow-discrete;
     background-color: var(--dialog-backdrop-background, var(--zinc-950));
   }
 
-  &[open] {
-    opacity: 1;
+  /* Setup transition */
+  &, &::backdrop {
+    opacity: 0; transition: all var(--time-150) allow-discrete;
   }
 
-  &[open]::backdrop {
-    opacity: var(--dialog-backdrop-opacity, var(--opacity-25));
-  }
+  /* Fade in */
+  &[open] { opacity: 1 }
+  &[open]::backdrop { opacity: var(--dialog-backdrop-opacity, var(--opacity-25)); }
 
-  @starting-style {
-    &[open] { opacity: 0; }
-    &[open]::backdrop { opacity: 0; }
-  }
+  /* Fade out */
+  @starting-style { &[open], &[open]::backdrop { opacity: 0; } }
 
-  @media (max-width: 40rem) {
+  @media (width <= 40rem) {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     margin-block: auto 0;
