@@ -264,33 +264,22 @@
   --rose-900: #881337;
   --rose-950: #4c0519;
 
+  color-scheme: light dark;
+
   /* Abstractions */
-  --color-primary: var(--zinc-900);
-  --color-bg: white;
-  --color-text: var(--zinc-950);
-  --color-text-reversed: white;
-  --color-text-subtle: var(--zinc-500);
-  --color-border-light: var(--zinc-100);
-  --color-border: var(--zinc-200);
+  --color-primary:       light-dark(var(--zinc-900), var(--zinc-600));
+  --color-bg:            light-dark(white, var(--zinc-900));
+  --color-text:          light-dark(var(--zinc-950), white);
+  --color-text-reversed: light-dark(white, var(--zinc-950));
+  --color-text-subtle:   light-dark(var(--zinc-500), var(--zinc-400));
+  --color-border-light:  light-dark(var(--zinc-100), var(--zinc-800));
+  --color-border:        light-dark(var(--zinc-200), var(--zinc-700));
 
   /* Accent colors */
   --color-negative: var(--red-600);
   --color-positive: var(--green-600);
 
   /* Filtered color values */
-  --color-filter-black: var(--invert-0);
-  --color-filter-white: var(--invert);
-
-  /* Redefine named color values for dark mode */
-  @media (prefers-color-scheme: dark) {
-    --color-primary: var(--zinc-600);
-    --color-bg: var(--zinc-900);
-    --color-text: white;
-    --color-text-reversed: var(--zinc-950);
-    --color-text-subtle: var(--zinc-400);
-    --color-border-light: var(--zinc-800);
-    --color-border: var(--zinc-700);
-    --color-filter-black: var(--invert);
-    --color-filter-white: var(--invert-0);
-  }
+  --color-filter-black: light-dark(var(--invert-0), var(--invert));
+  --color-filter-white: light-dark(var(--invert), var(--invert-0));
 }
