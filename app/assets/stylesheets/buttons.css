@@ -40,7 +40,3 @@
 .btn--negative {
   --btn-background: var(--color-negative);
 }
-
-.btn--small {
-  --btn-font-size: var(--text-xs);
-}
