@@ -11,7 +11,7 @@
   font-size: var(--btn-font-size, var(--text-sm));
   font-weight: var(--btn-font-weight, var(--font-semibold));
   justify-content: center;
-  padding: var(--btn-padding, 0.5rem 0.875rem);
+  padding: var(--btn-padding, 0.5rem 0.75rem);
   text-align: center;
 
   &:disabled {
