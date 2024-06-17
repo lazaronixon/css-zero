@@ -70,17 +70,17 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ```html+erb
 <div class="flex items-center gap">
-  <button class="btn btn--primary">Primary button</button>
-  <button class="btn">Outline button</button>
+  <button class="btn">Primary button</button>
+  <button class="btn btn--outline">Outline button</button>
   <button class="btn btn--plain">Plain button</button>
   <button class="btn" disabled>Disabled button</button>
 
-  <button class="btn btn--primary">
+  <button class="btn">
     <%= image_tag "plus.svg", role: "presentation", class: "invert" %>
     <span>Icon button</span>
   </button>
 
-  <button class="btn btn--primary" style="--btn-background: #67e8f9; --btn-color: #083344;">
+  <button class="btn" style="--btn-background: #67e8f9; --btn-color: #083344;">
     Colored button
   </button>
 

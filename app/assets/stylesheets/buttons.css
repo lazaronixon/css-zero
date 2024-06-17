@@ -1,10 +1,10 @@
 .btn {
   align-items: center;
-  background-color: var(--btn-background, transparent);
+  background-color: var(--btn-background, var(--color-primary));
   border-radius: var(--btn-border-radius, var(--rounded-lg));
-  border: 1px solid var(--btn-border-color, var(--color-border));
-  box-shadow: var(--btn-shadow, var(--shadow-sm));
-  color: var(--btn-color, var(--color-text));
+  border: 1px solid var(--btn-border-color, transparent);
+  box-shadow: var(--btn-shadow, var(--shadow-xs));
+  color: var(--btn-color, white);
   column-gap: var(--btn-gap, var(--size-2));
   cursor: pointer;
   display: inline-flex;
@@ -16,31 +16,29 @@
 
   &:disabled {
     opacity: var(--opacity-50);
-    pointer-events: none;
+    cursor: not-allowed;
   }
 }
 
-.btn--primary {
-  --btn-background: var(--color-primary);
+.btn--outline {
+  --btn-background: transparent;
+  --btn-border-color: var(--color-border);
+  --btn-color: var(--color-text);
+}
+
+.btn--plain {
+  --btn-background: transparent;
   --btn-border-color: transparent;
-  --btn-color: var(--color-text-primary, white);
+  --btn-color: var(--color-text);
+  --btn-shadow: none;
 }
 
 .btn--positive {
   --btn-background: var(--color-positive);
-  --btn-border-color: transparent;
-  --btn-color: var(--color-text-positive, white);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
-  --btn-border-color: transparent;
-  --btn-color: var(--color-text-negative, white);
-}
-
-.btn--plain {
-  --btn-border-color: transparent;
-  --btn-shadow: none;
 }
 
 .btn--small {
