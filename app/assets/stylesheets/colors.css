@@ -273,7 +273,6 @@
   --color-text-subtle:   light-dark(var(--zinc-500), var(--zinc-400));
   --color-border-light:  light-dark(var(--zinc-100), var(--zinc-900));
   --color-border:        light-dark(var(--zinc-200), var(--zinc-800));
-  --color-border-heavy:  light-dark(var(--zinc-300), var(--zinc-700));
 
   /* Accent colors */
   --color-primary:  light-dark(var(--zinc-900), var(--zinc-50));

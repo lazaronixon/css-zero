@@ -10,7 +10,7 @@
   font-size: var(--btn-font-size, var(--text-sm));
   font-weight: var(--btn-font-weight, var(--font-medium));
   justify-content: center;
-  padding: var(--btn-padding, 0.5rem 1rem);
+  padding: var(--btn-padding, .5rem 1rem);
   text-align: center;
   white-space: nowrap;
 
