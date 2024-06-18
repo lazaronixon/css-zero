@@ -70,6 +70,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Inputs
 
+<img width="469" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/987201b3-2583-43af-b1f2-db6af1eabbaa">
+
 ```html+erb
 <div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
   <div class="flex flex-col grow gap-small">
