@@ -68,8 +68,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 <img width="779" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/ea0bdafe-7bd9-46a4-a87c-b11dd0836707">
 
-
-
 ```html+erb
 <div class="flex items-center gap">
   <button class="btn">Primary button</button>
@@ -93,7 +91,7 @@ Soon...
 
 ## Dialog
 
-<img width="633" alt="Dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/2e2db0cb-86f2-4dfd-8d5e-fbfeb9bde78d">
+<img width="572" alt="Dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/381dd7eb-8024-4ffc-992a-d47d370a3c24">
 
 ```html
 <dialog id="my_modal" class="dialog">
