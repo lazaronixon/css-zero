@@ -84,7 +84,6 @@
 .bg-main { background-color: var(--color-bg); }
 .bg-black { background-color: var(--color-text); }
 .bg-white { background-color: var(--color-text-reversed); }
-.bg-shade { background-color: var(--color-border-light); }
 .bg-transparent { background-color: transparent; }
 
 /****************************************************************

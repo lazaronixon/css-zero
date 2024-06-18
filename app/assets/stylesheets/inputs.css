@@ -26,6 +26,11 @@
     background-repeat: no-repeat;
   }
 
+  &:focus-visible {
+    outline: 2px solid var(--color-selected);
+    outline-offset: var(--border-2);
+  }
+
   &:disabled {
     cursor: not-allowed;
     opacity: var(--opacity-50);
@@ -37,7 +42,12 @@
 }
 
 [type="checkbox"], [type="radio"] {
-  accent-color: var(--color-primary);
+  accent-color: var(--check-color, var(--color-primary));
   height: var(--check-size, var(--size-4));
   width:  var(--check-size, var(--size-4));
+
+  &:focus-visible {
+    outline: 2px solid var(--color-selected);
+    outline-offset: var(--border-2);
+  }
 }
