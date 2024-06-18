@@ -1,6 +1,9 @@
 ## [Unreleased]
 
 ## [0.0.8] - 2024-06-14
+  - New components
+
+## [0.0.8] - 2024-06-14
 
 - Added more utility classes
 - Cosmetic on buttons
