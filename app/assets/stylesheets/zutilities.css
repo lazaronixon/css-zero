@@ -87,9 +87,11 @@
 .bg-shade { background-color: var(--color-border-light); }
 .bg-transparent { background-color: transparent; }
 
-.invert { filter: var(--invert); }
-.colorize-black { filter: var(--color-filter-black); }
-.colorize-white { filter: var(--color-filter-white); }
+/****************************************************************
+* SVG colors
+*****************************************************************/
+.colorize-black { filter: var(--color-filter-text); }
+.colorize-white { filter: var(--color-filter-text-reversed); }
 
 /****************************************************************
 * Border

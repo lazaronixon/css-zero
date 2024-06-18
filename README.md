@@ -76,7 +76,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   <button class="btn btn--plain">Plain button</button>
 
   <button class="btn">
-    <%= image_tag "plus.svg", role: "presentation", size: 20, class: "invert" %>
+    <%= image_tag "plus.svg", role: "presentation", size: 20 %>
     <span>Icon button</span>
   </button>
 

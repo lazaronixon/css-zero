@@ -1,22 +1,26 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-primary));
-  border-radius: var(--btn-border-radius, var(--rounded-lg));
+  border-radius: var(--btn-border-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, transparent);
-  box-shadow: var(--btn-shadow, var(--shadow-xs));
-  color: var(--btn-color, white);
+  color: var(--btn-color, var(--color-text-reversed));
   column-gap: var(--btn-gap, var(--size-2));
   cursor: pointer;
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));
-  font-weight: var(--btn-font-weight, var(--font-semibold));
+  font-weight: var(--btn-font-weight, var(--font-medium));
   justify-content: center;
-  padding: var(--btn-padding, 0.5rem 0.75rem);
+  padding: var(--btn-padding, 0.5rem 1rem);
   text-align: center;
+  white-space: nowrap;
+
+  img:not([class]) {
+    filter: var(--btn-icon-color, var(--color-filter-text-reversed));
+  }
 
   &:disabled {
     opacity: var(--opacity-50);
-    cursor: not-allowed;
+    pointer-events: none;
   }
 }
 
@@ -24,13 +28,13 @@
   --btn-background: transparent;
   --btn-border-color: var(--color-border);
   --btn-color: var(--color-text);
+  --btn-icon-color: var(--color-filter-text);
 }
 
 .btn--plain {
   --btn-background: transparent;
-  --btn-border-color: transparent;
   --btn-color: var(--color-text);
-  --btn-shadow: none;
+  --btn-icon-color: var(--color-filter-text);
 }
 
 .btn--positive {
