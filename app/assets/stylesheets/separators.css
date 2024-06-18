@@ -1,4 +1,0 @@
-.separator {
-  border-block-start: 1px var(--separator-style, solid) var(--separator-color, var(--color-border));
-  inline-size: 100%;
-}
