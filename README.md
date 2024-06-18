@@ -97,14 +97,16 @@ Soon...
 
 ```html
 <dialog id="my_modal" class="dialog">
-  <h1 class="font-semibold mbe-2">Refund payment</h1>
-  <p class="text-sm text-subtle mbe-10">The refund will be reflected in the customer’s bank account 2 to 3 business days after processing.</p>
+  <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
+  <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
 
-  <div class="flex gap justify-end">
-    <form method="dialog"><button class="btn btn--plain">Cancel</button></form>
-    <button class="btn">Refund</button>
+  <div class="flex gap-small justify-end mbs-4">
+    <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
+    <button class="btn btn--primary">Continue</button>
   </div>
 </dialog>
+
+<button class="btn" onClick="my_modal.showModal();">Show modal</button>
 ```
 
 ## Customization

@@ -1,34 +1,34 @@
 .dialog {
   background-color: var(--dialog-background, var(--color-bg));
   border: 1px solid var(--dialog-border-color, var(--color-border));
-  border-radius: var(--dialog-border-radius, var(--rounded-2xl));
+  border-radius: var(--dialog-border-radius, var(--rounded-lg));
   box-shadow: var(--dialog-shadow, var(--shadow-lg));
   color: var(--dialog-color, var(--color-text));
-  margin: auto;
-  margin-block-start: var(--dialog-position, 20vh);
+  margin: auto; inline-size: 100%;
   max-inline-size: var(--dialog-size, var(--width-lg));
-  padding: var(--dialog-padding, var(--size-8));
+  padding: var(--dialog-padding, var(--size-6));
 
   &::backdrop {
-    background-color: var(--dialog-backdrop-background, var(--zinc-950));
+    background-color: var(--dialog-backdrop-background, #000c);
   }
 
   /* Setup transition */
   &, &::backdrop {
-    opacity: 0; transition: all var(--time-150) allow-discrete;
+    opacity: 0; transition: all var(--time-300) allow-discrete;
   }
 
   /* Fade in */
-  &[open] { opacity: 1 }
-  &[open]::backdrop { opacity: var(--dialog-backdrop-opacity, var(--opacity-25)); }
+  &[open], &[open]::backdrop {
+    opacity: 1
+  }
 
   /* Fade out */
-  @starting-style { &[open], &[open]::backdrop { opacity: 0; } }
+  @starting-style {
+    &[open], &[open]::backdrop { opacity: 0; }
+  }
 
+  /* Responsiveness */
   @media (width <= 40rem) {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    margin-block: auto 0;
-    min-inline-size: var(--size-full);
+    border-radius: 0;
   }
 }
