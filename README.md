@@ -72,7 +72,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 <img width="469" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/987201b3-2583-43af-b1f2-db6af1eabbaa">
 
-```html+erb
+```html
 <div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
   <div class="flex flex-col grow gap-small">
     <label for="name_field" class="text-sm font-medium">Full name</label>
@@ -108,19 +108,18 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 <img width="779" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/ea0bdafe-7bd9-46a4-a87c-b11dd0836707">
 
-```html+erb
-<div class="flex items-center gap">
-  <button class="btn">Primary button</button>
-  <button class="btn btn--outline">Outline button</button>
-  <button class="btn btn--plain">Plain button</button>
+```html
+<div class="flex justify-center gap">
+  <button class="btn">Primary</button>
+  <button class="btn btn--secondary">Secondary</button>
+  <button class="btn btn--outline">Outline</button>
+  <button class="btn btn--plain">Plain</button>
+  <button class="btn btn--positive">Positive</button>
+  <button class="btn btn--negative">Negative</button>
 
   <button class="btn">
     <%= image_tag "plus.svg", role: "presentation", size: 20 %>
-    <span>Icon button</span>
-  </button>
-
-  <button class="btn" style="--btn-background: #67e8f9; --btn-color: #083344;">
-    Custom button
+    <span>With icon</span>
   </button>
 </div>
 ```
@@ -129,7 +128,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 <img width="572" alt="Dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/381dd7eb-8024-4ffc-992a-d47d370a3c24">
 
-```html+erb
+```html
 <dialog id="my_modal" class="dialog">
   <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
   <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
