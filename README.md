@@ -136,7 +136,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
   <div class="flex gap-small justify-end mbs-4">
     <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
-    <button class="btn btn--primary">Continue</button>
+    <button class="btn">Continue</button>
   </div>
 </dialog>
 
@@ -169,7 +169,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ### Style level
 
 ```html
-<button class="btn btn--primary" style="--btn-background: #67e8f9; --btn-color: #083344;">
+<button class="btn" style="--btn-background: #67e8f9; --btn-color: #083344;">
   Colored button
 </button>
 ```
