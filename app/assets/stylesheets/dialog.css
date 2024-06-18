@@ -17,13 +17,21 @@
   }
 
   /* Fade in */
-  &[open], &[open]::backdrop {
+  &[open],
+  &[open]::backdrop,
+  &:popover-open,
+  &:popover-open::backdrop {
     opacity: 1
   }
 
   /* Fade out */
   @starting-style {
-    &[open], &[open]::backdrop { opacity: 0; }
+    &[open],
+    &[open]::backdrop,
+    &:popover-open,
+    &:popover-open::backdrop {
+      opacity: 0;
+    }
   }
 
   /* Responsiveness */
