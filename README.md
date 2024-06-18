@@ -70,13 +70,18 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Inputs
 
-<img width="469" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/987201b3-2583-43af-b1f2-db6af1eabbaa">
+<img width="436" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/9935df82-606f-4ebb-bfd7-d18c9bc8b5f5">
 
 ```html
 <div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
   <div class="flex flex-col grow gap-small">
     <label for="name_field" class="text-sm font-medium">Full name</label>
     <input type="text" id="name_field" class="input">
+  </div>
+
+  <div class="flex flex-col grow gap-small">
+    <label for="date_field" class="text-sm font-medium">Date picker</label>
+    <input type="date" id="date_field" class="input">
   </div>
 
   <div class="flex flex-col grow gap-small">
