@@ -106,7 +106,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Buttons
 
-<img width="779" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/ea0bdafe-7bd9-46a4-a87c-b11dd0836707">
+<img width="783" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
 
 ```html
 <div class="flex justify-center gap">
