@@ -29,6 +29,12 @@
   }
 }
 
+.btn--secondary {
+  --btn-background: var(--color-secondary);
+  --btn-color: var(--color-text);
+  --btn-icon-color: var(--color-filter-text);
+}
+
 .btn--outline {
   --btn-background: transparent;
   --btn-border-color: var(--color-border);
@@ -44,8 +50,10 @@
 
 .btn--positive {
   --btn-background: var(--color-positive);
+  --btn-color: white;
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
+  --btn-color: white;
 }

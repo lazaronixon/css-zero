@@ -275,9 +275,10 @@
   --color-border:        light-dark(var(--zinc-200), var(--zinc-800));
 
   /* Accent colors */
-  --color-primary:  light-dark(var(--zinc-900), var(--zinc-50));
-  --color-negative: light-dark(var(--red-600), var(--red-900));
-  --color-positive: light-dark(var(--green-600), var(--green-900));
+  --color-primary:   light-dark(var(--zinc-900), var(--zinc-50));
+  --color-secondary: light-dark(var(--zinc-100), var(--zinc-800));
+  --color-negative:  light-dark(var(--red-600), var(--red-900));
+  --color-positive:  light-dark(var(--green-600), var(--green-900));
 
   /* Filtered color values */
   --color-filter-text: invert(5%) sepia(10%) saturate(497%) hue-rotate(201deg) brightness(96%) contrast(102%);
