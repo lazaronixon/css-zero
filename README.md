@@ -101,22 +101,22 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ```html
 <div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
-  <div class="flex flex-col grow gap-small">
+  <div class="flex flex-col gap-small">
     <label for="name_field" class="text-sm font-medium">Full name</label>
     <input type="text" id="name_field" class="input">
   </div>
 
-  <div class="flex flex-col grow gap-small">
+  <div class="flex flex-col gap-small">
     <label for="date_field" class="text-sm font-medium">Date picker</label>
     <input type="date" id="date_field" class="input">
   </div>
 
-  <div class="flex flex-col grow gap-small">
+  <div class="flex flex-col gap-small">
     <label for="file_field" class="text-sm font-medium">File</label>
     <input type="file" id="file_field" class="input">
   </div>
 
-  <div class="flex flex-col grow gap-small">
+  <div class="flex flex-col gap-small">
     <label for="age_range_field" class="text-sm font-medium">Age Range</label>
     <select id="age_range_field" class="input">
       <option value="0-13">0-13</option>
@@ -124,7 +124,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </select>
   </div>
 
-  <div class="flex flex-col grow gap-small">
+  <div class="flex flex-col gap-small">
     <label for="comment_field" class="text-sm font-medium">Comment</label>
     <textarea id="comment_field" class="input"></textarea>
   </div>
