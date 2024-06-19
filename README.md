@@ -11,7 +11,7 @@ bundle add css-zero
 If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) make sure to load all the CSS files in your layout.html.erb.
 
 <details>
-  <summary>Click here to see how</summary>
+<summary>Click here to see how</summary>
 
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
@@ -21,29 +21,29 @@ If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) m
 If you are using [Sprockets](https://github.com/rails/sprockets) make sure to load all the CSS files in your application.css.
 
 <details>
-  <summary>Click here to see how</summary>
+<summary>Click here to see how</summary>
 
-  ```css
-  *= require _reset
-  *= require animations
-  *= require base
-  *= require borders
-  *= require buttons
-  *= require colors
-  *= require dialog
-  *= require effects
-  *= require filters
-  *= require grid
-  *= require inputs
-  *= require separators
-  *= require sizes
-  *= require transform
-  *= require transition
-  *= require typography
-  *= require_tree .
-  *= require_self
-  *= require zutilities
-  ```
+```css
+*= require _reset
+*= require animations
+*= require base
+*= require borders
+*= require buttons
+*= require colors
+*= require dialog
+*= require effects
+*= require filters
+*= require grid
+*= require inputs
+*= require separators
+*= require sizes
+*= require transform
+*= require transition
+*= require typography
+*= require_tree .
+*= require_self
+*= require zutilities
+```
 </details>
 
 ## Usage
@@ -68,9 +68,35 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 
 Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
+## Buttons
+
+<img width="783" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
+
+<details>
+<summary>Click here to see the code</summary>
+```html
+<div class="flex justify-center gap">
+  <button class="btn">Primary</button>
+  <button class="btn btn--secondary">Secondary</button>
+  <button class="btn btn--outline">Outline</button>
+  <button class="btn btn--plain">Plain</button>
+  <button class="btn btn--positive">Positive</button>
+  <button class="btn btn--negative">Negative</button>
+
+  <button class="btn">
+    <%= image_tag "plus.svg", role: "presentation", size: 20 %>
+    <span>With icon</span>
+  </button>
+</div>
+```
+</details>
+
 ## Inputs
 
 <img width="436" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/9935df82-606f-4ebb-bfd7-d18c9bc8b5f5">
+
+<details>
+<summary>Click here to see the code</summary>
 
 ```html
 <div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
@@ -90,8 +116,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   </div>
 
   <div class="flex flex-col grow gap-small">
-    <label for="age_range_Field" class="text-sm font-medium">Age Range</label>
-    <select id="age_range_Field" class="input">
+    <label for="age_range_field" class="text-sm font-medium">Age Range</label>
+    <select id="age_range_field" class="input">
       <option value="0-13">0-13</option>
       <option value="14-17">14-17</option>
     </select>
@@ -108,32 +134,18 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   </div>
 </div>
 ```
-
-## Buttons
-
-<img width="783" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
-
-```html
-<div class="flex justify-center gap">
-  <button class="btn">Primary</button>
-  <button class="btn btn--secondary">Secondary</button>
-  <button class="btn btn--outline">Outline</button>
-  <button class="btn btn--plain">Plain</button>
-  <button class="btn btn--positive">Positive</button>
-  <button class="btn btn--negative">Negative</button>
-
-  <button class="btn">
-    <%= image_tag "plus.svg", role: "presentation", size: 20 %>
-    <span>With icon</span>
-  </button>
-</div>
-```
+</details>
 
 ## Dialog
 
 <img width="572" alt="Dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/381dd7eb-8024-4ffc-992a-d47d370a3c24">
 
+<details>
+<summary>Click here to see the code</summary>
+
 ```html
+<button class="btn" onclick="my_modal.showModal();">Show modal</button>
+
 <dialog id="my_modal" class="dialog">
   <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
   <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
@@ -143,9 +155,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <button class="btn">Continue</button>
   </div>
 </dialog>
-
-<button class="btn" onclick="my_modal.showModal();">Show modal</button>
 ```
+</details>
 
 ## Customization
 
