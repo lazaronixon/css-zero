@@ -27,11 +27,6 @@
     background-repeat: no-repeat;
   }
 
-  &:focus-visible {
-    outline: 2px solid var(--color-selected);
-    outline-offset: var(--border-2);
-  }
-
   &:disabled {
     cursor: not-allowed;
     opacity: var(--opacity-50);
@@ -46,9 +41,13 @@
   accent-color: var(--check-color, var(--color-primary));
   height: var(--check-size, var(--size-4));
   width:  var(--check-size, var(--size-4));
+}
 
-  &:focus-visible {
-    outline: 2px solid var(--color-selected);
-    outline-offset: var(--border-2);
-  }
+:where([type="range"]) {
+  accent-color: var(--check-color, var(--color-primary));
+}
+
+:where(input, textarea, select):focus-visible {
+  outline: 2px solid var(--color-selected);
+  outline-offset: var(--border-2);
 }
