@@ -126,7 +126,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
   <div class="flex flex-col grow gap-small">
     <label for="comment_field" class="text-sm font-medium">Comment</label>
-    <textarea id="comment_field" rows="3" class="input"></textarea>
+    <textarea id="comment_field" class="input"></textarea>
   </div>
 
   <div class="flex items-center gap-small">
