@@ -144,7 +144,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   </div>
 </dialog>
 
-<button class="btn" onClick="my_modal.showModal();">Show modal</button>
+<button class="btn" onclick="my_modal.showModal();">Show modal</button>
 ```
 
 ## Customization
