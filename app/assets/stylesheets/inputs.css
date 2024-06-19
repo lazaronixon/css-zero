@@ -32,10 +32,14 @@
     color: var(--color-text-subtle);
   }
 
+  &:user-invalid {
+    border-color: var(--color-negative);
+  }
+
   &:disabled {
     cursor: not-allowed;
     opacity: var(--opacity-50);
-  }  
+  }
 }
 
 .checkbox, .radio {
