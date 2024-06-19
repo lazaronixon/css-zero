@@ -138,7 +138,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Dialog
 
-<img src="https://github.com/lazaronixon/css-zero/assets/2651240/882a610f-c0dd-4588-9c58-92fe400cdedd" width=400>
+<img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">
+
 
 <details>
 <summary>Click here to see the code</summary>
