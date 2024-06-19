@@ -11,7 +11,7 @@ bundle add css-zero
 If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) make sure to load all the CSS files in your layout.html.erb.
 
 <details>
-<summary>Click here to see how</summary>
+<summary>Code</summary>
 
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
@@ -21,7 +21,7 @@ If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) m
 If you are using [Sprockets](https://github.com/rails/sprockets) make sure to load all the CSS files in your application.css.
 
 <details>
-<summary>Click here to see how</summary>
+<summary>Code</summary>
 
 ```css
 *= require _reset
@@ -73,8 +73,9 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 <img width="783" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
 
 <details>
-<summary>Click here to see the code</summary>
-```html
+<summary>Code</summary>
+
+```html+erb
 <div class="flex justify-center gap">
   <button class="btn">Primary</button>
   <button class="btn btn--secondary">Secondary</button>
@@ -96,7 +97,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 <img width="436" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/9935df82-606f-4ebb-bfd7-d18c9bc8b5f5">
 
 <details>
-<summary>Click here to see the code</summary>
+<summary>Code</summary>
 
 ```html
 <div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
@@ -142,7 +143,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 
 <details>
-<summary>Click here to see the code</summary>
+<summary>Code</summary>
 
 ```html
 <button class="btn" onclick="my_modal.showModal();">Show modal</button>
