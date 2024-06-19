@@ -18,9 +18,9 @@
     filter: var(--btn-icon-color, var(--color-filter-text-reversed));
   }
 
-  &:focus {
+  &:focus-visible {
     outline: 2px solid var(--color-selected);
-    outline-offset: var(--border-2);
+    outline-offset: 2px;
   }
 
   &:disabled {

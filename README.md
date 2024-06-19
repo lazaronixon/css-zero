@@ -137,6 +137,22 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```
 </details>
 
+## Switch
+
+<details>
+<summary>Code</summary>
+
+```html
+<div class="flex items-center gap-small">
+  <label for="terms_field" class="switch" style="">
+    <input type="checkbox" id="terms_field" class="switch__input">
+    <span class="switch__btn"></span>
+  </label>
+  <span class="text-sm font-medium">Airplane Mode</span>
+</div>
+```
+</details>
+
 ## Dialog
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">

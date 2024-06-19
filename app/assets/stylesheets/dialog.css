@@ -4,7 +4,7 @@
   border-radius: var(--dialog-border-radius, var(--rounded-lg));
   box-shadow: var(--dialog-shadow, var(--shadow-lg));
   margin: auto; inline-size: 100%;
-  max-inline-size: var(--dialog-size, var(--width-lg));
+  max-inline-size: var(--dialog-max-width, var(--width-lg));
   padding: var(--dialog-padding, var(--size-6));
 
   &::backdrop {

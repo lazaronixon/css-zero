@@ -269,10 +269,10 @@
   /* Abstractions */
   --color-bg:            light-dark(white, var(--zinc-950));
   --color-text:          light-dark(var(--zinc-950), var(--zinc-50));
-  --color-text-reversed: light-dark(var(--zinc-50), var(--zinc-950));
+  --color-text-reversed: light-dark(white, var(--zinc-950));
   --color-text-subtle:   light-dark(var(--zinc-500), var(--zinc-400));
   --color-selected:      light-dark(var(--zinc-400), var(--zinc-300));
-  --color-border:        light-dark(var(--zinc-200), var(--zinc-800));
+  --color-border:        light-dark(var(--zinc-300), var(--zinc-700));
 
   /* Accent colors */
   --color-primary:   light-dark(var(--zinc-900), var(--zinc-50));
