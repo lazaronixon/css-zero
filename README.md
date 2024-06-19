@@ -62,7 +62,7 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 .component {
   background-color: var(--red-500);
   border-radius: var(--rounded);
-  height: var(--size-4);
+  block-size: var(--size-4);
 }
 ```
 

@@ -33,8 +33,8 @@
 
 :where([type="checkbox"], [type="radio"]) {
   accent-color: var(--check-color, var(--color-primary));
-  height: var(--check-size, var(--size-4));
-  width:  var(--check-size, var(--size-4));
+  block-size: var(--check-size, var(--size-4));
+  inline-size: var(--check-size, var(--size-4));
 }
 
 :where([type="range"]) {
