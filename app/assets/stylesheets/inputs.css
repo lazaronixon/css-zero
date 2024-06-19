@@ -43,7 +43,7 @@
   accent-color: var(--check-color, var(--color-primary));
 }
 
-:where(input, textarea, select):focus-visible {
+:where(input, textarea, select):focus {
   outline: 2px solid var(--color-selected);
   outline-offset: var(--border-2);
 }
