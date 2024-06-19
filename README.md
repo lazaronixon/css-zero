@@ -130,7 +130,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   </div>
 
   <div class="flex items-center gap-small">
-    <input type="checkbox" id="terms">
+    <input type="checkbox" class="checkbox" id="terms">
     <label for="terms" class="text-sm font-medium">Accept terms and conditions</label>
   </div>
 </div>

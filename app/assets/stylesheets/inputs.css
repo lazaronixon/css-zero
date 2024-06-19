@@ -10,11 +10,6 @@
   padding: var(--input-padding, .5rem .75rem);
   resize: none;
 
-  &::file-selector-button {
-    font-weight: var(--font-medium);
-    margin-inline-end: var(--size-2);
-  }
-
   &:is(textarea) {
     field-sizing: content;
     min-block-size: var(--input-lines, 3lh);
@@ -28,28 +23,32 @@
     background-repeat: no-repeat;
   }
 
-  &:disabled {
-    cursor: not-allowed;
-    opacity: var(--opacity-50);
+  &::file-selector-button {
+    font-weight: var(--font-medium);
+    margin-inline-end: var(--size-2);
   }
 
   &::placeholder {
     color: var(--color-text-subtle);
   }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: var(--opacity-50);
+  }  
 }
 
-/* Native elements */
-:where([type="checkbox"], [type="radio"]) {
+.checkbox, .radio {
   accent-color: var(--check-color, var(--color-primary));
   block-size: var(--check-size, var(--size-4));
   inline-size: var(--check-size, var(--size-4));
 }
 
-:where([type="range"]) {
-  accent-color: var(--check-color, var(--color-primary));
+.range {
+  accent-color: var(--range-color, var(--color-primary));
 }
 
-:where(input, textarea, select):focus {
+:where(.input, .checkbox, .radio, .range):focus {
   outline: 2px solid var(--color-selected);
   outline-offset: var(--border-2);
 }
