@@ -94,7 +94,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Inputs
 
-<img width="436" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/9935df82-606f-4ebb-bfd7-d18c9bc8b5f5">
+<img width="406" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/0fe075cb-a942-48d7-91e0-525f6f0d2614">
 
 <details>
 <summary>Code</summary>
@@ -158,7 +158,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ## Dialog
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">
-
 
 <details>
 <summary>Code</summary>
