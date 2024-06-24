@@ -92,6 +92,22 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```
 </details>
 
+## Badges
+
+<details>
+<summary>Code</summary>
+
+```html
+<div class="flex justify-center gap mbs-10">
+  <div class="badge">Badge</div>
+  <div class="badge badge--secondary">Secondary</div>
+  <div class="badge badge--outline">Outline</div>
+  <div class="badge badge--positive">Positive</div>
+  <div class="badge badge--negative">Negative</div>
+</div>
+```
+</details>
+
 ## Inputs
 
 <img width="406" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/0fe075cb-a942-48d7-91e0-525f6f0d2614">
