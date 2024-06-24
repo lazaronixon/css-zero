@@ -1,7 +1,6 @@
 .dialog {
   background-color: var(--dialog-background, var(--color-bg));
   border: 1px solid var(--dialog-border-color, var(--color-border));
-  border-radius: var(--dialog-border-radius, var(--rounded-lg));
   box-shadow: var(--dialog-shadow, var(--shadow-lg));
   margin: auto; inline-size: 100%;
   max-inline-size: var(--dialog-max-width, var(--width-lg));
@@ -35,7 +34,7 @@
   }
 
   /* Responsiveness */
-  @media (width <= 40rem) {
-    border-radius: 0;
+  @media (width >= 40rem) {
+    border-radius: var(--dialog-border-radius, var(--rounded-lg));
   }
 }
