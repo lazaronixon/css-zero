@@ -70,7 +70,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Buttons
 
-<img width="783" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
+<img width="783" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
 
 <details>
 <summary>Code</summary>
@@ -94,11 +94,13 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Badges
 
+<img width="437" alt="Badges" src="https://github.com/lazaronixon/css-zero/assets/2651240/75073916-6b0f-4243-9506-c0ff4af73602">
+
 <details>
 <summary>Code</summary>
 
 ```html
-<div class="flex justify-center gap mbs-10">
+<div class="flex justify-center gap">
   <div class="badge">Badge</div>
   <div class="badge badge--secondary">Secondary</div>
   <div class="badge badge--outline">Outline</div>
