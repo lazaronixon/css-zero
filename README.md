@@ -100,10 +100,10 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 <summary>Code</summary>
 
 ```html
-<div class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
-  <div class="flex flex-col gap-small">
+<form method="post" class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
+  <div class="flex flex-col grow gap-small">
     <label for="name_field" class="text-sm font-medium">Full name</label>
-    <input type="text" id="name_field" class="input">
+    <input type="text" id="name_field" class="input" minlength="2" required>
   </div>
 
   <div class="flex flex-col gap-small">
@@ -126,14 +126,14 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
   <div class="flex flex-col gap-small">
     <label for="comment_field" class="text-sm font-medium">Comment</label>
-    <textarea id="comment_field" class="input"></textarea>
+    <textarea id="comment_field" rows="3" class="input"></textarea>
   </div>
 
   <div class="flex items-center gap-small">
     <input type="checkbox" class="checkbox" id="terms">
     <label for="terms" class="text-sm font-medium">Accept terms and conditions</label>
   </div>
-</div>
+</form>
 ```
 </details>
 
