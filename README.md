@@ -139,6 +139,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Switch
 
+<img width="168" alt="Switch" src="https://github.com/lazaronixon/css-zero/assets/2651240/46e8e762-6856-4be1-8948-9aa595d19c8b">
+
 <details>
 <summary>Code</summary>
 
