@@ -17,7 +17,7 @@
   }
 
   &:is(select):not([multiple]) {
-    background-image: var(--icon-chevron, url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgb(113,113,122)' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'%3E%3C/path%3E%3C/svg%3E"));
+    background-image: var(--icon-chevron, url("chevron-down.svg"));
     background-position: center right var(--icon-chevron-padding, .75rem);
     background-size: 1rem auto;
     background-repeat: no-repeat;
