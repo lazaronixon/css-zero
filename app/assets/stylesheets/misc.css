@@ -19,7 +19,6 @@
   thead th {
     color: var(--table-head-color, var(--color-text-subtle));
     font-weight: var(table-head-font-weight, var(--font-medium));
-    padding: var(--table-head-padding, var(--size-2) var(--size-4));
   }
 
   td, th {
