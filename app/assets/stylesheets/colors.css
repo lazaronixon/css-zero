@@ -264,27 +264,40 @@
   --rose-900: #881337;
   --rose-950: #4c0519;
 
-  color-scheme: light dark;
-
   /* Abstractions */
-  --color-bg:            light-dark(white, var(--zinc-950));
-  --color-text:          light-dark(var(--zinc-950), white);
-  --color-text-reversed: light-dark(white, var(--zinc-950));
-  --color-text-subtle:   light-dark(var(--zinc-500), var(--zinc-400));
-  --color-selected:      light-dark(var(--zinc-400), var(--zinc-300));
-  --color-border:        light-dark(var(--zinc-300), var(--zinc-700));
+  --color-bg: white;
+  --color-text: var(--zinc-950);
+  --color-text-reversed: white;
+  --color-text-subtle: var(--zinc-500);
+  --color-selected: var(--zinc-400);
+  --color-border: var(--zinc-300);
 
   /* Accent colors */
-  --color-primary:   light-dark(var(--zinc-900), var(--zinc-50));
-  --color-secondary: light-dark(var(--zinc-100), var(--zinc-800));
-  --color-negative:  light-dark(var(--red-600), var(--red-900));
-  --color-positive:  light-dark(var(--green-600), var(--green-900));
+  --color-primary: var(--zinc-900);
+  --color-secondary: var(--zinc-100);
+  --color-negative: var(--red-600);
+  --color-positive: var(--green-600);
 
   /* Filtered color values */
   --color-filter-text: invert(5%) sepia(10%) saturate(497%) hue-rotate(201deg) brightness(96%) contrast(102%);
   --color-filter-text-reversed: invert(100%) sepia(67%) saturate(49%) hue-rotate(230deg) brightness(119%) contrast(96%);
 
   @media (prefers-color-scheme: dark) {
+    /* Abstractions */
+    --color-bg: var(--zinc-950);
+    --color-text: white;
+    --color-text-reversed: var(--zinc-950);
+    --color-text-subtle: var(--zinc-400);
+    --color-selected: var(--zinc-300);
+    --color-border: var(--zinc-700);
+
+    /* Accent colors */
+    --color-primary: var(--zinc-50);
+    --color-secondary: var(--zinc-800);
+    --color-negative: var(--red-900);
+    --color-positive: var(--green-900);
+
+    /* Filtered color values */
     --color-filter-text: invert(100%) sepia(67%) saturate(49%) hue-rotate(230deg) brightness(119%) contrast(96%);
     --color-filter-text-reversed: invert(5%) sepia(10%) saturate(497%) hue-rotate(201deg) brightness(96%) contrast(102%);
   }
