@@ -212,6 +212,24 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```
 </details>
 
+## Pagination
+
+<details>
+<summary>Code</summary>
+
+```html
+<nav>
+  <ul class="pagination text-sm">
+    <li><a href="#" class="btn btn--plain">← Previous</a></li>
+    <li><a href="#" class="btn btn--plain">1</a></li>
+    <li><a href="#" class="btn btn--plain">2</a></li>
+    <li><a href="#" class="btn btn--outline">3</a></li>
+    <li><a href="#" class="btn btn--plain">Next →</a></li>
+  </ul>
+</nav>
+```
+</details>
+
 ## Dialog
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">
