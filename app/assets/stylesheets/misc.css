@@ -9,6 +9,29 @@
 }
 
 /****************************************************************
+* Progress
+*****************************************************************/
+.progress {
+  background-color: var(--progress-background, var(--color-secondary));
+  border-radius: var(--progress-radius, var(--rounded-md));
+  block-size: var(--progress-height, var(--size-4));
+  inline-size: 100%;
+  overflow: hidden;
+}
+
+.progress::-moz-progress-bar {
+  background-color: var(--progress-color, var(--color-primary));
+}
+
+.progress::-webkit-progress-value {
+  background-color: var(--progress-color, var(--color-primary));
+}
+
+.progress::-webkit-progress-bar {
+  background-color: var(--progress-color, var(--color-secondary));
+}
+
+/****************************************************************
 * Table
 *****************************************************************/
 .table {
