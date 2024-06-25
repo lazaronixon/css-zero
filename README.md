@@ -8,41 +8,13 @@ An opinionated CSS starter kit for your application. You can think of it like a 
 bundle add css-zero
 ```
 
-If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) make sure to load all the CSS files in your layout.html.erb.
+This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to load all the CSS files in your layout.html.erb.
 
 <details>
 <summary>Code</summary>
 
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
-```
-</details>
-
-If you are using [Sprockets](https://github.com/rails/sprockets) make sure to load all the CSS files in your application.css.
-
-<details>
-<summary>Code</summary>
-
-```css
-*= require _reset
-*= require animations
-*= require base
-*= require borders
-*= require buttons
-*= require colors
-*= require dialog
-*= require effects
-*= require filters
-*= require grid
-*= require inputs
-*= require separators
-*= require sizes
-*= require transform
-*= require transition
-*= require typography
-*= require_tree .
-*= require_self
-*= require zutilities
 ```
 </details>
 
