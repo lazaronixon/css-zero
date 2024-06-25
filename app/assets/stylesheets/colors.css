@@ -266,7 +266,7 @@
 
   /* Abstractions */
   --color-bg: white;
-  --color-text: var(--zinc-950);
+  --color-text: black;
   --color-text-reversed: white;
   --color-text-subtle: var(--zinc-500);
   --color-selected: var(--zinc-400);
@@ -279,14 +279,14 @@
   --color-positive: var(--green-600);
 
   /* Filtered color values */
-  --color-filter-text: invert(5%) sepia(10%) saturate(497%) hue-rotate(201deg) brightness(96%) contrast(102%);
-  --color-filter-text-reversed: invert(100%) sepia(67%) saturate(49%) hue-rotate(230deg) brightness(119%) contrast(96%);
+  --color-filter-text: invert(0);
+  --color-filter-text-reversed: invert(100%);
 
   @media (prefers-color-scheme: dark) {
     /* Abstractions */
     --color-bg: var(--zinc-950);
     --color-text: white;
-    --color-text-reversed: var(--zinc-950);
+    --color-text-reversed: black;
     --color-text-subtle: var(--zinc-400);
     --color-selected: var(--zinc-300);
     --color-border: var(--zinc-800);
@@ -298,7 +298,7 @@
     --color-positive: var(--green-900);
 
     /* Filtered color values */
-    --color-filter-text: invert(100%) sepia(67%) saturate(49%) hue-rotate(230deg) brightness(119%) contrast(96%);
-    --color-filter-text-reversed: invert(5%) sepia(10%) saturate(497%) hue-rotate(201deg) brightness(96%) contrast(102%);
+    --color-filter-text: invert(100%);
+    --color-filter-text-reversed: invert(0);
   }
 }
