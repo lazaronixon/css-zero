@@ -194,6 +194,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Breadcrumb
 
+<img width="330" alt="Breadcrumb" src="https://github.com/lazaronixon/css-zero/assets/2651240/b1ba8f90-09eb-466a-bd92-61af3022e3b1">
+
 <details>
 <summary>Code</summary>
 
