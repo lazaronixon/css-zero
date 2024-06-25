@@ -175,6 +175,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Table
 
+<img width="750" alt="Table" src="https://github.com/lazaronixon/css-zero/assets/2651240/723c1197-dc43-4023-aa73-e213efceafa8">
+
 <details>
 <summary>Code</summary>
 
