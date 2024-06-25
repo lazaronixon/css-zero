@@ -192,6 +192,24 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```
 </details>
 
+## Breadcrumb
+
+<details>
+<summary>Code</summary>
+
+```html
+<div class="breadcrumb text-sm text-subtle">
+  <a href="#">Home</a>
+  <span>→</span>
+  <a href="#">∙∙∙</a>
+  <span>→</span>
+  <a href="#">Components</a>
+  <span>→</span>
+  <a href="#" class="text-primary font-medium">Breadcrumb</a>
+</div>
+```
+</details>
+
 ## Dialog
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">
