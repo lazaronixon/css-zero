@@ -2,6 +2,7 @@
   background-color: var(--dialog-background, var(--color-bg));
   border: 1px solid var(--dialog-border-color, var(--color-border));
   box-shadow: var(--dialog-shadow, var(--shadow-lg));
+  color: var(--dialog-color, var(--color-text));
   margin: auto; inline-size: 100%;
   max-inline-size: var(--dialog-max-width, var(--width-lg));
   padding: var(--dialog-padding, var(--size-6));
