@@ -48,7 +48,7 @@
 }
 
 .input, .checkbox, .radio, .range {
-  accent-color: var(--accent-color, var(--color-primary));
+  accent-color: var(--input-accent-color, var(--color-primary));
 
   &:focus {
     outline: 2px solid var(--color-selected);
