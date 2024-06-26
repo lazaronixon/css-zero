@@ -38,18 +38,13 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Example
 
-![Example](https://github.com/lazaronixon/css-zero/assets/2651240/c0512b27-bb61-4662-95ff-446175f4ceb2)
+![Example](https://github.com/lazaronixon/css-zero/assets/2651240/3042ec7e-c30e-4047-9b85-2abc357683fd)
 
 <details>
 <summary>Code</summary>
 
 ```html+erb
 <div class="flex flex-col mb-10 items-center" style="gap: 4rem">
-  <p>
-    This feature is only available to users on the <strong>Business Plan</strong>.
-    To upgrade, <a href="#" class="underline">visit your billing settings</a>.
-  </p>
-
   <form method="post" class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
     <div class="flex flex-col grow gap-small">
       <label for="name_field" class="text-sm font-medium">Full name</label>
