@@ -1,28 +1,31 @@
 .switch {
+  --height: var(--switch-height, var(--size-6));
+  --width: var(--switch-width, var(--size-11));
+
   appearance: none;
   background-color: var(--switch-color, var(--color-border));
   border: 2px solid transparent;
   border-radius: var(--switch-border-radius, var(--rounded-full));
-  block-size: var(--switch-height, var(--size-6));
+  block-size: var(--height);
   cursor: pointer;
-  inline-size: var(--switch-width, var(--size-11));
+  inline-size: var(--width);
 
   &:checked {
     background-color: var(--switch-checked-color, var(--color-primary));
   }
 
   &:checked::before {
-    transform: translateX(100%);
+    margin-inline-start: calc(var(--width) - var(--height));
   }
 
   &::before {
     aspect-ratio: 1;
     background-color: var(--switch-toggle-color, var(--color-text-reversed));
+    block-size: 100%;
     border-radius: var(--switch-border-radius, var(--rounded-full));
     content: "";
     display: block;
-    block-size: 100%;
-    transition: transform 150ms ease;
+    transition: margin 150ms ease;
   }
 
   &:focus {
