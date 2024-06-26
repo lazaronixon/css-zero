@@ -43,16 +43,15 @@
 }
 
 .checkbox, .radio {
-  accent-color: var(--check-color, var(--color-primary));
   block-size: var(--check-size, var(--size-4));
   inline-size: var(--check-size, var(--size-4));
 }
 
-.range {
-  accent-color: var(--range-color, var(--color-primary));
-}
+:where(.input, .checkbox, .radio, .range) {
+  accent-color: var(--accent-color, var(--color-primary));
 
-:where(.input, .checkbox, .radio, .range):focus {
-  outline: 2px solid var(--color-selected);
-  outline-offset: 2px;
+  &:focus {
+    outline: 2px solid var(--color-selected);
+    outline-offset: 2px;
+  }
 }
