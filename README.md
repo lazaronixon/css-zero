@@ -38,137 +38,108 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Components
 
-### Inputs
-
-<img width="417" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/296334b0-54f3-490d-966b-f481594126ec">
-
-<details>
-<summary>Code</summary>
-
-```html
-<form method="post" class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
-  <div class="flex flex-col grow gap-small">
-    <label for="name_field" class="text-sm font-medium">Full name</label>
-    <input type="text" id="name_field" class="input" minlength="2" required>
-  </div>
-
-  <div class="flex flex-col gap-small">
-    <label for="date_field" class="text-sm font-medium">Date picker</label>
-    <input type="date" id="date_field" class="input">
-  </div>
-
-  <div class="flex flex-col gap-small">
-    <label for="file_field" class="text-sm font-medium">File</label>
-    <input type="file" id="file_field" class="input">
-  </div>
-
-  <div class="flex flex-col gap-small">
-    <label for="age_range_field" class="text-sm font-medium">Age Range</label>
-    <select id="age_range_field" class="input">
-      <option value="0-13">0-13</option>
-      <option value="14-17">14-17</option>
-    </select>
-  </div>
-
-  <div class="flex flex-col gap-small">
-    <label for="comment_field" class="text-sm font-medium">Comment</label>
-    <textarea id="comment_field" rows="3" class="input"></textarea>
-  </div>
-
-  <label class="flex items-center gap-small" for="terms">
-    <input type="checkbox" class="switch" id="terms">
-    <span class="text-sm font-medium">Accept terms and conditions</span>
-  </label>
-</form>
-```
-</details>
-
-### Buttons
-
-<img width="783" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
 
 <details>
 <summary>Code</summary>
 
 ```html+erb
-<div class="flex justify-center gap">
-  <button class="btn">Primary</button>
-  <button class="btn btn--secondary">Secondary</button>
-  <button class="btn btn--outline">Outline</button>
-  <button class="btn btn--plain">Plain</button>
-  <button class="btn btn--positive">Positive</button>
-  <button class="btn btn--negative">Negative</button>
+<div class="flex flex-col mb-10 items-center" style="gap: 4rem">
+  <p>
+    This feature is only available to users on the <strong>Business Plan</strong>.
+    To upgrade, <a href="#" class="underline">visit your billing settings</a>.
+  </p>
 
-  <button class="btn">
-    <%= image_tag "plus.svg", role: "presentation", size: 20 %>
-    <span>With icon</span>
-  </button>
+  <form method="post" class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
+    <div class="flex flex-col grow gap-small">
+      <label for="name_field" class="text-sm font-medium">Full name</label>
+      <input type="text" id="name_field" class="input" minlength="2" required>
+    </div>
+
+    <div class="flex flex-col gap-small">
+      <label for="date_field" class="text-sm font-medium">Date picker</label>
+      <input type="date" id="date_field" class="input">
+    </div>
+
+    <div class="flex flex-col gap-small">
+      <label for="file_field" class="text-sm font-medium">File</label>
+      <input type="file" id="file_field" class="input">
+    </div>
+
+    <div class="flex flex-col gap-small">
+      <label for="age_range_field" class="text-sm font-medium">Age Range</label>
+      <select id="age_range_field" class="input">
+        <option value="0-13">0-13</option>
+        <option value="14-17">14-17</option>
+      </select>
+    </div>
+
+    <div class="flex flex-col gap-small">
+      <label for="comment_field" class="text-sm font-medium">Comment</label>
+      <textarea id="comment_field" rows="3" class="input"></textarea>
+    </div>
+
+    <label class="flex items-center gap-small" for="terms">
+      <input type="checkbox" class="switch" id="terms">
+      <span class="text-sm font-medium">Accept terms and conditions</span>
+    </label>
+  </form>
+
+  <div class="flex justify-center gap">
+    <button class="btn">Primary</button>
+    <button class="btn btn--secondary">Secondary</button>
+    <button class="btn btn--outline">Outline</button>
+    <button class="btn btn--plain">Plain</button>
+    <button class="btn btn--positive">Positive</button>
+    <button class="btn btn--negative">Negative</button>
+
+    <button class="btn">
+      <%= image_tag "plus.svg", role: "presentation", size: 20 %>
+      <span>With icon</span>
+    </button>
+  </div>
+
+  <table class="table" style="max-inline-size: 45rem;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Access</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="font-medium">Leslie Alexander</td>
+        <td>leslie.alexander@example.com</td>
+        <td class="text-subtle">Admin</td>
+      </tr>
+      <tr>
+        <td class="font-medium">Michael Foster</td>
+        <td>michael.foster@example.com</td>
+        <td class="text-subtle">Owner</td>
+      </tr>
+      <tr>
+        <td class="font-medium">Dries Vincent</td>
+        <td>dries.vincent@example.com</td>
+        <td class="text-subtle">Member</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="flex justify-center">
+    <dialog id="my_modal" class="dialog dialog--drawer">
+      <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
+      <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
+
+      <div class="flex gap-small justify-end mbs-4">
+        <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
+        <button class="btn btn--primary">Continue</button>
+      </div>
+    </dialog>
+    <button class="btn" onclick="my_modal.showModal();">Show modal</button>
+  </div>
 </div>
 ```
 </details>
-
-### Table
-
-<img width="750" alt="Table" src="https://github.com/lazaronixon/css-zero/assets/2651240/723c1197-dc43-4023-aa73-e213efceafa8">
-
-<details>
-<summary>Code</summary>
-
-```html
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Access</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="font-medium">Leslie Alexander</td>
-      <td>leslie.alexander@example.com</td>
-      <td class="text-subtle">Admin</td>
-    </tr>
-    <tr>
-      <td class="font-medium">Michael Foster</td>
-      <td>michael.foster@example.com</td>
-      <td class="text-subtle">Owner</td>
-    </tr>
-    <tr>
-      <td class="font-medium">Dries Vincent</td>
-      <td>dries.vincent@example.com</td>
-      <td class="text-subtle">Member</td>
-    </tr>
-  </tbody>
-</table>
-```
-</details>
-
-### Dialog
-
-<img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">
-
-<details>
-<summary>Code</summary>
-
-```html
-<button class="btn" onclick="my_modal.showModal();">Show modal</button>
-
-<dialog id="my_modal" class="dialog">
-  <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
-  <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
-
-  <div class="flex gap-small justify-end mbs-4">
-    <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
-    <button class="btn">Continue</button>
-  </div>
-</dialog>
-```
-</details>
-
-### More...
-
-Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Customization
 
