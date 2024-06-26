@@ -36,8 +36,9 @@ This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to 
 
 Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
-## Components
+## Example
 
+![Example](https://github.com/lazaronixon/css-zero/assets/2651240/c0512b27-bb61-4662-95ff-446175f4ceb2)
 
 <details>
 <summary>Code</summary>
