@@ -47,7 +47,7 @@
   inline-size: var(--check-size, var(--size-4));
 }
 
-:where(.input, .checkbox, .radio, .range) {
+.input, .checkbox, .radio, .range {
   accent-color: var(--accent-color, var(--color-primary));
 
   &:focus {
