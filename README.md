@@ -10,13 +10,9 @@ bundle add css-zero
 
 This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to load all the CSS files in your layout.html.erb.
 
-<details>
-<summary>Code</summary>
-
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
 ```
-</details>
 
 ## Usage
 
@@ -40,31 +36,9 @@ This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to 
 
 Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
-## Buttons
+## Components
 
-<img width="783" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
-
-<details>
-<summary>Code</summary>
-
-```html+erb
-<div class="flex justify-center gap">
-  <button class="btn">Primary</button>
-  <button class="btn btn--secondary">Secondary</button>
-  <button class="btn btn--outline">Outline</button>
-  <button class="btn btn--plain">Plain</button>
-  <button class="btn btn--positive">Positive</button>
-  <button class="btn btn--negative">Negative</button>
-
-  <button class="btn">
-    <%= image_tag "plus.svg", role: "presentation", size: 20 %>
-    <span>With icon</span>
-  </button>
-</div>
-```
-</details>
-
-## Inputs
+### Inputs
 
 <img width="417" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/296334b0-54f3-490d-966b-f481594126ec">
 
@@ -109,7 +83,31 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```
 </details>
 
-## Table
+### Buttons
+
+<img width="783" alt="Buttons" src="https://github.com/lazaronixon/css-zero/assets/2651240/4e6a6829-5dd0-4eff-9b2f-33c9de85d3ef">
+
+<details>
+<summary>Code</summary>
+
+```html+erb
+<div class="flex justify-center gap">
+  <button class="btn">Primary</button>
+  <button class="btn btn--secondary">Secondary</button>
+  <button class="btn btn--outline">Outline</button>
+  <button class="btn btn--plain">Plain</button>
+  <button class="btn btn--positive">Positive</button>
+  <button class="btn btn--negative">Negative</button>
+
+  <button class="btn">
+    <%= image_tag "plus.svg", role: "presentation", size: 20 %>
+    <span>With icon</span>
+  </button>
+</div>
+```
+</details>
+
+### Table
 
 <img width="750" alt="Table" src="https://github.com/lazaronixon/css-zero/assets/2651240/723c1197-dc43-4023-aa73-e213efceafa8">
 
@@ -146,7 +144,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```
 </details>
 
-## Dialog
+### Dialog
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/923df0e7-7824-44be-8164-dc2175576a13">
 
@@ -167,6 +165,10 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 </dialog>
 ```
 </details>
+
+### More...
+
+Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Customization
 
