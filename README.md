@@ -101,29 +101,11 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <textarea id="comment_field" rows="3" class="input"></textarea>
   </div>
 
-  <div class="flex items-center gap-small">
-    <input type="checkbox" class="checkbox" id="terms">
-    <label for="terms" class="text-sm font-medium">Accept terms and conditions</label>
-  </div>
-</form>
-```
-</details>
-
-## Switch
-
-<img width="168" alt="Switch" src="https://github.com/lazaronixon/css-zero/assets/2651240/46e8e762-6856-4be1-8948-9aa595d19c8b">
-
-<details>
-<summary>Code</summary>
-
-```html
-<div class="flex items-center gap-small">
-  <label for="terms_field" class="switch" style="">
-    <input type="checkbox" id="terms_field" class="switch__input">
-    <span class="switch__btn"></span>
+  <label class="flex items-center gap-small" for="terms">
+    <input type="checkbox" class="switch" id="terms">
+    <span class="text-sm font-medium">Accept terms and conditions</span>
   </label>
-  <span class="text-sm font-medium">Airplane Mode</span>
-</div>
+</form>
 ```
 </details>
 
