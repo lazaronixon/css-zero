@@ -13,7 +13,7 @@
 *****************************************************************/
 .progress {
   background-color: var(--progress-background, var(--color-secondary));
-  border-radius: var(--progress-radius, var(--rounded-md));
+  border-radius: var(--progress-radius, var(--rounded-full));
   block-size: var(--progress-height, var(--size-4));
   inline-size: 100%;
   overflow: hidden;
