@@ -66,7 +66,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Inputs
 
-<img width="406" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/0fe075cb-a942-48d7-91e0-525f6f0d2614">
+<img width="417" alt="Inputs" src="https://github.com/lazaronixon/css-zero/assets/2651240/296334b0-54f3-490d-966b-f481594126ec">
 
 <details>
 <summary>Code</summary>
