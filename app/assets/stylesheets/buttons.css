@@ -59,17 +59,17 @@
   --btn-color: white;
 }
 
-[aria-busy] .btn--submitting:disabled {
+[aria-busy] .btn--loading:disabled {
   > * { visibility: hidden; }
 
   &::after {
     animation: var(--animate-spin);
-    background-image: var(--btn-submitting-icon, url("loader-circle.svg"));
+    background-image: var(--btn-loading-icon, url("loader-circle.svg"));
     background-size: cover;
-    block-size: var(--btn-submitting-icon-size, var(--size-4));
+    block-size: var(--btn-loading-icon-size, var(--size-4));
     content: "";
     filter: var(--btn-icon-color, var(--color-filter-text-reversed));
-    inline-size: var(--btn-submitting-icon-size, var(--size-4));
+    inline-size: var(--btn-loading-icon-size, var(--size-4));
     margin-block: auto;
     position: absolute;
   }

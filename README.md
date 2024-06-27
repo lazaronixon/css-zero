@@ -87,7 +87,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <button class="btn btn--plain">Plain</button>
     <button class="btn btn--positive">Positive</button>
     <button class="btn btn--negative">Negative</button>
-    <button class="btn btn--submitting" disabled><span>Please wait</span></button>
+    <button class="btn btn--loading" disabled><span>Please wait</span></button>
 
     <button class="btn">
       <%= image_tag "plus.svg", role: "presentation", size: 16 %>
