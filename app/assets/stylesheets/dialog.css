@@ -13,7 +13,7 @@
 
   /* Setup transition */
   &, &::backdrop {
-    opacity: 0; transition: all var(--time-300) allow-discrete;
+    opacity: 0; transition: all 300ms allow-discrete;
   }
 
   /* Fade in */
