@@ -11,6 +11,7 @@
   gap: var(--size-2);
   justify-content: center;
   padding: var(--btn-padding, .5rem 1rem);
+  position: relative;
   text-align: center;
   white-space: nowrap;
 
@@ -56,4 +57,20 @@
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-color: white;
+}
+
+[aria-busy] .btn--submitting:disabled {
+  > * { visibility: hidden; }
+
+  &::after {
+    animation: var(--animate-spin);
+    background-image: var(--btn-submitting-icon, url("loader-circle.svg"));
+    background-size: cover;
+    block-size: var(--btn-submitting-icon-size, var(--size-4));
+    content: "";
+    filter: var(--btn-icon-color, var(--color-filter-text-reversed));
+    inline-size: var(--btn-submitting-icon-size, var(--size-4));
+    margin-block: auto;
+    position: absolute;
+  }
 }

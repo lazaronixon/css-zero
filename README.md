@@ -80,16 +80,17 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </label>
   </form>
 
-  <div class="flex justify-center gap">
+  <div class="flex justify-center gap" aria-busy>
     <button class="btn">Primary</button>
     <button class="btn btn--secondary">Secondary</button>
     <button class="btn btn--outline">Outline</button>
     <button class="btn btn--plain">Plain</button>
     <button class="btn btn--positive">Positive</button>
     <button class="btn btn--negative">Negative</button>
+    <button class="btn btn--submitting" disabled><span>Please wait</span></button>
 
     <button class="btn">
-      <%= image_tag "plus.svg", role: "presentation", size: 20 %>
+      <%= image_tag "plus.svg", role: "presentation", size: 16 %>
       <span>With icon</span>
     </button>
   </div>
