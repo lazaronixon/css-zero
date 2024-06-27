@@ -38,7 +38,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Example
 
-<img width="600" alt="Example" src="https://github.com/lazaronixon/css-zero/assets/2651240/3042ec7e-c30e-4047-9b85-2abc357683fd">
+<img width="600" alt="Example" src="https://github.com/lazaronixon/css-zero/assets/2651240/e4b3dfa0-29ac-4159-ab6f-fdf37c9a2181">
 
 <details>
 <summary>Code</summary>
