@@ -37,15 +37,15 @@
 .table {
   font-size: var(--table-font-size, var(--text-sm));
   inline-size: 100%;
-  text-align: var(--table-text-align, left);
 
-  thead th {
-    color: var(--table-head-color, var(--color-text-subtle));
-    font-weight: var(table-head-font-weight, var(--font-medium));
+  th {
+    color: var(--color-text-subtle);
+    font-weight: var(--font-medium);
+    text-align: left;
   }
 
   td, th {
-    border-bottom: 1px solid var(--table-border-color, var(--color-border));
+    border-bottom: 1px solid var(--color-border);
     padding: var(--table-padding, var(--size-4));
   }
 }

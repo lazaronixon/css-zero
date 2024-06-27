@@ -16,12 +16,17 @@
     padding-block: var(--size-4);
 
     &::after {
-      background-image: url("chevron-down.svg");
+      background-image: var(--chevron-down-icon, url("chevron-down.svg"));
       background-size: cover;
       block-size: var(--size-4);
       content: "";
       inline-size: var(--size-4);
       transition: transform 200ms;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-selected);
+      outline-offset: 2px;
     }
 
     &:hover {

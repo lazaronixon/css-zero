@@ -2,13 +2,13 @@
   align-items: center;
   background-color: var(--btn-background, var(--color-primary));
   border-radius: var(--btn-border-radius, var(--rounded-md));
-  border: 1px solid var(--btn-border-color, transparent);
+  border: var(--btn-border-size, 1px) solid var(--btn-border-color, transparent);
   color: var(--btn-color, var(--color-text-reversed));
   cursor: pointer;
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));
-  font-weight: var(--btn-font-weight, var(--font-medium));
-  gap: var(--btn-gap, var(--size-2));
+  font-weight: var(--font-medium);
+  gap: var(--size-2);
   justify-content: center;
   padding: var(--btn-padding, .5rem 1rem);
   text-align: center;

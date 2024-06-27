@@ -2,8 +2,8 @@
   appearance: none;
   background-color: var(--input-background, transparent);
   border-radius: var(--input-border-radius, var(--rounded-md));
-  border: 1px solid var(--input-border-color, var(--color-border));
-  box-shadow: var(--input-shadow, var(--shadow-xs));
+  border: var(--input-border-size, 1px) solid var(--input-border-color, var(--color-border));
+  box-shadow: var(--shadow-xs);
   color: var(--input-color, var(--color-text));
   font-size: var(--input-font-size, var(--text-sm));
   inline-size: 100%;
@@ -18,9 +18,9 @@
 
   &:is(select):not([multiple]) {
     background-image: var(--select-icon, url("chevron-down.svg"));
-    background-position: center right var(--select-icon-padding-right, .75rem);
+    background-position: center right .75rem;
     background-repeat: no-repeat;
-    background-size: var(--select-icon-size, 1rem) auto;
+    background-size: 1rem auto;
   }
 
   &::file-selector-button {
@@ -43,15 +43,16 @@
 }
 
 .checkbox, .radio {
+  accent-color: var(--check-accent-color, var(--color-primary));
   block-size: var(--check-size, var(--size-4));
   inline-size: var(--check-size, var(--size-4));
 }
 
-.input, .checkbox, .radio, .range {
-  accent-color: var(--input-accent-color, var(--color-primary));
+.range {
+  accent-color: var(--range-accent-color, var(--color-primary));
+}
 
-  &:focus {
-    outline: 2px solid var(--color-selected);
-    outline-offset: 2px;
-  }
+:where(.input, .checkbox, .radio, .range):focus {
+  outline: 2px solid var(--color-selected);
+  outline-offset: 2px;
 }

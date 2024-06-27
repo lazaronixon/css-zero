@@ -1,11 +1,12 @@
 .switch {
   --height: var(--switch-height, var(--size-6));
-  --width: var(--switch-width, var(--size-11));
+  --width:  var(--switch-width, var(--size-11));
+  --border-radius: var(--switch-border-radius, var(--rounded-full));
 
   appearance: none;
   background-color: var(--switch-color, var(--color-border));
   border: 2px solid transparent;
-  border-radius: var(--switch-border-radius, var(--rounded-full));
+  border-radius: var(--border-radius);
   block-size: var(--height);
   cursor: pointer;
   inline-size: var(--width);
@@ -22,13 +23,13 @@
     aspect-ratio: 1;
     background-color: var(--switch-toggle-color, var(--color-text-reversed));
     block-size: 100%;
-    border-radius: var(--switch-border-radius, var(--rounded-full));
+    border-radius: var(--border-radius);
     content: "";
     display: block;
     transition: margin 150ms ease;
   }
 
-  &:focus {
+  &:focus-visible {
     outline: 2px solid var(--color-selected);
     outline-offset: 2px;
   }
