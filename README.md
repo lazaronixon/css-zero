@@ -121,6 +121,21 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </tbody>
   </table>
 
+  <div class="accordion" style="max-inline-size: 30rem;">
+    <details name="my_accordion">
+      <summary>Is it accessible?</summary>
+      <p class="mbe-4 text-sm">Yes. It adheres to the WAI-ARIA design pattern.</p>
+    </details>
+    <details name="my_accordion">
+      <summary>Is it styled?</summary>
+      <p class="mbe-4 text-sm">Yes. It comes with default styles that matches the other components' aesthetic.</p>
+    </details>
+    <details name="my_accordion">
+      <summary>Is it animated?</summary>
+      <p class="mbe-4 text-sm">Yes. It's animated by default, but you can disable it if you prefer.</p>
+    </details>
+  </div>  
+
   <div class="flex justify-center">
     <dialog id="my_modal" class="dialog dialog--drawer">
       <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>

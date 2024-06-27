@@ -1,0 +1,31 @@
+.accordion {
+  inline-size: 100%;
+
+  details {
+    border-bottom: 1px solid var(--color-border);
+
+    &[open] summary::after {
+      transform: rotate(180deg);
+    }
+  }
+
+  summary {
+    align-items: center; cursor: pointer; display: flex;
+    font-weight: var(--font-medium);
+    justify-content: space-between;
+    padding-block: var(--size-4);
+
+    &::after {
+      background-image: url("chevron-down.svg");
+      background-size: cover;
+      block-size: var(--size-4);
+      content: "";
+      inline-size: var(--size-4);
+      transition: transform 200ms;
+    }
+
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+}
