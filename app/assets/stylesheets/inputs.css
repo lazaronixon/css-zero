@@ -17,10 +17,10 @@
   }
 
   &:is(select):not([multiple]) {
-    background-image: var(--icon-chevron, url("chevron-down.svg"));
-    background-position: center right var(--icon-chevron-padding, .75rem);
-    background-size: 1rem auto;
+    background-image: var(--select-icon, url("chevron-down.svg"));
+    background-position: center right var(--select-icon-padding-right, .75rem);
     background-repeat: no-repeat;
+    background-size: var(--select-icon-size, 1rem) auto;
   }
 
   &::file-selector-button {
