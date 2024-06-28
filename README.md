@@ -80,7 +80,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </label>
   </section>
 
-  <section class="flex flex-wrap gap" aria-busy>
+  <section class="flex flex-wrap items-center gap" aria-busy>
     <button class="btn">Primary</button>
     <button class="btn btn--secondary">Secondary</button>
     <button class="btn btn--outline">Outline</button>

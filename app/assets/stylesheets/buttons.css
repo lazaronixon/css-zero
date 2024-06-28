@@ -81,3 +81,7 @@
   --btn-border-radius: var(--rounded-full);
   --btn-padding: .5rem;
 }
+
+.btn--small {
+  --btn-padding: .25rem .625rem;
+}
