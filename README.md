@@ -36,12 +36,12 @@ This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to 
 
 Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
-## Example
+## Components
 
-<img width="600" alt="Example" src="https://github.com/lazaronixon/css-zero/assets/2651240/e4b3dfa0-29ac-4159-ab6f-fdf37c9a2181">
+<img width="600" alt="Components" src="https://github.com/lazaronixon/css-zero/assets/2651240/e4b3dfa0-29ac-4159-ab6f-fdf37c9a2181">
 
 <details>
-<summary>Code</summary>
+<summary>Show me the code!</summary>
 
 ```html+erb
 <div class="flex flex-col mb-10 items-center" style="gap: 4rem">
@@ -152,37 +152,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 </div>
 ```
 </details>
-
-## Customization
-
-### Root level
-
-```css
-:root {
-  --color-bg: white;
-  --color-text: var(--zinc-950);
-  --color-text-reversed: white;
-  --color-text-subtle: var(--zinc-500);
-  --color-border: var(--zinc-200);
-}
-```
-
-### Class level
-
-```css
-.btn--colored {
-  --btn-background: var(--cyan-500);
-  --btn-color: var(--cyan-950);
-}
-```
-
-### Style level
-
-```html
-<button class="btn" style="--btn-background: #67e8f9; --btn-color: #083344;">
-  Colored button
-</button>
-```
 
 ## Development
 
