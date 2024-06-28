@@ -1,0 +1,19 @@
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+}
+
+turbo-frame,
+turbo-cable-stream-source {
+  display: contents;
+}

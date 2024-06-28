@@ -2,7 +2,7 @@
   inline-size: 100%;
 
   details {
-    border-bottom: 1px solid var(--color-border);
+    border-bottom-width: var(--border);
 
     &[open] summary::after {
       transform: rotate(180deg);

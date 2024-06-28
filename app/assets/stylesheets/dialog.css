@@ -1,6 +1,6 @@
 .dialog {
   background-color: var(--color-bg);
-  border: 1px solid var(--color-border);
+  border-width: var(--border);
   box-shadow: var(--shadow-lg);
   color: var(--color-text);
   inline-size: 100%;

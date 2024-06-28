@@ -2,7 +2,7 @@
   align-items: center;
   background-color: var(--btn-background, var(--color-primary));
   border-radius: var(--btn-border-radius, var(--rounded-md));
-  border: var(--btn-border-size, 1px) solid var(--btn-border-color, transparent);
+  border: var(--btn-border-size, 0px) solid var(--btn-border-color, var(--color-border));
   color: var(--btn-color, var(--color-text-reversed));
   cursor: pointer;
   display: inline-flex;
@@ -55,8 +55,8 @@
 }
 
 .btn--outline {
-  --btn-background: transparent;
-  --btn-border-color: var(--color-border);
+  --btn-background: var(--color-bg);
+  --btn-border-size: var(--border);
   --btn-color: var(--color-text);
   --btn-icon-color: var(--color-filter-text);
 }
