@@ -18,11 +18,11 @@
     padding-block: var(--size-4);
 
     &::after {
-      background-image: var(--chevron-down-icon, url("chevron-down.svg"));
+      background-image: var(--accordion-icon, url("chevron-down.svg"));
       background-size: cover;
-      block-size: var(--size-4);
+      block-size: var(--accordion-icon-size, 1rem);
       content: "";
-      inline-size: var(--size-4);
+      inline-size: var(--accordion-icon-size, 1rem);
       transition: transform 200ms;
     }
   }

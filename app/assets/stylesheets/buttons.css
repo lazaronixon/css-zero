@@ -34,10 +34,10 @@
     animation: var(--animate-spin);
     background-image: var(--btn-loading-icon, url("loader-circle.svg"));
     background-size: cover;
-    block-size: var(--btn-loading-icon-size, var(--size-4));
+    block-size: var(--btn-loading-icon-size, 1rem);
     content: "";
     filter: var(--btn-icon-color, var(--color-filter-text-reversed));
-    inline-size: var(--btn-loading-icon-size, var(--size-4));
+    inline-size: var(--btn-loading-icon-size, 1rem);
     margin-inline: auto;
     position: absolute;
   }

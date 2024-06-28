@@ -17,7 +17,7 @@
 
   &:is(select):not([multiple]) {
     background-image: var(--select-icon, url("chevron-down.svg"));
-    background-position: center right .75rem;
+    background-position: center right var(--select-icon-position, .75rem);
     background-repeat: no-repeat;
     background-size: var(--select-icon-size, 1rem) auto;
   }
