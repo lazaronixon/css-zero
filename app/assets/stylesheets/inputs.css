@@ -15,7 +15,7 @@
     max-block-size: var(--input-max-lines, 11lh);
   }
 
-  &:is(select):not([multiple]) {
+  &:is(select):not([multiple], [size]) {
     background-image: var(--select-icon, url("chevron-down.svg"));
     background-position: center right var(--select-icon-position, .75rem);
     background-repeat: no-repeat;
