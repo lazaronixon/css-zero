@@ -10,7 +10,9 @@
   }
 
   summary {
-    align-items: center; cursor: pointer; display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
     font-weight: var(--font-medium);
     justify-content: space-between;
     padding-block: var(--size-4);
