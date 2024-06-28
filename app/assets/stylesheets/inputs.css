@@ -52,7 +52,7 @@
   accent-color: var(--range-accent-color, var(--color-primary));
 }
 
-:where(.input, .checkbox, .radio, .range):focus {
+:where(.input, .checkbox, .radio, .range):focus-visible {
   outline: 2px solid var(--color-selected);
   outline-offset: 2px;
 }
