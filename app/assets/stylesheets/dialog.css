@@ -40,3 +40,8 @@
     border-radius: var(--dialog-border-radius, var(--rounded-lg));
   }
 }
+
+.dialog__close {
+  position: absolute;
+  inset: var(--size-4) var(--size-4) auto auto;
+}
