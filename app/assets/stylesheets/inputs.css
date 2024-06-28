@@ -44,8 +44,7 @@
 
 .checkbox, .radio {
   accent-color: var(--check-accent-color, var(--color-primary));
-  block-size: var(--check-size, var(--size-4));
-  inline-size: var(--check-size, var(--size-4));
+  transform: scale(1.2);
 }
 
 .range {
