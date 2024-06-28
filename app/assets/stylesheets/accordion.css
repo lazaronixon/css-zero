@@ -30,9 +30,5 @@
       outline: 2px solid var(--color-selected);
       outline-offset: 2px;
     }
-
-    &:hover {
-      text-decoration-line: underline;
-    }
   }
 }
