@@ -38,7 +38,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ## Components
 
-<img width="600" alt="Components" src="https://github.com/lazaronixon/css-zero/assets/2651240/e4b3dfa0-29ac-4159-ab6f-fdf37c9a2181">
+<img width="400" alt="Components" src="https://github.com/lazaronixon/css-zero/assets/2651240/3edc4bd1-d3e3-4aaa-a9e1-34e0fffc4378">
 
 <details>
 <summary>Show me the code!</summary>
@@ -87,7 +87,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <button class="btn btn--plain">Plain</button>
     <button class="btn btn--positive">Positive</button>
     <button class="btn btn--negative">Negative</button>
-    <button class="btn btn--loading" disabled><span>Please wait</span></button>
+    <button class="btn btn--loading" disabled><span>Submit</span></button>
 
     <button class="btn">
       <%= image_tag "plus.svg", role: "presentation", size: 16 %>
