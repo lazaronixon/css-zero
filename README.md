@@ -44,8 +44,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 <summary>Show me the code!</summary>
 
 ```html+erb
-<div class="flex flex-col mb-10 items-center" style="gap: 4rem">
-  <form method="post" class="flex flex-col w-full gap" style="max-inline-size: 24rem;">
+<artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 56rem">
+  <section class="flex flex-col gap">
     <div class="flex flex-col grow gap-small">
       <label for="name_field" class="text-sm font-medium">Full name</label>
       <input type="text" id="name_field" class="input" minlength="2" required>
@@ -78,9 +78,9 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       <input type="checkbox" class="switch" id="terms">
       <span class="text-sm font-medium">Accept terms and conditions</span>
     </label>
-  </form>
+  </section>
 
-  <div class="flex justify-center gap" aria-busy>
+  <section class="flex flex-wrap gap" aria-busy>
     <button class="btn">Primary</button>
     <button class="btn btn--secondary">Secondary</button>
     <button class="btn btn--outline">Outline</button>
@@ -93,9 +93,9 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       <%= image_tag "plus.svg", role: "presentation", size: 16 %>
       <span>With icon</span>
     </button>
-  </div>
+  </section>
 
-  <table class="table" style="max-inline-size: 45rem;">
+  <table class="table">
     <thead>
       <tr>
         <th>Name</th>
@@ -122,7 +122,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </tbody>
   </table>
 
-  <div class="accordion" style="max-inline-size: 30rem;">
+  <div class="accordion">
     <details name="my_accordion">
       <summary>Is it accessible?</summary>
       <p class="mbe-4 text-sm">Yes. It adheres to the WAI-ARIA design pattern.</p>
@@ -135,9 +135,9 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       <summary>Is it animated?</summary>
       <p class="mbe-4 text-sm">Yes. It's animated by default, but you can disable it if you prefer.</p>
     </details>
-  </div>  
+  </div>
 
-  <div class="flex justify-center">
+  <section>
     <dialog id="my_modal" class="dialog dialog--drawer">
       <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
       <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
@@ -148,8 +148,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       </div>
     </dialog>
     <button class="btn" onclick="my_modal.showModal();">Show modal</button>
-  </div>
-</div>
+  </section>
+</artice>
 ```
 </details>
 
