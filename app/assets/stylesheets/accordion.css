@@ -15,7 +15,7 @@
     display: flex;
     font-weight: var(--font-medium);
     justify-content: space-between;
-    padding-block: var(--size-4);
+    padding-block: 1rem;
 
     &::-webkit-details-marker {
       display: none;

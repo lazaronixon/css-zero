@@ -105,17 +105,17 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </thead>
     <tbody>
       <tr>
-        <td class="font-medium">Leslie Alexander</td>
+        <th>Leslie Alexander</td>
         <td>leslie.alexander@example.com</td>
         <td class="text-subtle">Admin</td>
       </tr>
       <tr>
-        <td class="font-medium">Michael Foster</td>
+        <th>Michael Foster</td>
         <td>michael.foster@example.com</td>
         <td class="text-subtle">Owner</td>
       </tr>
       <tr>
-        <td class="font-medium">Dries Vincent</td>
+        <th>Dries Vincent</td>
         <td>dries.vincent@example.com</td>
         <td class="text-subtle">Member</td>
       </tr>
