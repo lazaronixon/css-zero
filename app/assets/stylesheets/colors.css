@@ -269,8 +269,8 @@
   --color-text: black;
   --color-text-reversed: white;
   --color-text-subtle: var(--zinc-500);
-  --color-selected: var(--zinc-400);
   --color-border: var(--zinc-200);
+  --color-border-darker: var(--zinc-400);
 
   /* Accent colors */
   --color-primary: var(--zinc-900);
@@ -288,8 +288,8 @@
     --color-text: white;
     --color-text-reversed: black;
     --color-text-subtle: var(--zinc-400);
-    --color-selected: var(--zinc-300);
     --color-border: var(--zinc-800);
+    --color-border-darker: var(--zinc-300);
 
     /* Accent colors */
     --color-primary: var(--zinc-50);
