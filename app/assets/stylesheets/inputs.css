@@ -40,17 +40,3 @@
     opacity: var(--opacity-50);
   }
 }
-
-.checkbox, .radio {
-  accent-color: var(--check-accent-color, var(--color-primary));
-  transform: scale(1.2);
-}
-
-.range {
-  accent-color: var(--range-accent-color, var(--color-primary));
-}
-
-:where(.input, .checkbox, .radio, .range):focus-visible {
-  outline: 2px solid var(--color-border-darker);
-  outline-offset: 2px;
-}

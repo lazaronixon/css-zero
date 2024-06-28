@@ -7,13 +7,30 @@ html {
 }
 
 body {
+  accent-color: var(--color-primary);
   background-color: var(--color-bg);
   color: var(--color-text);
   font-synthesis-weight: none;
   text-rendering: optimizeLegibility;
 }
 
-turbo-frame,
-turbo-cable-stream-source {
+/* Prevent page scroll when modal dialog is visible */
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+/* Keyboard navigation */
+:where(.btn, .input, .switch, summary, [type="checkbox"], [type="radio"], [type="range"]):focus-visible {
+  outline: 2px solid var(--color-border-darker);
+  outline-offset: 2px;
+}
+
+/* Checkboxes and Radios */
+:where([type="checkbox"], [type="radio"]) {
+  transform: scale(1.15);
+}
+
+/* Turbo */
+turbo-frame, turbo-cable-stream-source {
   display: contents;
 }
