@@ -11,7 +11,7 @@
 
   &:is(textarea) {
     field-sizing: content;
-    min-block-size: var(--input-lines, 3lh);
+    min-block-size: var(--input-lines, 4lh);
     max-block-size: var(--input-max-lines, 11lh);
   }
 
