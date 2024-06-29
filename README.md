@@ -90,7 +90,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <button class="btn btn--loading" disabled><span>Submit</span></button>
 
     <button class="btn">
-      <%= image_tag "plus.svg", role: "presentation", size: 16 %>
+      <%= image_tag "circle-alert.svg", role: "presentation", size: 16 %>
       <span>With icon</span>
     </button>
   </section>
@@ -143,7 +143,14 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       <h1 class="font-medium leading-none mbe-1">Error</h1>
       <p class="text-sm">Your session has expired. Please log in again.</p>
     </div>
-  </div>  
+  </div>
+
+  <section class="flex justify-start gap">
+    <div class="badge">Badge</div>
+    <div class="badge badge--secondary">Secondary</div>
+    <div class="badge badge--outline">Outline</div>
+    <div class="badge badge--negative">Negative</div>
+  </section>
 
   <section>
     <dialog id="my_dialog" class="dialog" style="--dialog-max-width: 28rem">

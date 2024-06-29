@@ -21,6 +21,35 @@
 }
 
 /****************************************************************
+* Badge
+*****************************************************************/
+.badge {
+  background-color: var(--badge-background, var(--color-primary));
+  border: var(--badge-border-size, 1px) solid var(--badge-border-color, transparent);
+  border-radius: var(--badge-border-radius, var(--rounded-full));
+  color: var(--badge-color, var(--color-text-reversed));
+  font-size: var(--badge-font-size, var(--text-xs));
+  font-weight: var(--badge-font-weight, var(--font-semibold));
+  padding: var(--badge-padding, 0.125rem 0.625rem);
+}
+
+.badge--secondary {
+  --badge-background: var(--color-secondary);
+  --badge-color: var(--color-text);
+}
+
+.badge--outline {
+  --badge-background: transparent;
+  --badge-border-color: var(--color-border);
+  --badge-color: var(--color-text);
+}
+
+.badge--negative {
+  --badge-background: var(--color-positive);
+  --badge-color: white;
+}
+
+/****************************************************************
 * Progress
 *****************************************************************/
 .progress {
