@@ -52,17 +52,17 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```html+erb
 <artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 56rem">
   <section class="flex flex-col gap">
-    <div class="flex flex-col gap-small">
+    <div class="flex flex-col gap-sm">
       <label for="name_field" class="text-sm font-medium">Full name *</label>
       <input type="text" id="name_field" class="input" required>
     </div>
 
-    <div class="flex flex-col gap-small">
+    <div class="flex flex-col gap-sm">
       <label for="date_field" class="text-sm font-medium">Date picker</label>
       <input type="date" id="date_field" class="input">
     </div>
 
-    <div class="flex flex-col gap-small">
+    <div class="flex flex-col gap-sm">
       <label for="age_range_field" class="text-sm font-medium">Age Range</label>
       <select id="age_range_field" class="input">
         <option value="0-13">0-13</option>
@@ -70,12 +70,12 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       </select>
     </div>
 
-    <div class="flex flex-col gap-small">
+    <div class="flex flex-col gap-sm">
       <label for="comment_field" class="text-sm font-medium">Comment</label>
       <textarea id="comment_field" rows="3" class="input"></textarea>
     </div>
 
-    <label class="flex items-center gap-small" for="terms">
+    <label class="flex items-center gap-sm" for="terms">
       <input type="checkbox" class="switch" id="terms">
       <span class="text-sm font-medium">Accept terms and conditions</span>
     </label>
@@ -158,13 +158,13 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
       <p class="text-sm text-subtle">Deploy your new project in one-click.</p>
     </div>
 
-    <div class="flex flex-col gap-small">
-      <div class="flex flex-col gap-small">
+    <div class="flex flex-col gap-sm">
+      <div class="flex flex-col gap-sm">
         <label for="name" class="text-sm font-medium">Name</label>
         <input type="text" id="name" placeholder="Name of your project" class="input">
       </div>
 
-      <div class="flex flex-col gap-small">
+      <div class="flex flex-col gap-sm">
         <label for="framework" class="text-sm font-medium">Framework</label>
         <select id="framework" class="input">
           <option value="">Select</option>
@@ -195,8 +195,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
         <p class="text-sm text-subtle">Anyone who has this link will be able to view this.</p>
       </div>
 
-      <div class="flex gap-small mbs-4">
-        <div class="flex gap-small w-full">
+      <div class="flex gap-sm mbs-4">
+        <div class="flex gap-sm w-full">
           <label for="link" class="sr-only">Link</label>
           <input type="input" id="link" value="https://github.com/lazaronixon/css-zero" class="input" readonly autofocus>
         </div>
