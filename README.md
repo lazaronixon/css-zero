@@ -52,7 +52,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 ```html+erb
 <artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 56rem">
   <section class="flex flex-col gap">
-    <div class="flex flex-col grow gap-small">
+    <div class="flex flex-col gap-small">
       <label for="name_field" class="text-sm font-medium">Full name *</label>
       <input type="text" id="name_field" class="input" required>
     </div>
@@ -150,6 +150,35 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <div class="badge badge--secondary">Secondary</div>
     <div class="badge badge--outline">Outline</div>
     <div class="badge badge--negative">Negative</div>
+  </section>
+
+  <section class="card flex flex-col gap" style="--card-width: 24rem; --row-gap: 1.5rem;">
+    <div class="flex flex-col">
+      <h1 class="text-2xl font-semibold">Create project</h1>
+      <p class="text-sm text-subtle">Deploy your new project in one-click.</p>
+    </div>
+
+    <div class="flex flex-col gap-small">
+      <div class="flex flex-col gap-small">
+        <label for="name" class="text-sm font-medium">Name</label>
+        <input type="text" id="name" placeholder="Name of your project" class="input">
+      </div>
+
+      <div class="flex flex-col gap-small">
+        <label for="framework" class="text-sm font-medium">Framework</label>
+        <select id="framework" class="input">
+          <option value="">Select</option>
+          <option value="rails">Ruby on Rails</option>
+          <option value="laravel">Laravel</option>
+          <option value="next">Next</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="flex justify-between">
+      <button class="btn btn--outline">Cancel</button>
+      <button class="btn">Destroy</button>
+    </div>
   </section>
 
   <section>

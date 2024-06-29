@@ -2,7 +2,6 @@
 * Alert
 *****************************************************************/
 .alert {
-  background-color: var(--alert-background, var(--color-bg));
   border: var(--alert-border-size, 1px) solid var(--alert-border-color, var(--color-border));
   border-radius: var(--alert-border-radius, var(--rounded-lg));
   color: var(--alert-color, var(--color-text));
@@ -47,6 +46,17 @@
 .badge--negative {
   --badge-background: var(--color-positive);
   --badge-color: white;
+}
+
+/****************************************************************
+* Card
+*****************************************************************/
+.card {
+  border-radius: var(--card-border-radius, var(--rounded-lg));
+  border-width: var(--border);
+  inline-size: var(--card-width, auto);
+  padding: var(--card-padding, var(--size-6));
+  shadow: var(--shadow-sm);
 }
 
 /****************************************************************
