@@ -152,13 +152,13 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <div class="badge badge--negative">Negative</div>
   </section>
 
-  <section class="card flex flex-col gap" style="--card-width: 24rem; --row-gap: 1.5rem;">
-    <div class="flex flex-col">
-      <h1 class="text-2xl font-semibold">Create project</h1>
+  <section class="card flex flex-col gap" style="--card-width: 24rem; gap: 1.5rem;">
+    <div class="flex flex-col gap-sm">
+      <h1 class="text-2xl font-semibold leading-none">Create project</h1>
       <p class="text-sm text-subtle">Deploy your new project in one-click.</p>
     </div>
 
-    <div class="flex flex-col gap-sm">
+    <div class="flex flex-col gap">
       <div class="flex flex-col gap-sm">
         <label for="name" class="text-sm font-medium">Name</label>
         <input type="text" id="name" placeholder="Name of your project" class="input">
