@@ -51,35 +51,32 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 
 ```html+erb
 <artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 56rem">
-  <section class="flex flex-col gap">
+  <%= form_with url: "/users", class: "flex flex-col gap" do |form| %>
     <div class="flex flex-col gap-sm">
-      <label for="name_field" class="text-sm font-medium">Full name *</label>
-      <input type="text" id="name_field" class="input" required>
+      <%= form.label :full_name, class: "text-sm font-medium" %>
+      <%= form.text_field :full_name, class: "input", required: true %>
     </div>
 
     <div class="flex flex-col gap-sm">
-      <label for="date_field" class="text-sm font-medium">Date picker</label>
-      <input type="date" id="date_field" class="input">
+      <%= form.label :date_picker, class: "text-sm font-medium" %>
+      <%= form.date_field :date_picker, class: "input" %>
     </div>
 
     <div class="flex flex-col gap-sm">
-      <label for="age_range_field" class="text-sm font-medium">Age Range</label>
-      <select id="age_range_field" class="input">
-        <option value="0-13">0-13</option>
-        <option value="14-17">14-17</option>
-      </select>
+      <%= form.label :age_range, class: "text-sm font-medium" %>
+      <%= form.select :age_range, ["0-13", "14-17", "18-23"], {}, class: "input" %>
     </div>
 
     <div class="flex flex-col gap-sm">
-      <label for="comment_field" class="text-sm font-medium">Comment</label>
-      <textarea id="comment_field" rows="3" class="input"></textarea>
+      <%= form.label :comment, class: "text-sm font-medium" %>
+      <%= form.text_area :comment, class: "input", style: "--input-lines: 4lh" %>
     </div>
 
     <label class="flex items-center gap-sm" for="terms">
-      <input type="checkbox" class="switch" id="terms">
+      <%= form.check_box :terms, class: "switch" %>
       <span class="text-sm font-medium">Accept terms and conditions</span>
     </label>
-  </section>
+  <% end %>
 
   <section class="flex flex-wrap items-center gap" aria-busy>
     <button class="btn">Primary</button>
@@ -87,11 +84,14 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <button class="btn btn--outline">Outline</button>
     <button class="btn btn--plain">Plain</button>
     <button class="btn btn--negative">Negative</button>
-    <button class="btn btn--loading" disabled><span>Submit</span></button>
 
     <button class="btn">
       <%= image_tag "circle-alert.svg", role: "presentation", size: 16 %>
       <span>With icon</span>
+    </button>
+
+    <button class="btn btn--loading" disabled>
+      <span>Please wait</span>
     </button>
   </section>
 
