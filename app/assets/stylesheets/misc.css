@@ -54,7 +54,6 @@
 .card {
   border-radius: var(--card-border-radius, var(--rounded-lg));
   border-width: var(--border);
-  inline-size: var(--card-width, auto);
   padding: var(--card-padding, var(--size-6));
   shadow: var(--shadow-sm);
 }

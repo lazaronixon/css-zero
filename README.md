@@ -152,7 +152,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <div class="badge badge--negative">Negative</div>
   </section>
 
-  <section class="card flex flex-col gap" style="--card-width: 24rem; gap: 1.5rem;">
+  <section class="card flex flex-col gap" style="width: 350px; gap: 1.5rem;">
     <div class="flex flex-col gap-sm">
       <h1 class="text-2xl font-semibold leading-none">Create project</h1>
       <p class="text-sm text-subtle">Deploy your new project in one-click.</p>
