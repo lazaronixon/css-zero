@@ -62,11 +62,6 @@
   --btn-icon-color: var(--color-filter-text);
 }
 
-.btn--positive {
-  --btn-background: var(--color-positive);
-  --btn-color: white;
-}
-
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-color: white;

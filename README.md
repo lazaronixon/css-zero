@@ -86,7 +86,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     <button class="btn btn--secondary">Secondary</button>
     <button class="btn btn--outline">Outline</button>
     <button class="btn btn--plain">Plain</button>
-    <button class="btn btn--positive">Positive</button>
     <button class="btn btn--negative">Negative</button>
     <button class="btn btn--loading" disabled><span>Submit</span></button>
 
