@@ -51,6 +51,7 @@
 .opacity-75 { opacity: var(--opacity-75); }
 .opacity-50 { opacity: var(--opacity-50); }
 
+.leading-none { line-height: var(--leading-none); }
 .leading-tight { line-height: var(--leading-tight); }
 .leading-normal { line-height: var(--leading-normal); }
 
@@ -91,6 +92,8 @@
 *****************************************************************/
 .colorize-black { filter: var(--color-filter-text); }
 .colorize-white { filter: var(--color-filter-text-reversed); }
+.colorize-negative { filter: var(--color-filter-negative); }
+.colorize-positive { filter: var(--color-filter-positive); }
 
 /****************************************************************
 * Border

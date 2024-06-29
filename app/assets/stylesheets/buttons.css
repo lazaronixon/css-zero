@@ -1,8 +1,8 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-primary));
-  border-radius: var(--btn-border-radius, var(--rounded-md));
   border: var(--btn-border-size, 0px) solid var(--btn-border-color, var(--color-border));
+  border-radius: var(--btn-border-radius, var(--rounded-md));
   color: var(--btn-color, var(--color-text-reversed));
   cursor: pointer;
   display: inline-flex;

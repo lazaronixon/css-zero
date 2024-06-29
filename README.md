@@ -138,6 +138,14 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
     </details>
   </div>
 
+  <div class="alert alert--negative flex items-start gap">
+    <%= image_tag("circle-alert.svg", role: "presentation", size: 16) %>
+    <div class="flex flex-col">
+      <h1 class="font-medium leading-none mbe-1">Error</h1>
+      <p class="text-sm">Your session has expired. Please log in again.</p>
+    </div>
+  </div>  
+
   <section>
     <dialog id="my_dialog" class="dialog" style="--dialog-max-width: 28rem">
       <form method="dialog">
