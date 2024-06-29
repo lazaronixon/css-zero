@@ -8,10 +8,16 @@ An opinionated CSS starter kit for your application. You can think of it like a 
 bundle add css-zero
 ```
 
-This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to load all the CSS files in your layout.html.erb.
+This gem requires [Propshaft](https://github.com/rails/propshaft), Make sure to load all the CSS files in your `layout.html.erb`.
 
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
+```
+
+This gem requires [Importmaps](https://github.com/rails/importmap-rails), Make sure to load all the JS files in your `layout.html.erb`.
+
+```html+erb
+<%= javascript_importmap_tags %>
 ```
 
 ## Usage
@@ -47,18 +53,13 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
 <artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 56rem">
   <section class="flex flex-col gap">
     <div class="flex flex-col grow gap-small">
-      <label for="name_field" class="text-sm font-medium">Full name</label>
-      <input type="text" id="name_field" class="input" minlength="2" required>
+      <label for="name_field" class="text-sm font-medium">Full name *</label>
+      <input type="text" id="name_field" class="input" required>
     </div>
 
     <div class="flex flex-col gap-small">
       <label for="date_field" class="text-sm font-medium">Date picker</label>
       <input type="date" id="date_field" class="input">
-    </div>
-
-    <div class="flex flex-col gap-small">
-      <label for="file_field" class="text-sm font-medium">File</label>
-      <input type="file" id="file_field" class="input">
     </div>
 
     <div class="flex flex-col gap-small">
@@ -138,16 +139,31 @@ Check the [CSS files](app/assets/stylesheets) in the repository for reference.
   </div>
 
   <section>
-    <dialog id="my_modal" class="dialog dialog--drawer">
-      <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
-      <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
+    <dialog id="my_dialog" class="dialog" style="--dialog-max-width: 28rem">
+      <form method="dialog">
+        <button class="btn btn--plain dialog__close p-0">
+          <%= image_tag("x.svg", role: "presentation", size: 16) %>
+          <span class="sr-only">Close dialog</span>
+        </button>
+      </form>
 
-      <div class="flex gap-small justify-end mbs-4">
-        <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
-        <button class="btn btn--primary">Continue</button>
+      <div class="flex flex-col">
+        <h1 class="text-lg font-semibold">Share link</h1>
+        <p class="text-sm text-subtle">Anyone who has this link will be able to view this.</p>
+      </div>
+
+      <div class="flex gap-small mbs-4">
+        <div class="flex gap-small w-full">
+          <label for="link" class="sr-only">Link</label>
+          <input type="input" id="link" value="https://github.com/lazaronixon/css-zero" class="input" readonly autofocus>
+        </div>
+        <button class="btn btn--primary">Copy</button>
       </div>
     </dialog>
-    <button class="btn" onclick="my_modal.showModal();">Show modal</button>
+
+    <button class="btn" data-controller="show-dialog" data-action="show-dialog#showModal" data-show-dialog-target-value="#my_dialog">
+      Show modal
+    </button>
   </section>
 </artice>
 ```
