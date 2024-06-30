@@ -7,9 +7,8 @@
   font-size: var(--input-font-size, var(--text-sm));
   inline-size: 100%;
   padding: var(--input-padding, .5rem .75rem);
-  resize: none;
 
-  &:is(textarea) {
+  &:is(textarea):not([rows]) {
     field-sizing: content;
     min-block-size: var(--input-lines, 4lh);
     max-block-size: var(--input-max-lines, 11lh);
@@ -39,4 +38,19 @@
     cursor: not-allowed;
     opacity: var(--opacity-50);
   }
+}
+
+.checkbox, .radio {
+  accent-color: var(--color-primary);
+  transform: scale(1.15);
+}
+
+.range {
+  accent-color: var(--color-primary);
+}
+
+/* Keyboard navigation */
+:where(.input, .checkbox, .radio, .range):focus-visible {
+  outline: 2px solid var(--color-border-darker);
+  outline-offset: 2px;
 }
