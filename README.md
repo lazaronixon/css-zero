@@ -4,20 +4,28 @@ An opinionated CSS starter kit for your application. You can think of it like a 
 
 ## Installation
 
+Add this gem to the Gemfile and run bundle install.
+
 ```
 bundle add css-zero
+```
+
+Add the base.css file to your application.
+
+```
+bin/rails generate css_zero:install
+```
+
+Add only the components you need. (Optional)
+
+```
+bin/rails generate css_zero:add accordion alert badge button card dialog input progress separator switch table
 ```
 
 This gem requires [Propshaft](https://github.com/rails/propshaft), Make sure to load all the CSS files in your `layout.html.erb`.
 
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
-```
-
-This gem requires [Importmaps](https://github.com/rails/importmap-rails), Make sure to load all the JS files in your `layout.html.erb`.
-
-```html+erb
-<%= javascript_importmap_tags %>
 ```
 
 ## Usage
@@ -27,8 +35,12 @@ This gem requires [Importmaps](https://github.com/rails/importmap-rails), Make s
   Write most page content using utility classes.
 </h1>
 
-<div class="component">
-  Write custom CSS using predefined variables for components.
+<div class="custom-component">
+  Create components using CSS variables.
+</div>
+
+<div class="card">
+  Optionally, copy pre-built components into your application.
 </div>
 ```
 

@@ -1,0 +1,27 @@
+accordion:
+  - app/assets/stylesheets/accordion.css
+  - app/assets/images/chevron-down.svg
+alert:
+  - app/assets/stylesheets/alert.css
+badge:
+  - app/assets/stylesheets/badge.css
+button:
+  - app/assets/stylesheets/button.css
+  - app/assets/images/loader-circle.svg
+card:
+  - app/assets/stylesheets/card.css
+dialog:
+  - app/assets/stylesheets/dialog.css
+  - app/assets/images/x.svg
+  - app/javascript/controllers/show_dialog_controller.js
+input:
+  - app/assets/stylesheets/input.css
+  - app/assets/images/chevron-down.svg
+progress:
+  - app/assets/stylesheets/progress.css
+separator:
+  - app/assets/stylesheets/separator.css
+switch:
+  - app/assets/stylesheets/switch.css
+table:
+  - app/assets/stylesheets/table.css

@@ -1,0 +1,5 @@
+Description:
+    This will copy base.css into your application.
+
+Example:
+    bin/rails generate css_zero:install

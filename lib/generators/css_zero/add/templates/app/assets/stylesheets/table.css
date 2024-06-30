@@ -1,0 +1,27 @@
+.table {
+  font-size: var(--table-font-size, var(--text-sm));
+  inline-size: 100%;
+
+  thead {
+    color: var(--color-text-subtle);
+  }
+
+  tbody tr {
+    border-top: 1px solid var(--color-border);
+  }
+
+  th {
+    font-weight: var(--font-medium);
+    text-align: left;
+  }
+
+  th, td {
+    padding: var(--table-padding, 1rem);
+  }
+
+  tfoot {
+    background-color: var(--color-secondary);
+    border-top: 1px solid var(--color-border);
+    font-weight: var(--font-medium);
+  }
+}

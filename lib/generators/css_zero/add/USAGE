@@ -1,0 +1,8 @@
+Description:
+    This will add components into your project.
+
+Components:
+  accordion alert badge button card dialog input progress separator switch table
+
+Example:
+    bin/rails generate css_zero:add [components...]
