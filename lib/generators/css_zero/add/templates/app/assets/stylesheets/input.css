@@ -1,24 +1,19 @@
 .input {
   appearance: none;
-  background-color: var(--input-background, var(--color-bg));
-  border-radius: var(--input-border-radius, var(--rounded-md));
-  border: var(--input-border-size, 1px) solid var(--input-border-color, var(--color-border));
+  background-color: var(--color-bg);
+  border-color: var(--color-border);
+  border-radius: var(--rounded-md);
+  border-width: var(--border);
   box-shadow: var(--shadow-xs);
-  font-size: var(--input-font-size, var(--text-sm));
-  inline-size: 100%;
-  padding: var(--input-padding, .5rem .75rem);
-
-  &:is(textarea):not([rows]) {
-    field-sizing: content;
-    min-block-size: var(--input-lines, 4lh);
-    max-block-size: var(--input-max-lines, 11lh);
-  }
+  font-size: var(--text-sm);
+  inline-size: var(--size-full);
+  padding: var(--size-2) var(--size-3);
 
   &:is(select):not([multiple], [size]) {
-    background-image: var(--select-icon, url("chevron-down.svg"));
-    background-position: center right var(--select-icon-position, .75rem);
+    background-image: url("select-arrow.svg");
+    background-position: center right var(--size-2);
     background-repeat: no-repeat;
-    background-size: var(--select-icon-size, 1rem) auto;
+    background-size: var(--size-4) auto;
   }
 
   &::file-selector-button {
@@ -40,17 +35,17 @@
   }
 }
 
+.range {
+  accent-color: var(--color-primary);
+}
+
 .checkbox, .radio {
   accent-color: var(--color-primary);
   transform: scale(1.15);
 }
 
-.range {
-  accent-color: var(--color-primary);
-}
-
 /* Keyboard navigation */
-:where(.input, .checkbox, .radio, .range):focus-visible {
-  outline: 2px solid var(--color-border-darker);
-  outline-offset: 2px;
+:where(.input, .range, .checkbox, .radio):focus-visible {
+  outline: var(--border-2) solid var(--color-border-darker);
+  outline-offset: var(--border-2);
 }

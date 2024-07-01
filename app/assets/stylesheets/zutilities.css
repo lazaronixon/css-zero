@@ -98,12 +98,12 @@
 /****************************************************************
 * Border
 *****************************************************************/
-.border-0 { border: 0; }
-.border { border: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
-.border-t { border-top: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
-.border-b { border-bottom: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
-.border-l { border-left: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
-.border-r { border-right: var(--border-size, 1px) solid var(--border-color, var(--color-border)); }
+.border-0 { border-width: 0; }
+.border { border-width: var(--border-size, 1px); }
+.border-bs { border-block-start-width: var(--border-size, 1px); }
+.border-be { border-block-end-width: var(--border-size, 1px); }
+.border-is { border-inline-start-width: var(--border-size, 1px); }
+.border-ie { border-inline-end-width: var(--border-size, 1px); }
 
 .rounded-none { border-radius: none; }
 .rounded-sm { border-radius: var(--rounded-sm); }

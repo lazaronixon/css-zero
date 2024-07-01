@@ -1,9 +1,10 @@
 .alert {
-  border: var(--alert-border-size, 1px) solid var(--alert-border-color, var(--color-border));
-  border-radius: var(--alert-border-radius, var(--rounded-lg));
+  border-color: var(--alert-border-color, var(--color-border));
+  border-radius: var(--rounded-lg);
+  border-width: var(--border);
   color: var(--alert-color, var(--color-text));
-  padding: var(--alert-padding, 1rem);
-  inline-size: 100%;
+  padding: var(--size-4);
+  inline-size: var(--size-full);
 
   img:not([class]) {
     filter: var(--alert-icon-color, var(--color-filter-text-reversed));

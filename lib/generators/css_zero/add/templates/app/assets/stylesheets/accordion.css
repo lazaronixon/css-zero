@@ -1,11 +1,16 @@
 .accordion {
-  inline-size: 100%;
+  inline-size: var(--size-full);
 
   details {
-    border-bottom-width: var(--border);
+    border-block-end-width: var(--border);
+    transition: padding var(--time-150) var(--ease-in-out);
+
+    &[open] {
+      padding-block-end: var(--size-4);
+    }
 
     &[open] summary::after {
-      transform: rotate(180deg);
+      transform: var(--rotate-180);
     }
   }
 
@@ -15,11 +20,11 @@
     display: flex;
     font-weight: var(--font-medium);
     justify-content: space-between;
-    padding-block: 1rem;
+    padding-block: var(--size-4);
 
     &:focus-visible {
-      outline: 2px solid var(--color-border-darker);
-      outline-offset: 2px;
+      outline: var(--border-2) solid var(--color-border-darker);
+      outline-offset: var(--border-2);
     }
 
     &::-webkit-details-marker {
@@ -27,12 +32,13 @@
     }
 
     &::after {
-      background-image: var(--accordion-icon, url("chevron-down.svg"));
+      background-image: url("chevron-down.svg");
       background-size: cover;
-      block-size: var(--accordion-icon-size, 1rem);
+      block-size: var(--size-4);
       content: "";
-      inline-size: var(--accordion-icon-size, 1rem);
-      transition: transform 200ms;
+      filter: var(--color-filter-text);
+      inline-size: var(--size-4);
+      transition: transform var(--time-200) var(--ease-in-out);
     }
   }
 }

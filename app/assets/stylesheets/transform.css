@@ -2,9 +2,8 @@
   /****************************************************************
   * Scale
   * Variables for scaling elements with transform.
-  * transform: var(--scale-0);
+  * transform: scale(var(--scale-100));
   *****************************************************************/
-  --scale-0:   0;
   --scale-50:  0.50;
   --scale-75:  0.75;
   --scale-90:  0.90;
@@ -20,20 +19,20 @@
   * Variables for rotating elements with transform.
   * transform: var(--rotate-45);
   *****************************************************************/
-  --rotate-0:   0deg;
-  --rotate-1:   1deg;
-  --rotate-2:   2deg;
-  --rotate-3:   3deg;
-  --rotate-6:   6deg;
-  --rotate-12:  12deg;
-  --rotate-45:  45deg;
-  --rotate-90:  90deg;
-  --rotate-180: 180deg;
+  --rotate-0:   rotate(0deg);
+  --rotate-1:   rotate(1deg);
+  --rotate-2:   rotate(2deg);
+  --rotate-3:   rotate(3deg);
+  --rotate-6:   rotate(6deg);
+  --rotate-12:  rotate(12deg);
+  --rotate-45:  rotate(45deg);
+  --rotate-90:  rotate(90deg);
+  --rotate-180: rotate(180deg);
 
   /****************************************************************
   * Translate
   * Variables for translating elements with transform.
-  * transform: var(--translate-1-2);
+  * transform: translateY(var(--translate-1-2));
   *****************************************************************/
   --translate-1-2:  50%;
   --translate-1-3:  33.333333%;
@@ -46,7 +45,7 @@
   /****************************************************************
   * Skew
   * Varibles for skewing elements with transform.
-  * transform: var(--skew-3);
+  * transform: skewY(var(--skew-3));
   *****************************************************************/
   --skew-0:  0deg;
   --skew-1:  1deg;

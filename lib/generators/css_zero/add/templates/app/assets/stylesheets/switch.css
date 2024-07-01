@@ -1,31 +1,37 @@
 .switch {
-  --height: var(--switch-height, var(--size-6));
-  --width:  var(--switch-width, var(--size-11));
-
   appearance: none;
-  background-color: var(--switch-color, var(--color-border));
-  border: 2px solid transparent;
-  border-radius: var(--switch-border-radius, var(--rounded-full));
-  block-size: var(--height);
+  background-color: var(--color-border);
+  border-color: transparent;
+  border-radius: var(--rounded-full);
+  border-width: var(--border-2);
+  block-size: var(--size-6);
   cursor: pointer;
-  inline-size: var(--width);
+  inline-size: var(--size-11);
+  transition-duration: var(--time-150);
+  transition-property: var(--transition-colors);
+  transition-timing-function: var(--ease-in-out);
 
   &:checked {
-    background-color: var(--switch-checked-color, var(--color-primary));
+    background-color: var(--color-primary);
   }
 
   &:checked::before {
-    margin-inline-start: calc(var(--width) - var(--height));
+    margin-inline-start: var(--size-5);
   }
 
   &::before {
     aspect-ratio: 1;
-    background-color: var(--switch-toggle-color, var(--color-text-reversed));
-    block-size: 100%;
-    border-radius: var(--switch-border-radius, var(--rounded-full));
+    background-color: var(--color-text-reversed);
+    block-size: var(--size-full);
+    border-radius: var(--rounded-full);
     content: "";
     display: block;
-    transition: margin 150ms ease;
+    transition: margin var(--time-150) var(--ease-in-out);
+  }
+
+  &:focus-visible {
+    outline: var(--border-2) solid var(--color-border-darker);
+    outline-offset: var(--border-2);
   }
 
   &:disabled {

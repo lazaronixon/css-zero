@@ -1,6 +1,0 @@
-.separator {
-  border-block-start-width: var(--border-width, 1px);
-  border-block-start-style: var(--border-style, solid);
-  border-block-start-color: var(--border-color, var(--color-border));
-  inline-size: 100%;
-}

@@ -1,16 +1,17 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-primary));
-  border: var(--btn-border-size, 0px) solid var(--btn-border-color, var(--color-border));
-  border-radius: var(--btn-border-radius, var(--rounded-md));
+  border-color: var(--color-border);
+  border-radius: var(--rounded-md);
+  border-width: var(--btn-border-width, 0);
   color: var(--btn-color, var(--color-text-reversed));
   cursor: pointer;
   display: inline-flex;
-  font-size: var(--btn-font-size, var(--text-sm));
+  font-size: var(--text-sm);
   font-weight: var(--font-medium);
   gap: var(--size-2);
   justify-content: center;
-  padding: var(--btn-padding, .5rem 1rem);
+  padding: var(--size-2) var(--size-4);
   position: relative;
   text-align: center;
   white-space: nowrap;
@@ -20,31 +21,13 @@
   }
 
   &:focus-visible {
-    outline: 2px solid var(--color-border-darker);
-    outline-offset: 2px;
+    outline: var(--border-2) solid var(--color-border-darker);
+    outline-offset: var(--border-2);
   }
 
   &:disabled {
     opacity: var(--opacity-50);
     pointer-events: none;
-  }
-}
-
-.btn--loading {
-  [aria-busy] &:disabled {
-    > * { visibility: hidden; }
-
-    &::after {
-      animation: var(--animate-spin);
-      background-image: var(--btn-loading-icon, url("loader-circle.svg"));
-      background-size: cover;
-      block-size: var(--btn-loading-icon-size, 1rem);
-      content: "";
-      filter: var(--btn-icon-color, var(--color-filter-text-reversed));
-      inline-size: var(--btn-loading-icon-size, 1rem);
-      margin-inline: auto;
-      position: absolute;
-    }
   }
 }
 
@@ -56,7 +39,7 @@
 
 .btn--outline {
   --btn-background: var(--color-bg);
-  --btn-border-size: var(--border);
+  --btn-border-width: var(--border);
   --btn-color: var(--color-text);
   --btn-icon-color: var(--color-filter-text);
 }
@@ -70,4 +53,20 @@
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-color: white;
+}
+
+[aria-busy] .btn--loading {
+  > * { visibility: hidden; }
+
+  &::after {
+    animation: var(--animate-spin);
+    background-image: url("loader-circle.svg");
+    background-size: cover;
+    block-size: var(--size-4);
+    content: "";
+    filter: var(--btn-icon-color, var(--color-filter-text-reversed));
+    inline-size: var(--size-4);
+    margin-inline: auto;
+    position: absolute;
+  }
 }

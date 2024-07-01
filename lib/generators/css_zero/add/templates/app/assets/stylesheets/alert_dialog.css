@@ -1,0 +1,41 @@
+.alert-dialog {
+  background-color: var(--color-bg);
+  border-width: var(--border);
+  box-shadow: var(--shadow-lg);
+  color: var(--color-text);
+  inline-size: var(--size-full);
+  margin: auto;
+  max-inline-size: var(--width-lg);
+  padding: var(--size-6);
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Setup transition */
+  &, &::backdrop {
+    opacity: 0; transition: all var(--time-150) allow-discrete;
+  }
+
+  /* Fade in */
+  &[open], &[open]::backdrop {
+    opacity: 1;
+  }
+
+  /* Fade out */
+  @starting-style {
+    &[open], &[open]::backdrop {
+      opacity: 0;
+    }
+  }
+
+  /* Responsiveness */
+  @media (width >= 40rem) {
+    border-radius: var(--rounded-lg);
+  }
+}
+
+/* Prevent page scroll when modal alert dialog is visible */
+html:has(.alert-dialog[open]) {
+  overflow: hidden;
+}
