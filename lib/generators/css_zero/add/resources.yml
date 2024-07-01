@@ -5,7 +5,7 @@ alert:
   - app/assets/stylesheets/alert.css
 alert_dialog:
   - app/assets/stylesheets/alert_dialog.css
-  - app/javascript/controllers/show_alert_dialog_controller.js
+  - app/javascript/controllers/alert_dialog_trigger_controller.js
 badge:
   - app/assets/stylesheets/badge.css
 button:
