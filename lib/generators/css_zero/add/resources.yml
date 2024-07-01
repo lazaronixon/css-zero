@@ -13,6 +13,9 @@ button:
   - app/assets/images/loader-circle.svg
 card:
   - app/assets/stylesheets/card.css
+dialog:
+  - app/assets/stylesheets/dialog.css
+  - app/assets/images/x.svg
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg

@@ -1,4 +1,4 @@
-.alert-dialog {
+.dialog {
   background-color: var(--color-bg);
   border-width: var(--border);
   box-shadow: var(--shadow-lg);
@@ -21,15 +21,15 @@
   }
 
   /* Fade in */
-  &[open],
-  &[open]::backdrop {
+  &:popover-open,
+  &:popover-open::backdrop {
     opacity: 1;
   }
 
   /* Fade out */
   @starting-style {
-    &[open],
-    &[open]::backdrop {
+    &:popover-open,
+    &:popover-open::backdrop {
       opacity: 0;
     }
   }
@@ -40,7 +40,12 @@
   }
 }
 
-/* Prevent page scroll when alert dialog is open */
-html:has(.alert-dialog[open]) {
+.dialog__close {
+  position: absolute;
+  inset: var(--size-4) var(--size-4) auto auto;
+}
+
+/* Prevent page scroll when dialog is visible */
+html:has(.dialog:popover-open) {
   overflow: hidden;
 }

@@ -19,7 +19,7 @@ bin/rails generate css_zero:install
 Add only the components you need. (Optional)
 
 ```
-bin/rails generate css_zero:add accordion alert alert_dialog badge button card input progress switch table
+bin/rails generate css_zero:add accordion alert alert_dialog badge button card dialog input progress switch table
 ```
 
 This gem requires [Propshaft](https://github.com/rails/propshaft), Make sure to load all the CSS files in your `layout.html.erb`.
