@@ -1,6 +1,7 @@
 .alert-dialog {
   background-color: var(--color-bg);
   border-width: var(--border);
+  border-radius: var(--rounded-lg);
   box-shadow: var(--shadow-lg);
   color: var(--color-text);
   inline-size: var(--size-full);
@@ -9,34 +10,46 @@
   padding: var(--size-6);
 
   &::backdrop {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, .8);
   }
 
-  /* Setup transition */
-  &, &::backdrop {
+  /* Setup animation */
+  opacity: 0;
+  transform: var(--scale-95);
+  transition-behavior: allow-discrete;
+  transition-duration: var(--time-150);
+  transition-property: display overlay opacity transform;
+
+  &::backdrop {
     opacity: 0;
     transition-behavior: allow-discrete;
     transition-duration: var(--time-150);
     transition-property: display overlay opacity;
   }
 
-  /* Fade in */
-  &[open],
+  /* In animation */
+  &[open] {
+    opacity: 1; transform: var(--scale-100);
+  }
+
   &[open]::backdrop {
     opacity: 1;
   }
 
-  /* Fade out */
+  /* Out animation */
   @starting-style {
-    &[open],
+    &[open] {
+      opacity: 0; transform: var(--scale-95);
+    }
+
     &[open]::backdrop {
       opacity: 0;
     }
   }
 
-  /* Responsiveness */
-  @media (width >= 40rem) {
-    border-radius: var(--rounded-lg);
+  /* Small screens */
+  @media (width < 40rem) {
+    border-radius: 0;
   }
 }
 

@@ -2,17 +2,17 @@
   /****************************************************************
   * Scale
   * Variables for scaling elements with transform.
-  * transform: scale(var(--scale-100));
+  * transform: scale(--scale-100);
   *****************************************************************/
-  --scale-50:  0.50;
-  --scale-75:  0.75;
-  --scale-90:  0.90;
-  --scale-95:  0.95;
-  --scale-100: 1;
-  --scale-105: 1.05;
-  --scale-110: 1.10;
-  --scale-125: 1.25;
-  --scale-150: 1.50;
+  --scale-50:  scale(0.50);
+  --scale-75:  scale(0.75);
+  --scale-90:  scale(0.90);
+  --scale-95:  scale(0.95);
+  --scale-100: scale(1);
+  --scale-105: scale(1.05);
+  --scale-110: scale(1.10);
+  --scale-125: scale(1.25);
+  --scale-150: scale(1.50);
 
   /****************************************************************
   * Rotate
