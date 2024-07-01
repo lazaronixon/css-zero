@@ -30,27 +30,20 @@
   --rotate-180: rotate(180deg);
 
   /****************************************************************
-  * Translate
-  * Variables for translating elements with transform.
-  * transform: translateY(var(--translate-1-2));
-  *****************************************************************/
-  --translate-1-2:  50%;
-  --translate-1-3:  33.333333%;
-  --translate-2-3:  66.666667%;
-  --translate-1-4:  25%;
-  --translate-2-4:  50%;
-  --translate-3-4:  75%;
-  --translate-full: 100%;
-
-  /****************************************************************
   * Skew
   * Varibles for skewing elements with transform.
-  * transform: skewY(var(--skew-3));
+  * transform: var(--skew-x-3);
   *****************************************************************/
-  --skew-0:  0deg;
-  --skew-1:  1deg;
-  --skew-2:  2deg;
-  --skew-3:  3deg;
-  --skew-6:  6deg;
-  --skew-12: 12deg;
+  --skew-x-0:  skewX(0deg);
+  --skew-y-0:  skewY(0deg);
+  --skew-x-1:  skewX(1deg);
+  --skew-y-1:  skewY(1deg);
+  --skew-x-2:  skewX(2deg);
+  --skew-y-2:  skewY(2deg);
+  --skew-x-3:  skewX(3deg);
+  --skew-y-3:  skewY(3deg);
+  --skew-x-6:  skewX(6deg);
+  --skew-y-6:  skewY(6deg);
+  --skew-x-12: skewX(12deg);
+  --skew-y-12: skewY(12deg);
 }
