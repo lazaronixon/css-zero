@@ -14,7 +14,7 @@ class CssZero::AddGenerator < Rails::Generators::Base
       if resources.has_key?(component)
         resources[component].each { |resource| copy_file(resource) }
       else
-        say "Component \"#{component}\" is invalid, use --help to list available components", :red
+        say_status :invalid, component, :red
       end
     end
 
