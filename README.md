@@ -251,7 +251,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <summary>Show me the code</summary>
 
 ```html
-<artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 32rem">
 <div>
   <dialog id="my_dialog" class="dialog" style="max-inline-size: 430px;" popover>
     <button class="btn btn--plain p-0 dialog__close" popovertarget="my_dialog" popovertargetaction="hide">
