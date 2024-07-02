@@ -114,10 +114,7 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
     </div>
   </dialog>
 
-  <button class="btn"
-          data-controller="dialog-control"
-          data-action="dialog-control#showModal"
-          data-dialog-control-target-value="my_alert_dialog">
+  <button class="btn" data-controller="dialog-control" data-dialog-control-target-value="my_alert_dialog" data-action="dialog-control#showModal">
     Show alert dialog
   </button>
 </div>
@@ -130,12 +127,12 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <summary>Show me the code!</summary>
 
 ```html
-<section class="flex justify-start gap">
+<div class="flex justify-start gap">
   <div class="badge">Badge</div>
   <div class="badge badge--secondary">Secondary</div>
   <div class="badge badge--outline">Outline</div>
   <div class="badge badge--negative">Negative</div>
-</section>
+</div>
 ```
 </details>
 
@@ -207,6 +204,41 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <summary>Show me the code!</summary>
 
 ```html
+<div>
+  <dialog id="my_dialog" class="dialog" style="max-inline-size: 430px;" popover>
+    <button class="btn btn--plain p-0 dialog__close" popovertarget="my_dialog" popovertargetaction="hide">
+      <%= image_tag "x.svg", aria: { hidden: "true" }, size: 16 %>
+      <span class="sr-only">Close</span>
+    </button>
+
+    <div class="flex flex-col gap">
+      <div>
+        <h1 class="text-lg leading-none font-semibold">Edit profile</h1>
+        <p class="text-sm text-subtle mbs-2">Make changes to your profile here. Click save when you're done.</p>
+      </div>
+
+      <div class="flex flex-col mb-4 gap">
+        <div class="grid grid-cols-4 items-center gap">
+          <label for="name" class="text-sm font-medium text-end">Name</label>
+          <input type="text" id="name" value="Lázaro Nixon" class="input col-span-3">
+        </div>
+
+        <div class="grid grid-cols-4 items-center gap">
+          <label for="username" class="text-sm font-medium text-end">Username</label>
+          <input type="text" id="username" value="@lazaronixon" class="input col-span-3">
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end">
+        <input type="submit" value= "Save changes" class="btn"/>
+      </div>
+    </div>
+  </dialog>
+
+  <button class="btn" popovertarget="my_dialog">
+    Show modal
+  </button>
+</div>
 ```
 </details>
 
