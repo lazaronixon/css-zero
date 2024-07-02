@@ -4,7 +4,7 @@ An opinionated CSS starter kit for your application. You can think of it like a 
 
 ## Installation
 
-This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to load all the CSS files in your `layout.html.erb`.
+Is recommended to use [Propshaft](https://github.com/rails/propshaft), make sure to load all the CSS files in your `layout.html.erb`.
 
 ```html+erb
 <%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
@@ -45,7 +45,7 @@ bin/rails generate css_zero:add accordion alert alert_dialog badge button card d
 ```
 
 ```css
-.component {
+.custom-component {
   background-color: var(--red-500);
   border-radius: var(--rounded);
   block-size: var(--size-4);
@@ -55,8 +55,6 @@ bin/rails generate css_zero:add accordion alert alert_dialog badge button card d
 Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
 
 ## Components
-
-Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/stylesheets) in the repository to see the source of the components.
 
 ### Accordion
 
@@ -219,6 +217,7 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <summary>Show me the code!</summary>
 
 ```html
+<artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 32rem">
 <div>
   <dialog id="my_dialog" class="dialog" style="max-inline-size: 430px;" popover>
     <button class="btn btn--plain p-0 dialog__close" popovertarget="my_dialog" popovertargetaction="hide">
@@ -227,9 +226,9 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
     </button>
 
     <div class="flex flex-col gap">
-      <div>
+      <div class="flex flex-col gap-sm">
         <h1 class="text-lg leading-none font-semibold">Edit profile</h1>
-        <p class="text-sm text-subtle mbs-2">Make changes to your profile here. Click save when you're done.</p>
+        <p class="text-sm text-subtle">Make changes to your profile here. Click save when you're done.</p>
       </div>
 
       <div class="flex flex-col mb-4 gap">
@@ -251,7 +250,7 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
   </dialog>
 
   <button class="btn" popovertarget="my_dialog">
-    Show modal
+    Show dialog
   </button>
 </div>
 ```
