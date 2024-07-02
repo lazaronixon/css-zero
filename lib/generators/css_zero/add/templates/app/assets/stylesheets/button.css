@@ -55,18 +55,20 @@
   --btn-color: white;
 }
 
-[aria-busy] .btn--loading {
-  > * { visibility: hidden; }
+.btn--loading {
+  [aria-busy] &:disabled {
+    > * { visibility: hidden; }
 
-  &::after {
-    animation: var(--animate-spin);
-    background-image: url("loader-circle.svg");
-    background-size: cover;
-    block-size: var(--size-4);
-    content: "";
-    filter: var(--btn-icon-color, var(--color-filter-text-reversed));
-    inline-size: var(--size-4);
-    margin-inline: auto;
-    position: absolute;
+    &::after {
+      animation: var(--animate-spin);
+      background-image: url("loader-circle.svg");
+      background-size: cover;
+      block-size: var(--size-4);
+      content: "";
+      filter: var(--btn-icon-color, var(--color-filter-text-reversed));
+      inline-size: var(--size-4);
+      margin-inline: auto;
+      position: absolute;
+    }
   }
 }

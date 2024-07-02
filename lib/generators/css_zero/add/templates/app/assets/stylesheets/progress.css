@@ -4,16 +4,16 @@
   block-size: var(--size-4);
   inline-size: var(--size-full);
   overflow: hidden;
-}
 
-.progress::-moz-progress-bar {
-  background-color: var(--color-primary);
-}
+  &::-webkit-progress-bar {
+    background-color: var(--color-secondary);
+  }
 
-.progress::-webkit-progress-value {
-  background-color: var(--color-primary);
-}
+  &::-webkit-progress-value {
+    background-color: var(--color-primary);
+  }
 
-.progress::-webkit-progress-bar {
-  background-color: var(--color-secondary);
+  &::-moz-progress-bar {
+    background-color: var(--color-primary);
+  }
 }

@@ -45,7 +45,7 @@
 }
 
 /* Keyboard navigation */
-:where(.input, .range, .checkbox, .radio):focus-visible {
+:is(.input, .range, .checkbox, .radio):focus-visible {
   outline: var(--border-2) solid var(--color-border-darker);
   outline-offset: var(--border-2);
 }

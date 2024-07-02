@@ -1,4 +1,4 @@
-.accordion {
+:where(.accordion) {
   inline-size: var(--size-full);
 
   details {
