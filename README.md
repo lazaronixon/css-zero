@@ -61,7 +61,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="accordion" src="https://github.com/lazaronixon/css-zero/assets/2651240/9644edec-9bb1-4e1f-b2da-19c7fb5a540f">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <div class="accordion">
@@ -86,7 +86,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="alert" src="https://github.com/lazaronixon/css-zero/assets/2651240/eae5c6dd-f6b4-4c01-bec1-cd7e9523d0a6">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html+erb
 <div class="alert alert--negative flex items-start gap">
@@ -104,7 +104,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="alert_dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/483b00fc-0330-45b3-82c5-dc4118987564">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <div>
@@ -130,7 +130,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/6a700dc4-0fd5-46f6-9902-a9bde5f7febb">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <div class="flex justify-start gap">
@@ -148,7 +148,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="button" src="https://github.com/lazaronixon/css-zero/assets/2651240/0c2ee625-9e6b-4f9c-8437-8d6751e4e508">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <div class="flex flex-wrap items-center gap" aria-busy>
@@ -175,7 +175,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="366" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/f4077b91-2d0c-49db-9fb6-2955f8575217">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <div class="card flex flex-col gap" style="width: 350px; gap: 1.5rem;">
@@ -214,7 +214,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="400" alt="dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/50c8af20-46bb-4bf9-a233-78877f49e086">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <artice class="flex flex-col pb-10 pi-2 mi-auto w-full" style="gap: 4rem; max-width: 32rem">
@@ -261,7 +261,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="input" src="https://github.com/lazaronixon/css-zero/assets/2651240/f33a9d34-44b5-4c6b-ad88-1f0fd00b7291">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html+erb
 <%= form_with url: "/users", class: "flex flex-col gap" do |form| %>
@@ -298,7 +298,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="progress" src="https://github.com/lazaronixon/css-zero/assets/2651240/32f7b665-ae85-48de-9338-0c255019122e">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <label>
@@ -313,7 +313,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="175" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/b47e28fb-6492-402c-b422-b896dfd3b713">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html+erb
 <div class="flex items-center gap-sm">
@@ -328,7 +328,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <img width="500" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/c7b261a8-6d38-46f2-bf69-fd9385776bbe">
 
 <details>
-<summary>Show me the code!</summary>
+<summary>Show me the code</summary>
 
 ```html
 <table class="table">
