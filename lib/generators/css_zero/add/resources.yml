@@ -3,7 +3,6 @@ accordion:
   - app/assets/images/chevron-down.svg
 alert:
   - app/assets/stylesheets/alert.css
-  - app/assets/images/circle-alert.svg
 alert_dialog:
   - app/assets/stylesheets/alert_dialog.css
   - app/javascript/controllers/dialog_control_controller.js

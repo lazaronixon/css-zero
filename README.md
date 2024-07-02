@@ -59,6 +59,8 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 ```
 </details>
 
+Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
+
 ## Usage
 
 ```html
@@ -189,7 +191,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
   <button class="btn btn--negative">Negative</button>
 
   <button class="btn">
-    <%= image_tag "circle-alert.svg", role: "presentation", size: 16 %>
+    <%= image_tag "circle-plus.svg", role: "presentation", size: 16 %>
     <span>With icon</span>
   </button>
 
