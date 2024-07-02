@@ -19,6 +19,11 @@
   --btn-border-width: var(--border);
 }
 
+.badge--positive {
+  --badge-background: var(--color-positive);
+  --badge-color: white;
+}
+
 .badge--negative {
   --badge-background: var(--color-negative);
   --badge-color: white;

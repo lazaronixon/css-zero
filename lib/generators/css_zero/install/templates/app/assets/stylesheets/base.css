@@ -14,16 +14,19 @@
   --color-primary: light-dark(var(--zinc-900), var(--zinc-50));
   --color-secondary: light-dark(var(--zinc-100), var(--zinc-800));
   --color-negative: light-dark(var(--red-600), var(--red-900));
+  --color-positive: light-dark(var(--green-600), var(--green-900));
 
   /* SVG color values */
   --color-filter-text: invert(0);
   --color-filter-text-reversed: invert(100%);
   --color-filter-negative: invert(31%) sepia(96%) saturate(4646%) hue-rotate(350deg) brightness(91%) contrast(89%);
+  --color-filter-positive: invert(48%) sepia(74%) saturate(520%) hue-rotate(90deg) brightness(89%) contrast(90%);
 
   @media (prefers-color-scheme: dark) {
     --color-filter-text: invert(100%);
     --color-filter-text-reversed: invert(0);
     --color-filter-negative: invert(15%) sepia(83%) saturate(2066%) hue-rotate(345deg) brightness(87%) contrast(88%);
+    --color-filter-positive: invert(23%) sepia(74%) saturate(495%) hue-rotate(91deg) brightness(88%) contrast(89%);
   }
 }
 
