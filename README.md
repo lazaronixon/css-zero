@@ -197,7 +197,33 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <details>
 <summary>Show me the code!</summary>
 
-```html
+```html+erb
+<%= form_with url: "/users", class: "flex flex-col gap" do |form| %>
+  <div class="flex flex-col gap-sm">
+    <%= form.label :name, class: "text-sm font-medium" %>
+    <%= form.text_field :name, class: "input" %>
+  </div>
+
+  <div class="flex flex-col gap-sm">
+    <%= form.label :pick_a_date, class: "text-sm font-medium" %>
+    <%= form.date_field :pick_a_date, class: "input" %>
+  </div>
+
+  <div class="flex flex-col gap-sm">
+    <%= form.label :age_range, class: "text-sm font-medium" %>
+    <%= form.select :age_range, ["0-13", "14-17", "18-23"], {}, class: "input" %>
+  </div>
+
+  <div class="flex flex-col gap-sm">
+    <%= form.label :comment, class: "text-sm font-medium" %>
+    <%= form.text_area :comment, rows: 3, class: "input" %>
+  </div>
+
+  <div class="flex items-center gap-sm">
+    <%= form.check_box :status, class: "checkbox" %>
+    <%= form.label :status, "Send a copy to yourself", class: "text-sm font-medium" %>
+  </div>
+<% end %>
 ```
 </details>
 
@@ -207,6 +233,10 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <summary>Show me the code!</summary>
 
 ```html
+<label>
+  <span class="sr-only">Loading progress</span>
+  <progress value="75" max="100" class="progress"></progress>
+</label>
 ```
 </details>
 
@@ -215,7 +245,11 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <details>
 <summary>Show me the code!</summary>
 
-```html
+```html+erb
+<div class="flex items-center gap-sm">
+  <%= form.check_box :status, class: "switch" %>
+  <%= form.label :status, "Airplane Mode", class: "text-sm font-medium" %>
+</div>
 ```
 </details>
 
