@@ -19,7 +19,7 @@ bin/rails generate css_zero:install
 Add only the components you need. (Optional)
 
 ```
-bin/rails generate css_zero:add accordion alert alert_dialog badge button card dialog input progress switch table
+bin/rails generate css_zero:add accordion alert badge button card dialog input progress switch table
 ```
 
 ### Requirements
@@ -96,7 +96,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <details>
 <summary>Show me the code</summary>
 
-```html
+```html+erb
 <div class="accordion">
   <details name="my_accordion">
     <summary>Is it accessible?</summary>
@@ -132,32 +132,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 ```
 </details>
 
-### Alert Dialog
-
-<img width="500" alt="alert_dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/483b00fc-0330-45b3-82c5-dc4118987564">
-
-<details>
-<summary>Show me the code</summary>
-
-```html
-<div>
-  <dialog id="my_alert_dialog" class="alert-dialog">
-    <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
-    <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
-
-    <div class="flex justify-end gap-sm mbs-4">
-      <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
-      <button class="btn btn--primary">Continue</button>
-    </div>
-  </dialog>
-
-  <button class="btn" data-controller="dialog-control" data-dialog-control-target-value="my_alert_dialog" data-action="dialog-control#showModal">
-    Show alert dialog
-  </button>
-</div>
-```
-</details>
-
 ### Badge
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/6a700dc4-0fd5-46f6-9902-a9bde5f7febb">
@@ -165,7 +139,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <details>
 <summary>Show me the code</summary>
 
-```html
+```html+erb
 <div class="flex justify-start gap">
   <div class="badge">Badge</div>
   <div class="badge badge--secondary">Secondary</div>
@@ -183,7 +157,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <details>
 <summary>Show me the code</summary>
 
-```html
+```html+erb
 <div class="flex flex-wrap items-center gap" aria-busy>
   <button class="btn">Primary</button>
   <button class="btn btn--secondary">Secondary</button>
@@ -211,7 +185,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <details>
 <summary>Show me the code</summary>
 
-```html
+```html+erb
 <div class="card flex flex-col gap" style="width: 350px; gap: 1.5rem;">
   <div class="flex flex-col gap-sm">
     <h1 class="text-2xl font-semibold leading-none">Create project</h1>
@@ -245,15 +219,43 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ### Dialog
 
-<img width="400" alt="dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/50c8af20-46bb-4bf9-a233-78877f49e086">
+#### Alert Dialog
+
+<img width="500" alt="alert_dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/483b00fc-0330-45b3-82c5-dc4118987564">
 
 <details>
 <summary>Show me the code</summary>
 
-```html
+```html+erb
 <div>
-  <dialog id="my_dialog" class="dialog" style="max-inline-size: 430px;" popover>
-    <button class="btn btn--plain p-0 dialog__close" popovertarget="my_dialog" popovertargetaction="hide">
+  <dialog id="alert_dialog" class="dialog">
+    <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
+    <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
+
+    <div class="flex justify-end gap-sm mbs-4">
+      <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
+      <button class="btn btn--primary">Continue</button>
+    </div>
+  </dialog>
+
+  <button class="btn" data-controller="dialog-control" data-dialog-control-target-value="alert_dialog" data-action="dialog-control#showModal">
+    Show alert dialog
+  </button>
+</div>
+```
+</details>
+
+#### Dismissible Dialog
+
+<img width="400" alt="dismissible dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/50c8af20-46bb-4bf9-a233-78877f49e086">
+
+<details>
+<summary>Show me the code</summary>
+
+```html+erb
+<div>
+  <dialog id="dismissible_dialog" class="dialog" style="max-inline-size: 430px;" popover>
+    <button class="btn btn--plain p-0 dialog__close" popovertarget="dismissible_dialog" popovertargetaction="hide">
       <%= image_tag "x.svg", aria: { hidden: "true" }, size: 16 %>
       <span class="sr-only">Close</span>
     </button>
@@ -282,8 +284,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
     </div>
   </dialog>
 
-  <button class="btn" popovertarget="my_dialog">
-    Show dialog
+  <button class="btn" popovertarget="dismissible_dialog">
+    Show dismissible dialog
   </button>
 </div>
 ```
@@ -363,7 +365,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <details>
 <summary>Show me the code</summary>
 
-```html
+```html+erb
 <table class="table">
   <thead>
     <tr>

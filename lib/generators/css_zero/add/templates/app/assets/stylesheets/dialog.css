@@ -28,21 +28,21 @@
   }
 
   /* In animation */
-  &:popover-open {
+  &:is([open], :popover-open) {
     opacity: 1; transform: var(--scale-100);
   }
 
-  &:popover-open::backdrop {
+  &:is([open], :popover-open)::backdrop {
     opacity: 1;
   }
 
   /* Out animation */
   @starting-style {
-    &:popover-open {
+    &:is([open], :popover-open) {
       opacity: 0; transform: var(--scale-95);
     }
 
-    &:popover-open::backdrop {
+    &:is([open], :popover-open)::backdrop {
       opacity: 0;
     }
   }
@@ -59,6 +59,6 @@
 }
 
 /* Prevent page scroll when dialog is open */
-html:has(.dialog:popover-open) {
+html:has(.dialog:is([open], :popover-open)) {
   overflow: hidden;
 }

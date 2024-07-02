@@ -3,9 +3,6 @@ accordion:
   - app/assets/images/chevron-down.svg
 alert:
   - app/assets/stylesheets/alert.css
-alert_dialog:
-  - app/assets/stylesheets/alert_dialog.css
-  - app/javascript/controllers/dialog_control_controller.js
 badge:
   - app/assets/stylesheets/badge.css
 button:
@@ -16,6 +13,7 @@ card:
 dialog:
   - app/assets/stylesheets/dialog.css
   - app/assets/images/x.svg
+  - app/javascript/controllers/dialog_control_controller.js
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
