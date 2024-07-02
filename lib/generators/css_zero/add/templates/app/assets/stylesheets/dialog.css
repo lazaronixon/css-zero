@@ -53,6 +53,11 @@
   }
 }
 
+.dialog__close {
+  position: absolute;
+  inset: var(--size-4) var(--size-4) auto auto;
+}
+
 /* Prevent page scroll when dialog is open */
 html:has(.dialog:popover-open) {
   overflow: hidden;

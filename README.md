@@ -4,7 +4,13 @@ An opinionated CSS starter kit for your application. You can think of it like a 
 
 ## Installation
 
-Add this gem to the Gemfile and run bundle install.
+This gem requires [Propshaft](https://github.com/rails/propshaft), make sure to load all the CSS files in your `layout.html.erb`.
+
+```html+erb
+<%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
+```
+
+Add this gem to your project.
 
 ```
 bundle add css-zero
@@ -20,12 +26,6 @@ Add only the components you need. (Optional)
 
 ```
 bin/rails generate css_zero:add accordion alert alert_dialog badge button card dialog input progress switch table
-```
-
-This gem requires [Propshaft](https://github.com/rails/propshaft), Make sure to load all the CSS files in your `layout.html.erb`.
-
-```html+erb
-<%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
 ```
 
 ## Usage
@@ -52,11 +52,11 @@ This gem requires [Propshaft](https://github.com/rails/propshaft), Make sure to 
 }
 ```
 
-Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables.
+Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
 
 ## Components
 
-Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/stylesheets) in the repository to see the available components.
+Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/stylesheets) in the repository to see the source of the components.
 
 ### Accordion
 
@@ -102,7 +102,25 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 <details>
 <summary>Show me the code!</summary>
 
-```html+erb
+```html
+<div>
+  <dialog id="my_alert_dialog" class="alert-dialog">
+    <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
+    <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
+
+    <div class="flex justify-end gap-sm mbs-4">
+      <form method="dialog"><button class="btn btn--outline">Cancel</button></form>
+      <button class="btn btn--primary">Continue</button>
+    </div>
+  </dialog>
+
+  <button class="btn"
+          data-controller="dialog-control"
+          data-action="dialog-control#showModal"
+          data-dialog-control-target-value="my_alert_dialog">
+    Show alert dialog
+  </button>
+</div>
 ```
 </details>
 

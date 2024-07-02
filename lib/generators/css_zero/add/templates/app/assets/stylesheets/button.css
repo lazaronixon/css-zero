@@ -12,7 +12,6 @@
   gap: var(--size-2);
   justify-content: center;
   padding: var(--size-2) var(--size-4);
-  position: relative;
   text-align: center;
   white-space: nowrap;
 
@@ -57,7 +56,11 @@
 
 .btn--loading {
   [aria-busy] &:disabled {
-    > * { visibility: hidden; }
+    position: relative;
+
+    > * {
+      visibility: hidden;
+    }
 
     &::after {
       animation: var(--animate-spin);
