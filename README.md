@@ -60,6 +60,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 
 ### Accordion
 
+<img width="500" alt="accordion" src="https://github.com/lazaronixon/css-zero/assets/2651240/9644edec-9bb1-4e1f-b2da-19c7fb5a540f">
+
 <details>
 <summary>Show me the code!</summary>
 
@@ -83,6 +85,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 
 ### Alert
 
+<img width="500" alt="alert" src="https://github.com/lazaronixon/css-zero/assets/2651240/eae5c6dd-f6b4-4c01-bec1-cd7e9523d0a6">
+
 <details>
 <summary>Show me the code!</summary>
 
@@ -98,6 +102,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 </details>
 
 ### Alert Dialog
+
+<img width="500" alt="alert_dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/483b00fc-0330-45b3-82c5-dc4118987564">
 
 <details>
 <summary>Show me the code!</summary>
@@ -123,6 +129,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 
 ### Badge
 
+<img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/6a700dc4-0fd5-46f6-9902-a9bde5f7febb">
+
 <details>
 <summary>Show me the code!</summary>
 
@@ -131,12 +139,15 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
   <div class="badge">Badge</div>
   <div class="badge badge--secondary">Secondary</div>
   <div class="badge badge--outline">Outline</div>
+  <div class="badge badge--positive">Positive</div>
   <div class="badge badge--negative">Negative</div>
 </div>
 ```
 </details>
 
 ### Button
+
+<img width="500" alt="button" src="https://github.com/lazaronixon/css-zero/assets/2651240/0c2ee625-9e6b-4f9c-8437-8d6751e4e508">
 
 <details>
 <summary>Show me the code!</summary>
@@ -162,6 +173,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 </details>
 
 ### Card
+
+<img width="366" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/f4077b91-2d0c-49db-9fb6-2955f8575217">
 
 <details>
 <summary>Show me the code!</summary>
@@ -199,6 +212,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 </details>
 
 ### Dialog
+
+<img width="400" alt="dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/50c8af20-46bb-4bf9-a233-78877f49e086">
 
 <details>
 <summary>Show me the code!</summary>
@@ -244,6 +259,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 
 ### Input
 
+<img width="500" alt="input" src="https://github.com/lazaronixon/css-zero/assets/2651240/f33a9d34-44b5-4c6b-ad88-1f0fd00b7291">
+
 <details>
 <summary>Show me the code!</summary>
 
@@ -279,6 +296,8 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 
 ### Progress
 
+<img width="500" alt="progress" src="https://github.com/lazaronixon/css-zero/assets/2651240/32f7b665-ae85-48de-9338-0c255019122e">
+
 <details>
 <summary>Show me the code!</summary>
 
@@ -292,18 +311,22 @@ Check the [CSS files](lib/generators/css_zero/add/templates/app/assets/styleshee
 
 ### Switch
 
+<img width="175" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/b47e28fb-6492-402c-b422-b896dfd3b713">
+
 <details>
 <summary>Show me the code!</summary>
 
 ```html+erb
 <div class="flex items-center gap-sm">
-  <%= form.check_box :status, class: "switch" %>
-  <%= form.label :status, "Airplane Mode", class: "text-sm font-medium" %>
+  <input type="checkbox" class="switch">
+  <label for="status" class="text-sm font-medium">Airplane Mode</label>
 </div>
 ```
 </details>
 
 ### Table
+
+<img width="500" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/c7b261a8-6d38-46f2-bf69-fd9385776bbe">
 
 <details>
 <summary>Show me the code!</summary>
