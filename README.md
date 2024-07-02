@@ -178,7 +178,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ### Button
 
-<img width="500" alt="button" src="https://github.com/lazaronixon/css-zero/assets/2651240/0c2ee625-9e6b-4f9c-8437-8d6751e4e508">
+<img width="500" alt="button" src="https://github.com/lazaronixon/css-zero/assets/2651240/df78c11e-9167-4fd3-a779-24729cb24715">
 
 <details>
 <summary>Show me the code</summary>
