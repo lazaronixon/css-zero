@@ -1,6 +1,6 @@
 # CSS Zero
 
-An opinionated CSS starter kit for your application. You can think of it like a "no build" Tailwind CSS.
+An opinionated CSS starter kit for your Ruby on Rails application. You can think of it like a "no build" Tailwind CSS.
 
 ## Installation
 
