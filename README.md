@@ -227,8 +227,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <summary>Show me the code</summary>
 
 ```html+erb
-<div>
-  <dialog id="alert_dialog" class="dialog">
+<div data-controller="dialog">
+  <dialog data-dialog-target="box" class="dialog">
     <h1 class="text-lg font-semibold">Are you absolutely sure?</h1>
     <p class="text-sm text-subtle mbs-2">This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
 
@@ -238,8 +238,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
     </div>
   </dialog>
 
-  <button class="btn" data-controller="dialog-control" data-dialog-control-target-value="alert_dialog" data-action="dialog-control#showModal">
-    Show alert dialog
+  <button class="btn" data-action="dialog#showModal">
+    Show dialog
   </button>
 </div>
 ```
@@ -247,18 +247,20 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 #### Dismissible Dialog
 
-<img width="400" alt="dismissible dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/50c8af20-46bb-4bf9-a233-78877f49e086">
+<img width="400" alt="dismissible_dialog" src="https://github.com/lazaronixon/css-zero/assets/2651240/50c8af20-46bb-4bf9-a233-78877f49e086">
 
 <details>
 <summary>Show me the code</summary>
 
 ```html+erb
-<div>
-  <dialog id="dismissible_dialog" class="dialog" style="max-inline-size: 430px;" popover>
-    <button class="btn btn--plain p-0 dialog__close" popovertarget="dismissible_dialog" popovertargetaction="hide">
-      <%= image_tag "x.svg", aria: { hidden: "true" }, size: 16 %>
-      <span class="sr-only">Close</span>
-    </button>
+<div data-controller="dialog">
+  <dialog data-dialog-target="box" data-action="click->dialog#closeOnClickOutside" class="dialog" style="max-inline-size: 430px;">
+    <form method="dialog">
+      <button class="btn btn--plain p-0 dialog__close">
+        <%= image_tag "x.svg", aria: { hidden: "true" }, size: 16 %>
+        <span class="sr-only">Close</span>
+      </button>
+    </form>
 
     <div class="flex flex-col gap">
       <div class="flex flex-col gap-sm">
@@ -284,8 +286,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
     </div>
   </dialog>
 
-  <button class="btn" popovertarget="dismissible_dialog">
-    Show dismissible dialog
+  <button class="btn" data-action="dialog#showModal">
+    Show dialog
   </button>
 </div>
 ```

@@ -13,7 +13,7 @@ card:
 dialog:
   - app/assets/stylesheets/dialog.css
   - app/assets/images/x.svg
-  - app/javascript/controllers/dialog_control_controller.js
+  - app/javascript/controllers/dialog_controller.js
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
