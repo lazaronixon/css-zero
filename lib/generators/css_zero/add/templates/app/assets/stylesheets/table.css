@@ -12,7 +12,7 @@
 
   th {
     font-weight: var(--font-medium);
-    text-align: left;
+    text-align: start;
   }
 
   th, td {

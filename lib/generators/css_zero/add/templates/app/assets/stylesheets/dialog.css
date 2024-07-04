@@ -55,8 +55,9 @@
 }
 
 .dialog__close {
+  inset-block-start: var(--size-4);
+  inset-inline-end: var(--size-4);
   position: absolute;
-  inset: var(--size-4) var(--size-4) auto auto;
 }
 
 /* Prevent page scroll when dialog is open */

@@ -60,7 +60,7 @@ body {
 */
 
 hr {
-  height: 0; /* 1 */
+  block-size: 0; /* 1 */
   color: inherit; /* 2 */
   border-block-start-width: 1px; /* 3 */
 }
@@ -155,11 +155,11 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  inset-block-end: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+  inset-block-start: -0.5em;
 }
 
 /*
@@ -242,7 +242,7 @@ progress {
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
+  block-size: auto;
 }
 
 /*
@@ -321,8 +321,8 @@ object {
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 /*
