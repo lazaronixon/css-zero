@@ -1,5 +1,6 @@
 ## [Unreleased]  
   - Remove return string on `dialog` close.
+  - Don't use `light-dark` function in base.css.
 
 ## [0.0.15] - 2024-07-03
   - `Dialog` was reimplemented to not support popover.
