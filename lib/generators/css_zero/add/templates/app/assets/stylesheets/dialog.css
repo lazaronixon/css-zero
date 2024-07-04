@@ -7,7 +7,6 @@
   inline-size: var(--size-full);
   margin: auto;
   max-inline-size: var(--width-lg);
-  overflow: hidden;
   padding: var(--size-6);
 
   &::backdrop {
@@ -19,13 +18,13 @@
   transform: var(--scale-95);
   transition-behavior: allow-discrete;
   transition-duration: var(--time-150);
-  transition-property: display overlay opacity transform;
+  transition-property: display, overlay, opacity, transform;
 
   &::backdrop {
     opacity: 0;
     transition-behavior: allow-discrete;
     transition-duration: var(--time-150);
-    transition-property: display overlay opacity;
+    transition-property: display, overlay, opacity;
   }
 
   /* In animation */
