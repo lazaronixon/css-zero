@@ -1,4 +1,6 @@
 ## [Unreleased]  
+
+## [0.0.16] - 2024-07-04
   - Remove return string on `dialog` close.
   - Don't use `light-dark` function in base.css.
   - Use logical properties instead of physical properties.
