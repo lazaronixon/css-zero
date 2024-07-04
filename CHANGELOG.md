@@ -3,6 +3,7 @@
   - Don't use `light-dark` function in base.css.
   - Use logical properties instead of physical properties.
   - Add grow-0, shrink, and bg-shade to utility classes.
+  - Use `min-inline-size: fit-content;` instead of `white-space: nowrap;` for buttons.
 
 ## [0.0.15] - 2024-07-03
   - `Dialog` was reimplemented to not support popover.
