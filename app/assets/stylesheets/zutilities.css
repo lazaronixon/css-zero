@@ -16,6 +16,9 @@
 .items-center { align-items: center; }
 
 .grow { flex-grow: 1; }
+.grow-0	{ flex-grow: 0; }
+
+.shrink { flex-shrink: 1; }
 .shrink-0 { flex-shrink: 0; }
 
 .self-start { align-self: start; }
@@ -85,6 +88,7 @@
 .bg-main { background-color: var(--color-bg); }
 .bg-black { background-color: var(--color-text); }
 .bg-white { background-color: var(--color-text-reversed); }
+.bg-shade { background-color: var(--color-secondary); }
 .bg-transparent { background-color: transparent; }
 
 /****************************************************************
