@@ -4,6 +4,7 @@
   - Add breadcrumb component.
   - Remove not([class]) from button and alert
   - Add collapsible component.
+  - Add size-3 to utility classes.
 
 ## [0.0.16] - 2024-07-04
   - Remove return string on `dialog` close.
