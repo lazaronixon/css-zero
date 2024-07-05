@@ -6,7 +6,7 @@
   padding: var(--size-4);
   inline-size: var(--size-full);
 
-  img:not([class]) {
+  img {
     filter: var(--alert-icon-color, var(--color-filter-text-reversed));
   }
 }
