@@ -45,7 +45,7 @@
 .whitespace-nowrap { white-space: nowrap; }
 .whitespace-normal { white-space: normal; }
 
-.break-words { word-break: break-word; }
+.break-words { overflow-wrap: break-word; }
 .break-all { word-break: break-all; }
 
 .overflow-clip { text-overflow: clip; white-space: nowrap; overflow: hidden; }

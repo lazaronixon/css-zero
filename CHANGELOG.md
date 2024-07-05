@@ -1,5 +1,6 @@
 ## [Unreleased]  
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.
+  - Change `.break-words` utility class.
 
 ## [0.0.16] - 2024-07-04
   - Remove return string on `dialog` close.
