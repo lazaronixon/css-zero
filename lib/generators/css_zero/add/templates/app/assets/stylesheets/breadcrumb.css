@@ -20,14 +20,3 @@
     gap: var(--size-1_5);
   }
 }
-
-.breadcrumb__ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
-  /* Small screens and below */
-  @media (width < 40rem) {
-    max-inline-size: var(--size-20);
-  }
-}
