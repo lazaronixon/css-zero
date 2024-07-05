@@ -13,6 +13,8 @@ button:
   - app/assets/images/loader-circle.svg
 card:
   - app/assets/stylesheets/card.css
+collapsible:
+  - app/javascript/controllers/collapsible_controller.js
 dialog:
   - app/assets/stylesheets/dialog.css
   - app/assets/images/x.svg

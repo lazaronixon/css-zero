@@ -2,7 +2,7 @@ Description:
     This will add components into your project.
 
 Components:
-  accordion alert badge breadcrumb button card dialog input progress switch table
+  accordion alert badge breadcrumb button card collapsible dialog input progress switch table
 
 Example:
     bin/rails generate css_zero:add [components...]
