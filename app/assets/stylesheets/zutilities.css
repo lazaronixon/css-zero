@@ -96,6 +96,7 @@
 *****************************************************************/
 .colorize-black { filter: var(--color-filter-text); }
 .colorize-white { filter: var(--color-filter-text-reversed); }
+.colorize-shade { filter: var(--color-filter-text-subtle); }
 .colorize-negative { filter: var(--color-filter-negative); }
 .colorize-positive { filter: var(--color-filter-positive); }
 
