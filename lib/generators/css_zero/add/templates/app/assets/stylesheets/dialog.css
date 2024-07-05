@@ -47,7 +47,7 @@
     }
   }
 
-  /* Small screens */
+  /* Small screens and below */
   @media (width < 40rem) {
     border-radius: 0;
   }

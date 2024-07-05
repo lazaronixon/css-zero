@@ -5,6 +5,9 @@ alert:
   - app/assets/stylesheets/alert.css
 badge:
   - app/assets/stylesheets/badge.css
+breadcrumb:
+  - app/assets/stylesheets/breadcrumb.css
+  - app/assets/images/chevron-right.svg
 button:
   - app/assets/stylesheets/button.css
   - app/assets/images/loader-circle.svg
