@@ -15,8 +15,8 @@
 
 .badge--outline {
   --badge-background: transparent;
+  --badge-border-width: var(--border);
   --badge-color: var(--color-text);
-  --btn-border-width: var(--border);
 }
 
 .badge--positive {
