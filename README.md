@@ -19,7 +19,7 @@ bin/rails generate css_zero:install
 Add only the components you need. (Optional)
 
 ```
-bin/rails generate css_zero:add accordion alert badge button card dialog input progress switch table
+bin/rails generate css_zero:add accordion alert avatar badge breadcrumb button card collapsible dialog input progress switch table
 ```
 
 ### Requirements
@@ -132,6 +132,24 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 ```
 </details>
 
+### Avatar
+
+<details>
+<summary>Show me the code</summary>
+
+```html+erb
+<div class="flex item-center gap">
+  <div class="avatar">
+    <%= image_tag "cartoon.jpg", role: "presentation", size: 48 %>
+  </div>
+
+  <div class="avatar">
+    <span class="avatar__fallback">CN</span>
+  </div>
+</div>
+```
+</details>
+
 ### Badge
 
 <img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/6a700dc4-0fd5-46f6-9902-a9bde5f7febb">
@@ -147,6 +165,24 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
   <div class="badge badge--positive">Positive</div>
   <div class="badge badge--negative">Negative</div>
 </div>
+```
+</details>
+
+### Breadcrumb
+
+<details>
+<summary>Show me the code</summary>
+
+```html+erb
+<nav class="breadcrumb">
+  <a href="#">Home</a>
+  <%= image_tag "chevron-right.svg", size: 14 %>
+  <a href="#"><%= image_tag "ellipsis.svg", size: 14 %></a>
+  <%= image_tag "chevron-right.svg", size: 14 %>
+  <a href="#">Components</a>
+  <%= image_tag "chevron-right.svg", size: 14 %>
+  <a href="#" class="text-primary">Breadcrumb</a>
+</nav>
 ```
 </details>
 
@@ -213,6 +249,38 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
     <button class="btn btn--outline">Cancel</button>
     <button class="btn">Destroy</button>
   </div>
+</div>
+```
+</details>
+
+### Collapsible
+
+<details>
+<summary>Show me the code</summary>
+
+```html+erb
+<div data-controller="collapsible" style="max-inline-size: 350px">
+  <div class="flex items-center justify-between gap pi-4 pb-3">
+    <h4 class="text-sm font-semibold">
+      @lazaronixon starred 3 repositories
+    </h4>
+    <button data-action="collapsible#toggle" class="btn btn--plain p-0">
+      <%= image_tag "chevrons-up-down.svg", size: 16 %>
+      <span class="sr-only">Toggle</span>
+    </button>
+  </div>
+  <div class="rounded-md border pi-4 pb-3 mbs-2 text-sm">
+    @rails/rails
+  </div>
+  <details>
+    <summary data-collapsible-target="summary" hidden></summary>
+    <div class="rounded-md border pi-4 pb-3 mbs-2 text-sm">
+      @rails/jbuilder
+    </div>
+    <div class="rounded-md border pi-4 pb-3 mbs-2 text-sm">
+      @rails/jsbundling-rails
+    </div>
+  </details>
 </div>
 ```
 </details>
