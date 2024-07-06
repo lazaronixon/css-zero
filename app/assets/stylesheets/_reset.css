@@ -246,6 +246,14 @@ progress {
 }
 
 /*
+  Correct the arrow style of datalist in Chrome.
+*/
+
+::-webkit-calendar-picker-indicator {
+  line-height: 1em;
+}
+
+/*
   Remove the inner padding in Chrome and Safari on macOS.
 */
 
