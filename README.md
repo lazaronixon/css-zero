@@ -134,6 +134,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ### Avatar
 
+<img width="108" alt="Screenshot 2024-07-06 at 02 17 39" src="https://github.com/lazaronixon/css-zero/assets/2651240/5b3484e8-3b58-4de6-bbb5-edf52b04b8a1">
+
 <details>
 <summary>Show me the code</summary>
 
@@ -169,6 +171,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 </details>
 
 ### Breadcrumb
+
+<img width="343" alt="Screenshot 2024-07-06 at 02 19 14" src="https://github.com/lazaronixon/css-zero/assets/2651240/694831c3-be5e-42af-a132-638de29aea37">
 
 <details>
 <summary>Show me the code</summary>
@@ -254,6 +258,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 </details>
 
 ### Collapsible
+
+<img width="374" alt="Screenshot 2024-07-06 at 02 20 17" src="https://github.com/lazaronixon/css-zero/assets/2651240/6076d261-c392-4d08-a98d-af4b58e84fa8">
 
 <details>
 <summary>Show me the code</summary>
