@@ -154,7 +154,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ### Badge
 
-<img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/6a700dc4-0fd5-46f6-9902-a9bde5f7febb">
+<img width="400" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/3b9d494e-1b01-472c-bf71-6391db828fe6">
 
 <details>
 <summary>Show me the code</summary>
