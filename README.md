@@ -181,7 +181,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <nav class="breadcrumb">
   <a href="#">Home</a>
   <%= image_tag "chevron-right.svg", size: 24 %>
-  <a href="#"><%= image_tag "ellipsis.svg", size: 14 %></a>
+  <%= image_tag "ellipsis.svg", size: 14 %>
   <%= image_tag "chevron-right.svg", size: 24 %>
   <a href="#">Components</a>
   <%= image_tag "chevron-right.svg", size: 24 %>

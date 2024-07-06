@@ -1,6 +1,7 @@
 ## [Unreleased]  
   - Transform dialog in a drawer on mobile
   - Correct the arrow style of datalist in Chrome.
+  - Add ellipsis.svg to breadcrumb.
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.
