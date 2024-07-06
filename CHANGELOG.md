@@ -1,4 +1,6 @@
 ## [Unreleased]  
+
+## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.
   - Change `.break-words` utility class.
   - Add breadcrumb component.
