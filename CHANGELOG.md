@@ -1,4 +1,5 @@
 ## [Unreleased]  
+  - Transform dialog in a drawer on mobile
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.

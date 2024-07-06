@@ -328,7 +328,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ```html+erb
 <div data-controller="dialog">
-  <dialog data-dialog-target="box" data-action="click->dialog#closeOnClickOutside" class="dialog" style="max-inline-size: 430px;">
+  <dialog data-dialog-target="box" data-action="click->dialog#closeOnClickOutside" class="dialog" style="--dialog-width: 430px;">
     <form method="dialog">
       <button class="btn btn--plain p-0 dialog__close">
         <%= image_tag "x.svg", aria: { hidden: "true" }, size: 16 %>
