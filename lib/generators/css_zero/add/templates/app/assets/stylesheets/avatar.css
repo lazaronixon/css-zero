@@ -1,0 +1,31 @@
+:root {
+  --avatar-size: var(--size-10);
+}
+
+.avatar {
+  block-size: var(--avatar-size);
+  border-radius: var(--rounded-full);
+  display: flex;
+  flex-shrink: 0;
+  inline-size: var(--avatar-size);
+  overflow: hidden;
+
+  img {
+    aspect-ratio: 1;
+    block-size: var(--size-full);
+    inline-size: var(--size-full);
+    object-fit: cover;
+  }
+}
+
+.avatar__fallback {
+  align-items: center;
+  background-color: var(--color-secondary);
+  block-size: var(--size-full);
+  border-radius: var(--rounded-full);
+  display: flex;
+  font-size: calc(var(--avatar-size) * .4);
+  inline-size: var(--size-full);
+  justify-content: center;
+  user-select: none;
+}
