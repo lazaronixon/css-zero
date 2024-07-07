@@ -1,0 +1,33 @@
+:where(.pagination) {
+  align-items: center;
+  display: flex;
+  gap: var(--size-1);
+
+  img {
+    filter: var(--color-filter-text);
+  }
+
+  a {
+    align-items: center;
+    border-radius: var(--rounded-md);
+    display: inline-flex;
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    gap: var(--size-2);
+    justify-content: center;
+    min-inline-size: fit-content;
+    padding: var(--size-2) var(--size-4);
+  }
+
+  a:is([aria-current]) {
+    border-width: var(--border);
+  }
+
+  a:is([aria-disabled]) {
+    pointer-events: none;
+  }
+
+  a:not([aria-disabled]):hover {
+    background-color: var(--color-secondary);
+  }
+}

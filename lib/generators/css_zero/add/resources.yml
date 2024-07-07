@@ -24,6 +24,11 @@ dialog:
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
+pagination:
+  - app/assets/stylesheets/pagination.css
+  - app/assets/images/chevron-right.svg
+  - app/assets/images/chevron-left.svg
+  - app/assets/images/ellipsis.svg
 progress:
   - app/assets/stylesheets/progress.css
 switch:

@@ -402,6 +402,31 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 ```
 </details>
 
+### Pagination
+
+<details>
+<summary>Show me the code</summary>
+
+```html
+<nav class="pagination" aria-label="Pages">
+  <a href="/contacts?page=1" aria-label="Previous page">
+    <%= image_tag "chevron-left.svg", role: "presentation", size: 16 %>
+    <span>Previous</span>
+  </a>
+  <a href="/contacts?page=1">1</a>
+  <a role="link" aria-disabled="true" aria-current="page">2</a>
+  <a href="/contacts?page=3">3</a>
+  <a role="link" aria-disabled="true" class="pi-3">
+    <%= image_tag "ellipsis.svg", role: "presentation", size: 16 %>
+  </a>
+  <a href="/contacts?page=2" aria-label="Next page">
+    <span>Next</span>
+    <%= image_tag "chevron-right.svg", role: "presentation", size: 16 %>
+  </a>
+</nav>
+```
+</details>
+
 ### Progress
 
 <img width="500" alt="progress" src="https://github.com/lazaronixon/css-zero/assets/2651240/32f7b665-ae85-48de-9338-0c255019122e">
