@@ -10,7 +10,6 @@ badge:
 breadcrumb:
   - app/assets/stylesheets/breadcrumb.css
   - app/assets/images/chevron-right.svg
-  - app/assets/images/ellipsis.svg
 button:
   - app/assets/stylesheets/button.css
   - app/assets/images/loader-circle.svg
