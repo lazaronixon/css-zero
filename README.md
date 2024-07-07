@@ -178,7 +178,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 <summary>Show me the code</summary>
 
 ```html+erb
-<nav class="breadcrumb">
+<nav aria-label="breadcrumb" class="breadcrumb">
   <a href="#">Home</a>
   <%= image_tag "chevron-right.svg", role: "presentation", aria: { hidden: true }, size: 24 %>
   <a href="#">Components</a>
