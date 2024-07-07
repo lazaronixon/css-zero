@@ -180,12 +180,10 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 ```html+erb
 <nav class="breadcrumb">
   <a href="#">Home</a>
-  <%= image_tag "chevron-right.svg", size: 24 %>
-  <%= image_tag "ellipsis.svg", size: 14 %>
-  <%= image_tag "chevron-right.svg", size: 24 %>
+  <%= image_tag "chevron-right.svg", role: "presentation", aria: { hidden: true }, size: 24 %>
   <a href="#">Components</a>
-  <%= image_tag "chevron-right.svg", size: 24 %>
-  <a href="#" class="text-primary">Breadcrumb</a>
+  <%= image_tag "chevron-right.svg", role: "presentation", aria: { hidden: true }, size: 24 %>
+  <a role="link" aria-disabled="true" aria-current="page" class="text-primary">Breadcrumb</a>
 </nav>
 ```
 </details>
