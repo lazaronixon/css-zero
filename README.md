@@ -404,6 +404,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ### Pagination
 
+<img width="386" alt="image" src="https://github.com/lazaronixon/css-zero/assets/2651240/3bb2a7d6-7505-43c6-bb93-019eafefd5de">
+
 <details>
 <summary>Show me the code</summary>
 
