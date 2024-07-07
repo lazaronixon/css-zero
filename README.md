@@ -172,7 +172,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ### Breadcrumb
 
-<img width="371" alt="breadcrumb" src="https://github.com/lazaronixon/css-zero/assets/2651240/82994376-bcac-4b8b-83e7-b2ed7966491b">
+<img width="309" alt="breadcrumb" src="https://github.com/lazaronixon/css-zero/assets/2651240/1eb53bbd-b8ac-47a5-9d2a-3a8e3f20eb9a">
 
 <details>
 <summary>Show me the code</summary>
