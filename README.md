@@ -146,7 +146,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
   </div>
 
   <div class="avatar">
-    <span class="avatar__fallback">CN</span>
+    <span role="img" class="avatar__fallback">CN</span>
   </div>
 </div>
 ```
