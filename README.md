@@ -276,8 +276,8 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
   <div class="rounded-md border pi-4 pb-3 mbs-2 text-sm">
     @rails/rails
   </div>
-  <details>
-    <summary data-collapsible-target="summary" hidden></summary>
+  <details data-collapsible-target="details">
+    <summary hidden></summary>
     <div class="rounded-md border pi-4 pb-3 mbs-2 text-sm">
       @rails/jbuilder
     </div>
