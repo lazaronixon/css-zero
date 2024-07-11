@@ -4,6 +4,7 @@
   - Fix badge outline border.
   - Add pagination component.
   - Change collapsible component.
+  - Fix default icon color alert.
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.

@@ -7,7 +7,7 @@
   inline-size: var(--size-full);
 
   img {
-    filter: var(--alert-icon-color, var(--color-filter-text-reversed));
+    filter: var(--alert-icon-color, var(--color-filter-text));
   }
 }
 
