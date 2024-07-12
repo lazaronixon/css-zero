@@ -7,6 +7,7 @@
   - Fix default icon color alert.
   - Fix badge size.
   - Add button_to_close_dialog helper.
+  - Add autogrow textarea;
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.
