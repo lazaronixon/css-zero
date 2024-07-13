@@ -4,6 +4,7 @@
   --color-text: black;
   --color-text-reversed: white;
   --color-text-subtle: var(--zinc-500);
+  --color-border-light: var(--zinc-100);
   --color-border: var(--zinc-200);
   --color-border-dark: var(--zinc-400);
 
@@ -26,6 +27,7 @@
     --color-text: white;
     --color-text-reversed: black;
     --color-text-subtle: var(--zinc-400);
+    --color-border-light: var(--zinc-800);
     --color-border: var(--zinc-800);
     --color-border-dark: var(--zinc-300);
 

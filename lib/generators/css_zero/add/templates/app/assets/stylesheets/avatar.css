@@ -18,7 +18,7 @@
 
 .avatar__fallback {
   align-items: center;
-  background-color: var(--color-secondary);
+  background-color: var(--color-border-light);
   block-size: var(--size-full);
   border-radius: var(--rounded-full);
   display: flex;

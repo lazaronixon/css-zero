@@ -20,7 +20,7 @@
   }
 
   tfoot {
-    background-color: var(--color-secondary);
+    background-color: var(--color-border-light);
     border-block-start-width: var(--border);
     font-weight: var(--font-medium);
   }
