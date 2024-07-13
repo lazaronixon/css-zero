@@ -159,7 +159,6 @@
 .m-0\.5 { margin: var(--size-0_5); }
 .m-1 { margin: var(--size-1); }
 .m-2 { margin: var(--size-2); }
-.m-3 { margin: var(--size-3); }
 .m-4 { margin: var(--size-4); }
 .m-6 { margin: var(--size-6); }
 .m-8 { margin: var(--size-8); }
@@ -170,7 +169,6 @@
 .mb-0\.5 { margin-block: var(--size-0_5); }
 .mb-1 { margin-block: var(--size-1); }
 .mb-2 { margin-block: var(--size-2); }
-.mb-3 { margin-block: var(--size-3); }
 .mb-4 { margin-block: var(--size-4); }
 .mb-6 { margin-block: var(--size-6); }
 .mb-8 { margin-block: var(--size-8); }
@@ -181,7 +179,6 @@
 .mbs-0\.5 { margin-block-start: var(--size-0_5); }
 .mbs-1 { margin-block-start: var(--size-1); }
 .mbs-2 { margin-block-start: var(--size-2); }
-.mbs-3 { margin-block-start: var(--size-3); }
 .mbs-4 { margin-block-start: var(--size-4); }
 .mbs-6 { margin-block-start: var(--size-6); }
 .mbs-8 { margin-block-start: var(--size-8); }
@@ -192,7 +189,6 @@
 .mbe-0\.5 { margin-block-end: var(--size-0_5); }
 .mbe-1 { margin-block-end: var(--size-1); }
 .mbe-2 { margin-block-end: var(--size-2); }
-.mbe-3 { margin-block-end: var(--size-3); }
 .mbe-4 { margin-block-end: var(--size-4); }
 .mbe-6 { margin-block-end: var(--size-6); }
 .mbe-8 { margin-block-end: var(--size-8); }
@@ -203,7 +199,6 @@
 .mi-0\.5 { margin-inline: var(--size-0_5); }
 .mi-1 { margin-inline: var(--size-1); }
 .mi-2 { margin-inline: var(--size-2); }
-.mi-3 { margin-inline: var(--size-3); }
 .mi-4 { margin-inline: var(--size-4); }
 .mi-6 { margin-inline: var(--size-6); }
 .mi-8 { margin-inline: var(--size-8); }
@@ -214,7 +209,6 @@
 .mis-0\.5 { margin-inline-start: var(--size-0_5); }
 .mis-1 { margin-inline-start: var(--size-1); }
 .mis-2 { margin-inline-start: var(--size-2); }
-.mis-3 { margin-inline-start: var(--size-3); }
 .mis-4 { margin-inline-start: var(--size-4); }
 .mis-6 { margin-inline-start: var(--size-6); }
 .mis-8 { margin-inline-start: var(--size-8); }
@@ -225,7 +219,6 @@
 .mie-0\.5 { margin-inline-end: var(--size-0_5); }
 .mie-1 { margin-inline-end: var(--size-1); }
 .mie-2 { margin-inline-end: var(--size-2); }
-.mie-3 { margin-inline-end: var(--size-3); }
 .mie-4 { margin-inline-end: var(--size-4); }
 .mie-6 { margin-inline-end: var(--size-6); }
 .mie-8 { margin-inline-end: var(--size-8); }
@@ -239,7 +232,6 @@
 .p-0\.5 { padding: var(--size-0_5); }
 .p-1 { padding: var(--size-1); }
 .p-2 { padding: var(--size-2); }
-.p-3 { padding: var(--size-3); }
 .p-4 { padding: var(--size-4); }
 .p-6 { padding: var(--size-6); }
 .p-8 { padding: var(--size-8); }
@@ -249,7 +241,6 @@
 .pb-0\.5 { padding-block: var(--size-0_5); }
 .pb-1 { padding-block: var(--size-1); }
 .pb-2 { padding-block: var(--size-2); }
-.pb-3 { padding-block: var(--size-3); }
 .pb-4 { padding-block: var(--size-4); }
 .pb-6 { padding-block: var(--size-6); }
 .pb-8 { padding-block: var(--size-8); }
@@ -259,7 +250,6 @@
 .pbs-0\.5 { padding-block-start: var(--size-0_5); }
 .pbs-1 { padding-block-start: var(--size-1); }
 .pbs-2 { padding-block-start: var(--size-2); }
-.pbs-3 { padding-block-start: var(--size-3); }
 .pbs-4 { padding-block-start: var(--size-4); }
 .pbs-6 { padding-block-start: var(--size-6); }
 .pbs-8 { padding-block-start: var(--size-8); }
@@ -269,7 +259,6 @@
 .pbe-0\.5 { padding-block-end: var(--size-0_5); }
 .pbe-1 { padding-block-end: var(--size-1); }
 .pbe-2 { padding-block-end: var(--size-2); }
-.pbe-3 { padding-block-end: var(--size-3); }
 .pbe-4 { padding-block-end: var(--size-4); }
 .pbe-6 { padding-block-end: var(--size-6); }
 .pbe-8 { padding-block-end: var(--size-8); }
@@ -279,7 +268,6 @@
 .pi-0\.5 { padding-inline: var(--size-0_5); }
 .pi-1 { padding-inline: var(--size-1); }
 .pi-2 { padding-inline: var(--size-2); }
-.pi-3 { padding-inline: var(--size-3); }
 .pi-4 { padding-inline: var(--size-4); }
 .pi-6 { padding-inline: var(--size-6); }
 .pi-8 { padding-inline: var(--size-8); }
@@ -289,7 +277,6 @@
 .pis-0\.5 { padding-inline-start: var(--size-0_5); }
 .pis-1 { padding-inline-start: var(--size-1); }
 .pis-2 { padding-inline-start: var(--size-2); }
-.pis-3 { padding-inline-start: var(--size-3); }
 .pis-4 { padding-inline-start: var(--size-4); }
 .pis-6 { padding-inline-start: var(--size-6); }
 .pis-8 { padding-inline-start: var(--size-8); }
@@ -299,7 +286,6 @@
 .pie-0\.5 { padding-inline-end: var(--size-0_5); }
 .pie-1 { padding-inline-end: var(--size-1); }
 .pie-2 { padding-inline-end: var(--size-2); }
-.pie-3 { padding-inline-end: var(--size-3); }
 .pie-4 { padding-inline-end: var(--size-4); }
 .pie-6 { padding-inline-end: var(--size-6); }
 .pie-8 { padding-inline-end: var(--size-8); }

@@ -11,6 +11,7 @@
   - Input server side validation.
   - Add padding to select option.
   - Avatar use local variable for avatar-size
+  - Remove size-3 from the utilities
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.
