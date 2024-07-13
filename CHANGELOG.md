@@ -13,6 +13,7 @@
   - Avatar use local variable for avatar-size
   - Remove size-3 from the utilities
   - Add modern font stack
+  - Rename --color-border-darker to --color-border-dark.
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.

@@ -58,7 +58,7 @@
 :is(.input, .range, .checkbox, .radio) {
   /* Keyboard navigation */
   &:focus-visible {
-    outline: var(--border-2) solid var(--color-border-darker);
+    outline: var(--border-2) solid var(--color-border-dark);
     outline-offset: var(--border-2);
   }
 
