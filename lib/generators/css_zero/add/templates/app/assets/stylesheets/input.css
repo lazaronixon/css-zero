@@ -51,8 +51,15 @@
   transform: scale(1.15);
 }
 
-/* Keyboard navigation */
-:is(.input, .range, .checkbox, .radio):focus-visible {
-  outline: var(--border-2) solid var(--color-border-darker);
-  outline-offset: var(--border-2);
+:is(.input, .range, .checkbox, .radio) {
+  /* Keyboard navigation */
+  &:focus-visible {
+    outline: var(--border-2) solid var(--color-border-darker);
+    outline-offset: var(--border-2);
+  }
+
+  /* Server side validation */
+  .field_with_errors & {
+    border-color: var(--color-negative);
+  }
 }
