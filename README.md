@@ -89,7 +89,9 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ## Components
 
+[<img src="https://github.com/user-attachments/assets/989b0ddd-064a-4ac6-8aee-f9eaaf07ff38">](https://css-zero-showcase.onrender.com/lookbook)
 
+More components soon...
 
 ## Development
 
