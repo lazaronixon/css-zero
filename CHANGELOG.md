@@ -1,4 +1,6 @@
 ## [Unreleased]  
+
+## [0.0.18] - 2024-07-14
   - Transform dialog in a drawer on mobile
   - Correct the arrow style of datalist in Chrome.
   - Fix badge outline border.
@@ -15,6 +17,7 @@
   - Add modern font stack
   - Rename --color-border-darker to --color-border-dark.
   - Introduce --color-border-light.
+  - More border utilities.
 
 ## [0.0.17] - 2024-07-06
   - Add `color-filter-text-subtle` color and add `colorize-shade` utility class.

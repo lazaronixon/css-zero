@@ -110,6 +110,12 @@
 .border-is { border-inline-start-width: var(--border-size, 1px); }
 .border-ie { border-inline-end-width: var(--border-size, 1px); }
 
+.border-main { border-color: var(--color-border); }
+.border-dark { border-color: var(--color-border-dark); }
+
+.border-solid { border-style: solid; }
+.border-dashed { border-style: dashed; }
+
 .rounded-none { border-radius: none; }
 .rounded-sm { border-radius: var(--rounded-sm); }
 .rounded { border-radius: var(--rounded); }
