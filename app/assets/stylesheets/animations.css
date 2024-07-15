@@ -5,32 +5,160 @@
 *****************************************************************/
 
 :root {
-  --animate-spin: spin 1s linear infinite;
-  --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-  --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  --animate-bounce: bounce 1s infinite;
+  --animate-fade-in: fade-in .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-fade-in-bloom: fade-in-bloom 2s cubic-bezier(.25, 0, .3, 1);
+  --animate-fade-out: fade-out .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-fade-out-bloom: fade-out-bloom 2s cubic-bezier(.25, 0, .3, 1);
+  --animate-scale-up: scale-up .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-scale-down: scale-down .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-out-up: slide-out-up .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-out-down: slide-out-down .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-out-right: slide-out-right .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-out-left: slide-out-left .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-in-up: slide-in-up .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-in-down: slide-in-down .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-in-right: slide-in-right .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-slide-in-left: slide-in-left .5s cubic-bezier(.25, 0, .3, 1);
+  --animate-shake-x: shake-x .75s cubic-bezier(0, 0, 0, 1);
+  --animate-shake-y: shake-y .75s cubic-bezier(0, 0, 0, 1);
+  --animate-shake-z: shake-z 1s cubic-bezier(0, 0, 0, 1);
+  --animate-spin: spin 2s linear infinite;
+  --animate-ping: ping 5s cubic-bezier(0, 0, .3, 1) infinite;
+  --animate-blink: blink 1s cubic-bezier(0, 0, .3, 1) infinite;
+  --animate-float: float 3s cubic-bezier(0, 0, 0, 1) infinite;
+  --animate-bounce: bounce 2s cubic-bezier(.5, -.3, .1, 1.5) infinite;
+  --animate-pulse: pulse 2s cubic-bezier(0, 0, .3, 1) infinite;
+}
+
+@keyframes fade-in {
+  to { opacity: 1 }
+}
+
+@keyframes fade-in-bloom {
+    0% { opacity: 0; filter: brightness(1) blur(20px) }
+   10% { opacity: 1; filter: brightness(2) blur(10px) }
+  100% { opacity: 1; filter: brightness(1) blur(0) }
+}
+
+@keyframes fade-out {
+  to { opacity: 0 }
+}
+
+@keyframes fade-out-bloom {
+  100% { opacity: 0; filter: brightness(1) blur(20px) }
+   10% { opacity: 1; filter: brightness(2) blur(10px) }
+    0% { opacity: 1; filter: brightness(1) blur(0) }
+}
+@keyframes scale-up {
+  to { transform: scale(1.25) }
+}
+
+@keyframes scale-down {
+  to { transform: scale(.75) }
+}
+
+@keyframes slide-out-up {
+  to { transform: translateY(-100%) }
+}
+
+@keyframes slide-out-down {
+  to { transform: translateY(100%) }
+}
+
+@keyframes slide-out-right {
+  to { transform: translateX(100%) }
+}
+
+@keyframes slide-out-left {
+  to { transform: translateX(-100%) }
+}
+
+@keyframes slide-in-up {
+  from { transform: translateY(100%) }
+}
+
+@keyframes slide-in-down {
+  from { transform: translateY(-100%) }
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(-100%) }
+}
+
+@keyframes slide-in-left {
+  from { transform: translateX(100%) }
+}
+
+@keyframes shake-x {
+  0%, 100% { transform: translateX(0%) }
+  20% { transform: translateX(-5%) }
+  40% { transform: translateX(5%) }
+  60% { transform: translateX(-5%) }
+  80% { transform: translateX(5%) }
+}
+
+@keyframes shake-y {
+  0%, 100% { transform: translateY(0%) }
+  20% { transform: translateY(-5%) }
+  40% { transform: translateY(5%) }
+  60% { transform: translateY(-5%) }
+  80% { transform: translateY(5%) }
+}
+
+@keyframes shake-z {
+  0%, 100% { transform: rotate(0deg) }
+  20% { transform: rotate(-2deg) }
+  40% { transform: rotate(2deg) }
+  60% { transform: rotate(-2deg) }
+  80% { transform: rotate(2deg) }
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to { transform: rotate(1turn) }
 }
 
 @keyframes ping {
-  75%, 100% { transform: scale(2); opacity: 0; }
+  90%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
 
-@keyframes pulse {
-  50% { opacity: 0.5; }
+@keyframes blink {
+  0%, 100% {
+    opacity: 1
+  }
+  50% {
+    opacity: .5
+  }
+}
+
+@keyframes float {
+  50% { transform: translateY(-25%) }
 }
 
 @keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
+  25% { transform: translateY(-20%) }
+  40% { transform: translateY(-3%) }
+  0%, 60%, 100% { transform: translateY(0) }
+}
 
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+@keyframes pulse {
+  50% { transform: scale(.9,.9) }
+}
+
+@media (prefers-color-scheme: dark) {
+  @keyframes fade-in-bloom {
+      0% { opacity: 0; filter: brightness(1) blur(20px) }
+     10% { opacity: 1; filter: brightness(0.5) blur(10px) }
+    100% { opacity: 1; filter: brightness(1) blur(0) }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @keyframes fade-out-bloom {
+    100% { opacity: 0; filter: brightness(1) blur(20px) }
+     10% { opacity: 1; filter: brightness(0.5) blur(10px) }
+      0% { opacity: 1; filter: brightness(1) blur(0) }
   }
 }

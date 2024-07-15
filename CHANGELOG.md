@@ -1,4 +1,5 @@
 ## [Unreleased]  
+  - Add more animations;
 
 ## [0.0.18] - 2024-07-14
   - Transform dialog in a drawer on mobile
