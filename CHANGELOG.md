@@ -2,6 +2,7 @@
   - Add more animations.
   - Remove shadow-xs.
   - Remove shadow from button.
+  - User color-primary to focus.
 
 ## [0.0.18] - 2024-07-14
   - Transform dialog in a drawer on mobile
