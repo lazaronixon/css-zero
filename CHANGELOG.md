@@ -1,5 +1,7 @@
 ## [Unreleased]  
-  - Add more animations;
+  - Add more animations.
+  - Remove shadow-xs.
+  - Remove shadow from button.
 
 ## [0.0.18] - 2024-07-14
   - Transform dialog in a drawer on mobile
