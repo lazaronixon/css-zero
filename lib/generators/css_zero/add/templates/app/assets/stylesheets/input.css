@@ -4,7 +4,6 @@
   border-color: var(--color-border);
   border-radius: var(--rounded-md);
   border-width: var(--border);
-  box-shadow: var(--shadow-xs);
   font-size: var(--text-sm);
   inline-size: var(--size-full);
   padding: var(--size-2) var(--size-3);
