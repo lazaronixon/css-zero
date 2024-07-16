@@ -1,4 +1,6 @@
-## [Unreleased]  
+## [Unreleased]
+
+## [0.0.19] - 2024-07-16
   - Add more animations.
   - Remove shadow-xs.
   - Remove shadow from button.
