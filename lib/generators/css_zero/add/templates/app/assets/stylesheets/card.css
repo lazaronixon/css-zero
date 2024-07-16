@@ -2,5 +2,5 @@
   border-radius: var(--rounded-lg);
   border-width: var(--border);
   padding: var(--size-6);
-  shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-sm);
 }
