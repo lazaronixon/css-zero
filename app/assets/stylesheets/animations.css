@@ -1,7 +1,7 @@
 /****************************************************************
 * Animation
 * Variables for animating elements with CSS animations.
-* animation: var(--animate-pulse);
+* animation: var(--animate-fade-in) forwards;
 *****************************************************************/
 
 :root {
