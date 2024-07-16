@@ -1,0 +1,135 @@
+:where(.prose) {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: clamp(1rem, 2.5cqi, 1.4rem);
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    font-weight: 800;
+    hyphens: auto;
+    letter-spacing: -0.02ch;
+    line-height: 1.1;
+    margin-block: 0.65em;
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.17em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 0.83em;
+  }
+
+  h6 {
+    font-size: 0.67em;
+  }
+
+  :is(ul, ol, menu) {
+    list-style: revert;
+    padding-inline-start: revert;
+  }
+
+  :is(p, ul, ol, dl, blockquote, pre, figure, table, hr) {
+    margin-block: 0.65lh;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
+  }
+
+  hr {
+    border-color: var(--color-border-dark);
+    border-style: var(--border-style, solid) none none;
+    margin: 2lh auto;
+  }
+
+  :is(b, strong) {
+    font-weight: 700;
+  }
+
+  :is(pre, code) {
+    background-color: var(--color-border-light);
+    border: 1px solid var(--color-border);
+    border-radius: 0.3em;
+    font-family: var(--font-monospace-code);
+    font-size: 0.85em;
+  }
+
+  code {
+    padding: 0.1em 0.3em;
+    white-space: pre-wrap;
+  }
+
+  pre {
+    border-radius: 0.5em;
+    padding: 0.5lh 2ch;
+  }
+
+  pre code {
+    background-color: transparent;
+    border: 0;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  p {
+    hyphens: auto;
+    letter-spacing: -0.005ch;
+  }
+
+  blockquote {
+    font-style: italic;
+    margin: 0 3ch;
+  }
+
+  blockquote p {
+    hyphens: none;
+  }
+
+  table {
+    border: 1px solid var(--color-border-dark);
+    border-collapse: collapse;
+    margin: 1lh 0;
+  }
+
+  th {
+    font-weight: 700;
+  }
+
+  :is(th, td) {
+    border: 1px solid var(--color-border-dark);
+    padding: 0.2lh 1ch;
+    text-align: start;
+  }
+
+  th {
+    border-block-end-width: 3px;
+  }
+
+  del {
+    background-color: hsl(from var(--color-negative) h s l / .1);
+    color: var(--color-negative);
+  }
+
+  ins {
+    background-color: hsl(from var(--color-positive) h s l / .1);
+    color: var(--color-positive);
+  }
+
+  a {
+    color: var(--blue-700);
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+  }
+}

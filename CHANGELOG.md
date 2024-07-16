@@ -4,6 +4,7 @@
   - Remove shadow from button.
   - Use color-primary for focus.
   - Fix dark --color-border-dark.
+  - Add prose component.
 
 ## [0.0.18] - 2024-07-14
   - Transform dialog in a drawer on mobile

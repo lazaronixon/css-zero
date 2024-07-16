@@ -31,6 +31,8 @@ pagination:
   - app/assets/images/ellipsis.svg
 progress:
   - app/assets/stylesheets/progress.css
+prose:
+  - app/assets/stylesheets/prose.css
 switch:
   - app/assets/stylesheets/switch.css
 table:
