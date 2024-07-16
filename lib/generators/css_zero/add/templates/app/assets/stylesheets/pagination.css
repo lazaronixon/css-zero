@@ -28,6 +28,6 @@
   }
 
   a:not([aria-disabled]):hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-border-light);
   }
 }

@@ -1,5 +1,5 @@
 .progress {
-  --track: var(--color-secondary);
+  --track: var(--color-border-light);
   --progress: var(--color-primary);
 
   background-color: var(--track);
