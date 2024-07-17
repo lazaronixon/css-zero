@@ -3,6 +3,7 @@
   - Fix --text-xl-responsive.
   - Remove --width-prose.
   - Rename reponsive font utilities
+  - Apply font responsive and max-inline-size to prose
 
 ## [0.0.20] - 2024-07-17
   - Add shadow-inner utility.

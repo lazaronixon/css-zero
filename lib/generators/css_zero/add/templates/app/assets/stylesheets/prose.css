@@ -1,4 +1,7 @@
 :where(.prose) {
+  font-size: var(--text-base-responsive);
+  max-inline-size: 65ch;
+
   :is(h1, h2, h3, h4, h5, h6) {
     font-weight: 800;
     hyphens: auto;
