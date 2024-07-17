@@ -124,7 +124,6 @@
   }
 
   a {
-    color: var(--blue-700);
     text-decoration: underline;
     text-decoration-skip-ink: auto;
   }
