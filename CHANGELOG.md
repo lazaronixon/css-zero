@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - Add shadow-inner utility.
 
 ## [0.0.19] - 2024-07-16
   - Add more animations.
