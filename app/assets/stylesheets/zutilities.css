@@ -130,7 +130,6 @@
 * Shadow
 *****************************************************************/
 .shadow-none { box-shadow: none; }
-.shadow-xs { box-shadow: var(--shadow-xs); }
 .shadow-sm { box-shadow: var(--shadow-sm); }
 .shadow { box-shadow: var(--shadow); }
 .shadow-md { box-shadow: var(--shadow-md); }
