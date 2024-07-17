@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - Remve antialiased utility.
 
 ## [0.0.20] - 2024-07-17
   - Add shadow-inner utility.
