@@ -1,6 +1,9 @@
 :where(.prose) {
+  /* Antialiased */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+
+  /* Responsive font fize */
   font-size: clamp(1rem, 2.5cqi, 1.4rem);
 
   :is(h1, h2, h3, h4, h5, h6) {
