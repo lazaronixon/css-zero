@@ -82,10 +82,10 @@
 .text-8xl { font-size: var(--text-8xl); }
 .text-9xl { font-size: var(--text-9xl); }
 
-.text-sm-responsive { font-size: var(--text-sm-responsive); }
-.text-base-responsive { font-size: var(--text-base-responsive); }
-.text-lg-responsive { font-size: var(--text-lg-responsive); }
-.text-xl-responsive { font-size: var(--text-xl-responsive); }
+.text-sm--responsive { font-size: var(--text-sm-responsive); }
+.text-base--responsive { font-size: var(--text-base-responsive); }
+.text-lg--responsive { font-size: var(--text-lg-responsive); }
+.text-xl--responsive { font-size: var(--text-xl-responsive); }
 
 /****************************************************************
 * Background

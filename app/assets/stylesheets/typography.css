@@ -19,7 +19,7 @@
   --text-9xl:  8rem;     /* 128px */
 
   --text-sm-responsive:   clamp(0.75rem, 2cqi, 1rem);
-  --text-base-responsive: clamp(1rem, 2.5cqi, 1.5rem);
+  --text-base-responsive: clamp(1rem, 2.5cqi, 1.25rem);
   --text-lg-responsive:   clamp(1.25rem, 4cqi, 1.875rem);
   --text-xl-responsive:   clamp(1.875rem, 5cqi, 3rem);
 
