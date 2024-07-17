@@ -1,5 +1,6 @@
 ## [Unreleased]
   - Add shadow-inner utility.
+  - Add responsive fonts.
 
 ## [0.0.19] - 2024-07-16
   - Add more animations.

@@ -4,7 +4,7 @@
   -webkit-font-smoothing: antialiased;
 
   /* Responsive font fize */
-  font-size: clamp(1rem, 2.5cqi, 1.4rem);
+  font-size: var(--text-base-responsive);
 
   :is(h1, h2, h3, h4, h5, h6) {
     font-weight: 800;
