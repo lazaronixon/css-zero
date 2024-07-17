@@ -1,6 +1,7 @@
 ## [Unreleased]
   - Add shadow-inner utility.
   - Add responsive fonts.
+  - Remove font-size and antialiased from prose.
 
 ## [0.0.19] - 2024-07-16
   - Add more animations.
