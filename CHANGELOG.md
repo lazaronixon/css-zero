@@ -1,5 +1,6 @@
 ## [Unreleased]
   - Remve antialiased utility.
+  - Fix --text-xl-responsive.
 
 ## [0.0.20] - 2024-07-17
   - Add shadow-inner utility.
