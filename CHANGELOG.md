@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.20] - 2024-07-17
   - Add shadow-inner utility.
   - Add responsive fonts.
   - Remove font-size and antialiased from prose.
