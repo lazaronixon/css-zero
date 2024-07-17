@@ -1,6 +1,7 @@
 ## [Unreleased]
-  - Remve antialiased utility.
+  - Remove antialiased utility.
   - Fix --text-xl-responsive.
+  - Remove --width-prose.
 
 ## [0.0.20] - 2024-07-17
   - Add shadow-inner utility.
