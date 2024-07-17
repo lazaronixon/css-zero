@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.21] - 2024-07-17
   - Remove antialiased utility.
   - Fix --text-xl-responsive.
   - Remove --width-prose.
