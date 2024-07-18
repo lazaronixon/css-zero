@@ -2,6 +2,10 @@
   font-size: var(--text-base-responsive);
   max-inline-size: 65ch;
 
+  /* Antialiased fonts */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
   :is(h1, h2, h3, h4, h5, h6) {
     font-weight: 800;
     hyphens: auto;
@@ -127,6 +131,7 @@
   }
 
   a {
+    font-weight: 500;
     text-decoration: underline;
     text-decoration-skip-ink: auto;
   }
