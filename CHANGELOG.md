@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.22] - 2024-07-18
   - Adjust prose headers.
   - Adjust responsive fonts again.
   - Use antialiased fonts and bold links on prose.
