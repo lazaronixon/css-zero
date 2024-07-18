@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - Adjust prose headers.
 
 ## [0.0.21] - 2024-07-17
   - Remove antialiased utility.
