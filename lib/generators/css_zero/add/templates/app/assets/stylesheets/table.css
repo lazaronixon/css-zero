@@ -10,6 +10,10 @@
     border-block-start-width: var(--border);
   }
 
+  tr:hover {
+    background-color: var(--color-border-light);
+  }
+
   th {
     font-weight: var(--font-medium);
     text-align: start;

@@ -22,6 +22,10 @@
     justify-content: space-between;
     padding-block: var(--size-4);
 
+    &:hover {
+      text-decoration: underline;
+    }
+
     &:focus-visible {
       outline: var(--border-2) solid var(--color-primary);
       outline-offset: var(--border-2);
