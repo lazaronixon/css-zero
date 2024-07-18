@@ -7,7 +7,6 @@
   font-size: var(--text-sm);
   inline-size: var(--size-full);
   padding: var(--size-2) var(--size-3);
-  resize: none;
 
   option {
     padding-block: var(--size-1);
@@ -17,6 +16,7 @@
     field-sizing: content;
     max-block-size: calc(10lh + var(--size-6));
     min-block-size: calc(3lh  + var(--size-6));
+    resize: none;
   }
 
   &:is(select):not([multiple], [size]) {

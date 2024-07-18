@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - Don't disable text area resize
 
 ## [0.0.22] - 2024-07-18
   - Adjust prose headers.
