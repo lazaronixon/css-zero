@@ -1,5 +1,6 @@
 ## [Unreleased]
   - Adjust prose headers.
+  - Adjust responsive fonts again.
 
 ## [0.0.21] - 2024-07-17
   - Remove antialiased utility.
