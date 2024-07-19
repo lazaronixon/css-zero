@@ -9,7 +9,7 @@
   overflow: hidden;
 
   img {
-    aspect-ratio: 1;
+    aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
     inline-size: var(--size-full);
     object-fit: cover;

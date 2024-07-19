@@ -166,6 +166,9 @@
 .object-contain	{ object-fit: contain; }
 .object-cover {	object-fit: cover; }
 
+.aspect-square { aspect-ratio: 1; }
+.aspect-widescreen { aspect-ratio: 16 / 9; }
+
 /****************************************************************
 * Margin
 *****************************************************************/
