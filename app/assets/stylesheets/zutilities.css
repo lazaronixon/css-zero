@@ -163,6 +163,9 @@
 .overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; }
 .overflow-hidden { overflow: hidden; }
 
+.object-contain	{ object-fit: contain; }
+.object-cover {	object-fit: cover; }
+
 /****************************************************************
 * Margin
 *****************************************************************/
