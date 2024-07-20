@@ -243,6 +243,19 @@ progress {
 }
 
 /*
+  Remove the increment cursor for step any.
+*/
+
+input[step='any']::-webkit-inner-spin-button,
+input[step='any']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[step='any'] {
+  -moz-appearance: textfield;
+}
+
+/*
   Add the correct display in Chrome and Safari.
 */
 

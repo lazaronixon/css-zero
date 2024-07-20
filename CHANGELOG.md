@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - Hide spinner for step any inputs.
 
 ## [0.0.23] - 2024-07-20
   - Don't disable text area resize.
