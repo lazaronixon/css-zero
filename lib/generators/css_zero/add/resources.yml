@@ -15,12 +15,17 @@ button:
   - app/assets/images/loader-circle.svg
 card:
   - app/assets/stylesheets/card.css
+carousel:
+  - app/assets/stylesheets/carousel.css
+  - app/javascript/controllers/carousel_controller.js
+  - app/assets/images/arrow-left.svg
+  - app/assets/images/arrow-right.svg
 collapsible:
   - app/javascript/controllers/collapsible_controller.js
 dialog:
   - app/assets/stylesheets/dialog.css
-  - app/assets/images/x.svg
   - app/javascript/controllers/dialog_controller.js
+  - app/assets/images/x.svg
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg

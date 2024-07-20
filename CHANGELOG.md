@@ -3,6 +3,7 @@
   - Add hover to accordion and table
   - Add new object-fit utilities
   - Add aspect ratio variables
+  - Add carousel.
 
 ## [0.0.22] - 2024-07-18
   - Adjust prose headers.
