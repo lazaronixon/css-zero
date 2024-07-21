@@ -235,6 +235,14 @@ progress {
 }
 
 /*
+  Correct empty date field height on safari IOS.
+*/
+
+::-webkit-date-and-time-value {
+  height: 1.5em;
+}
+
+/*
   Remove the inner padding in Chrome and Safari on macOS.
 */
 

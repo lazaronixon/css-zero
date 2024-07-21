@@ -1,5 +1,6 @@
 ## [Unreleased]
   - Hide spinner for step any inputs.
+  - Fix empty date field height on safari IOS.
 
 ## [0.0.23] - 2024-07-20
   - Don't disable text area resize.
