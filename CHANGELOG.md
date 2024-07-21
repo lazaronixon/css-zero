@@ -1,7 +1,6 @@
 ## [Unreleased]
   - Hide spinner for step any inputs.
   - Fix empty date field height on safari IOS.
-  - Add translate variables.
   - Move "Prevent page scroll when dialog is open" to reset.
 
 ## [0.0.23] - 2024-07-20

@@ -15,16 +15,6 @@
   --scale-150: scale(1.50);
 
   /****************************************************************
-  * Translate
-  * Utilities for translating elements with transform.
-  * transform: var(--translate-x-full);
-  *****************************************************************/
-  --translate-x-0:    translateX(0px);
-  --translate-x-full:	translateX(100%);
-  --translate-y-0:    translateY(0px);
-  --translate-y-full:	translateY(100%);
-
-  /****************************************************************
   * Rotate
   * Variables for rotating elements with transform.
   * transform: var(--rotate-45);
