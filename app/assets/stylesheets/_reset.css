@@ -336,6 +336,13 @@ video {
 }
 
 /*
+  Prevent page scroll when dialog is open
+*/
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+/*
   Make elements with the HTML hidden attribute stay hidden by default.
 */
 

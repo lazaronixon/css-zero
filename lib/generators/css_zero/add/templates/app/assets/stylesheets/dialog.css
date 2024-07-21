@@ -66,8 +66,3 @@
     display: none;
   }
 }
-
-/* Prevent page scroll when dialog is open */
-html:has(.dialog[open]) {
-  overflow: hidden;
-}
