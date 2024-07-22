@@ -6,6 +6,8 @@
 .flex-wrap { flex-wrap: wrap; }
 .inline-flex { display: inline-flex; }
 
+.grid { display: grid; }
+
 .justify-start { justify-content: start; }
 .justify-center { justify-content: center; }
 .justify-end { justify-content: end; }
@@ -127,8 +129,6 @@
 .rounded-md { border-radius: var(--rounded-md); }
 .rounded-lg { border-radius: var(--rounded-lg); }
 .rounded-xl { border-radius: var(--rounded-xl); }
-.rounded-2xl { border-radius: var(--rounded-2xl); }
-.rounded-3xl { border-radius: var(--rounded-3xl); }
 .rounded-full { border-radius: var(--rounded-full); }
 
 /****************************************************************
@@ -141,7 +141,6 @@
 .shadow-lg { box-shadow: var(--shadow-lg); }
 .shadow-xl { box-shadow: var(--shadow-xl); }
 .shadow-2xl { box-shadow: var(--shadow-2xl); }
-.shadow-inner { box-shadow: var(--shadow-inner); }
 
 /****************************************************************
 * Layout
@@ -311,8 +310,6 @@
 /****************************************************************
 * Grid system
 *****************************************************************/
-.grid { display: grid; }
-
 .grid-cols-1 { grid-template-columns: var(--grid-1); }
 .grid-cols-2 { grid-template-columns: var(--grid-2); }
 .grid-cols-3 { grid-template-columns: var(--grid-3); }
