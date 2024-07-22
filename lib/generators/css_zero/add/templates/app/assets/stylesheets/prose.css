@@ -131,7 +131,7 @@
   }
 
   a {
-    font-weight: 500;
+    color: var(--color-link);
     text-decoration: underline;
     text-decoration-skip-ink: auto;
   }
