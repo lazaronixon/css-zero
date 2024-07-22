@@ -26,6 +26,9 @@ dialog:
   - app/assets/stylesheets/dialog.css
   - app/javascript/controllers/dialog_controller.js
   - app/assets/images/x.svg
+flash:
+  - app/assets/stylesheets/flash.css
+  - app/javascript/controllers/element_removal_controller.js
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
