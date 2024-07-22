@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.24] - 2024-07-21
   - Hide spinner for step any inputs.
   - Fix empty date field height on safari IOS.
   - Move "Prevent page scroll when dialog is open" to reset.
