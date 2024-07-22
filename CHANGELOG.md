@@ -4,6 +4,7 @@
   - Add color-link.
   - Add add color-selected-dark.
   - Add invalid feedback to inputs.
+  - Better reset for dialog page scroll.
 
 ## [0.0.24] - 2024-07-21
   - Hide spinner for step any inputs.
