@@ -2,6 +2,7 @@
   - Reduce rounded and shadow utilities
   - Add skeleton.
   - Add color-link.
+  - Add add color-selected-dark.
 
 ## [0.0.24] - 2024-07-21
   - Hide spinner for step any inputs.

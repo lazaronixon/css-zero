@@ -8,7 +8,8 @@
   --color-border-light: var(--zinc-100);
   --color-border: var(--zinc-200);
   --color-border-dark: var(--zinc-400);
-  --color-selected: var(--sky-100);
+  --color-selected: var(--blue-100);
+  --color-selected-dark: var(--blue-300);
 
   /* Accent colors */
   --color-primary: var(--zinc-900);
@@ -33,7 +34,8 @@
     --color-border-light: var(--zinc-800);
     --color-border: var(--zinc-800);
     --color-border-dark: var(--zinc-600);
-    --color-selected: var(--sky-950);
+    --color-selected: var(--blue-950);
+    --color-selected-dark: var(--blue-800);
 
     /* Accent colors */
     --color-primary: var(--zinc-50);
