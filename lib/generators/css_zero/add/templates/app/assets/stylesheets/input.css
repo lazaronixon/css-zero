@@ -31,6 +31,11 @@
     margin-inline-end: var(--size-2);
   }
 
+  &:autofill {
+    -webkit-text-fill-color: var(--color-text);
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-selected) inset;
+  }
+
   &::placeholder {
     color: var(--color-text-subtle);
   }

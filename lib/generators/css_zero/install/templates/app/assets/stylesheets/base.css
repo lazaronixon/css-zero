@@ -8,6 +8,7 @@
   --color-border-light: var(--zinc-100);
   --color-border: var(--zinc-200);
   --color-border-dark: var(--zinc-400);
+  --color-selected: var(--sky-100);
 
   /* Accent colors */
   --color-primary: var(--zinc-900);
@@ -28,10 +29,11 @@
     --color-text: white;
     --color-text-reversed: black;
     --color-text-subtle: var(--zinc-400);
-    --color-link: var(--blue-400);
+    --color-link: var(--sky-400);
     --color-border-light: var(--zinc-800);
     --color-border: var(--zinc-800);
     --color-border-dark: var(--zinc-600);
+    --color-selected: var(--sky-950);
 
     /* Accent colors */
     --color-primary: var(--zinc-50);
@@ -61,4 +63,8 @@ body {
   color: var(--color-text);
   font-synthesis-weight: none;
   text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-selected);
 }
