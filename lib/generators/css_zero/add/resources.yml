@@ -40,5 +40,9 @@ prose:
   - app/assets/stylesheets/prose.css
 switch:
   - app/assets/stylesheets/switch.css
+sheet:
+  - app/assets/stylesheets/sheet.css
+  - app/javascript/controllers/dialog_controller.js
+  - app/assets/images/x.svg
 table:
   - app/assets/stylesheets/table.css

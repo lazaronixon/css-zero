@@ -1,0 +1,61 @@
+.sheet {
+  background-color: var(--color-bg);
+  border-inline-start-width: var(--border);
+  box-shadow: var(--shadow-lg);
+  block-size: 100%;
+  color: var(--color-text);
+  inline-size: var(--size-3-4);
+  margin-inline-start: auto;
+  max-block-size: none;
+  max-inline-size: var(--width-sm);
+  padding: var(--size-6);
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, .8);
+  }
+
+  /* Setup animation */
+  transform: translateX(100%);
+  transition-behavior: allow-discrete;
+  transition-duration: var(--time-500);
+  transition-property: display, overlay, transform;
+
+  &::backdrop {
+    opacity: 0;
+    transition-behavior: allow-discrete;
+    transition-duration: var(--time-150);
+    transition-property: display, overlay, opacity;
+  }
+
+  /* In animation */
+  &[open] {
+    transform: translateX(0);
+  }
+
+  &[open]::backdrop {
+    opacity: 1;
+  }
+
+  /* Out animation */
+  @starting-style {
+    &[open] {
+      transform: translateX(100%);
+    }
+
+    &[open]::backdrop {
+      opacity: 0;
+    }
+  }
+
+  /* Small screens and below */
+  @media (width < 40rem) {
+    max-inline-size: none;
+    text-align: center;
+  }
+}
+
+.sheet__close {
+  inset-block-start: var(--size-4);
+  inset-inline-end: var(--size-4);
+  position: absolute;
+}
