@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.26] - 2024-07-23
   - Remove comments.
   - Move options to _reset.css.
   - Add z-index variables.
