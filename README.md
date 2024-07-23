@@ -54,6 +54,7 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 *= require typography
 *= require_tree .
 *= require_self
+*= require zindex
 *= require zutilities
 */
 ```
