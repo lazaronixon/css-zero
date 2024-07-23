@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.25] - 2024-07-23
   - Reduce rounded and shadow utilities
   - Add skeleton.
   - Add color-link.
