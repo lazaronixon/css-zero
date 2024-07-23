@@ -1,6 +1,7 @@
 ## [Unreleased]
   - Remove comments.
   - Move options to _reset.css.
+  - Add z-index variables.
 
 ## [0.0.25] - 2024-07-23
   - Reduce rounded and shadow utilities
