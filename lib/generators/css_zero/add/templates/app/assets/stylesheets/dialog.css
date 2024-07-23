@@ -59,8 +59,4 @@
   inset-block-start: var(--size-4);
   inset-inline-end: var(--size-4);
   position: absolute;
-
-  @media (width < 40rem) {
-    display: none;
-  }
 }

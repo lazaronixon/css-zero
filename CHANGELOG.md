@@ -1,5 +1,6 @@
 ## [Unreleased]
   - Simplify flash.
+  - Simplify dialog__close.
 
 ## [0.0.26] - 2024-07-23
   - Remove comments.
