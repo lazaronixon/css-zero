@@ -1,5 +1,6 @@
 ## [Unreleased]
-  - Remove comments
+  - Remove comments.
+  - Move options to _reset.css.
 
 ## [0.0.25] - 2024-07-23
   - Reduce rounded and shadow utilities
