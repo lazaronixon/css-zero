@@ -1,6 +1,8 @@
 .card {
+  background-color: var(--color-bg);
   border-radius: var(--rounded-lg);
   border-width: var(--border);
+  color: var(--color-text);
   padding: var(--size-6);
   box-shadow: var(--shadow-sm);
 }

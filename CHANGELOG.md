@@ -6,6 +6,7 @@
   - Add invalid feedback to inputs.
   - Better reset for dialog page scroll.
   - Add Flash message.
+  - Set bg and color to card.
 
 ## [0.0.24] - 2024-07-21
   - Hide spinner for step any inputs.
