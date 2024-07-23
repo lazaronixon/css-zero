@@ -13,7 +13,7 @@
   scroll-snap-type: x mandatory;
 
   > * {
-    flex: 1 0 100%;
+    flex: 0 0 100%;
     scroll-snap-stop: always;
     scroll-snap-align: center;
   }
