@@ -8,6 +8,7 @@
   - Add Flash message.
   - Set bg and color to card.
   - Small adjust in carousel.
+  - Remove !important from hidden, contents and inputs.
 
 ## [0.0.24] - 2024-07-21
   - Hide spinner for step any inputs.

@@ -347,7 +347,7 @@ html:has(dialog:modal[open]) {
 */
 
 [hidden] {
-  display: none !important;
+  display: none;
 }
 
 /*
@@ -355,5 +355,5 @@ html:has(dialog:modal[open]) {
 */
 
 [contents] {
-  display: contents !important;
+  display: contents;
 }
