@@ -15,7 +15,6 @@
     color: var(--color-text);
   }
 
-  /* Small screens and below */
   @media (width < 40rem) {
     gap: var(--size-1_5);
   }

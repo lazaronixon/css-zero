@@ -47,7 +47,6 @@
     }
   }
 
-  /* Small screens and below */
   @media (width < 40rem) {
     max-inline-size: none;
     text-align: center;

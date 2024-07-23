@@ -47,7 +47,6 @@
     }
   }
 
-  /* Small screens and below */
   @media (width < 40rem) {
     border-end-end-radius: 0;
     border-end-start-radius: 0;
@@ -61,7 +60,6 @@
   inset-inline-end: var(--size-4);
   position: absolute;
 
-  /* Small screens and below */
   @media (width < 40rem) {
     display: none;
   }
