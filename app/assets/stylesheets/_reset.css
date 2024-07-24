@@ -37,6 +37,15 @@ html,
 }
 
 /*
+  Prevent page scroll when modal dialog is open.
+*/
+
+html:has(dialog:modal[open]) {
+  overflow: hidden;
+}
+
+
+/*
   Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
@@ -243,14 +252,6 @@ progress {
 }
 
 /*
-  Correct empty date field height on safari IOS.
-*/
-
-::-webkit-date-and-time-value {
-  height: 1.5em;
-}
-
-/*
   Remove the inner padding in Chrome and Safari on macOS.
 */
 
@@ -259,16 +260,11 @@ progress {
 }
 
 /*
-  Remove the increment cursor for step any.
+  Correct empty date field height on safari IOS.
 */
 
-input[step='any']::-webkit-inner-spin-button,
-input[step='any']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-}
-
-input[step='any'] {
-  -moz-appearance: textfield;
+::-webkit-date-and-time-value {
+  height: 1.5em;
 }
 
 /*
@@ -344,10 +340,11 @@ video {
 }
 
 /*
-  Prevent page scroll when modal dialog is open
+  Make turbo frame become pseudo-box by default.
 */
-html:has(dialog:modal[open]) {
-  overflow: hidden;
+
+turbo-frame {
+  display: contents;
 }
 
 /*

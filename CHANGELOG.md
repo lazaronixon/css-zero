@@ -1,6 +1,7 @@
 ## [Unreleased]
   - Simplify flash.
   - Simplify dialog__close.
+  - Add turbo-frame to _reset.css.
 
 ## [0.0.26] - 2024-07-23
   - Remove comments.
