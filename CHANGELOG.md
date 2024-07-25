@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.27] - 2024-07-25
   - Simplify flash.
   - Simplify dialog__close.
   - Add turbo-frame to _reset.css.
