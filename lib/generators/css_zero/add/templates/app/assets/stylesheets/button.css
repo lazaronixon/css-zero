@@ -73,10 +73,10 @@
       animation-duration: 1s;
       background-image: url("loader-circle.svg");
       background-size: cover;
-      block-size: var(--size-6);
+      block-size: var(--size-4);
       content: "";
       filter: var(--btn-icon-color, var(--color-filter-text-reversed));
-      inline-size: var(--size-6);
+      inline-size: var(--size-4);
       margin-inline: auto;
       position: absolute;
     }

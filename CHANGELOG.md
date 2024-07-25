@@ -1,4 +1,5 @@
 ## [Unreleased]
+  - Revert button size loading
 
 ## [0.0.27] - 2024-07-25
   - Simplify flash.
