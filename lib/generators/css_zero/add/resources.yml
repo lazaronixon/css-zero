@@ -51,3 +51,5 @@ switch:
   - app/assets/stylesheets/switch.css
 table:
   - app/assets/stylesheets/table.css
+toggle:
+  - app/assets/stylesheets/toggle.css

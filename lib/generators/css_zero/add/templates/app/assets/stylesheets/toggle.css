@@ -1,0 +1,12 @@
+.toggle {
+  display: inline-flex;
+  position: relative;
+
+  [type="checkbox"] {
+    position: absolute; clip: rect(0, 0, 0, 0);
+  }
+
+  [type="checkbox"]:checked + .btn {
+    --btn-background: var(--color-secondary);
+  }
+}
