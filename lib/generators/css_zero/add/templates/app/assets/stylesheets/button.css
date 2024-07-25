@@ -1,7 +1,6 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-primary));
-  border-color: var(--color-border);
   border-radius: var(--rounded-md);
   border-width: var(--btn-border-width, 0);
   color: var(--btn-color, var(--color-text-reversed));

@@ -3,6 +3,7 @@
   - Simplify dialog__close.
   - Add turbo-frame to _reset.css.
   - Adjust loading button.
+  - Remove btn border color.
 
 ## [0.0.26] - 2024-07-23
   - Remove comments.
