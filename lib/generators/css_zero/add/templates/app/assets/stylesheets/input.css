@@ -3,7 +3,6 @@
   background-color: var(--color-bg);
   border-color: var(--color-border);
   border-radius: var(--rounded-md);
-  border-width: var(--border);
   font-size: var(--text-sm);
   inline-size: var(--size-full);
   padding: var(--size-2) var(--size-3);
