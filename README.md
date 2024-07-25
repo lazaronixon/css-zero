@@ -52,9 +52,9 @@ If you are using [Sprockets](https://github.com/rails/sprockets) make sure to lo
 *= require transform
 *= require transition
 *= require typography
+*= require zindex
 *= require_tree .
 *= require_self
-*= require zindex
 *= require zutilities
 */
 ```
