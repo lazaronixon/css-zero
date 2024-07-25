@@ -6,6 +6,7 @@
   - Remove btn border color.
   - Add toggle buttons.
   - Remover border width input.
+  - Adjust focus on toggle.
 
 ## [0.0.26] - 2024-07-23
   - Remove comments.
