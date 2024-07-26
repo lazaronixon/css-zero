@@ -1,5 +1,4 @@
 .badge {
-  align-items: center;
   background-color: var(--badge-background, var(--color-primary));
   border-radius: var(--rounded-full);
   border-width: var(--badge-border-width, 0);
