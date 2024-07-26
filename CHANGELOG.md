@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.28] - 2024-07-26
   - Revert button size loading.
   - Hide scrollbar for carousel on safari.
   - Remove align-items from badge.
