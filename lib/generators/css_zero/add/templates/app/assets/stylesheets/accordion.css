@@ -1,6 +1,4 @@
 :where(.accordion) {
-  inline-size: var(--size-full);
-
   details {
     border-block-end-width: var(--border);
     transition: padding var(--time-150) var(--ease-in-out);

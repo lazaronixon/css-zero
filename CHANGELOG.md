@@ -2,6 +2,7 @@
   - Revert button size loading.
   - Hide scrollbar for carousel on safari.
   - Remove align-items from badge.
+  - Remove full width from accordion.
 
 ## [0.0.27] - 2024-07-25
   - Simplify flash.
