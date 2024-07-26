@@ -4,6 +4,7 @@
   - Remove align-items from badge.
   - Remove full width from accordion.
   - Revert card component.
+  - Remove !important from dialog.css.
 
 ## [0.0.27] - 2024-07-25
   - Simplify flash.
