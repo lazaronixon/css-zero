@@ -12,6 +12,10 @@
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
 
+  &::-webkit-scrollbar {
+    display: none;
+  }  
+
   > * {
     flex: 0 0 100%;
     scroll-snap-stop: always;

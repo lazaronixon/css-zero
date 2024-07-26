@@ -1,5 +1,6 @@
 ## [Unreleased]
-  - Revert button size loading
+  - Revert button size loading.
+  - Hide scrollbar for carousel on safari.
 
 ## [0.0.27] - 2024-07-25
   - Simplify flash.
