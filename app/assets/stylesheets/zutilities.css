@@ -151,6 +151,7 @@
 
 .border-solid { border-style: solid; }
 .border-dashed { border-style: dashed; }
+.border-dotted { border-style: dotted; }
 
 .rounded-none { border-radius: none; }
 .rounded-sm { border-radius: var(--rounded-sm); }
