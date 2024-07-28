@@ -340,11 +340,10 @@
 * Accessibility
 *****************************************************************/
 .sr-only {
-  position: absolute;
-  width: 1px; height: 1px;
-  padding: 0; margin: -1px;
+  block-size: 1px;
+  clip-path: inset(50%);
+  inline-size: 1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  position: absolute;
   white-space: nowrap;
-  border-width: 0;
 }
