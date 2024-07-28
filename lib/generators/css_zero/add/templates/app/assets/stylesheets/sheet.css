@@ -49,7 +49,6 @@
 
   @media (width < 40rem) {
     max-inline-size: none;
-    text-align: center;
   }
 }
 

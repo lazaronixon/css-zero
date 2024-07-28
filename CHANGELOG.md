@@ -1,6 +1,7 @@
 ## [Unreleased]
   - Simplify sr-only.
   - Add border dotted.
+  - Remove text-center sheet.
 
 ## [0.0.28] - 2024-07-26
   - Revert button size loading.
