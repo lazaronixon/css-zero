@@ -14,7 +14,7 @@
 
   &::-webkit-scrollbar {
     display: none;
-  }  
+  }
 
   > * {
     flex: 0 0 100%;
