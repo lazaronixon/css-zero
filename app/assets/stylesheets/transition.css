@@ -4,8 +4,8 @@
   * Variables for controlling which CSS properties transition.
   * transition-property: var(--transition);
   *****************************************************************/
-  --transition:        background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-  --transition-colors: background-color, border-color, color, fill, stroke;
+  --transition: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter;
+  --transition-colors: color, background-color, border-color, text-decoration-color, fill, stroke;
 
   /****************************************************************
   * Transition Timing
