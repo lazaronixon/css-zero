@@ -3,6 +3,7 @@
   - Add border dotted.
   - Remove text-center sheet.
   - Update transition property.
+  - Remove grid utilities.
 
 ## [0.0.28] - 2024-07-26
   - Revert button size loading.
