@@ -15,7 +15,6 @@
     font-weight: var(--font-medium);
     gap: var(--size-2);
     justify-content: center;
-    min-inline-size: fit-content;
     padding: var(--size-2) var(--size-4);
   }
 
