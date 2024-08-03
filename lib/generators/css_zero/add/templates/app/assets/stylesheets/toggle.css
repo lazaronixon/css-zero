@@ -1,6 +1,5 @@
 .toggle {
   display: inline-flex;
-  position: relative;
 
   &:has(:focus-visible) .btn {
     outline: var(--border-2) solid var(--color-selected-dark);
