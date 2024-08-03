@@ -31,10 +31,6 @@
     -webkit-box-shadow: 0 0 0px 1000px var(--color-selected) inset;
   }
 
-  &::placeholder {
-    color: var(--color-text-subtle);
-  }
-
   &:user-invalid {
     border-color: var(--color-negative);
   }
