@@ -60,7 +60,7 @@
   --btn-icon-color: var(--color-filter-negative);
 }
 
-[aria-busy] .btn--loading {
+[aria-busy] .btn--loading:disabled {
   > * {
     visibility: hidden;
   }
