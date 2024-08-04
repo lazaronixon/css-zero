@@ -6,7 +6,7 @@
   - Remove grid utilities.
   - Simplify button.
   - Remove relative from toggle.
-  - Remove placeholder from input.
+  - Adjusts input class.
 
 ## [0.0.28] - 2024-07-26
   - Revert button size loading.

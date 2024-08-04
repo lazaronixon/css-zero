@@ -26,7 +26,7 @@
     margin-inline-end: var(--size-2);
   }
 
-  &:autofill {
+  &:-webkit-autofill {
     -webkit-text-fill-color: var(--color-text);
     -webkit-box-shadow: 0 0 0px 1000px var(--color-selected) inset;
   }
@@ -45,16 +45,16 @@
   }
 }
 
-.range {
-  accent-color: var(--color-primary);
-}
-
 .checkbox, .radio {
   accent-color: var(--color-primary);
   transform: scale(1.15);
 }
 
-:is(.input, .range, .checkbox, .radio) {
+.range {
+  accent-color: var(--color-primary);
+}
+
+:is(.input, .checkbox, .radio, .range) {
   &:focus-visible {
     outline: var(--border-2) solid var(--color-selected-dark);
     outline-offset: var(--border-2);
