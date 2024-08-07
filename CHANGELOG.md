@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.29] - 2024-08-07
   - Simplify sr-only.
   - Add border dotted.
   - Remove text-center sheet.
