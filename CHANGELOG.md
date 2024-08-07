@@ -8,6 +8,7 @@
   - Remove relative from toggle.
   - Adjusts input class.
   - Move option back to input.
+  - Remove transition-timing-function from switch
 
 ## [0.0.28] - 2024-07-26
   - Revert button size loading.
