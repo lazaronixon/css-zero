@@ -7,6 +7,10 @@
   inline-size: var(--size-full);
   padding: var(--size-2) var(--size-3);
 
+  option {
+    padding-block: revert;
+  }
+
   &:is(textarea):not([rows]) {
     field-sizing: content;
     max-block-size: calc(10lh + var(--size-6));

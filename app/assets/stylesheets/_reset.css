@@ -202,14 +202,6 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
-  Revert padding block, it can be noticed in select with multiple.
-*/
-
-option {
-  padding-block: revert;
-}
-
-/*
   Use the modern Firefox focus style for all focusable elements.
 */
 
