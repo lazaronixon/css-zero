@@ -44,7 +44,6 @@ html:has(dialog:modal[open]) {
   overflow: hidden;
 }
 
-
 /*
   Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
@@ -301,14 +300,6 @@ textarea {
 ::placeholder {
   opacity: 1; /* 1 */
   color: color-mix(in srgb, currentColor 50%, transparent); /* 2 */
-}
-
-/*
-  Make sure disabled buttons don't get the pointer cursor.
-*/
-
-:disabled {
-  cursor: default;
 }
 
 /*
