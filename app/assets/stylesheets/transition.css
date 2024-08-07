@@ -24,9 +24,8 @@
   /****************************************************************
   * Transition Timing Function
   * Variables for controlling the easing of CSS transitions.
-  * transition-timing-function: var(--ease-linear);
+  * transition-timing-function: var(--ease-in);
   *****************************************************************/
-  --ease-linear: linear;
   --ease-in:     cubic-bezier(0.4, 0, 1, 1);
   --ease-out:    cubic-bezier(0, 0, 0.2, 1);
   --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
