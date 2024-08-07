@@ -10,6 +10,7 @@
   - Move option back to input.
   - Remove transition-timing-function from switch
   - Accordion height animation.
+  - Remove z-index variables.
 
 ## [0.0.28] - 2024-07-26
   - Revert button size loading.
