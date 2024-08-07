@@ -1,10 +1,16 @@
 :where(.accordion) {
   details {
     border-block-end-width: var(--border);
-    transition: padding var(--time-150) var(--ease-in-out);
 
-    &[open] {
-      padding-block-end: var(--size-4);
+    &::details-content {
+      block-size: 0; overflow: hidden;
+      transition-behavior: allow-discrete;
+      transition-duration: var(--time-150);
+      transition-property: content-visibility height;
+    }
+
+    &[open]::details-content {
+      block-size: calc-size(auto);
     }
 
     &[open] summary::after {
@@ -40,7 +46,7 @@
       content: "";
       filter: var(--color-filter-text);
       inline-size: var(--size-4);
-      transition: transform var(--time-200) var(--ease-in-out);
+      transition: transform var(--time-200);
     }
   }
 }
