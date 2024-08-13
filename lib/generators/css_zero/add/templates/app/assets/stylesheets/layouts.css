@@ -1,0 +1,36 @@
+.layout-sidebar {
+  display: grid;
+  grid-template-areas: "header header" "sidebar main";
+  grid-template-columns: var(--sidebar-width, 0) 1fr;
+  grid-template-rows: auto 1fr;
+
+  @media (width >= 48rem) {
+    --sidebar-width: 220px;
+  }
+
+  @media (width >= 64rem) {
+    --sidebar-width: 280px;
+  }
+}
+
+.layout-pancake {
+  display: grid; grid-template-rows: auto 1fr auto;
+}
+
+.layout-centered {
+  display: grid; place-content: center;
+}
+
+/* Grid areas definition */
+
+#header {
+  grid-area: header;
+}
+
+#sidebar {
+  grid-area: sidebar;
+}
+
+#main {
+  grid-area: main;
+}

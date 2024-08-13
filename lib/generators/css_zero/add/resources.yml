@@ -32,6 +32,8 @@ flash:
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
+layouts:
+  - app/assets/stylesheets/layouts.css
 pagination:
   - app/assets/stylesheets/pagination.css
   - app/assets/images/chevron-right.svg
