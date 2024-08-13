@@ -1,5 +1,6 @@
 ## [Unreleased]
   - Add layouts.
+  - Add border-b, border-i.
 
 ## [0.0.29] - 2024-08-07
   - Simplify sr-only.

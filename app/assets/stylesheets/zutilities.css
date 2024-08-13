@@ -110,8 +110,12 @@
 *****************************************************************/
 .border-0 { border-width: 0; }
 .border { border-width: var(--border-size, 1px); }
+
+.border-b { border-block-width: var(--border-size, 1px); }
 .border-bs { border-block-start-width: var(--border-size, 1px); }
 .border-be { border-block-end-width: var(--border-size, 1px); }
+
+.border-i { border-inline-width: var(--border-size, 1px); }
 .border-is { border-inline-start-width: var(--border-size, 1px); }
 .border-ie { border-inline-end-width: var(--border-size, 1px); }
 
