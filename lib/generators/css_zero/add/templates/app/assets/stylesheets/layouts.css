@@ -14,11 +14,16 @@
 }
 
 .layout-pancake {
-  display: grid; grid-template-rows: auto 1fr auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .layout-centered {
   display: grid; place-content: center;
+}
+
+.min-h-dvh {
+  min-block-size: 100dvh;
 }
 
 /* Grid areas definition */
