@@ -22,6 +22,11 @@
   display: grid; place-content: center;
 }
 
+.container {
+  margin-inline: auto;
+  max-inline-size: var(--container-width, 64rem);
+}
+
 .min-h-dvh {
   min-block-size: 100dvh;
 }
