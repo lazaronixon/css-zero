@@ -2,7 +2,7 @@
   /****************************************************************
   * Scale
   * Variables for scaling elements with transform.
-  * transform: scale(--scale-100);
+  * transform: var(--scale-100);
   *****************************************************************/
   --scale-50:  scale(0.50);
   --scale-75:  scale(0.75);
