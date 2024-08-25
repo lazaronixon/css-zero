@@ -5,7 +5,7 @@
   block-size: 100%;
   color: var(--color-text);
   inline-size: var(--size-3-4);
-  margin-inline-start: auto;
+  margin-inline: var(--sheet-margin);
   max-block-size: none;
   max-inline-size: var(--width-sm);
   padding: var(--size-6);
@@ -15,7 +15,7 @@
   }
 
   /* Setup animation */
-  transform: translateX(100%);
+  transform: var(--sheet-transform);
   transition-behavior: allow-discrete;
   transition-duration: var(--time-500);
   transition-property: display, overlay, transform;
@@ -39,7 +39,7 @@
   /* Out animation */
   @starting-style {
     &[open] {
-      transform: translateX(100%);
+      transform: var(--sheet-transform);
     }
 
     &[open]::backdrop {
@@ -50,6 +50,16 @@
   @media (width < 40rem) {
     max-inline-size: none;
   }
+}
+
+.sheet--left {
+  --sheet-margin: 0 auto;
+  --sheet-transform: translateX(-100%);
+}
+
+.sheet--right {
+  --sheet-margin: auto 0;
+  --sheet-transform: translateX(100%);
 }
 
 .sheet__close {
