@@ -160,6 +160,7 @@
 
 .h-full { block-size: 100%; }
 .w-full { inline-size: 100%; }
+.w-min { inline-size: min-content; }
 
 .overflow-x-auto { overflow-x: auto; scroll-snap-type: x mandatory; }
 .overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; }
