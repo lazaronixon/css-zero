@@ -1,0 +1,24 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+}
+
+.tabs__list {
+  background-color: var(--color-border-light);
+  block-size: var(--size-10);
+  border-radius: var(--rounded-md);
+  color: var(--color-text-subtle);
+  display: inline-flex;
+  gap: var(--size-2);
+  padding: var(--size-1);
+
+  button {
+    inline-size: var(--size-full);
+  }
+
+  button[data-selected=true] {
+    --btn-background: var(--color-bg);
+    --btn-color: var(--color-text);
+  }
+}

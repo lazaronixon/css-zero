@@ -53,5 +53,8 @@ switch:
   - app/assets/stylesheets/switch.css
 table:
   - app/assets/stylesheets/table.css
+tabs:
+  - app/assets/stylesheets/tabs.css
+  - app/javascript/controllers/tabs_controller.js
 toggle:
   - app/assets/stylesheets/toggle.css

@@ -5,6 +5,7 @@
   - Add input--actor.
   - Add w-min to utilities.
   - Change table hover color.
+  - Add tabs.
 
 ## [0.0.29] - 2024-08-07
   - Simplify sr-only.
