@@ -335,7 +335,7 @@ turbo-frame {
 */
 
 [hidden] {
-  display: none;
+  display: none !important;
 }
 
 /*
@@ -343,5 +343,5 @@ turbo-frame {
 */
 
 [contents] {
-  display: contents;
+  display: contents !important;
 }
