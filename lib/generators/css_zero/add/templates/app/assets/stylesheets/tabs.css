@@ -14,11 +14,13 @@
   padding: var(--size-1);
 
   button {
+    background-color: transparent;
+    color: var(--color-text-subtle);
     inline-size: var(--size-full);
   }
 
   button[data-selected=true] {
-    --btn-background: var(--color-bg);
-    --btn-color: var(--color-text);
+    background-color: var(--color-bg);
+    color: var(--color-text);
   }
 }

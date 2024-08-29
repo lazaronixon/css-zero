@@ -1,6 +1,6 @@
 ## [Unreleased]
 
-## [0.0.30] - 2024-08-29
+## [0.0.31] - 2024-08-29
 - Add layouts.
 - Add border-b, border-i.
 - Add sheet--right, sheet--left.
