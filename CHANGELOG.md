@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Change tabs to use aria attributes.
 
 ## [0.0.32] - 2024-08-30
 - Add class to tab_button helper.

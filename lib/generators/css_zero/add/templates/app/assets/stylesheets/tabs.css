@@ -19,7 +19,7 @@
     inline-size: var(--size-full);
   }
 
-  button[data-selected=true] {
+  button[aria-selected=true] {
     background-color: var(--color-bg);
     color: var(--color-text);
   }
