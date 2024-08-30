@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.32] - 2024-08-30
 - Add class to tab_button helper.
 
 ## [0.0.31] - 2024-08-29
