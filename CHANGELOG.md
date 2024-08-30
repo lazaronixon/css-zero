@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add class to tab_button helper.
 
 ## [0.0.31] - 2024-08-29
 - Add layouts.
