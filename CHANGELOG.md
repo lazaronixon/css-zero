@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.33] - 2024-08-30
 - Change tabs to use aria attributes.
 
 ## [0.0.32] - 2024-08-30
