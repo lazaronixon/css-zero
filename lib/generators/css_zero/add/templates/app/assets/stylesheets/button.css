@@ -66,12 +66,15 @@
   }
 
   &::after {
+    filter: var(--btn-icon-color, var(--color-filter-text-reversed));
+  }
+
+  &::after {
     animation: spin 1s linear infinite;
     background-image: url("loader-circle.svg");
     background-size: cover;
     block-size: var(--size-4);
     content: "";
-    filter: var(--btn-icon-color, var(--color-filter-text-reversed));
     inline-size: var(--size-4);
     position: absolute;
   }
