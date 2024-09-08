@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Remove tab helpers.
+- Use rows=auto to text-area auto grow.
 
 ## [0.0.33] - 2024-08-30
 - Change tabs to use aria attributes.

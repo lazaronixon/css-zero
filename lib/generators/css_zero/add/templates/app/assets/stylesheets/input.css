@@ -11,11 +11,10 @@
     padding-block: revert;
   }
 
-  &:is(textarea):not([rows]) {
+  &:is(textarea[rows=auto]) {
     field-sizing: content;
     max-block-size: calc(10lh + var(--size-6));
     min-block-size: calc(3lh  + var(--size-6));
-    resize: none;
   }
 
   &:is(select):not([multiple], [size]) {
