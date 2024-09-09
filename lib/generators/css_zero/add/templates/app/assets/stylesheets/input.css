@@ -43,6 +43,11 @@
   }
 }
 
+/* Hide invalid feedback by default */
+.invalid-feedback {
+  display: none;
+}
+
 /* Containers that act like (and contain) inputs */
 .input--actor {
   &:has(:-webkit-autofill) {

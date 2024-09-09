@@ -3,6 +3,7 @@
 - Use rows=auto to text-area auto grow.
 - text black to zinc-950.
 - new filtered colors.
+- fix invalid feedback.
 
 ## [0.0.33] - 2024-08-30
 - Change tabs to use aria attributes.
