@@ -1,7 +1,7 @@
 :root {
   /* Abstractions */
   --color-bg: white;
-  --color-text: black;
+  --color-text: var(--zinc-950);
   --color-text-reversed: white;
   --color-text-subtle: var(--zinc-500);
   --color-link: var(--blue-700);
@@ -18,7 +18,7 @@
   --color-positive: var(--green-600);
 
   /* SVG color values */
-  --color-filter-text: invert(0);
+  --color-filter-text: invert(5%) sepia(2%) saturate(2137%) hue-rotate(202deg) brightness(104%) contrast(103%);
   --color-filter-text-reversed: invert(100%);
   --color-filter-text-subtle: invert(43%) sepia(8%) saturate(340%) hue-rotate(202deg) brightness(99%) contrast(85%);
   --color-filter-negative: invert(31%) sepia(96%) saturate(4646%) hue-rotate(350deg) brightness(91%) contrast(89%);
@@ -28,7 +28,7 @@
     /* Abstractions */
     --color-bg: var(--zinc-950);
     --color-text: white;
-    --color-text-reversed: black;
+    --color-text-reversed: var(--zinc-950);
     --color-text-subtle: var(--zinc-400);
     --color-link: var(--sky-400);
     --color-border-light: var(--zinc-800);
@@ -45,7 +45,7 @@
 
     /* SVG color values */
     --color-filter-text: invert(100%);
-    --color-filter-text-reversed: invert(0);
+    --color-filter-text-reversed: invert(5%) sepia(2%) saturate(2137%) hue-rotate(202deg) brightness(104%) contrast(103%);
     --color-filter-text-subtle: invert(55%) sepia(98%) saturate(0%) hue-rotate(299deg) brightness(96%) contrast(94%);
     --color-filter-negative: invert(15%) sepia(83%) saturate(2066%) hue-rotate(345deg) brightness(87%) contrast(88%);
     --color-filter-positive: invert(23%) sepia(74%) saturate(495%) hue-rotate(91deg) brightness(88%) contrast(89%);
