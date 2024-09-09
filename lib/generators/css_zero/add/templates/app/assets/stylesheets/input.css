@@ -45,14 +45,14 @@
 
 /* Containers that act like (and contain) inputs */
 .input--actor {
-  &:focus-within {
-    outline: var(--border-2) solid var(--color-selected-dark);
-    outline-offset: var(--border-2);
-  }
-
   &:has(:-webkit-autofill) {
     -webkit-text-fill-color: var(--color-text);
     -webkit-box-shadow: 0 0 0px 1000px var(--color-selected) inset;
+  }
+
+  &:focus-within {
+    outline: var(--border-2) solid var(--color-selected-dark);
+    outline-offset: var(--border-2);
   }
 
   .input__character {
