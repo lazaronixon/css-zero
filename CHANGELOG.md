@@ -4,6 +4,7 @@
 - text black to zinc-950.
 - new filtered colors.
 - fix invalid feedback.
+- Remove button_to_close_dialog.
 
 ## [0.0.33] - 2024-08-30
 - Change tabs to use aria attributes.
