@@ -34,6 +34,7 @@ input:
   - app/assets/images/select-arrow.svg
 layouts:
   - app/assets/stylesheets/layouts.css
+  - app/assets/images/menu.svg
 pagination:
   - app/assets/stylesheets/pagination.css
   - app/assets/images/chevron-right.svg
