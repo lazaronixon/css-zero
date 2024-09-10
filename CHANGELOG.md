@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.34] - 2024-09-10
 - Remove tab helpers.
 - Use rows=auto to text-area auto grow.
 - text black to zinc-950.
