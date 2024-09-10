@@ -1,4 +1,5 @@
 ## [Unreleased]
+- New gap utilities.
 
 ## [0.0.34] - 2024-09-10
 - Remove tab helpers.
