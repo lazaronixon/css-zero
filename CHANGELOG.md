@@ -5,6 +5,7 @@
 - new filtered colors.
 - fix invalid feedback.
 - Remove button_to_close_dialog.
+- Fix dialog and sheet.
 
 ## [0.0.33] - 2024-08-30
 - Change tabs to use aria attributes.

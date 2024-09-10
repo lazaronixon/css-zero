@@ -8,7 +8,6 @@
   margin-inline: var(--sheet-margin);
   max-block-size: none;
   max-inline-size: var(--width-sm);
-  padding: var(--size-6);
 
   &::backdrop {
     background-color: rgba(0, 0, 0, .8);
@@ -60,6 +59,11 @@
 .sheet--right {
   --sheet-margin: auto 0;
   --sheet-transform: translateX(100%);
+}
+
+.sheet__content {
+  block-size: var(--size-full);
+  padding: var(--size-6);
 }
 
 .sheet__close {
