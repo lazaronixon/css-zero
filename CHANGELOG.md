@@ -1,5 +1,6 @@
 ## [Unreleased]
-- New gap utilities.
+- New gap utilities values.
+- Rename gap to gap-half.
 
 ## [0.0.34] - 2024-09-10
 - Remove tab helpers.
