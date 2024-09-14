@@ -2,7 +2,7 @@
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
-- Rename gap to gap-half.
+- Rename gap-sm to gap-half.
 
 ## [0.0.34] - 2024-09-10
 - Remove tab helpers.
