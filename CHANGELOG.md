@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Change dialog target box -> menu
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
