@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Change dialog target box -> menu
+- Change tabs to use index instead of ids
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
