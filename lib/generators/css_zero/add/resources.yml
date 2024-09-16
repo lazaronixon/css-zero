@@ -57,6 +57,7 @@ sheet:
   - app/assets/images/x.svg
 skeleton:
   - app/assets/stylesheets/skeleton.css
+  - app/javascript/controllers/form_controller.js
 switch:
   - app/assets/stylesheets/switch.css
 table:

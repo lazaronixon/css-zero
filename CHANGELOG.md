@@ -7,6 +7,7 @@
 - Add reveal button to password inputs
 - Add copy button to inputs
 - Add dependent checkbox
+- Add form controller to switch
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
