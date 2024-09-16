@@ -33,9 +33,11 @@ input:
   - app/assets/stylesheets/input.css
   - app/javascript/controllers/clear_button_controller.js
   - app/javascript/controllers/reveal_button_controller.js
+  - app/javascript/controllers/copy_button_controller.js  
   - app/assets/images/select-arrow.svg
   - app/assets/images/x.svg
   - app/assets/images/eye.svg
+  - app/assets/images/copy.svg
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
