@@ -4,6 +4,7 @@
 - Remove border style utilities
 - Add clear button to inputs
 - Fix btn--positive and btn--negative icon colors
+- Add reveal button to password inputs
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

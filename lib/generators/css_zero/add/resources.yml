@@ -34,6 +34,7 @@ input:
   - app/javascript/controllers/clear_button_controller.js
   - app/assets/images/select-arrow.svg
   - app/assets/images/x.svg
+  - app/assets/images/eye.svg
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
