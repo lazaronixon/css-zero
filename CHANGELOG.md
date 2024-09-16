@@ -3,6 +3,7 @@
 - Change tabs to use index instead of ids
 - Remove border style utilities
 - Add clear button to inputs
+- Fix btn--positive and btn--negative icon colors
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

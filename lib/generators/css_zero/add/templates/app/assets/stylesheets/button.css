@@ -51,13 +51,13 @@
 .btn--positive {
   --btn-background: var(--color-positive);
   --btn-color: white;
-  --btn-icon-color: var(--color-filter-positive);
+  --btn-icon-color: invert(100%);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-color: white;
-  --btn-icon-color: var(--color-filter-negative);
+  --btn-icon-color: invert(100%);
 }
 
 [aria-busy] .btn--loading:disabled {
