@@ -33,7 +33,8 @@ input:
   - app/assets/stylesheets/input.css
   - app/javascript/controllers/clear_button_controller.js
   - app/javascript/controllers/reveal_button_controller.js
-  - app/javascript/controllers/copy_button_controller.js  
+  - app/javascript/controllers/copy_button_controller.js
+  - app/javascript/controllers/dependent_checkbox_controller.js
   - app/assets/images/select-arrow.svg
   - app/assets/images/x.svg
   - app/assets/images/eye.svg
