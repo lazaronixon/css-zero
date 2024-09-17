@@ -31,6 +31,7 @@ flash:
   - app/javascript/controllers/element_removal_controller.js
 input:
   - app/assets/stylesheets/input.css
+  - app/javascript/controllers/autoselect_controller.js
   - app/javascript/controllers/clear_button_controller.js
   - app/javascript/controllers/reveal_button_controller.js
   - app/javascript/controllers/copy_button_controller.js
