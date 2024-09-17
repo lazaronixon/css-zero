@@ -29,6 +29,9 @@ dialog:
 flash:
   - app/assets/stylesheets/flash.css
   - app/javascript/controllers/element_removal_controller.js
+fullscreen:
+  - app/javascript/controllers/fullscreen_controller.js
+  - app/assets/images/maximize.svg
 input:
   - app/assets/stylesheets/input.css
   - app/javascript/controllers/autoselect_controller.js
