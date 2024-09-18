@@ -53,15 +53,15 @@
 .btn--positive {
   --btn-background: var(--color-positive);
   --btn-border-width: 0;
-  --btn-color: white;
-  --btn-icon-color: invert(100%);
+  --btn-color: var(--color-text-reversed);
+  --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-border-width: 0;
-  --btn-color: white;
-  --btn-icon-color: invert(100%);
+  --btn-color: var(--color-text-reversed);
+  --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 [aria-busy] .btn--loading:disabled {

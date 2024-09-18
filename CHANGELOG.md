@@ -15,6 +15,7 @@
 - Add hotkey controller
 - Add web share controller
 - Remove hover from accordion
+- Update button colors
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

@@ -40,8 +40,8 @@
     /* Accent colors */
     --color-primary: var(--zinc-50);
     --color-secondary: var(--zinc-800);
-    --color-negative: var(--red-900);
-    --color-positive: var(--green-900);
+    --color-negative: var(--red-400);
+    --color-positive: var(--green-400);
 
     /* SVG color values */
     --color-filter-text: invert(100%);
