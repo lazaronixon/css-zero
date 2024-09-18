@@ -70,8 +70,3 @@ body {
 ::selection {
   background-color: var(--color-selected);
 }
-
-:-webkit-autofill {
-  -webkit-text-fill-color: var(--color-text);
-  -webkit-box-shadow: 0 0 0px 1000px var(--color-selected) inset;
-}
