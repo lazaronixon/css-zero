@@ -14,14 +14,17 @@
   padding: var(--size-1);
 
   button {
-    background-color: transparent;
-    border-width: 0;
-    color: var(--color-text-subtle);
     inline-size: var(--size-full);
   }
 
+  button {
+    --btn-background: transparent;
+    --btn-border-width: 0;
+    --btn-color: var(--color-text-subtle);
+  }
+
   button[aria-selected=true] {
-    background-color: var(--color-bg);
-    color: var(--color-text);
+    --btn-background: var(--color-bg);
+    --btn-color: var(--color-text);
   }
 }

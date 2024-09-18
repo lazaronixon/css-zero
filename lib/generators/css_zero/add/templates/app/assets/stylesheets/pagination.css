@@ -8,18 +8,11 @@
   }
 
   a {
-    align-items: center;
-    border-radius: var(--rounded-md);
-    display: inline-flex;
-    font-size: var(--text-sm);
-    font-weight: var(--font-medium);
-    gap: var(--size-2);
-    justify-content: center;
-    padding: var(--size-2) var(--size-4);
+    --btn-border-width: 0;
   }
 
   a:is([aria-current]) {
-    border-width: var(--border);
+    --btn-border-width: var(--border);
   }
 
   a:is([aria-disabled]) {
@@ -27,6 +20,6 @@
   }
 
   a:not([aria-disabled]):hover {
-    background-color: var(--color-border-light);
+    --btn-background: var(--color-border-light);
   }
 }
