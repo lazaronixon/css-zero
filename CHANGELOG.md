@@ -13,6 +13,7 @@
 - btn--outline is the default
 - Refactor pagination and tabs
 - Add hotkey controller
+- Add web share controller
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

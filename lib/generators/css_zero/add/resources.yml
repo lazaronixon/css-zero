@@ -73,3 +73,5 @@ tabs:
   - app/javascript/controllers/tabs_controller.js
 toggle:
   - app/assets/stylesheets/toggle.css
+web_share:
+  - app/javascript/controllers/web_share_controller.js
