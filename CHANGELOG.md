@@ -16,6 +16,7 @@
 - Add web share controller
 - Remove hover from accordion
 - Update button colors
+- Simplify tabs css
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

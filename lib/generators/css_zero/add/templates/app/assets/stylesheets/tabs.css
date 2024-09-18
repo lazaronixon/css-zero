@@ -20,11 +20,9 @@
   button {
     --btn-background: transparent;
     --btn-border-width: 0;
-    --btn-color: var(--color-text-subtle);
   }
 
   button[aria-selected=true] {
     --btn-background: var(--color-bg);
-    --btn-color: var(--color-text);
   }
 }
