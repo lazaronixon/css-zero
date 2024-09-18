@@ -19,7 +19,7 @@ bin/rails generate css_zero:install
 Add only the components you need. (Optional)
 
 ```
-bin/rails generate css_zero:add accordion alert avatar badge breadcrumb button card carousel collapsible dialog flash fullscreen input layouts pagination progress prose sheet skeleton switch table tabs toggle
+bin/rails generate css_zero:add accordion alert avatar badge breadcrumb button card carousel collapsible dialog flash fullscreen hotkey input layouts pagination progress prose sheet skeleton switch table tabs toggle
 ```
 
 ### Requirements

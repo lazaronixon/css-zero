@@ -12,6 +12,7 @@
 - Add fullscreen controller
 - btn--outline is the default
 - Refactor pagination and tabs
+- Add hotkey controller
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

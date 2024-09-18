@@ -32,6 +32,8 @@ flash:
 fullscreen:
   - app/javascript/controllers/fullscreen_controller.js
   - app/assets/images/maximize.svg
+hotkey:
+  - app/javascript/controllers/hotkey_controller.js
 input:
   - app/assets/stylesheets/input.css
   - app/javascript/controllers/autoselect_controller.js
