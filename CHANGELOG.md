@@ -10,6 +10,7 @@
 - Add form controller to switch
 - Add autoselect controller
 - Add fullscreen controller
+- btn--outline is the default
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
