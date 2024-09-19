@@ -1,16 +1,16 @@
 .toggle {
   display: inline-flex;
 
-  &:has(:focus-visible) .btn {
-    outline: var(--border-2) solid var(--color-selected-dark);
-    outline-offset: var(--border-2);
-  }
-
   [type="checkbox"] {
     position: absolute; clip: rect(0, 0, 0, 0);
   }
 
-  [type="checkbox"]:checked + .btn {
+  &:has([type="checkbox"]:checked) {
     --btn-background: var(--color-secondary);
+  }
+
+  &:focus-within {
+    outline: var(--border-2) solid var(--color-selected-dark);
+    outline-offset: var(--border-2);
   }
 }

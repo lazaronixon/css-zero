@@ -17,6 +17,7 @@
 - Remove hover from accordion
 - Update button colors
 - Simplify tabs css
+- Simplify button toggle
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
