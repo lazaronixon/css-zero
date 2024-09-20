@@ -72,6 +72,11 @@ table:
 tabs:
   - app/assets/stylesheets/tabs.css
   - app/javascript/controllers/tabs_controller.js
+upload_preview:
+  - app/javascript/controllers/upload_preview_controller.js
+  - app/assets/images/default-picture.webp
+  - app/assets/images/camera.svg
+  - app/assets/images/minus.svg
 toggle:
   - app/assets/stylesheets/toggle.css
 web_share:
