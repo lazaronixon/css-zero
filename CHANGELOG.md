@@ -20,6 +20,7 @@
 - Simplify button toggle
 - Add input_concerns
 - Add upload preview
+- Reduce space for breadcrumb
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

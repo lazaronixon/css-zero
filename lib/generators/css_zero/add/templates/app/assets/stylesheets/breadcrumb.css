@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   font-size: var(--text-sm);
-  gap: var(--size-2_5);
+  gap: var(--size-2);
   overflow-wrap: break-word;
 
   img {
@@ -16,6 +16,6 @@
   }
 
   @media (width < 40rem) {
-    gap: var(--size-1_5);
+    gap: var(--size-1);
   }
 }
