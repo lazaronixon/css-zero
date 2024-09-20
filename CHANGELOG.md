@@ -18,6 +18,7 @@
 - Update button colors
 - Simplify tabs css
 - Simplify button toggle
+- Add input_concerns
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

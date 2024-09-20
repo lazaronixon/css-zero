@@ -36,14 +36,15 @@ hotkey:
   - app/javascript/controllers/hotkey_controller.js
 input:
   - app/assets/stylesheets/input.css
+  - app/assets/images/select-arrow.svg
+  - app/javascript/controllers/check_all_controller.js
+input_concerns:
   - app/javascript/controllers/autoselect_controller.js
   - app/javascript/controllers/clear_button_controller.js
-  - app/javascript/controllers/reveal_button_controller.js
-  - app/javascript/controllers/copy_button_controller.js
-  - app/javascript/controllers/dependent_checkbox_controller.js
-  - app/assets/images/select-arrow.svg
   - app/assets/images/x.svg
+  - app/javascript/controllers/reveal_button_controller.js
   - app/assets/images/eye.svg
+  - app/javascript/controllers/copy_button_controller.js
   - app/assets/images/copy.svg
 layouts:
   - app/assets/stylesheets/layouts.css
