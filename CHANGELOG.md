@@ -21,6 +21,7 @@
 - Add input_concerns
 - Add upload preview
 - Reduce space for breadcrumb
+- Add avatar--btn
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

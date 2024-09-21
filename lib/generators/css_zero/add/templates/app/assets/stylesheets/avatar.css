@@ -16,6 +16,23 @@
   }
 }
 
+.avatar--btn {
+  cursor: pointer;
+
+  &:hover {
+    filter: var(--brightness-75);
+  }
+
+  &:focus-visible {
+    outline: var(--border-2) solid var(--color-selected-dark);
+    outline-offset: var(--border-2);
+  }
+
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
 .avatar__fallback {
   align-items: center;
   background-color: var(--color-border-light);
