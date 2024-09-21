@@ -68,6 +68,10 @@
   --btn-icon-color: var(--color-filter-text-reversed);
 }
 
+.btn--pressed:active {
+  opacity: var(--opacity-50);
+}
+
 [aria-busy] .btn--loading:disabled {
   > * {
     visibility: hidden;
