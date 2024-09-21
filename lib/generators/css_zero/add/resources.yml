@@ -44,6 +44,7 @@ input_concerns:
   - app/assets/images/x.svg
   - app/javascript/controllers/reveal_button_controller.js
   - app/assets/images/eye.svg
+  - app/assets/images/eye-off.svg
   - app/javascript/controllers/copy_button_controller.js
   - app/assets/images/copy.svg
 layouts:
