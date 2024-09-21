@@ -14,7 +14,6 @@
 - Refactor pagination and tabs
 - Add hotkey controller
 - Add web share controller
-- Remove hover from accordion
 - Update button colors
 - Simplify tabs css
 - Simplify button toggle
