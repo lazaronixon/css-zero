@@ -14,7 +14,7 @@
   padding: var(--size-2) var(--size-4);
   text-align: center;
 
-  img {
+  img:not([class]) {
     filter: var(--btn-icon-color, var(--color-filter-text));
   }
 
