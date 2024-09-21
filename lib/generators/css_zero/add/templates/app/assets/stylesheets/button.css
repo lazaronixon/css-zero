@@ -18,6 +18,10 @@
     filter: var(--btn-icon-color, var(--color-filter-text));
   }
 
+  &:hover {
+    filter: var(--btn-filter-hover, var(--brightness-95));
+  }
+
   &:focus-visible {
     outline: var(--border-2) solid var(--color-selected-dark);
     outline-offset: var(--border-2);

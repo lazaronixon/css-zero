@@ -21,6 +21,7 @@
 - Add upload preview
 - Reduce space for breadcrumb
 - Add avatar--btn
+- Add button hover filter
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

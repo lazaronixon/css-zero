@@ -18,8 +18,4 @@
   a:is([aria-disabled]) {
     pointer-events: none;
   }
-
-  a:not([aria-disabled]):hover {
-    --btn-background: var(--color-border-light);
-  }
 }
