@@ -1,7 +1,7 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-bg));
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded);
   border: 1px solid var(--btn-border-color, var(--color-border));
   color: var(--btn-color, var(--color-text));
   cursor: pointer;

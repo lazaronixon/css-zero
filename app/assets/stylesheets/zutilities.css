@@ -125,9 +125,7 @@
 .rounded-none { border-radius: none; }
 .rounded-sm { border-radius: var(--rounded-sm); }
 .rounded { border-radius: var(--rounded); }
-.rounded-md { border-radius: var(--rounded-md); }
 .rounded-lg { border-radius: var(--rounded-lg); }
-.rounded-xl { border-radius: var(--rounded-xl); }
 .rounded-full { border-radius: var(--rounded-full); }
 
 /****************************************************************
@@ -138,8 +136,6 @@
 .shadow { box-shadow: var(--shadow); }
 .shadow-md { box-shadow: var(--shadow-md); }
 .shadow-lg { box-shadow: var(--shadow-lg); }
-.shadow-xl { box-shadow: var(--shadow-xl); }
-.shadow-2xl { box-shadow: var(--shadow-2xl); }
 
 /****************************************************************
 * Layout
