@@ -1,7 +1,7 @@
 .badge {
   background-color: var(--badge-background, var(--color-bg));
   border-radius: var(--rounded-full);
-  border-width: var(--badge-border-width, var(--border));
+  border: 1px solid var(--badge-border-color, var(--color-border));
   color: var(--badge-color, var(--color-text));
   display: inline-flex;
   font-size: var(--text-xs);
@@ -11,24 +11,24 @@
 
 .badge--primary {
   --badge-background: var(--color-primary);
-  --badge-border-width: 0;
+  --badge-border-color: transparent;
   --badge-color: var(--color-text-reversed);
 }
 
 .badge--secondary {
   --badge-background: var(--color-secondary);
-  --badge-border-width: 0;
+  --badge-border-color: transparent;
   --badge-color: var(--color-text);
 }
 
 .badge--positive {
   --badge-background: var(--color-positive);
-  --badge-border-width: 0;
+  --badge-border-color: transparent;
   --badge-color: white;
 }
 
 .badge--negative {
   --badge-background: var(--color-negative);
-  --badge-border-width: 0;
+  --badge-border-color: transparent;
   --badge-color: white;
 }

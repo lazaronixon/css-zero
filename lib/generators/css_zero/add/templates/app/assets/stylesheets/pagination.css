@@ -8,11 +8,11 @@
   }
 
   a {
-    --btn-border-width: 0;
+    --btn-border-color: transparent;
   }
 
   a:is([aria-current]) {
-    --btn-border-width: var(--border);
+    --btn-border-color: var(--border-color);
   }
 
   a:is([aria-disabled]) {

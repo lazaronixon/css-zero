@@ -19,7 +19,7 @@
 
   button {
     --btn-background: transparent;
-    --btn-border-width: 0;
+    --btn-border-color: transparent;
     --btn-filter-hover: none;
   }
 

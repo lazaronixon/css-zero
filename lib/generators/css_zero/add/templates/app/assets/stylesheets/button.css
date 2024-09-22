@@ -2,7 +2,7 @@
   align-items: center;
   background-color: var(--btn-background, var(--color-bg));
   border-radius: var(--rounded-md);
-  border-width: var(--btn-border-width, var(--border));
+  border: 1px solid var(--btn-border-color, var(--color-border));
   color: var(--btn-color, var(--color-text));
   cursor: pointer;
   display: inline-flex;
@@ -35,37 +35,37 @@
 
 .btn--primary {
   --btn-background: var(--color-primary);
-  --btn-border-width: 0;
+  --btn-border-color: transparent;
   --btn-color: var(--color-text-reversed);
   --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 .btn--secondary {
   --btn-background: var(--color-secondary);
-  --btn-border-width: 0;
+  --btn-border-color: transparent;
 }
 
 .btn--borderless {
-  --btn-border-width: 0;
+  --btn-border-color: transparent;
 }
 
 .btn--positive {
   --btn-background: var(--color-positive);
-  --btn-border-width: 0;
+  --btn-border-color: transparent;
   --btn-color: var(--color-text-reversed);
   --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
-  --btn-border-width: 0;
+  --btn-border-color: transparent;
   --btn-color: var(--color-text-reversed);
   --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 .btn--plain {
   --btn-background: transparent;
-  --btn-border-width: 0;
+  --btn-border-color: transparent;
   --btn-padding: 0;
 }
 

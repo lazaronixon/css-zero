@@ -25,6 +25,7 @@
 - Add btn--pressed
 - Add btn--borderless
 - Remove margin from btn--plain
+- Border color instead of border width for buttons
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
