@@ -24,6 +24,7 @@
 - Add button hover filter
 - Add btn--pressed
 - Add btn--borderless
+- Remove margin from btn--plain
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

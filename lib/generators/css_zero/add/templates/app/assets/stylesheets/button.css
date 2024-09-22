@@ -11,7 +11,7 @@
   gap: var(--size-2);
   justify-content: center;
   white-space: nowrap;
-  padding: var(--size-2) var(--size-4);
+  padding: var(--btn-padding, 0.5rem 1rem);
   text-align: center;
 
   img:not([class]) {
@@ -48,6 +48,7 @@
 .btn--plain {
   --btn-background: transparent;
   --btn-border-width: 0;
+  --btn-padding: 0;
 }
 
 .btn--positive {
