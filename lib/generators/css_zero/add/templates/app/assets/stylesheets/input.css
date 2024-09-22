@@ -2,7 +2,7 @@
   appearance: none;
   background-color: var(--color-bg);
   border: var(--border) solid var(--color-border);
-  border-radius: var(--rounded);
+  border-radius: var(--rounded-md);
   font-size: var(--text-sm);
   inline-size: var(--size-full);
   padding: var(--size-2) var(--size-3);

@@ -125,6 +125,7 @@
 .rounded-none { border-radius: none; }
 .rounded-sm { border-radius: var(--rounded-sm); }
 .rounded { border-radius: var(--rounded); }
+.rounded-md { border-radius: var(--rounded-md); }
 .rounded-lg { border-radius: var(--rounded-lg); }
 .rounded-full { border-radius: var(--rounded-full); }
 

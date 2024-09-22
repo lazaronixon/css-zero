@@ -7,7 +7,7 @@
 .tabs__list {
   background-color: var(--color-border-light);
   block-size: var(--size-10);
-  border-radius: var(--rounded);
+  border-radius: var(--rounded-md);
   color: var(--color-text-subtle);
   display: inline-flex;
   gap: var(--size-2);
