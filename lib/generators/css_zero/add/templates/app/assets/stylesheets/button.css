@@ -43,15 +43,11 @@
 .btn--secondary {
   --btn-background: var(--color-secondary);
   --btn-border-width: 0;
-  --btn-color: var(--color-text);
-  --btn-icon-color: var(--color-filter-text);
 }
 
 .btn--plain {
   --btn-background: transparent;
   --btn-border-width: 0;
-  --btn-color: var(--color-text);
-  --btn-icon-color: var(--color-filter-text);
 }
 
 .btn--positive {
@@ -66,6 +62,10 @@
   --btn-border-width: 0;
   --btn-color: var(--color-text-reversed);
   --btn-icon-color: var(--color-filter-text-reversed);
+}
+
+.btn--borderless {
+  --btn-border-width: 0;
 }
 
 .btn--pressed:active {
