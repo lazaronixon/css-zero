@@ -51,7 +51,6 @@ layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
 pagination:
-  - app/assets/stylesheets/pagination.css
   - app/assets/images/chevron-right.svg
   - app/assets/images/chevron-left.svg
   - app/assets/images/ellipsis.svg
