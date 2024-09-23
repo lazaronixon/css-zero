@@ -28,6 +28,7 @@
 - Border color instead of border width for buttons
 - Remove pagination.css
 - Remove some rounded and shadow utilities
+- Add btn--rounded
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.

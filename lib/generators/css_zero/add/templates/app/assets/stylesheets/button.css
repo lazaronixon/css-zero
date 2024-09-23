@@ -1,7 +1,7 @@
 .btn {
   align-items: center;
   background-color: var(--btn-background, var(--color-bg));
-  border-radius: var(--rounded-md);
+  border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
   color: var(--btn-color, var(--color-text));
   cursor: pointer;
@@ -67,6 +67,11 @@
   --btn-background: transparent;
   --btn-border-color: transparent;
   --btn-padding: 0;
+}
+
+.btn--rounded {
+  --btn-padding: var(--size-2);
+  --btn-radius: var(--rounded-full);
 }
 
 .btn--pressed:active {
