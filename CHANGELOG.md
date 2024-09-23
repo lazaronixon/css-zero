@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Key navigation to tabs
 
 ## [0.0.36] - 2024-09-23
 - Change dialog target box -> menu
