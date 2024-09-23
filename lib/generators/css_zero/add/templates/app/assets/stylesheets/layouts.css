@@ -1,4 +1,4 @@
-.layout-sidebar {
+.sidebar-layout {
   display: grid;
   grid-template-areas: "header header" "sidebar main";
   grid-template-columns: var(--sidebar-width, 0) 1fr;
@@ -18,15 +18,15 @@
   @media (width >= 48rem) { display: none; }
 }
 
-.layout-pancake {
+.pancake-stack {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-block-size: 100dvh;
 }
 
-.layout-centered {
+.super-centered {
   display: grid;
-  place-content: center;
+  place-items: center;
   min-block-size: 100dvh;
 }
 
