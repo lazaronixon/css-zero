@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.36] - 2024-09-23
 - Change dialog target box -> menu
 - Change tabs to use index instead of ids
 - Remove border style utilities
