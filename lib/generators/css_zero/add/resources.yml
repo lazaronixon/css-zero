@@ -50,6 +50,12 @@ input_concerns:
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
+lightbox:
+  - app/assets/stylesheets/lightbox.css
+  - app/javascript/controllers/lightbox_controller.js
+  - app/assets/images/download.svg
+  - app/assets/images/share.svg
+  - app/assets/images/x.svg
 pagination:
   - app/assets/images/chevron-right.svg
   - app/assets/images/chevron-left.svg

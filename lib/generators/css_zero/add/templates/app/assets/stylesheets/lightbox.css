@@ -1,0 +1,41 @@
+:root {
+  --lightbox-padding: var(--size-4);
+}
+
+.lightbox {
+  background-color: rgba(0, 0, 0, .8);
+  block-size: 100dvh;
+  max-block-size: unset;
+  inline-size: 100dvw;
+  max-inline-size: unset;
+  padding: var(--lightbox-padding);
+
+  &[open] {
+    display: grid;
+    place-items: center;
+  }
+}
+
+.lightbox__close {
+  align-self: start;
+  grid-area: 1/1;
+  justify-self: end;
+}
+
+.lightbox__download {
+  align-self: end;
+  grid-area: 1/1;
+  justify-self: end;
+}
+
+.lightbox__share {
+  align-self: start;
+  grid-area: 1/1;
+  justify-self: start;
+}
+
+.lightbox__image {
+  grid-area: 1/1;
+  max-inline-size: calc(100dvw - (var(--lightbox-padding) * 2));
+  max-block-size:  calc(100dvh - (var(--lightbox-padding) * 2));
+}

@@ -30,6 +30,7 @@
 - Remove some rounded and shadow utilities
 - Add btn--rounded
 - Rename layout utilities
+- Add lightbox component
 
 ## [0.0.35] - 2024-09-10
 - New gap utilities values.
