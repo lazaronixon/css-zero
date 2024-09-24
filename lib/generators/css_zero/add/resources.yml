@@ -53,6 +53,7 @@ layouts:
 lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js
+  - app/javascript/controllers/web_share_controller.js
   - app/assets/images/download.svg
   - app/assets/images/share.svg
   - app/assets/images/x.svg
@@ -72,9 +73,9 @@ sheet:
   - app/assets/images/x.svg
 skeleton:
   - app/assets/stylesheets/skeleton.css
-  - app/javascript/controllers/form_controller.js
 switch:
   - app/assets/stylesheets/switch.css
+  - app/javascript/controllers/form_controller.js
 table:
   - app/assets/stylesheets/table.css
 tabs:
