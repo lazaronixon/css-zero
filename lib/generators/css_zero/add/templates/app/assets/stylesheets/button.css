@@ -66,11 +66,11 @@
 .btn--plain {
   --btn-background: transparent;
   --btn-border-color: transparent;
+  --btn-filter-hover: none;
   --btn-padding: 0;
 }
 
 .btn--rounded {
-  --btn-padding: var(--size-2);
   --btn-radius: var(--rounded-full);
 }
 
