@@ -2,6 +2,7 @@
 - Add local_time_controller
 - Small adjust plain button
 - Fix resources mapping
+- Change revealable input
 
 ## [0.0.37] - 2024-09-23
 - Key navigation to tabs
