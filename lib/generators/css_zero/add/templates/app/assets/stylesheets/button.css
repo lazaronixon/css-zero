@@ -74,10 +74,6 @@
   --btn-radius: var(--rounded-full);
 }
 
-.btn--pressed:active {
-  opacity: var(--opacity-50);
-}
-
 [aria-busy] .btn--loading:disabled {
   > * {
     visibility: hidden;

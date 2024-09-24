@@ -44,6 +44,7 @@ input_concerns:
   - app/javascript/controllers/clearable_input_controller.js
   - app/javascript/controllers/revealable_input_controller.js
   - app/assets/images/copy.svg
+  - app/assets/images/check.svg
   - app/assets/images/eye.svg
   - app/assets/images/eye-off.svg
   - app/assets/images/x.svg
