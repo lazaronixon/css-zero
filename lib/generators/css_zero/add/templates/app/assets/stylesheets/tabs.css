@@ -20,7 +20,7 @@
   button {
     --btn-background: transparent;
     --btn-border-color: transparent;
-    --btn-filter-hover: none;
+    --btn-hover-lightness: 100%;
   }
 
   button[aria-selected=true] {

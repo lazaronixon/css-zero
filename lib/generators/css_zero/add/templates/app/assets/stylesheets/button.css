@@ -19,7 +19,9 @@
   }
 
   &:hover {
-    filter: var(--btn-filter-hover, var(--brightness-95));
+    --hover-color: var(--btn-background, var(--color-bg));
+    --hover-color-l: var(--btn-hover-lightness, calc(l * .96));
+    background-color: oklch(from var(--hover-color) var(--hover-color-l) c h);
   }
 
   &:focus-visible {
@@ -66,7 +68,7 @@
 .btn--plain {
   --btn-background: transparent;
   --btn-border-color: transparent;
-  --btn-filter-hover: none;
+  --btn-hover-lightness: 100%;
   --btn-padding: 0;
 }
 
