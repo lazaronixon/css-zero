@@ -1,16 +1,18 @@
 :where(.accordion) {
   details {
     border-block-end-width: var(--border);
+    interpolate-size: allow-keywords;
 
     &::details-content {
-      block-size: 0; overflow: hidden;
+      block-size: 0;
+      overflow-y: clip;
       transition-behavior: allow-discrete;
       transition-duration: var(--time-150);
       transition-property: content-visibility height;
     }
 
     &[open]::details-content {
-      block-size: calc-size(auto);
+      block-size: auto;
     }
 
     &[open] summary::after {
