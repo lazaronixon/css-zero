@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Reduce delay copyable
 - Add javascript helpers on install
+- Use debounce for copyable
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller
