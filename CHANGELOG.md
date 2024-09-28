@@ -6,6 +6,7 @@
 - Update button hover
 - Decorate btn aria-disabled
 - Update carousel
+- Update table
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller
