@@ -1,9 +1,3 @@
-.carousel {
-  align-items: center;
-  display: flex;
-  gap: var(--size-4);
-}
-
 .carousel__content {
   display: flex;
   gap: var(--size-6);
