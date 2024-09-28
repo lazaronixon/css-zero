@@ -148,12 +148,12 @@
 .relative { position: relative; }
 .sticky	{ position: sticky; }
 
-.min-w-0 { min-inline-size: 0; }
-.max-w-full { max-inline-size: 100%; }
+.min-i-0 { min-inline-size: 0; }
+.max-i-full { max-inline-size: 100%; }
 
-.h-full { block-size: 100%; }
-.w-full { inline-size: 100%; }
-.w-min { inline-size: min-content; }
+.b-full { block-size: 100%; }
+.i-full { inline-size: 100%; }
+.i-min { inline-size: min-content; }
 
 .overflow-x-auto { overflow-x: auto; scroll-snap-type: x mandatory; }
 .overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; }

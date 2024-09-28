@@ -8,6 +8,7 @@
 - Update carousel
 - Update table
 - Update tabs
+- Change layout utility names
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller
