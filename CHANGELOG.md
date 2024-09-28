@@ -4,6 +4,7 @@
 - Use debounce for copyable
 - Update accordion css
 - Update button hover
+- Decorate btn aria-disabled
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller

@@ -29,7 +29,7 @@
     outline-offset: var(--border-2);
   }
 
-  &:disabled {
+  &:is(:disabled, [aria-disabled]) {
     opacity: var(--opacity-50);
     pointer-events: none;
   }
