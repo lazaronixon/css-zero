@@ -1,4 +1,7 @@
 :where(.table) {
+  font-size: var(--text-sm);
+  inline-size: var(--size-full);
+
   thead {
     color: var(--color-text-subtle);
   }
