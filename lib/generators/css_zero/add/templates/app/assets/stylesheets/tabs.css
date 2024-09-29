@@ -6,18 +6,16 @@
   display: inline-flex;
   gap: var(--size-2);
   padding: var(--size-1);
+}
 
-  button {
-    inline-size: var(--size-full);
-  }
+.btn--tab {
+  --btn-background: transparent;
+  --btn-border-color: transparent;
+  --btn-hover-lightness: 100%;
 
-  button {
-    --btn-background: transparent;
-    --btn-border-color: transparent;
-    --btn-hover-lightness: 100%;
-  }
+  inline-size: var(--size-full);
 
-  button[aria-selected=true] {
+  &[aria-selected=true] {
     --btn-background: var(--color-bg);
   }
 }

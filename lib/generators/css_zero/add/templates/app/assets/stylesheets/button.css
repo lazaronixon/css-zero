@@ -6,10 +6,10 @@
   color: var(--btn-color, var(--color-text));
   cursor: pointer;
   display: inline-flex;
-  font-size: var(--text-sm);
-  font-weight: var(--font-medium);
+  font-size: var(--btn-font-size, var(--text-sm));
+  font-weight: var(--btn-font-weight, var(--font-medium));
   gap: var(--size-2);
-  justify-content: center;
+  justify-content: var(--btn-justify-content, center);
   white-space: nowrap;
   padding: var(--btn-padding, 0.5rem 1rem);
   text-align: center;
@@ -25,7 +25,7 @@
   }
 
   &:focus-visible {
-    outline: var(--border-2) solid var(--color-selected-dark);
+    outline: var(--btn-outline-size, 2px), solid var(--color-selected-dark);
     outline-offset: var(--border-2);
   }
 

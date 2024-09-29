@@ -1,11 +1,11 @@
 .input {
   appearance: none;
-  background-color: var(--color-bg);
-  border: var(--border) solid var(--color-border);
-  border-radius: var(--rounded-md);
-  font-size: var(--text-sm);
+  background-color: var(--input-background, var(--color-bg));
+  border: 1px solid var(--input-border-color, var(--color-border));
+  border-radius: var(--input-radius, var(--rounded-md));
+  font-size: var(--input-font-size, var(--text-sm));
   inline-size: var(--size-full);
-  padding: var(--size-2) var(--size-3);
+  padding: var(--input-padding, 0.5rem 1rem);
 
   option {
     padding-block: revert;
@@ -51,7 +51,7 @@
 /* Containers that act like (and contain) inputs */
 .input--actor {
   &:focus-within {
-    outline: var(--border-2) solid var(--color-selected-dark);
+    outline: var(--input-outline-size, 2px), solid var(--color-selected-dark);
     outline-offset: var(--border-2);
   }
 
@@ -73,7 +73,7 @@
 /* Styles that are shared between components */
 :is(.input, .checkbox, .radio, .range) {
   &:focus-visible {
-    outline: var(--border-2) solid var(--color-selected-dark);
+    outline: var(--input-outline-size, 2px), solid var(--color-selected-dark);
     outline-offset: var(--border-2);
   }
 
