@@ -11,6 +11,7 @@
 - Change layout utility names
 - Update size utility classes
 - Update carousel css
+- Update lightbox
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller
