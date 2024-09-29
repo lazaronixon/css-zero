@@ -11,6 +11,7 @@
 - Update size utility classes
 - Update lightbox
 - Update input
+- Replace button--rounded with button--icon
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller
