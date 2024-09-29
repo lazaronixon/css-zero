@@ -1,14 +1,9 @@
 .carousel__content {
   display: flex;
   gap: var(--size-6);
-  overflow-x: auto;
+  overflow: hidden;
   padding: var(--size-1);
-  scrollbar-width: none;
   scroll-snap-type: x mandatory;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
 
   > * {
     flex: 0 0 100%;
