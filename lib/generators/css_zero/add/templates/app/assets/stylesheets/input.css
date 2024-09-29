@@ -34,7 +34,7 @@
   }
 
   &:user-invalid ~ .invalid-feedback {
-    display: block;
+    display: flex;
   }
 
   &:disabled {
