@@ -50,13 +50,13 @@
 
 /* Containers that act like (and contain) inputs */
 .input--actor {
+  input {
+    border: 0; inline-size: 100%; outline: 0;
+  }
+
   &:focus-within {
     outline: var(--input-outline-size, 2px), solid var(--color-selected-dark);
     outline-offset: var(--border-2);
-  }
-
-  .input__character {
-    border: 0; inline-size: 100%; outline: 0;
   }
 }
 
