@@ -20,6 +20,10 @@ carousel:
   - app/javascript/controllers/carousel_controller.js
   - app/assets/images/arrow-left.svg
   - app/assets/images/arrow-right.svg
+command:
+  - app/assets/stylesheets/command.css
+  - app/javascript/controllers/command_controller.js
+  - app/assets/images/search.svg
 collapsible:
   - app/javascript/controllers/collapsible_controller.js
 dialog:
@@ -47,7 +51,7 @@ input_concerns:
   - app/javascript/controllers/revealable_input_controller.js
   - app/assets/images/eye.svg
   - app/assets/images/eye-off.svg
-  - app/javascript/controllers/autoselect_controller.js  
+  - app/javascript/controllers/autoselect_controller.js
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
