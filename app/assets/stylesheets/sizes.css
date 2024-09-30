@@ -68,21 +68,21 @@
   --size-full:  100%;
 
   /****************************************************************
-  * Widths
+  * Max Inline Sizes
   *****************************************************************/
-  --width-3xs:   16rem; /* 256px */
-  --width-2xs:   18rem; /* 288px */
-  --width-xs:    20rem; /* 320px */
-  --width-sm:    24rem; /* 384px */
-  --width-md:    28rem; /* 448px */
-  --width-lg:    32rem; /* 512px */
-  --width-xl:    36rem; /* 576px */
-  --width-2xl:   42rem; /* 672px */
-  --width-3xl:   48rem; /* 768px */
-  --width-4xl:   56rem; /* 896px */
-  --width-5xl:   64rem; /* 1024px */
-  --width-6xl:   72rem; /* 1152px */
-  --width-7xl:   80rem; /* 1280px */
+  --max-i-3xs: 16rem; /* 256px */
+  --max-i-2xs: 18rem; /* 288px */
+  --max-i-xs:  20rem; /* 320px */
+  --max-i-sm:  24rem; /* 384px */
+  --max-i-md:  28rem; /* 448px */
+  --max-i-lg:  32rem; /* 512px */
+  --max-i-xl:  36rem; /* 576px */
+  --max-i-2xl: 42rem; /* 672px */
+  --max-i-3xl: 48rem; /* 768px */
+  --max-i-4xl: 56rem; /* 896px */
+  --max-i-5xl: 64rem; /* 1024px */
+  --max-i-6xl: 72rem; /* 1152px */
+  --max-i-7xl: 80rem; /* 1280px */
 
   /****************************************************************
   * Aspect Ratio
