@@ -55,7 +55,7 @@
   }
 
   &:focus-within {
-    outline: var(--input-outline-size, 2px), solid var(--color-selected-dark);
+    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
     outline-offset: var(--border-2);
   }
 }
@@ -73,7 +73,7 @@
 /* Styles that are shared between components */
 :is(.input, .checkbox, .radio, .range) {
   &:focus-visible {
-    outline: var(--input-outline-size, 2px), solid var(--color-selected-dark);
+    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
     outline-offset: var(--border-2);
   }
 
