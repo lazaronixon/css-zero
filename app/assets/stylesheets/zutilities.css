@@ -319,7 +319,7 @@
 .pie-10 { padding-inline-end: var(--size-10); }
 
 /****************************************************************
-* Hiding/Showing based on media query size
+* Hiding/Showing
 *****************************************************************/
 .show\@sm, .show\@md, .show\@lg { display: none; }
 
@@ -330,6 +330,11 @@
 .hide\@sm { @media (width >= 40rem) { display: none; } }
 .hide\@md { @media (width >= 48rem) { display: none; } }
 .hide\@lg { @media (width >= 64rem) { display: none; } }
+
+.hide\@pwa { @media (display-mode: standalone) { display: none; } }
+.hide\@browser { @media (display-mode: browser) { display: none; } }
+
+.hide\@print { @media print { display: none; } }
 
 /****************************************************************
 * Accessibility
