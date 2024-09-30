@@ -319,6 +319,19 @@
 .pie-10 { padding-inline-end: var(--size-10); }
 
 /****************************************************************
+* Hiding/Showing based on media query size
+*****************************************************************/
+.show\@sm, .show\@md, .show\@lg { display: none; }
+
+.show\@sm { @media (width >= 40rem) { display: flex; } }
+.show\@md { @media (width >= 48rem) { display: flex; } }
+.show\@lg { @media (width >= 64rem) { display: flex; } }
+
+.hide\@sm { @media (width >= 40rem) { display: none; } }
+.hide\@md { @media (width >= 48rem) { display: none; } }
+.hide\@lg { @media (width >= 64rem) { display: none; } }
+
+/****************************************************************
 * Accessibility
 *****************************************************************/
 .sr-only {

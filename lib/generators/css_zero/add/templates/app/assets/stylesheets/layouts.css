@@ -14,10 +14,6 @@
   }
 }
 
-.sidebar__toggle {
-  @media (width >= 48rem) { display: none; }
-}
-
 .pancake-stack {
   display: grid;
   grid-template-rows: auto 1fr auto;
