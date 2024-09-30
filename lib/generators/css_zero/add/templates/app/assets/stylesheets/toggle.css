@@ -1,4 +1,4 @@
-.toggle {
+.btn--toggle {
   [type="checkbox"] {
     position: absolute; clip: rect(0, 0, 0, 0);
   }

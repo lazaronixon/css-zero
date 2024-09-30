@@ -13,6 +13,7 @@
 - Update input
 - Replace button--rounded with button--icon
 - More button and input variables
+- update toggle
 
 ## [0.0.38] - 2024-09-24
 - Add local_time_controller
