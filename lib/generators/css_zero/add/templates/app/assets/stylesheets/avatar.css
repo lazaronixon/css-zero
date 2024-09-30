@@ -9,6 +9,12 @@
   inline-size: var(--size);
   overflow: hidden;
 
+  &:is(.btn) {
+    --btn-padding: 0;
+    --btn-icon-color: none;
+    --btn-radius: var(--radius);
+  }
+
   img {
     aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
@@ -27,10 +33,4 @@
     justify-content: center;
     user-select: none;
   }
-}
-
-.btn--avatar {
-  --btn-padding: 0;
-  --btn-icon-color: none;
-  --btn-radius: var(--radius);
 }
