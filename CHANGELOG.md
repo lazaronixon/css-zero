@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.39] - 2024-09-30
 - Reduce delay copyable
 - Add javascript helpers on install
 - Use debounce for copyable
