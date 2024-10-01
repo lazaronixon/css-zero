@@ -35,13 +35,13 @@ flash:
   - app/javascript/controllers/element_removal_controller.js
 fullscreen:
   - app/javascript/controllers/fullscreen_controller.js
-  - app/assets/images/maximize.svg
 hotkey:
   - app/javascript/controllers/hotkey_controller.js
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
 input_concerns:
+  - app/javascript/controllers/autoselect_controller.js
   - app/javascript/controllers/copyable_input_controller.js
   - app/assets/images/copy.svg
   - app/assets/images/check.svg
@@ -50,7 +50,6 @@ input_concerns:
   - app/javascript/controllers/revealable_input_controller.js
   - app/assets/images/eye.svg
   - app/assets/images/eye-off.svg
-  - app/javascript/controllers/autoselect_controller.js
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
