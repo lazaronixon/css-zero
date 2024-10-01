@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.40] - 2024-10-01
 - Update avatar button
 - Hide based on pwa, browser and print
 - New layouts
