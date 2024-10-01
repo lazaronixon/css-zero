@@ -14,12 +14,14 @@
   max-block-size: 100dvh;
 
   @media (width >= 48rem) {
-    --sidebar-border-width: 1px;
-    --sidebar-width:  220px;
+    --sidebar-border-width: var(--border);
+    --sidebar-padding: var(--size-2);
+    --sidebar-width: 220px;
   }
 
   @media (width >= 64rem) {
-    --sidebar-border-width: 1px;
+    --sidebar-border-width: var(--border);
+    --sidebar-padding: var(--size-4);
     --sidebar-width: 280px;
   }
 }
@@ -41,6 +43,10 @@
   inset-block-start: 0;
   padding-inline: var(--size-4);
   position: sticky;
+
+  @media (width >= 64rem) {
+    padding-inline: var(--size-6);
+  }
 }
 
 #main {
@@ -48,8 +54,12 @@
   flex-direction: column;
   gap: var(--size-4);
   grid-area: main;
-  padding: var(--size-4);
   overflow-y: auto;
+  padding: var(--size-4);
+
+  @media (width >= 64rem) {
+    gap: var(--size-6); padding: var(--size-6);
+  }
 }
 
 #sidebar {
@@ -59,4 +69,5 @@
   grid-area: sidebar;
   gap: var(--size-2);
   overflow-x: hidden;
+  padding: var(--sidebar-padding, 0);
 }
