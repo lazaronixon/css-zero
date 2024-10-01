@@ -15,6 +15,10 @@
     --btn-radius: var(--radius);
   }
 
+  &:is(.btn):hover {
+    filter: var(--brightness-90);
+  }
+
   img {
     aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
