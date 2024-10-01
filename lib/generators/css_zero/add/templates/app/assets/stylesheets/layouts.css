@@ -1,47 +1,56 @@
+.header-layout {
+  display: grid;
+  grid-template-areas: "header" "main";
+  grid-template-rows: auto 1fr;
+  min-block-size: 100dvh;
+}
+
 .sidebar-layout {
   display: grid;
   grid-template-areas: "header header" "sidebar main";
   grid-template-columns: var(--sidebar-width, 0) 1fr;
   grid-template-rows: auto 1fr;
   min-block-size: 100dvh;
+  max-block-size: 100dvh;
 
   @media (width >= 48rem) {
-    --sidebar-width: 220px;
+    --sidebar-border-width: 1px;
+    --sidebar-width:  220px;
   }
 
   @media (width >= 64rem) {
+    --sidebar-border-width: 1px;
     --sidebar-width: 280px;
   }
 }
 
-.pancake-stack {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-block-size: 100dvh;
-}
-
-.super-centered {
-  display: grid;
-  place-items: center;
-  min-block-size: 100dvh;
-}
-
-.container {
-  margin-inline: auto;
-  max-inline-size: var(--container-width, 64rem);
-  min-block-size: 100dvh;
-}
-
-/* Grid areas definition */
-
 #header {
+  align-items: center;
+  background-color: var(--color-bg);
+  border-block-end-width: var(--border);
+  block-size: var(--size-16);
+  display: flex;
+  gap: var(--size-4);
   grid-area: header;
-}
-
-#sidebar {
-  grid-area: sidebar;
+  inset-block-start: 0;
+  padding-inline: var(--size-4);
+  position: sticky;
 }
 
 #main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4);
   grid-area: main;
+  padding: var(--size-4);
+  overflow-y: auto;
+}
+
+#sidebar {
+  border-inline-end-width: var(--sidebar-border-width, 0);
+  display: flex;
+  flex-direction: column;
+  grid-area: sidebar;
+  gap: var(--size-2);
+  overflow-x: hidden;
 }

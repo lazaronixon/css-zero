@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Update avatar button
 - Hide based on pwa, browser and print
+- New layouts
 
 ## [0.0.39] - 2024-09-30
 - Reduce delay copyable
