@@ -30,6 +30,14 @@
   padding: var(--size-1_5) var(--size-2);
 }
 
+.command__empty {
+  border-block-start-width: var(--border);
+  display: none;
+  font-size: var(--text-sm);
+  justify-content: center;
+  padding-block: var(--size-6);
+}
+
 .command__item {
   --btn-border-color: transparent;
   --btn-font-weight: var(--font-normal);
@@ -51,6 +59,11 @@
 .command__list--filtering {
   .command__group { display: none; }
   .command__group:has(.selected) { display: flex; }
+
   .command__item { display: none; }
   .command__item:is(.selected) { display: flex; }
+
+  &:not(:has(.command__item.selected)) {
+    .command__empty { display: flex; }
+  }
 }
