@@ -24,6 +24,12 @@
   }
 }
 
+.centered-layout {
+  display: grid;
+  place-items: center;
+  min-block-size: 100dvh;
+}
+
 #header {
   align-items: center;
   background-color: var(--color-bg);
