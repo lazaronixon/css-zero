@@ -41,7 +41,6 @@ hotkey:
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
-  - app/javascript/controllers/check_all_controller.js
 input_concerns:
   - app/javascript/controllers/copyable_input_controller.js
   - app/assets/images/copy.svg
