@@ -32,6 +32,12 @@
   min-block-size: 100dvh;
 }
 
+.container {
+  inline-size: 100%;
+  margin-inline: auto;
+  max-inline-size: var(--container-width, 64rem);
+}
+
 #header {
   align-items: center;
   background-color: var(--color-bg);
