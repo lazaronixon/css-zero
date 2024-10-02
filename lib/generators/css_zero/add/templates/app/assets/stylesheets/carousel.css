@@ -9,6 +9,6 @@
   > * {
     flex: 0 0 var(--carousel-item-size, 100%);
     scroll-snap-stop: always;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
   }
 }
