@@ -10,9 +10,11 @@
   --input-background: transparent;
   --input-border-color: transparent;
   --input-outline-size: 0;
+  --input-padding: 0.75rem 1rem;
 }
 
 .command__list {
+  border-block-start-width: var(--border);
   max-block-size: 300px;
   overflow-y: auto;
 }
@@ -31,7 +33,6 @@
 }
 
 .command__empty {
-  border-block-start-width: var(--border);
   display: none;
   font-size: var(--text-sm);
   justify-content: center;

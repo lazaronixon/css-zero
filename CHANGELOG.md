@@ -1,5 +1,5 @@
 ## [Unreleased]
-- Add command empty again
+- Update command
 
 ## [0.0.40] - 2024-10-01
 - Update avatar button
