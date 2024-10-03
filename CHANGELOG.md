@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Rename command_controller to filter_controller
 
 ## [0.0.41] - 2024-10-03
 - Add command empty
