@@ -1,10 +1,10 @@
 ## [Unreleased]
-- Update command
-- Update carousel
-- Update flash
-- Update breadcrumb
-- Update dialog
-- Update sheet
+
+## [0.0.41] - 2024-10-03
+- Add command empty
+- Modernize carousel
+- Responsive flash
+- Mobile first css
 
 ## [0.0.40] - 2024-10-01
 - Update avatar button
