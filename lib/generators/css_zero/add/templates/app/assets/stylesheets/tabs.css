@@ -12,8 +12,7 @@
   --btn-background: transparent;
   --btn-border-color: transparent;
   --btn-hover-lightness: 100%;
-
-  inline-size: var(--size-full);
+  --btn-inline-size: var(--size-full);
 
   &[aria-selected=true] {
     --btn-background: var(--color-bg);
