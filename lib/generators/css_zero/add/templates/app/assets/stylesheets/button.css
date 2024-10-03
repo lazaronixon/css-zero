@@ -10,9 +10,9 @@
   font-weight: var(--btn-font-weight, var(--font-medium));
   gap: var(--size-2);
   justify-content: var(--btn-justify-content, center);
-  white-space: nowrap;
   padding: var(--btn-padding, 0.5rem 1rem);
   text-align: center;
+  white-space: nowrap;
 
   img:not([class]) {
     filter: var(--btn-icon-color, var(--color-filter-text));
