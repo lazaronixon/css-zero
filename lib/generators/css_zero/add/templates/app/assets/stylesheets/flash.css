@@ -8,6 +8,7 @@
   gap: var(--size-2);
   line-height: var(--leading-none);
   margin-inline: auto;
+  max-inline-size: 90%;
   min-block-size: var(--size-11);
   padding: var(--size-1) var(--size-4);
   position: fixed;
