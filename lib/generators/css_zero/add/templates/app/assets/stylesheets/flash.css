@@ -6,8 +6,10 @@
   color: var(--color-text-reversed);
   display: flex;
   gap: var(--size-2);
+  line-height: var(--leading-none);
   margin-inline: auto;
-  padding: var(--size-2) var(--size-4);
+  min-block-size: var(--size-11);
+  padding: var(--size-1) var(--size-4);
   position: fixed;
   text-align: center;
 
