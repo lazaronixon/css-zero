@@ -7,7 +7,6 @@
   inline-size: var(--size-3-4);
   margin-inline: var(--sheet-margin);
   max-block-size: unset;
-  max-inline-size: var(--max-i-sm);
 
   &::backdrop {
     background-color: rgba(0, 0, 0, .8);
@@ -46,8 +45,8 @@
     }
   }
 
-  @media (width < 40rem) {
-    max-inline-size: none;
+  @media (width >= 40rem) {
+    max-inline-size: var(--max-i-sm);
   }
 }
 

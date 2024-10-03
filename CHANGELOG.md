@@ -2,6 +2,9 @@
 - Update command
 - Update carousel
 - Update flash
+- Update breadcrumb
+- Update dialog
+- Update sheet
 
 ## [0.0.40] - 2024-10-01
 - Update avatar button
