@@ -8,7 +8,7 @@
   padding: var(--input-padding, 0.5rem 1rem);
 
   option {
-    padding-block: revert;
+    padding-block: 2px;
   }
 
   &:is(textarea[rows=auto]) {
