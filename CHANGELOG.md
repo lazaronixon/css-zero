@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Update command
 - Update carousel
+- Update flash
 
 ## [0.0.40] - 2024-10-01
 - Update avatar button

@@ -1,13 +1,23 @@
 .flash {
+  align-items: center;
   animation: appear-then-fade 4s 300ms both;
   background-color: var(--color-text);
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
-  margin-block-start: var(--size-4);
+  display: flex;
+  gap: var(--size-2);
   margin-inline: auto;
   padding: var(--size-2) var(--size-4);
   position: fixed;
   text-align: center;
+
+  @media (width >= 40rem) {
+    font-size: var(--text-lg);
+  }
+
+  @media (width >= 64rem) {
+    font-size: var(--text-xl);
+  }
 }
 
 @keyframes appear-then-fade {
