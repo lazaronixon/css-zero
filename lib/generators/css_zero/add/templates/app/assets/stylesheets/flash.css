@@ -6,7 +6,9 @@
   color: var(--color-text-reversed);
   display: flex;
   gap: var(--size-2);
+  inset: 0;
   line-height: var(--leading-none);
+  margin-block-start: var(--flash-position, 0);
   margin-inline: auto;
   max-inline-size: 90%;
   min-block-size: var(--size-11);
