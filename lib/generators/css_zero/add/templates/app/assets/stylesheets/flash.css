@@ -23,7 +23,7 @@
   }
 }
 
-.flash--important {
+.flash--extended {
   animation-name: appear-then-fade-extended;
   animation-duration: 12s;
 }
