@@ -1,5 +1,7 @@
 ## [Unreleased]
 - Check all performance improvement
+- Add --flash-duration
+- User popover instead of dialog for flash
 
 ## [0.0.43] - 2024-10-04
 - Fix resource
