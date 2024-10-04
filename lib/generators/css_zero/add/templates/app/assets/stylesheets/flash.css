@@ -1,6 +1,6 @@
 .flash {
   align-items: center;
-  animation: appear-then-fade var(--flash-duration, 4s) 300ms both;
+  animation: appear-then-fade 4s 300ms both;
   background-color: var(--color-text);
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
@@ -23,7 +23,17 @@
   }
 }
 
+.flash--important {
+  animation-name: appear-then-fade-extended;
+  animation-duration: 12s;
+}
+
 @keyframes appear-then-fade {
   0%, 100% { opacity: 0; }
   5%, 60%  { opacity: 1; }
+}
+
+@keyframes appear-then-fade-extended {
+  0%, 100% { opacity: 0; }
+  2%, 90% { opacity: 1; }
 }
