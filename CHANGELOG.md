@@ -1,5 +1,4 @@
 ## [Unreleased]
-- Check all performance improvement
 - User popover instead of dialog for flash
 - Introduce flash--extended
 
