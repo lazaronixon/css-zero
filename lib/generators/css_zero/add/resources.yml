@@ -21,7 +21,7 @@ carousel:
   - app/assets/images/arrow-left.svg
   - app/assets/images/arrow-right.svg
 check_all:
-  - app/assets/stylesheets/check_all_controller.js
+  - app/javascript/controllers/check_all_controller.js
 command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/filter_controller.js
