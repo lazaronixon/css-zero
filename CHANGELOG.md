@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.42] - 2024-10-04
 - Rename command_controller to filter_controller
 - Set flash max inline size
 - Fix flash position
