@@ -3,7 +3,7 @@
 - Introduce flash--extended
 - Change checkbox size
 - Change tabs
-- Small refactor filter
+- Filter refactor
 
 ## [0.0.43] - 2024-10-04
 - Fix resource
