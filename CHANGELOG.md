@@ -1,6 +1,7 @@
 ## [Unreleased]
 - User popover instead of dialog for flash
 - Introduce flash--extended
+- Change checkbox size
 
 ## [0.0.43] - 2024-10-04
 - Fix resource

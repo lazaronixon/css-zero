@@ -63,7 +63,7 @@
 /* Checkbox, radio, and range */
 .checkbox, .radio {
   accent-color: var(--color-primary);
-  transform: scale(1.15);
+  block-size: 18px; inline-size: 18px;
 }
 
 .range {
