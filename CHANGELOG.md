@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.44] - 2024-10-09
 - User popover instead of dialog for flash
 - Introduce flash--extended
 - Change checkbox size
