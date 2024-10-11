@@ -3,6 +3,7 @@
 - Remove --dialog-width css var
 - Introduce popover
 - Introduce dropdown
+- Small refactor web_share_controller
 
 ## [0.0.44] - 2024-10-09
 - User popover instead of dialog for flash
