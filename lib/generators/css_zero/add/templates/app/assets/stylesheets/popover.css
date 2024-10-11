@@ -5,7 +5,7 @@
   box-shadow: var(--shadow-md);
   color: var(--color-text);
   margin-block: var(--size-1);
-  min-inline-size: max-content;
+  inline-size: var(--popover-size, max-content);
   inset-inline-start: var(--popover-position, 0);
 
   /* Setup animation */
@@ -28,10 +28,14 @@
   }
 }
 
-.popover--inline-end {
-  --popover-position: auto;
+.popover--flip {
+  inset-block-end: 100%;
 }
 
-.popover--block-start {
-  inset-block-end: 100%;
+.popover--start {
+  --popover-position: 0;
+}
+
+.popover--end {
+  --popover-position: auto;
 }
