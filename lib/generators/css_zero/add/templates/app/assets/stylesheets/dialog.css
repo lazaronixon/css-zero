@@ -1,12 +1,12 @@
 .dialog {
   background-color: var(--color-bg);
-  border-width: var(--border);
   border-radius: var(--rounded-lg);
+  border-width: var(--border);
   box-shadow: var(--shadow-lg);
   color: var(--color-text);
   inline-size: var(--size-full);
   margin: auto;
-  max-inline-size: var(--dialog-width, var(--max-i-lg));
+  max-inline-size: var(--max-i-lg);
 
   &::backdrop {
     background-color: rgba(0, 0, 0, .8);
