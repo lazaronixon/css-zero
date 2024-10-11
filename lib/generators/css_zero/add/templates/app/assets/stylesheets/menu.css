@@ -1,0 +1,39 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-1);
+  gap: var(--size-1);
+}
+
+.menu__header {
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  padding: var(--size-1_5) var(--size-2);
+}
+
+.menu__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__separator {
+  margin-inline: -0.25rem;
+}
+
+.menu__item {
+  --btn-border-color: transparent;
+  --btn-font-weight: var(--font-normal);
+  --btn-justify-content: start;
+  --btn-outline-size: 0;
+  --btn-padding: var(--size-1_5) var(--size-2);
+
+  &:focus-visible {
+    --btn-background: var(--color-secondary);
+  }
+}
+
+.menu__item-key {
+  color: var(--color-text-subtle);
+  font-size: var(--text-xs);
+  margin-inline-start: auto;
+}

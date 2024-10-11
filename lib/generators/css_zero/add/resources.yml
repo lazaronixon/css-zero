@@ -70,6 +70,7 @@ pagination:
   - app/assets/images/ellipsis.svg
 popover:
   - app/assets/stylesheets/popover.css
+  - app/assets/stylesheets/menu.css
   - app/javascript/controllers/popover_controller.js
 progress:
   - app/assets/stylesheets/progress.css
