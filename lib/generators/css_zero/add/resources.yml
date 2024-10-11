@@ -32,6 +32,11 @@ dialog:
   - app/assets/stylesheets/dialog.css
   - app/javascript/controllers/dialog_controller.js
   - app/assets/images/x.svg
+dropdown:
+  - app/assets/stylesheets/popover.css
+  - app/javascript/controllers/popover_controller.js
+  - app/assets/stylesheets/menu.css
+  - app/javascript/controllers/menu_controller.js
 flash:
   - app/assets/stylesheets/flash.css
   - app/javascript/controllers/element_removal_controller.js
@@ -70,7 +75,6 @@ pagination:
   - app/assets/images/ellipsis.svg
 popover:
   - app/assets/stylesheets/popover.css
-  - app/assets/stylesheets/menu.css
   - app/javascript/controllers/popover_controller.js
 progress:
   - app/assets/stylesheets/progress.css
