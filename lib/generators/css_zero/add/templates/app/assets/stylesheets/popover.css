@@ -1,0 +1,37 @@
+.popover {
+  background-color: var(--color-bg);
+  border-radius: var(--rounded-md);
+  border-width: var(--border);
+  box-shadow: var(--shadow-md);
+  color: var(--color-text);
+  margin-block: var(--size-1);
+  min-inline-size: max-content;
+  inset-inline-start: var(--popover-position, 0);
+
+  /* Setup animation */
+  opacity: 0;
+  transform: var(--scale-95);
+  transition-behavior: allow-discrete;
+  transition-duration: var(--time-150);
+  transition-property: display, overlay, opacity, transform;
+
+  /* In animation */
+  &[open] {
+    opacity: 1; transform: var(--scale-100);
+  }
+
+  /* Out animation */
+  @starting-style {
+    &[open] {
+      opacity: 0; transform: var(--scale-95);
+    }
+  }
+}
+
+.popover--inline-end {
+  --popover-position: auto;
+}
+
+.popover--block-start {
+  inset-block-end: 100%;
+}

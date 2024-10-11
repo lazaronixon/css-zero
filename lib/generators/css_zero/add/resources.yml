@@ -68,6 +68,9 @@ pagination:
   - app/assets/images/chevron-right.svg
   - app/assets/images/chevron-left.svg
   - app/assets/images/ellipsis.svg
+popover:
+  - app/assets/stylesheets/popover.css
+  - app/javascript/controllers/popover_controller.js
 progress:
   - app/assets/stylesheets/progress.css
 prose:
