@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.45] - 2024-10-13
 - Remove dialog show method
 - Remove --dialog-width css var
 - Improve tabs focus handling
