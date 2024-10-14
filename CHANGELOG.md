@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.46] - 2024-10-14
 - Dont select first dropdown item on open
 
 ## [0.0.45] - 2024-10-13
