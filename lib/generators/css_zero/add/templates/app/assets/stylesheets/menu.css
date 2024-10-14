@@ -27,7 +27,7 @@
   --btn-outline-size: 0;
   --btn-padding: var(--size-1_5) var(--size-2);
 
-  .menu:not(:hover) &:focus {
+  &:focus {
     --btn-background: var(--color-secondary);
   }
 }

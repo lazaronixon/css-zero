@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Dont select first dropdown item on open
 
 ## [0.0.45] - 2024-10-13
 - Remove dialog show method
