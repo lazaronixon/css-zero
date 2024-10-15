@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Fix focus for tabs and menu
 
 ## [0.0.47] - 2024-10-15
 - Adjust checkbox and radio size
