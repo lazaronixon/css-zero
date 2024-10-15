@@ -2,7 +2,7 @@
 - Adjust checkbox and radio size
 - Fix tab hover on dark mode
 - Fix menu and command hover on dark mode
-- Adjust menu component
+- Fix focus for tabs and menu
 - Set input--actor icon color
 
 ## [0.0.46] - 2024-10-14
