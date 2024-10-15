@@ -23,9 +23,14 @@
 .menu__item {
   --btn-border-color: transparent;
   --btn-font-weight: var(--font-normal);
+  --btn-hover-lightness: l;
   --btn-justify-content: start;
   --btn-outline-size: 0;
   --btn-padding: var(--size-1_5) var(--size-2);
+
+  &:hover {
+    --btn-background: var(--color-secondary);
+  }
 
   &:focus-visible {
     --btn-background: var(--color-secondary);

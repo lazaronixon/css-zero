@@ -1,6 +1,8 @@
 ## [Unreleased]
 - Adjust checkbox and radio size
-- Adjust menu component.
+- Fix tab hover on dark mode
+- Fix menu and command hover on dark mode
+- Adjust menu component
 
 ## [0.0.46] - 2024-10-14
 - Dont select first dropdown item on open

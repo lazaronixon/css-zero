@@ -42,9 +42,14 @@
 .command__item {
   --btn-border-color: transparent;
   --btn-font-weight: var(--font-normal);
+  --btn-hover-lightness: l;
   --btn-justify-content: start;
   --btn-outline-size: 0;
   --btn-padding: var(--size-1_5) var(--size-2);
+
+  &:hover {
+    --btn-background: var(--color-secondary);
+  }
 
   &:focus-visible {
     --btn-background: var(--color-secondary);
@@ -57,8 +62,11 @@
   margin-inline-start: auto;
 }
 
+.command__list--filtering:not(:has(.selected)) {
+  .command__empty { display: flex; }
+}
+
 .command__list--filtering {
-  &:not(:has(.selected)) > .command__empty { display: flex; }
   .command__group { display: none; }
   .command__group:has(.selected) { display: flex; }
   .command__item { display: none; }
