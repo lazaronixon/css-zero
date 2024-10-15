@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.47] - 2024-10-15
 - Adjust checkbox and radio size
 - Fix tab hover on dark mode
 - Fix menu and command hover on dark mode
