@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Adjust checkbox and radio size
 
 ## [0.0.46] - 2024-10-14
 - Dont select first dropdown item on open
