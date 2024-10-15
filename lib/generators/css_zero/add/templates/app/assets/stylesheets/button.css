@@ -69,7 +69,7 @@
 .btn--plain {
   --btn-background: transparent;
   --btn-border-color: transparent;
-  --btn-hover-lightness: 100%;
+  --btn-hover-lightness: l;
   --btn-padding: 0;
 }
 

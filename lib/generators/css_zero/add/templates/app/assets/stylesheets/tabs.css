@@ -11,7 +11,7 @@
 .btn--tab {
   --btn-background: transparent;
   --btn-border-color: transparent;
-  --btn-hover-lightness: 100%;
+  --btn-hover-lightness: l;
   --btn-inline-size: var(--size-full);
 
   &[aria-selected=true] {
