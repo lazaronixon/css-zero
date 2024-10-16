@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Simplify menu even more
 - Move form controller to its own component
+- Add initializers structure on install
 
 ## [0.0.48] - 2024-10-15
 - Fix focus for tabs and menu
