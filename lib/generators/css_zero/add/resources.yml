@@ -40,6 +40,8 @@ dropdown:
 flash:
   - app/assets/stylesheets/flash.css
   - app/javascript/controllers/element_removal_controller.js
+form:
+  - app/javascript/controllers/form_controller.js
 fullscreen:
   - app/javascript/controllers/fullscreen_controller.js
 hotkey:
@@ -88,7 +90,6 @@ skeleton:
   - app/assets/stylesheets/skeleton.css
 switch:
   - app/assets/stylesheets/switch.css
-  - app/javascript/controllers/form_controller.js
 table:
   - app/assets/stylesheets/table.css
 tabs:
