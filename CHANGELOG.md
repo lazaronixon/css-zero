@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Simplify menu even more
 
 ## [0.0.48] - 2024-10-15
 - Fix focus for tabs and menu
