@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.49] - 2024-10-17
 - Move form controller to its own component
 - Add initializers structure on install
 - Auto focus first menu item
