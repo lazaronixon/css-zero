@@ -28,11 +28,7 @@
   --btn-outline-size: 0;
   --btn-padding: var(--size-1_5) var(--size-2);
 
-  &:hover {
-    --btn-background: var(--color-secondary);
-  }
-
-  &:focus-visible {
+  &:is(:hover, :focus-visible) {
     --btn-background: var(--color-secondary);
   }
 }
