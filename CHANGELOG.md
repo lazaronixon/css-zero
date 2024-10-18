@@ -2,6 +2,7 @@
 - Small refactor menu and command
 - Prevent javascript error on filter
 - Simplify menu
+- Simplify tabs
 
 ## [0.0.49] - 2024-10-17
 - Move form controller to its own component
