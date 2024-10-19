@@ -11,10 +11,11 @@
 .btn--tab {
   --btn-background: transparent;
   --btn-border-color: transparent;
-  --btn-hover-lightness: l;
+  --btn-hover-color: transparent;
   --btn-inline-size: var(--size-full);
 
   &[aria-selected=true] {
     --btn-background: var(--color-bg);
+    --btn-hover-color: var(--color-bg);
   }
 }

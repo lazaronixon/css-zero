@@ -42,12 +42,12 @@
 .command__item {
   --btn-border-color: transparent;
   --btn-font-weight: var(--font-normal);
-  --btn-hover-lightness: l;
+  --btn-hover-color: var(--color-secondary);
   --btn-justify-content: start;
   --btn-outline-size: 0;
   --btn-padding: var(--size-1_5) var(--size-2);
 
-  &:is(:hover, [aria-selected=true]) {
+  &[aria-selected=true] {
     --btn-background: var(--color-secondary);
   }
 }
