@@ -96,6 +96,8 @@ table:
 tabs:
   - app/assets/stylesheets/tabs.css
   - app/javascript/controllers/tabs_controller.js
+trix:
+  - app/assets/stylesheets/ztrix.css
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
   - app/assets/images/default-picture.webp

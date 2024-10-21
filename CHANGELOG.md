@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Fix hover on safari mobile. (button/command/menu/tabs)
 - Update checkbox and radio size
+- Add trix component
 
 ## [0.0.50] - 2024-10-18
 - Small refactor menu and command
