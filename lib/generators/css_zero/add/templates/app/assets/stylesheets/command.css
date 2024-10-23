@@ -19,8 +19,11 @@
   overflow-y: auto;
 }
 
-.command__group {
+.command__group:not(:first-child) {
   border-block-start-width: var(--border);
+}
+
+.command__group {
   display: flex;
   flex-direction: column;
   padding: var(--size-1);

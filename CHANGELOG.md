@@ -3,6 +3,8 @@
 - Update checkbox and radio size
 - Add trix component
 - Adjust --leading-normal value
+- Add dropdown
+- Cosmetic on command
 
 ## [0.0.50] - 2024-10-18
 - Small refactor menu and command
