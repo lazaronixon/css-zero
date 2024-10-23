@@ -26,8 +26,22 @@
   font-size: var(--text-sm);
   line-height: inherit;
 
-  .ts-dropdown-content {
+  .ts-dropdown-content:not(:has(.optgroup)) {
     padding: var(--size-1);
+  }
+
+  .optgroup:not(:first-child) {
+    border-block-start-width: var(--border);
+  }
+
+  .optgroup {
+    padding: var(--size-1);
+  }
+
+  .optgroup-header {
+    color: var(--color-text-subtle);
+    font-size: var(--text-xs);
+    padding: var(--size-1_5) var(--size-2);
   }
 
   .option {
@@ -61,5 +75,10 @@
   margin: 0;
 }
 
-.disabled .ts-control { opacity: var(--opacity-50); }
-.disabled .ts-control * { cursor: not-allowed !important; }
+.disabled .ts-control {
+  opacity: var(--opacity-50);
+}
+
+.disabled .ts-control * {
+  cursor: not-allowed !important;
+}
