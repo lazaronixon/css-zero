@@ -20,6 +20,10 @@ carousel:
   - app/javascript/controllers/carousel_controller.js
   - app/assets/images/arrow-left.svg
   - app/assets/images/arrow-right.svg
+combobox:
+  - app/assets/stylesheets/tom-select.css
+  - app/assets/stylesheets/zcombobox.css
+  - app/javascript/controllers/combobox_controller.js
 check_all:
   - app/javascript/controllers/check_all_controller.js
 command:
