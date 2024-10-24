@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.51] - 2024-10-18
 - Fix hover on safari mobile. (button/command/menu/tabs)
 - Update checkbox and radio size
 - Add trix component
