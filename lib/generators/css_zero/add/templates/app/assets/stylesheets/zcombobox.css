@@ -1,7 +1,7 @@
 .ts-control {
   align-items: center;
   background-color: var(--color-bg);
-  border: 1px solid var(--color-border) !important;
+  border: 1px solid var(--color-border);
   border-radius: var(--rounded-md);
   min-block-size: var(--size-10);
   color: var(--color-text);
@@ -81,4 +81,8 @@
 
 .disabled .ts-control * {
   cursor: not-allowed !important;
+}
+
+.invalid .ts-control {
+  border-color: var(--color-negative);
 }
