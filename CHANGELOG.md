@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Change combobox create to option_create
 
 ## [0.0.51] - 2024-10-18
 - Fix hover on safari mobile. (button/command/menu/tabs)
