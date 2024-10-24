@@ -5,6 +5,7 @@
 - Adjust --leading-normal value
 - Add dropdown
 - Cosmetic on command
+- Remove javascript helpers/initializers
 
 ## [0.0.50] - 2024-10-18
 - Small refactor menu and command
