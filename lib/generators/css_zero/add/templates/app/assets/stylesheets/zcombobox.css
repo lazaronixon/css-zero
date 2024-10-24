@@ -44,6 +44,10 @@
     padding: var(--size-1_5) var(--size-2);
   }
 
+  .create {
+    padding: var(--size-1_5) var(--size-2);
+  }
+
   .option {
     border: 1px solid transparent;
     border-radius: var(--rounded-md);
@@ -57,6 +61,14 @@
 
   .highlight {
     background-color: transparent !important;
+  }
+
+  .spinner {
+    margin: var(--size-1_5) 0 0;
+  }
+
+  .spinner::after {
+    border-block-color: var(--color-border-dark);
   }
 }
 
