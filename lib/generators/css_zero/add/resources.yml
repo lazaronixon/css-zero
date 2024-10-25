@@ -65,6 +65,8 @@ input_concerns:
   - app/javascript/controllers/revealable_input_controller.js
   - app/assets/images/eye.svg
   - app/assets/images/eye-off.svg
+inputmask:
+  - app/javascript/controllers/inputmask_controller.js
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/images/menu.svg
