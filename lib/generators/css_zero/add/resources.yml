@@ -3,6 +3,8 @@ accordion:
   - app/assets/images/chevron-down.svg
 alert:
   - app/assets/stylesheets/alert.css
+autosave:
+  - app/javascript/controllers/autosave_controller.js
 avatar:
   - app/assets/stylesheets/avatar.css
 badge:
