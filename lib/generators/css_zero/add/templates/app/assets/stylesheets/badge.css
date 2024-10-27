@@ -24,11 +24,11 @@
 .badge--positive {
   --badge-background: var(--color-positive);
   --badge-border-color: transparent;
-  --badge-color: white;
+  --badge-color: var(--color-text-reversed);
 }
 
 .badge--negative {
   --badge-background: var(--color-negative);
   --badge-border-color: transparent;
-  --badge-color: white;
+  --badge-color: var(--color-text-reversed);
 }
