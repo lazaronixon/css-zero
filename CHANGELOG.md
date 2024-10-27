@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.53] - 2024-10-27
 - Simplify foreground/background color
 - Fix grouped combobox dark color
 
