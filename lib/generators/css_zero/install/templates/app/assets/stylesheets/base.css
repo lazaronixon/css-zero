@@ -47,8 +47,8 @@
     --color-filter-text: invert(100%);
     --color-filter-text-reversed: invert(2%) sepia(3%) saturate(3904%) hue-rotate(201deg) brightness(98%) contrast(97%);
     --color-filter-text-subtle: invert(76%) sepia(8%) saturate(230%) hue-rotate(201deg) brightness(84%) contrast(87%);
-    --color-filter-negative: invert(16%) sepia(62%) saturate(2100%) hue-rotate(337deg) brightness(92%) contrast(100%);
-    --color-filter-positive: invert(21%) sepia(62%) saturate(549%) hue-rotate(91deg) brightness(101%) contrast(91%);
+    --color-filter-negative: invert(54%) sepia(16%) saturate(2119%) hue-rotate(313deg) brightness(111%) contrast(94%);
+    --color-filter-positive: invert(81%) sepia(23%) saturate(1237%) hue-rotate(80deg) brightness(95%) contrast(83%);
   }
 }
 
