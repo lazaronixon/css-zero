@@ -1,4 +1,6 @@
 ## [Unreleased]
+- Simplify foreground/background color
+- Fix grouped combobox dark color
 
 ## [0.0.52] - 2024-10-27
 - Change combobox create to option_create
