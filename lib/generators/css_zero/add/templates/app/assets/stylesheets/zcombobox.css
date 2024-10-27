@@ -39,6 +39,7 @@
   }
 
   .optgroup-header {
+    background-color: inherit;
     color: var(--color-text-subtle);
     font-size: var(--text-xs);
     padding: var(--size-1_5) var(--size-2);
