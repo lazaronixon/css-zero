@@ -90,9 +90,7 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 ## Components
 
-[<img src="https://github.com/user-attachments/assets/989b0ddd-064a-4ac6-8aee-f9eaaf07ff38">](https://csszero.lazaronixon.com)
-
-More components soon...
+[<img src="https://github.com/user-attachments/assets/3a7fbd1e-5cc8-4476-a60c-52bc28efca29">](https://csszero.lazaronixon.com)
 
 ## Development
 
