@@ -12,7 +12,7 @@
   }
 
   img {
-    filter: var(--color-filter-text-subtle);
+    filter: var(--color-filter-text);
   }
 
   a:hover {

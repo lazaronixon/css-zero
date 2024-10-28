@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Remove --color-filter-text-subtle
 
 ## [0.0.53] - 2024-10-27
 - Simplify foreground/background color
