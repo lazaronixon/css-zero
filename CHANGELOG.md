@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Remove --color-filter-text-subtle
+- Add datepicker component
 
 ## [0.0.53] - 2024-10-27
 - Simplify foreground/background color

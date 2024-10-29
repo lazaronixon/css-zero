@@ -36,6 +36,10 @@ command:
   - app/assets/images/search.svg
 collapsible:
   - app/javascript/controllers/collapsible_controller.js
+datepicker:
+  - app/assets/stylesheets/flatpickr.css
+  - app/assets/stylesheets/zdatepicker.css
+  - app/javascript/controllers/datepicker_controller.js
 dialog:
   - app/assets/stylesheets/dialog.css
   - app/javascript/controllers/dialog_controller.js
