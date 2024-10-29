@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Small refactor datepicker controller
 - Remove inputmask on disconnect
+- Fix today color datepicker
 
 ## [0.0.54] - 2024-10-28
 - Remove --color-filter-text-subtle
