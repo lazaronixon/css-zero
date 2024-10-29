@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.54] - 2024-10-28
 - Remove --color-filter-text-subtle
 - Add datepicker component
 
