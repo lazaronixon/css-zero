@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.55] - 2024-10-31
 - Small refactor datepicker controller
 - Remove inputmask on disconnect
 - Fix today color datepicker
