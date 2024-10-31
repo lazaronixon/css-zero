@@ -2,13 +2,13 @@
   details {
     border-block-end-width: var(--border);
     interpolate-size: allow-keywords;
+    overflow: hidden;
 
     &::details-content {
       block-size: 0;
-      overflow-y: clip;
       transition-behavior: allow-discrete;
       transition-duration: var(--time-150);
-      transition-property: content-visibility height;
+      transition-property: content-visibility block-size;
     }
 
     &[open]::details-content {
