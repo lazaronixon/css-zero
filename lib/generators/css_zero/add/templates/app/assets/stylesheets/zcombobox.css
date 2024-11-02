@@ -1,10 +1,13 @@
 .ts-control {
+  align-items: center;
   background-color: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--rounded-md);
   min-block-size: var(--size-10);
   color: var(--color-text);
+  display: inline-flex;
   font-size: var(--text-sm);
+  gap: var(--size-1);
   line-height: inherit;
   padding: var(--size-2) var(--size-3);
 
@@ -82,11 +85,7 @@
   border-radius: var(--rounded-md);
   color: inherit;
   line-height: var(--leading-tight);
-}
-
-.ts-wrapper.multi.has-items .ts-control {
-  padding: var(--size-2) var(--size-3);
-  padding-bottom: var(--size-1);
+  margin: 0;
 }
 
 .disabled .ts-control {
