@@ -2,6 +2,7 @@
 - Reduce padding input block
 - Small refactor zcombobox
 - Small refactor zdatepicker
+- Add chart component
 
 ## [0.0.55] - 2024-10-31
 - Small refactor datepicker controller

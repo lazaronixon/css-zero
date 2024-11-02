@@ -22,13 +22,15 @@ carousel:
   - app/javascript/controllers/carousel_controller.js
   - app/assets/images/arrow-left.svg
   - app/assets/images/arrow-right.svg
+chart:
+  - app/javascript/controllers/chart_controller.js
+check_all:
+  - app/javascript/controllers/check_all_controller.js
 combobox:
   - app/assets/stylesheets/tom-select.css
   - app/assets/stylesheets/zcombobox.css
   - app/javascript/controllers/combobox_controller.js
   - app/assets/images/select-arrow.svg
-check_all:
-  - app/javascript/controllers/check_all_controller.js
 command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/filter_controller.js
