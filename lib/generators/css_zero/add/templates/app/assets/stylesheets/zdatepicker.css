@@ -115,15 +115,15 @@
   }
 
   .flatpickr-day {
-    align-items: center;
+    --day-size: var(--size-9);
     border-radius: var(--rounded-md);
     border-color: transparent !important;
     box-shadow: none !important;
     color: var(--color-text);
-    display: inline-flex;
-    height: var(--size-9);
+    height: var(--day-size);
+    line-height: var(--day-size);
     margin-block-start: 1px;
-    max-width: var(--size-9);
+    max-width: var(--day-size);
 
     &:is(.inRange) {
       border-radius: 0;

@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Reduce padding input block
 - Adjust zcombobox css
+- Small refactor z-datepicker
 
 ## [0.0.55] - 2024-10-31
 - Small refactor datepicker controller
