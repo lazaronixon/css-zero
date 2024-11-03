@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.56] - 2024-11-03
 - Reduce padding input block
 - Small refactor zcombobox
 - Small refactor zdatepicker
