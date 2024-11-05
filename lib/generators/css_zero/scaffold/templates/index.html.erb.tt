@@ -1,0 +1,19 @@
+<%% if notice.present? %>
+  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= notice %></div>
+<%% end %>
+
+<%% content_for :title, "<%= human_name.pluralize %>" %>
+
+<div class="flex items-center justify-between mbe-4">
+  <h1 class="font-bold text-4xl"><%= human_name.pluralize %></h1>
+  <%%= link_to "New <%= human_name.downcase %>", <%= new_helper(type: :path) %>, class: "btn btn--primary" %>
+</div>
+
+<div id="<%= plural_table_name %>" class="flex flex-col" style="gap: 2rem;">
+  <%% @<%= plural_table_name %>.each do |<%= singular_table_name %>| %>
+    <div class="flex flex-col items-start gap">
+      <%%= render <%= singular_table_name %> %>
+      <%%= link_to "Show this <%= human_name.downcase %>", <%= model_resource_name(singular_table_name) %>, class: "btn" %>
+    </div>
+  <%% end %>
+</div>

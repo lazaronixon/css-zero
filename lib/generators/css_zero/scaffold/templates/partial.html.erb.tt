@@ -1,0 +1,16 @@
+<div id="<%%= dom_id <%= singular_name %> %>" class="flex flex-col gap">
+<% attributes.reject(&:password_digest?).each do |attribute| -%>
+  <div class="flex flex-col gap-half">
+    <h4 class="font-medium leading-none"><%= attribute.human_name %>:</h4>
+<% if attribute.attachment? -%>
+    <%%= link_to <%= singular_name %>.<%= attribute.column_name %>.filename, <%= singular_name %>.<%= attribute.column_name %>, class: "font-medium underline" if <%= singular_name %>.<%= attribute.column_name %>.attached? %>
+<% elsif attribute.attachments? -%>
+    <%% <%= singular_name %>.<%= attribute.column_name %>.each do |<%= attribute.singular_name %>| %>
+      <div><%%= link_to <%= attribute.singular_name %>.filename, <%= attribute.singular_name %>, class: "font-medium underline" %></div>
+    <%% end %>
+<% else -%>
+    <p class="leading-none"><%%= <%= singular_name %>.<%= attribute.column_name %> %></p>
+<% end -%>
+  </div>
+<% end -%>
+</div>

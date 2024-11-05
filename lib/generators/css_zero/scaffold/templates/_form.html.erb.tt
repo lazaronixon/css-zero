@@ -1,0 +1,43 @@
+<%%= form_with(model: <%= model_resource_name %>, html: { contents: true }) do |form| %>
+  <%% if <%= singular_table_name %>.errors.any? %>
+    <div class="alert alert--negative flex flex-col gap-half mbe-4" role="alert">
+      <h2 class="font-medium leading-none"><%%= pluralize(<%= singular_table_name %>.errors.count, "error") %> prohibited this <%= singular_table_name %> from being saved:</h2>
+
+      <ul class="text-sm mis-3" style="list-style: disc">
+        <%% <%= singular_table_name %>.errors.each do |error| %>
+          <li><%%= error.full_message %></li>
+        <%% end %>
+      </ul>
+    </div>
+  <%% end %>
+
+<% attributes.each do |attribute| -%>
+  <div class="flex flex-col gap-half mbe-4">
+<% if attribute.password_digest? -%>
+    <%%= form.label :password, class: "text-sm font-medium leading-none" %>
+    <%%= form.password_field :password, class: "input" %>
+  </div>
+
+  <div class="flex flex-col gap-half mbe-4">
+    <%%= form.label :password_confirmation, class: "text-sm font-medium leading-none" %>
+    <%%= form.password_field :password_confirmation, class: "input" %>
+<% elsif attribute.attachments? -%>
+    <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, multiple: true, class: "input" %>
+<% elsif attribute.field_type == :textarea -%>
+    <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, rows: "auto", class: "input" %>
+<% elsif attribute.field_type == :checkbox -%>
+    <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, class: "switch" %>
+<% else -%>
+    <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, class: "input" %>
+<% end -%>
+  </div>
+
+<% end -%>
+  <div class="inline-flex items-center mbs-2 mie-1">
+    <%%= form.button tag.span("Save changes"), class: "btn btn--primary btn--loading" %>
+  </div>
+<%% end %>

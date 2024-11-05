@@ -10,57 +10,17 @@ Add this gem to your project.
 bundle add css-zero
 ```
 
-Add the base.css file to your application.
+Run the install command.
 
 ```
 bin/rails generate css_zero:install
 ```
 
-Add only the components you need. (Optional)
+Add the additional components you need.
 
 ```
 bin/rails generate css_zero:add --help
-bin/rails generate css_zero:add layouts flash button input switch table ...
 ```
-
-### Requirements
-
-If you are using [Propshaft](https://github.com/rails/propshaft) (recommended) make sure to load all the CSS files in your layout.html.erb.
-
-<details>
-  <summary>Click here to see how</summary>
-
-```html+erb
-<%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
-```
-</details>
-
-If you are using [Sprockets](https://github.com/rails/sprockets) make sure to load all the CSS files in your application.css.
-
-<details>
-  <summary>Click here to see how</summary>
-
-```
-/*
-*= require _reset
-*= require animations
-*= require borders
-*= require colors
-*= require effects
-*= require filters
-*= require grid
-*= require sizes
-*= require transform
-*= require transition
-*= require typography
-*= require_tree .
-*= require_self
-*= require zutilities
-*/
-```
-</details>
-
-Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
 
 ## Usage
 
@@ -87,6 +47,10 @@ Some icons in the examples are not copied to the project. If you are looking for
 ```
 
 Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
+
+## Icons
+
+Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
 
 ## Components
 

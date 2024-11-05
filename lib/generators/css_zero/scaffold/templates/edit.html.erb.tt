@@ -1,0 +1,10 @@
+<%% content_for :title, "Editing <%= human_name.downcase %>" %>
+
+<h1 class="font-bold text-4xl mbe-4">Editing <%= human_name.downcase %></h1>
+
+<%%= render "form", <%= singular_table_name %>: @<%= singular_table_name %> %>
+
+<div class="inline-flex flex-wrap items-center gap mbs-2" style="--row-gap: .5rem">
+  <%%= link_to "Show this <%= human_name.downcase %>", <%= model_resource_name(prefix: "@") %>, class: "btn" %>
+  <%%= link_to "Back to <%= human_name.pluralize.downcase %>", <%= index_helper(type: :path) %>, class: "btn" %>
+</div>

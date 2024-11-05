@@ -1,0 +1,11 @@
+<%% if alert.present? %>
+  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= alert %></div>
+<%% end %>
+
+<h1 class="font-bold text-4xl mbe-4">Update your password</h1>
+
+<%%= form_with url: password_path(params[:token]), method: :put, class: "flex flex-col gap" do |form| %>
+  <%%= form.password_field :password, required: true, autocomplete: "new-password", placeholder: "Enter new password", maxlength: 72, class: "input" %>
+  <%%= form.password_field :password_confirmation, required: true, autocomplete: "new-password", placeholder: "Repeat new password", maxlength: 72, class: "input" %>
+  <%%= form.submit "Save", class: "btn btn--primary i-min" %>
+<%% end %>

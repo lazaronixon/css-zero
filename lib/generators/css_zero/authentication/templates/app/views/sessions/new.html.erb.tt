@@ -1,0 +1,19 @@
+<%% if alert.present? %>
+  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= alert %></div>
+<%% end %>
+
+<%% if notice.present? %>
+  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= notice %></div>
+<%% end %>
+
+<h1 class="font-bold text-4xl mbe-4">Sign in</h1>
+
+<%%= form_with url: session_url, class: "flex flex-col gap" do |form| %>
+  <%%= form.email_field :email_address, required: true, autofocus: true, autocomplete: "username", placeholder: "Enter your email address", value: params[:email_address], class: "input" %>
+  <%%= form.password_field :password, required: true, autocomplete: "current-password", placeholder: "Enter your password", maxlength: 72, class: "input" %>
+
+  <div class="flex items-center gap">
+    <%%= form.submit "Sign in", class: "btn btn--primary" %>
+    <%%= link_to "Forgot password?", new_password_path, class: "text-sm font-medium underline" %>
+  </div>
+<%% end %>

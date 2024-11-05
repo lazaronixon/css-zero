@@ -1,0 +1,10 @@
+<%% if alert.present? %>
+  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= alert %></div>
+<%% end %>
+
+<h1 class="font-bold text-4xl mbe-4">Forgot your password?</h1>
+
+<%%= form_with url: passwords_path, class: "flex flex-col gap" do |form| %>
+  <%%= form.email_field :email_address, required: true, autofocus: true, autocomplete: "username", placeholder: "Enter your email address", value: params[:email_address], class: "input" %>
+  <%%= form.submit "Email reset instructions", class: "btn btn--primary i-min" %>
+<%% end %>
