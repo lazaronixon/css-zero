@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Implement scaffolds
 
 ## [0.0.56] - 2024-11-03
 - Reduce padding input block
