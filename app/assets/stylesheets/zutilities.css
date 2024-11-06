@@ -36,8 +36,8 @@
 .font-semibold { font-weight: var(--font-semibold); }
 .font-bold { font-weight: var(--font-bold); }
 
-.underline { text-decoration-line: underline; }
-.no-underline	{ text-decoration-line: none; }
+.underline { text-decoration: underline; }
+.no-underline	{ text-decoration: none; }
 
 .uppercase { text-transform: uppercase; }
 .normal-case { text-transform: none; }
