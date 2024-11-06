@@ -48,13 +48,17 @@ bin/rails generate css_zero:add --help
 
 Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
 
+## Components
+
+[<img src="https://github.com/user-attachments/assets/3a7fbd1e-5cc8-4476-a60c-52bc28efca29">](https://csszero.lazaronixon.com)
+
 ## Icons
 
 Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
 
-## Components
+## Scaffold
 
-[<img src="https://github.com/user-attachments/assets/3a7fbd1e-5cc8-4476-a60c-52bc28efca29">](https://csszero.lazaronixon.com)
+This gem implements custom templates for scaffolds and authentication.
 
 ## Development
 
