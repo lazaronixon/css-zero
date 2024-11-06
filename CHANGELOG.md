@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.57] - 2024-11-06
 - Implement scaffolds
 
 ## [0.0.56] - 2024-11-03
