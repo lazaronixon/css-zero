@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Use text-decoration instead of text-decoration-line
 - Use primary-color for turbo progress bar
+- Fix scaffold system tests
 
 ## [0.0.57] - 2024-11-06
 - Implement scaffolds

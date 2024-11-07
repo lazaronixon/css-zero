@@ -38,6 +38,6 @@
 
 <% end -%>
   <div class="inline-flex items-center mbs-2 mie-1">
-    <%%= form.button tag.span("Save changes"), class: "btn btn--primary btn--loading" %>
+    <%%= form.submit class: "btn btn--primary" %>
   </div>
 <%% end %>
