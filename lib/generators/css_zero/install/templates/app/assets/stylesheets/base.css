@@ -65,6 +65,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.turbo-progress-bar {
+  background-color: var(--color-primary);
+}
+
 ::selection {
   background-color: var(--color-selected);
 }
