@@ -251,14 +251,6 @@ progress {
 }
 
 /*
-  Correct empty date field height on safari IOS.
-*/
-
-::-webkit-date-and-time-value {
-  height: 1.5em;
-}
-
-/*
   Add the correct display in Chrome and Safari.
 */
 

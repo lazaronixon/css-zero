@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Set default input block size
 
 ## [0.0.58] - 2024-11-07
 - Use text-decoration instead of text-decoration-line

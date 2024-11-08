@@ -4,7 +4,8 @@
   border: 1px solid var(--input-border-color, var(--color-border));
   border-radius: var(--input-radius, var(--rounded-md));
   font-size: var(--input-font-size, var(--text-sm));
-  inline-size: var(--size-full);
+  inline-size: var(--input-inline-size, var(--size-full));
+  min-block-size: var(--input-block-size, var(--size-10));
   padding: var(--input-padding, 0.5rem 0.75rem);
 
   option {
