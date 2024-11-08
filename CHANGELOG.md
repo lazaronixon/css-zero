@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.60] - 2024-11-08
 - Improve flash messages
 
 ## [0.0.59] - 2024-11-08
