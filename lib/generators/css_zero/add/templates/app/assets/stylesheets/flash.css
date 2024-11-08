@@ -1,7 +1,8 @@
 .flash {
   align-items: center;
   animation: appear-then-fade 4s 300ms both;
-  background-color: var(--color-text);
+  backdrop-filter: var(--blur) var(--contrast-75);
+  background-color: hsl(from var(--color-text) h s l / .65);
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
   display: flex;
@@ -13,6 +14,10 @@
   min-block-size: var(--size-11);
   padding: var(--size-1) var(--size-4);
   text-align: center;
+
+  [data-turbo-preview] & {
+    display: none;
+  }
 
   @media (width >= 40rem) {
     font-size: var(--text-lg);

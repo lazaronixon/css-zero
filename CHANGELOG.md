@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Improve flash messages
 
 ## [0.0.59] - 2024-11-08
 - Set default input block size
