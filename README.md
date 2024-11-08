@@ -16,7 +16,7 @@ Run the install command.
 bin/rails generate css_zero:install
 ```
 
-Add the additional components you need.
+Add the additional components you need. (Optional)
 
 ```
 bin/rails generate css_zero:add --help
