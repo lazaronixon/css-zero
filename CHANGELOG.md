@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.59] - 2024-11-08
 - Set default input block size
 
 ## [0.0.58] - 2024-11-07
