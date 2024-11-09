@@ -87,6 +87,8 @@ lightbox:
   - app/assets/images/x.svg
 local_time:
   - app/javascript/controllers/local_time_controller.js
+navigation:
+  - app/javascript/controllers/navigation_controller.js
 pagination:
   - app/assets/images/chevron-right.svg
   - app/assets/images/chevron-left.svg

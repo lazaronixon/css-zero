@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add navigation controller
 
 ## [0.0.60] - 2024-11-08
 - Improve flash messages
