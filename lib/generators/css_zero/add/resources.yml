@@ -106,6 +106,8 @@ sheet:
   - app/assets/images/x.svg
 skeleton:
   - app/assets/stylesheets/skeleton.css
+sortable:
+  - app/javascript/controllers/sortable_controller.js
 switch:
   - app/assets/stylesheets/switch.css
 table:

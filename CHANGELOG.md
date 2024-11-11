@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Add navigation controller
+- Add sortable controller
 
 ## [0.0.60] - 2024-11-08
 - Improve flash messages
