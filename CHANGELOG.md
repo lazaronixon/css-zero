@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.61] - 2024-11-11
 - Add navigation controller
 - Add sortable controller
 
