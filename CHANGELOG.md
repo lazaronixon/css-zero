@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.62] - 2024-11-13
 - Add tooltip component
 
 ## [0.0.61] - 2024-11-11
