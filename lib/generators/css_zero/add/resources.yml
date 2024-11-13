@@ -115,6 +115,9 @@ table:
 tabs:
   - app/assets/stylesheets/tabs.css
   - app/javascript/controllers/tabs_controller.js
+tooltip:
+  - app/assets/stylesheets/tooltip.css
+  - app/javascript/controllers/tooltip_controller.js
 trix:
   - app/assets/stylesheets/ztrix.css
 upload_preview:

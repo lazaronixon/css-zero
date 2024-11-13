@@ -1,0 +1,22 @@
+.tippy-box {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--rounded-md);
+  box-shadow: var(--shadow-md);
+  color: var(--color-text);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  transition-property: transform, visibility, opacity;
+
+  &[data-state=hidden] {
+    opacity: 0;
+  }
+
+  &[data-state=visible] {
+    transition-timing-function: var(--ease-in);
+  }
+
+  .tippy-content {
+    padding: var(--size-1_5) var(--size-3);
+  }
+}
