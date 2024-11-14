@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add otp input to input concerns
 
 ## [0.0.62] - 2024-11-13
 - Add tooltip component
