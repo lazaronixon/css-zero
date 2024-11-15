@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.63] - 2024-11-15
 - Add otp input to input concerns
 - Fix application.css (sprockets install)
 
