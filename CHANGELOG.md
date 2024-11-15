@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Add otp input to input concerns
+- Fix application.css (sprockets install)
 
 ## [0.0.62] - 2024-11-13
 - Add tooltip component
