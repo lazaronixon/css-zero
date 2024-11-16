@@ -71,12 +71,13 @@
 
   code {
     padding: 0.1em 0.3em;
-    white-space: pre-wrap;
   }
 
   pre {
     border-radius: 0.5em;
+    overflow-x: auto;
     padding: 0.5lh 2ch;
+    text-wrap: nowrap;
   }
 
   pre code {
