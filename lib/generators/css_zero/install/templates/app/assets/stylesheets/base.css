@@ -10,6 +10,7 @@
   --color-border-dark: var(--zinc-400);
   --color-selected: var(--blue-100);
   --color-selected-dark: var(--blue-300);
+  --color-highlight: var(--yellow-200);
 
   /* Accent colors */
   --color-primary: var(--zinc-900);
@@ -35,6 +36,7 @@
     --color-border-dark: var(--zinc-600);
     --color-selected: var(--blue-950);
     --color-selected-dark: var(--blue-800);
+    --color-highlight: var(--yellow-800);
 
     /* Accent colors */
     --color-primary: var(--zinc-50);

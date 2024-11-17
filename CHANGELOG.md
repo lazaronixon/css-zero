@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Small adjust prose.css
+- Add --color-highlight
 
 ## [0.0.63] - 2024-11-15
 - Add otp input to input concerns

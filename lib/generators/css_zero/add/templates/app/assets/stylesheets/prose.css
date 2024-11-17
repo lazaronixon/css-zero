@@ -136,4 +136,9 @@
     text-decoration: underline;
     text-decoration-skip-ink: auto;
   }
+
+  mark {
+    color: var(--color-text);
+    background-color: var(--color-highlight);
+  }
 }
