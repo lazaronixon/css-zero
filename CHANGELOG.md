@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.64] - 2024-11-17
 - Small adjust prose.css
 - Add --color-highlight
 - Fix controller and mailer scaffold commands
