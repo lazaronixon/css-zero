@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Small refactor on sortable_controller
 
 ## [0.0.64] - 2024-11-17
 - Small adjust prose.css
