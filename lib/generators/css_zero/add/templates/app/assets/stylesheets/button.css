@@ -1,6 +1,10 @@
+:root {
+  --btn-background: var(--color-bg);
+}
+
 .btn {
   align-items: center;
-  background-color: var(--btn-background, var(--color-bg));
+  background-color: var(--btn-background);
   border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
   color: var(--btn-color, var(--color-text));
@@ -20,9 +24,7 @@
   }
 
   &:hover {
-    --hover-color-from: var(--btn-background, var(--color-bg));
-    --hover-color: oklch(from var(--hover-color-from) calc(l * .96) c h);
-    background-color: var(--btn-hover-color, var(--hover-color));
+    background-color: var(--btn-hover-color, oklch(from var(--btn-background) calc(l * .95) c h));
   }
 
   &:focus-visible {
