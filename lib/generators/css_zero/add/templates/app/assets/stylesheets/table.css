@@ -11,7 +11,7 @@
   }
 
   tr:hover {
-    background-color: hsl(from var(--color-border-light) h s l / .5);
+    background-color: rgb(from var(--color-border-light) r g b / .5);
   }
 
   th {

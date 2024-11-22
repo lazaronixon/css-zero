@@ -2,7 +2,7 @@
   align-items: center;
   animation: appear-then-fade 4s 300ms both;
   backdrop-filter: var(--blur) var(--contrast-75);
-  background-color: hsl(from var(--color-text) h s l / .65);
+  background-color: rgb(from var(--color-text) r g b / .65);
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
   display: flex;

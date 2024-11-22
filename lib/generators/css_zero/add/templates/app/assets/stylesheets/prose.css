@@ -122,12 +122,12 @@
   }
 
   del {
-    background-color: hsl(from var(--color-negative) h s l / .1);
+    background-color: rgb(from var(--color-negative) r g b / .1);
     color: var(--color-negative);
   }
 
   ins {
-    background-color: hsl(from var(--color-positive) h s l / .1);
+    background-color: rgb(from var(--color-positive) r g b / .1);
     color: var(--color-positive);
   }
 
