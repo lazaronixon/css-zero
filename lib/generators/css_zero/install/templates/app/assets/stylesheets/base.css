@@ -41,14 +41,14 @@
     /* Accent colors */
     --color-primary: var(--zinc-50);
     --color-secondary: var(--zinc-800);
-    --color-negative: var(--red-400);
-    --color-positive: var(--green-400);
+    --color-negative: var(--red-900);
+    --color-positive: var(--green-900);
 
     /* SVG color values */
     --color-filter-text: invert(1);
     --color-filter-text-reversed: invert(0);
-    --color-filter-negative: invert(54%) sepia(16%) saturate(2119%) hue-rotate(313deg) brightness(111%) contrast(94%);
-    --color-filter-positive: invert(81%) sepia(23%) saturate(1237%) hue-rotate(80deg) brightness(95%) contrast(83%);
+    --color-filter-negative: invert(15%) sepia(65%) saturate(2067%) hue-rotate(339deg) brightness(102%) contrast(97%);
+    --color-filter-positive: invert(23%) sepia(62%) saturate(554%) hue-rotate(91deg) brightness(93%) contrast(91%);
   }
 }
 

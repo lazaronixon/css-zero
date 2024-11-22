@@ -57,14 +57,14 @@
 .btn--positive {
   --btn-background: var(--color-positive);
   --btn-border-color: transparent;
-  --btn-color: var(--color-text-reversed);
+  --btn-color: white;
   --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-border-color: transparent;
-  --btn-color: var(--color-text-reversed);
+  --btn-color: white;
   --btn-icon-color: var(--color-filter-text-reversed);
 }
 
