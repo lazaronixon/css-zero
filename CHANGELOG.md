@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.65] - 2024-11-22
 - Small refactor on sortable_controller
 - Small refactor on flash/prose/table
 - Refactor button.css hover color
