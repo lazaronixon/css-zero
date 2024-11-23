@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.66] - 2024-11-23
 - Add autoanimate component
 
 ## [0.0.65] - 2024-11-22
