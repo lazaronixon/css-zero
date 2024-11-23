@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add autoanimate component
 
 ## [0.0.65] - 2024-11-22
 - Small refactor on sortable_controller
