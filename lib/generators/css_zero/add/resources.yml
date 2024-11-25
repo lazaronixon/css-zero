@@ -4,7 +4,7 @@ accordion:
 alert:
   - app/assets/stylesheets/alert.css
 autoanimate:
-  - app/javascript/controllers/autoanimate_controller.js
+  - app/assets/stylesheets/autoanimate.css
 autosave:
   - app/javascript/controllers/autosave_controller.js
 avatar:

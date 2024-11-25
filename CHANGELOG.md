@@ -1,4 +1,5 @@
 ## [Unreleased]
+-- Autoanimate css only
 
 ## [0.0.66] - 2024-11-23
 - Add autoanimate component
