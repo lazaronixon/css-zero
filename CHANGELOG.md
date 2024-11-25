@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.67] - 2024-11-25
 -- Autoanimate css only
 
 ## [0.0.66] - 2024-11-23
