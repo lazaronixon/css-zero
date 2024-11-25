@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.68] - 2024-11-25
 - Fix dark text colors. (badge/button)
 
 ## [0.0.67] - 2024-11-25
