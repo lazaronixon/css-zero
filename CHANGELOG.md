@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Increase animation duration for autoanimate
 
 ## [0.0.68] - 2024-11-25
 - Fix dark text colors. (badge/button)
