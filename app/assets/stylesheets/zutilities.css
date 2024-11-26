@@ -121,7 +121,7 @@
 .border-main { border-color: var(--color-border); }
 .border-dark { border-color: var(--color-border-dark); }
 
-.rounded-none { border-radius: none; }
+.rounded-none { border-radius: 0; }
 .rounded-sm { border-radius: var(--rounded-sm); }
 .rounded { border-radius: var(--rounded); }
 .rounded-md { border-radius: var(--rounded-md); }
