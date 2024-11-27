@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.69] - 2024-11-27
 - Increase animation duration for autoanimate
 - Fix rounded-none
 - Add group component
