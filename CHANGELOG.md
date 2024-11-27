@@ -1,4 +1,7 @@
 ## [Unreleased]
+- Small refactor on autosave.
+- Small refactor on chart.
+- Use debounce from a library.
 
 ## [0.0.69] - 2024-11-27
 - Increase animation duration for autoanimate
