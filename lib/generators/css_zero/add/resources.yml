@@ -60,6 +60,8 @@ form:
   - app/javascript/controllers/form_controller.js
 fullscreen:
   - app/javascript/controllers/fullscreen_controller.js
+group:
+  - app/assets/stylesheets/group.css
 hotkey:
   - app/javascript/controllers/hotkey_controller.js
 input:
