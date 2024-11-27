@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.70] - 2024-11-27
 - Small refactor on autosave.
 - Small refactor on chart.
 - Use debounce from a library.
