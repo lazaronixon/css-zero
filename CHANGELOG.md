@@ -1,4 +1,6 @@
 ## [Unreleased]
+- Use lodash instead es-toolkit
+- Use CDN minifed versions
 
 ## [0.0.70] - 2024-11-27
 - Small refactor on autosave.
