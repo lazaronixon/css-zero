@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.71] - 2024-11-28
 - Use lodash instead es-toolkit
 - Use CDN minifed versions
 
