@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    css-zero (0.0.72)
+    css-zero (0.0.73)
 
 GEM
   remote: https://rubygems.org/
