@@ -3,8 +3,7 @@
   grid-template-areas: "header header" "sidebar main";
   grid-template-columns: var(--sidebar-width, 0) 1fr;
   grid-template-rows: auto 1fr;
-  min-block-size: 100dvh;
-  max-block-size: 100dvh;
+  block-size: 100dvh;
 
   @media (width >= 48rem) {
     --sidebar-border-width: var(--border);
@@ -23,13 +22,13 @@
   display: grid;
   grid-template-areas: "header" "main";
   grid-template-rows: auto 1fr;
-  min-block-size: 100dvh;
+  block-size: 100dvh;
 }
 
 .centered-layout {
   display: grid;
   place-items: center;
-  min-block-size: 100dvh;
+  block-size: 100dvh;
 }
 
 .container {
@@ -40,15 +39,12 @@
 
 #header {
   align-items: center;
-  background-color: var(--color-bg);
   border-block-end-width: var(--border);
   block-size: var(--size-16);
   display: flex;
   gap: var(--size-4);
   grid-area: header;
-  inset-block-start: 0;
   padding-inline: var(--size-4);
-  position: sticky;
 
   @media (width >= 64rem) {
     padding-inline: var(--size-6);
@@ -70,7 +66,7 @@
   flex-direction: column;
   gap: var(--size-4);
   grid-area: main;
-  overflow-y: auto;
+  overflow: auto;
   padding: var(--size-4);
 
   @media (width >= 64rem) {
