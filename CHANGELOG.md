@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.73] - 2024-11-30
 - Add z-index to popover
 
 ## [0.0.72] - 2024-11-29
