@@ -7,6 +7,7 @@
   margin-block: var(--size-1);
   inline-size: var(--popover-size, max-content);
   inset-inline-start: var(--popover-position, 0);
+  z-index: 1;
 
   /* Setup animation */
   opacity: 0;

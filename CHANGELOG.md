@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add z-index to popover
 
 ## [0.0.72] - 2024-11-29
 - Improve combobox blinking
