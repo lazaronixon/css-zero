@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.74] - 2024-12-14
+- Set card background color
+- Set sidebar and header color.
+
 ## [0.0.73] - 2024-11-30
 - Add z-index to popover
 
