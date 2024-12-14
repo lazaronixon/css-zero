@@ -39,6 +39,7 @@
 
 #header {
   align-items: center;
+  background-color: rgb(from var(--color-border-light) r g b / .5);
   border-block-end-width: var(--border);
   block-size: var(--size-16);
   display: flex;
@@ -52,6 +53,7 @@
 }
 
 #sidebar {
+  background-color: rgb(from var(--color-border-light) r g b / .5);
   border-inline-end-width: var(--sidebar-border-width, 0);
   display: flex;
   flex-direction: column;
