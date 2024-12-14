@@ -1,4 +1,5 @@
 .card {
+  background-color: var(--color-bg);
   border-radius: var(--rounded-lg);
   border-width: var(--border);
   padding: var(--size-6);
