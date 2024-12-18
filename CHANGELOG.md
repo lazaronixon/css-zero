@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.75] - 2024-12-18
 - Small adjusts on dark colors
 - Reduce auto-animate duration
 
