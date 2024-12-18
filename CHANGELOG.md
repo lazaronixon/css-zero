@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Small adjusts on dark colors
+- Reduce auto-animate duration
 
 ## [0.0.74] - 2024-12-14
 - Set card background color
