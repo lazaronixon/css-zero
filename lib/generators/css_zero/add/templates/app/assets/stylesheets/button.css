@@ -1,8 +1,6 @@
-:root {
-  --btn-background: var(--color-bg);
-}
-
 .btn {
+  --btn-background: var(--color-bg);
+
   align-items: center;
   background-color: var(--btn-background);
   border-radius: var(--btn-radius, var(--rounded-md));
