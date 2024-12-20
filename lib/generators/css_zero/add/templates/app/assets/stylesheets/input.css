@@ -27,7 +27,6 @@
 
   &::file-selector-button {
     font-weight: var(--font-medium);
-    margin-inline-end: var(--size-2);
   }
 
   &:user-invalid {
