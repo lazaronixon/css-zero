@@ -356,6 +356,14 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
+  Enables size interpolation to allow animation.
+*/
+
+:root {
+  interpolate-size: allow-keywords;
+}
+
+/*
   Prevent page scroll when modal dialog is open.
 */
 

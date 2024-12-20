@@ -1,7 +1,6 @@
 :where(.accordion) {
   details {
     border-block-end-width: var(--border);
-    interpolate-size: allow-keywords;
     overflow: hidden;
 
     &::details-content {
