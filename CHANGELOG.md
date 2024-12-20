@@ -2,6 +2,7 @@
 - Update colors to oklch. (no breaking change)
 - Update _reset.css
 - Small refactor button.css
+- Remove semicolon from javascript
 
 ## [0.0.75] - 2024-12-18
 - Small adjusts on dark colors
