@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Update colors to oklch. (no breaking change)
+- Placeholder cosmetic.
 
 ## [0.0.75] - 2024-12-18
 - Small adjusts on dark colors
