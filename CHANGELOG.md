@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.76] - 2024-12-21
 - Update colors to oklch
 - Update _reset.css
 - Small refactor button.css
