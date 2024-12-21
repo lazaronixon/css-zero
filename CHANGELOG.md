@@ -1,4 +1,5 @@
 ## [Unreleased]
+- set color-schema on reset.css
 
 ## [0.0.76] - 2024-12-21
 - Update colors to oklch

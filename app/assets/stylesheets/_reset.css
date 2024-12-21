@@ -364,6 +364,14 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
+  Set color scheme to light and dark.
+*/
+
+html {
+  color-scheme: light dark;
+}
+
+/*
   Prevent page scroll when modal dialog is open.
 */
 
