@@ -4,6 +4,7 @@
 - Small refactor button.css
 - Remove semicolon from javascript
 - Perfect reponsive font sizes
+- Use responsive font size for flash
 
 ## [0.0.75] - 2024-12-18
 - Small adjusts on dark colors

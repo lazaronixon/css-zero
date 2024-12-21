@@ -6,6 +6,7 @@
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
   display: flex;
+  font-size: var(--text-base-responsive);
   gap: var(--size-2);
   justify-content: center;
   line-height: var(--leading-none);
@@ -17,14 +18,6 @@
 
   [data-turbo-preview] & {
     display: none;
-  }
-
-  @media (width >= 40rem) {
-    font-size: var(--text-lg);
-  }
-
-  @media (width >= 64rem) {
-    font-size: var(--text-xl);
   }
 }
 
