@@ -3,6 +3,7 @@
 - Update _reset.css
 - Small refactor button.css
 - Remove semicolon from javascript
+- Perfect reponsive font sizes
 
 ## [0.0.75] - 2024-12-18
 - Small adjusts on dark colors
