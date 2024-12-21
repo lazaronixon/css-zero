@@ -18,17 +18,17 @@
   --text-8xl:  6rem;     /* 96px */
   --text-9xl:  8rem;     /* 128px */
 
-  --text-xs-responsive:   clamp(0.75rem, 0.64rem + 0.57vw, 1rem);        /* 12px...16px */
-  --text-sm-responsive:   clamp(0.875rem, 0.761rem + 0.568vw, 1.125rem); /* 14px...18px */
-  --text-base-responsive: clamp(1rem, 0.89rem + 0.57vw, 1.25rem);        /* 16px...20px */
-  --text-lg-responsive:   clamp(1.125rem, 0.955rem + 0.852vw, 1.5rem);   /* 18px...24px */
-  --text-xl-responsive:   clamp(1.25rem, 0.966rem + 1.42vw, 1.875rem);   /* 20px...30px */
-  --text-2xl-responsive:  clamp(1.5rem, 1.16rem + 1.7vw, 2.25rem);       /* 24px...36px */
-  --text-3xl-responsive:  clamp(1.875rem, 1.364rem + 2.557vw, 3rem);     /* 30px...48px */
-  --text-4xl-responsive:  clamp(2.25rem, 1.57rem + 3.41vw, 3.75rem);     /* 36px...60px */
-  --text-5xl-responsive:  clamp(3rem, 2.32rem + 3.41vw, 4.5rem);         /* 48px...72px */
-  --text-6xl-responsive:  clamp(3.75rem, 2.73rem + 5.11vw, 6rem);        /* 60px...96px */
-  --text-7xl-responsive:  clamp(4.5rem, 2.91rem + 7.95vw, 8rem);         /* 72px...128px */
+  --text-xs-responsive:   clamp(0.75rem, 0.64rem + 0.57vw, 1rem);        /* 12px..16px */
+  --text-sm-responsive:   clamp(0.875rem, 0.761rem + 0.568vw, 1.125rem); /* 14px..18px */
+  --text-base-responsive: clamp(1rem, 0.89rem + 0.57vw, 1.25rem);        /* 16px..20px */
+  --text-lg-responsive:   clamp(1.125rem, 0.955rem + 0.852vw, 1.5rem);   /* 18px..24px */
+  --text-xl-responsive:   clamp(1.25rem, 0.966rem + 1.42vw, 1.875rem);   /* 20px..30px */
+  --text-2xl-responsive:  clamp(1.5rem, 1.16rem + 1.7vw, 2.25rem);       /* 24px..36px */
+  --text-3xl-responsive:  clamp(1.875rem, 1.364rem + 2.557vw, 3rem);     /* 30px..48px */
+  --text-4xl-responsive:  clamp(2.25rem, 1.57rem + 3.41vw, 3.75rem);     /* 36px..60px */
+  --text-5xl-responsive:  clamp(3rem, 2.32rem + 3.41vw, 4.5rem);         /* 48px..72px */
+  --text-6xl-responsive:  clamp(3.75rem, 2.73rem + 5.11vw, 6rem);        /* 60px..96px */
+  --text-7xl-responsive:  clamp(4.5rem, 2.91rem + 7.95vw, 8rem);         /* 72px..128px */
 
   /****************************************************************
   * Font Weight

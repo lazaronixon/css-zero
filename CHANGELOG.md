@@ -1,9 +1,9 @@
 ## [Unreleased]
-- Update colors to oklch. (no breaking change)
+- Update colors to oklch
 - Update _reset.css
 - Small refactor button.css
 - Remove semicolon from javascript
-- Perfect reponsive font sizes
+- Perfect responsive font sizes
 - Use responsive font size for flash
 
 ## [0.0.75] - 2024-12-18
