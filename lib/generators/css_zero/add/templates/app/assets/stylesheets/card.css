@@ -2,14 +2,12 @@
   background-color: var(--color-bg);
   border-radius: var(--rounded-lg);
   border-width: var(--border);
-  padding: var(--size-6);
   box-shadow: var(--shadow-sm);
+  padding: var(--size-6);
 }
 
-:is(.checkbox-card, .radio-card) {
-  background-color: var(--color-bg);
-  border-radius: var(--rounded-lg);
-  border-width: var(--border);
+:is(.card--checkbox, .card--radio) {
+  box-shadow: none;
   padding: var(--size-4);
 
   &:has(:checked) {

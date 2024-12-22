@@ -1,5 +1,5 @@
 ## [Unreleased]
-- Add checkbox-card and radio-card
+- Add card--checkbox and card--radio
 
 ## [0.0.77] - 2024-12-21
 - set color-schema on reset.css
