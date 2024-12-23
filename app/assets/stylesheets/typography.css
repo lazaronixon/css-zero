@@ -33,7 +33,7 @@
   /****************************************************************
   * Font Weight
   * Variables for controlling the font weight of an element.
-  * font-weight: var(--font-hairline);
+  * font-weight: var(--font-medium);
   *****************************************************************/
   --font-thin:       100;
   --font-extralight: 200;
