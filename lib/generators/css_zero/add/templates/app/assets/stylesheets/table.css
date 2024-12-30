@@ -24,7 +24,7 @@
   }
 
   tfoot {
-    background-color: var(--color-border-light);
+    background-color: rgb(from var(--color-border-light) r g b / .5);
     border-block-start-width: var(--border);
     font-weight: var(--font-medium);
   }
