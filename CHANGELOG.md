@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.78] - 2024-01-04
 - Lighter table foot color
 - Keep the same spacing for layouts
 
