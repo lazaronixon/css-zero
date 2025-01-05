@@ -1,5 +1,6 @@
 ## [Unreleased]
 - New popovers with floating-ui and popover tag. (popover/dropdown)
+- Remove tooltip component
 
 ## [0.0.78] - 2024-01-04
 - Lighter table foot color
