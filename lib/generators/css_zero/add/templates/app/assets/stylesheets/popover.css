@@ -4,10 +4,7 @@
   border-width: var(--border);
   box-shadow: var(--shadow-md);
   color: var(--color-text);
-  margin-block: var(--size-1);
   inline-size: var(--popover-size, max-content);
-  inset-inline-start: var(--popover-position, 0);
-  z-index: 1;
 
   /* Setup animation */
   opacity: 0;
@@ -17,26 +14,14 @@
   transition-property: display, overlay, opacity, transform;
 
   /* In animation */
-  &[open] {
+  &:popover-open {
     opacity: 1; transform: var(--scale-100);
   }
 
   /* Out animation */
   @starting-style {
-    &[open] {
+    &:popover-open {
       opacity: 0; transform: var(--scale-95);
     }
   }
-}
-
-.popover--flip {
-  inset-block-end: 100%;
-}
-
-.popover--start {
-  --popover-position: 0;
-}
-
-.popover--end {
-  --popover-position: auto;
 }
