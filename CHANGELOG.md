@@ -1,4 +1,5 @@
 ## [Unreleased]
+- popover--tooltip option
 
 ## [0.0.79] - 2024-01-05
 - New popovers with floating-ui and popover tag. (popover/dropdown)
