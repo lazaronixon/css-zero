@@ -6,7 +6,7 @@
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
   display: flex;
-  font-size: var(--text-base-responsive);
+  font-size: var(--text-fluid-base);
   gap: var(--size-2);
   justify-content: center;
   line-height: var(--leading-none);

@@ -1,5 +1,6 @@
 ## [Unreleased]
-- popover--tooltip option
+- .popover--tooltip class
+- New responsive font names, --text-base-responsive to text-fluid-base
 
 ## [0.0.79] - 2024-01-05
 - New popovers with floating-ui and popover tag. (popover/dropdown)

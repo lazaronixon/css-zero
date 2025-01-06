@@ -1,5 +1,5 @@
 :where(.prose) {
-  font-size: var(--text-base-responsive);
+  font-size: var(--text-fluid-base);
   max-inline-size: 65ch;
 
   /* Antialiased fonts */

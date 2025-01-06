@@ -82,10 +82,17 @@
 .text-8xl { font-size: var(--text-8xl); }
 .text-9xl { font-size: var(--text-9xl); }
 
-.text-sm--responsive { font-size: var(--text-sm-responsive); }
-.text-base--responsive { font-size: var(--text-base-responsive); }
-.text-lg--responsive { font-size: var(--text-lg-responsive); }
-.text-xl--responsive { font-size: var(--text-xl-responsive); }
+.text-fluid-xs { font-size: var(--text-fluid-xs); }
+.text-fluid-sm { font-size: var(--text-fluid-sm); }
+.text-fluid-base { font-size: var(--text-fluid-base); }
+.text-fluid-lg { font-size: var(--text-fluid-lg); }
+.text-fluid-xl { font-size: var(--text-fluid-xl); }
+.text-fluid-2xl { font-size: var(--text-fluid-2xl); }
+.text-fluid-3xl { font-size: var(--text-fluid-3xl); }
+.text-fluid-4xl { font-size: var(--text-fluid-4xl); }
+.text-fluid-5xl { font-size: var(--text-fluid-5xl); }
+.text-fluid-6xl { font-size: var(--text-fluid-6xl); }
+.text-fluid-7xl { font-size: var(--text-fluid-7xl); }
 
 /****************************************************************
 * Background
