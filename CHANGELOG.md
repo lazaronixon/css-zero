@@ -1,7 +1,9 @@
 ## [Unreleased]
-- .popover--tooltip class
+
+## [0.0.80] - 2024-01-06
+- popover--tooltip class
 - New responsive font names, --text-base-responsive to text-fluid-base
-- Remove text-6xl, text-7xl, text-8xl, and text-9xl
+- Remove .text-6xl, .text-7xl, .text-8xl, and .text-9xl
 
 ## [0.0.79] - 2024-01-05
 - New popovers with floating-ui and popover tag. (popover/dropdown)
