@@ -1,9 +1,7 @@
 ## [Unreleased]
 
-## [0.0.82] - 2024-01-07
-- Fix layouts.css
-
 ## [0.0.81] - 2024-01-07
+- Fix layouts.css
 - Improve carousel
 
 ## [0.0.80] - 2024-01-06
