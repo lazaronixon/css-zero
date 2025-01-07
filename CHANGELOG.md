@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Improve prose
 
 ## [0.0.81] - 2024-01-07
 - Fix layouts.css
