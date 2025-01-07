@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Improve carousel
 
 ## [0.0.80] - 2024-01-06
 - popover--tooltip class

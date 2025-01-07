@@ -1,14 +1,20 @@
+.carousel {
+  align-items: center;
+  display: flex;
+  gap: var(--size-4);
+}
+
 .carousel__content {
   display: flex;
   gap: var(--size-6);
   inline-size: var(--size-full);
   overflow: hidden;
-  padding: var(--size-1);
   scroll-snap-type: x mandatory;
+}
 
-  > * {
-    flex: 0 0 var(--carousel-item-size, 100%);
-    scroll-snap-stop: always;
-    scroll-snap-align: start;
-  }
+.carousel__item {
+  flex: 0 0 var(--carousel-item-size, 100%);
+  padding: var(--size-1);
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
 }
