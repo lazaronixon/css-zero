@@ -7,11 +7,13 @@
 
   @media (width >= 48rem) {
     --sidebar-border-width: var(--border);
+    --sidebar-padding: var(--size-2);
     --sidebar-width: 220px;
   }
 
   @media (width >= 64rem) {
     --sidebar-border-width: var(--border);
+    --sidebar-padding: var(--size-2);
     --sidebar-width: 280px;
   }
 }
@@ -54,7 +56,7 @@
   grid-area: sidebar;
   gap: var(--size-2);
   overflow-x: hidden;
-  padding: var(--size-2);
+  padding: var(--sidebar-padding, 0);
 }
 
 #main {
