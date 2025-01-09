@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Don't hide [hidden='until-found']
 
 ## [0.0.83] - 2024-01-08
 - Reimplement command component

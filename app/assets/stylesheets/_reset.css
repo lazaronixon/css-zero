@@ -391,7 +391,7 @@ turbo-frame {
   Make elements with the HTML hidden attribute stay hidden by default.
 */
 
-[hidden] {
+[hidden]:where(:not([hidden='until-found'])) {
   display: none !important;
 }
 
