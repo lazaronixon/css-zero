@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.84] - 2024-01-09
 - Don't hide [hidden='until-found']
 - Don't need "after" filter event anymore
 - Add --dialog-size variable
