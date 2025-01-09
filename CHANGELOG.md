@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.83] - 2024-01-08
 - Reimplement command component
 
 ## [0.0.82] - 2024-01-08
