@@ -36,7 +36,7 @@ combobox:
 command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/filter_controller.js
-  - app/javascript/controllers/list_controller.js
+  - app/javascript/controllers/listbox_controller.js
   - app/assets/images/search.svg
 collapsible:
   - app/javascript/controllers/collapsible_controller.js

@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Reimplement command component
 
 ## [0.0.82] - 2024-01-08
 - Improve prose
