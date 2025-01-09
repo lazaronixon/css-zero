@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Don't hide [hidden='until-found']
+- Don't need "after" filter event anymore
 
 ## [0.0.83] - 2024-01-08
 - Reimplement command component
