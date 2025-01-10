@@ -2,6 +2,7 @@
 - Dont early hide combobox
 - Reduce h6 on prose
 - Small refactor popover_controller
+- Add context menu component
 
 ## [0.0.85] - 2024-01-09
 - Merge listbox_controller and filter_controller into command_controller.

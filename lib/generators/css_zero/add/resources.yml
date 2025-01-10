@@ -52,6 +52,7 @@ dropdown:
   - app/javascript/controllers/popover_controller.js
   - app/assets/stylesheets/menu.css
   - app/javascript/controllers/menu_controller.js
+  - app/javascript/controllers/context_menu_controller.js
 flash:
   - app/assets/stylesheets/flash.css
   - app/javascript/controllers/element_removal_controller.js
