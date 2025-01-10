@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.85] - 2024-01-09
 - Merge listbox_controller and filter_controller into command_controller.
 
 ## [0.0.84] - 2024-01-09
