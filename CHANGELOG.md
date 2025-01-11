@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.86] - 2024-01-11
 - Dont early hide combobox
 - Reduce h6 on prose
 - Small refactor popover_controller
