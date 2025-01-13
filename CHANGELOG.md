@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Import only debounce from lodash
+- Use jsdelivr and update dependencies
 
 ## [0.0.86] - 2024-01-11
 - Dont early hide combobox
