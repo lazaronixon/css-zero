@@ -1,4 +1,6 @@
 ## [Unreleased]
+- Move from jsdelivr to esm.sh
+- Inputmask wasn't working with jsdelivr
 
 ## [0.0.87] - 2024-01-13
 - Import only debounce from lodash
