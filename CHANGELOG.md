@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.88] - 2024-01-13
 - Move from jsdelivr to esm.sh
 - Inputmask wasn't working with jsdelivr
 
