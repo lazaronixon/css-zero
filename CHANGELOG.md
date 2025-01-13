@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.87] - 2024-01-13
 - Import only debounce from lodash
 - Use jsdelivr and update dependencies
 
