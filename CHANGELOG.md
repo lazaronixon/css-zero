@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Reimplement inputmask using maska
 
 ## [0.0.88] - 2024-01-13
 - Move from jsdelivr to esm.sh
