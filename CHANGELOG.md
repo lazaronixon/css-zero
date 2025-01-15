@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Reimplement inputmask using maska
+- Use tom-select.base instead of tom-select.complete
 
 ## [0.0.88] - 2024-01-13
 - Move from jsdelivr to esm.sh
