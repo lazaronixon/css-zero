@@ -9,7 +9,6 @@
       transition-behavior: allow-discrete;
       transition-duration: var(--time-200);
       transition-property: content-visibility block-size;
-      transition-timing-function: var(--ease-out);
     }
 
     &[open]::details-content {
