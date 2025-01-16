@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Set block size for button
 
 ## [0.0.91] - 2024-01-16
 - Reduce height combobox
