@@ -60,6 +60,10 @@ Some icons in the examples are not copied to the project. If you are looking for
 
 This gem implements custom templates for scaffolds and authentication.
 
+```
+bin/rails generate scaffold contacts name email phone
+```
+
 ## Development
 
 To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
