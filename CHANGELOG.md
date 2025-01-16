@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.92] - 2024-01-16
 - Set block size for button
 - Early hide combobox
 - Remove btn-tab min-block-size
