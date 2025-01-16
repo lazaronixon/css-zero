@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Reduce height combobox
 
 ## [0.0.90] - 2024-01-16
 - Increase loading btn--loading
