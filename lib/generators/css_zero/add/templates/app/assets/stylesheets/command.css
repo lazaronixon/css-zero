@@ -10,7 +10,7 @@
   --input-background: transparent;
   --input-border-color: transparent;
   --input-outline-size: 0;
-  --input-padding: 0.75rem 1rem;
+  --input-padding: var(--size-2_5);
 }
 
 .command__list {
