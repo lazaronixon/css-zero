@@ -24,28 +24,6 @@ bin/rails generate css_zero:add --help
 
 ## Usage
 
-```html
-<h1 class="text-xl font-bold mb-4">
-  Write most page content using utility classes.
-</h1>
-
-<div class="custom-component">
-  Create components using CSS variables.
-</div>
-
-<div class="card">
-  Optionally, copy pre-built components into your application.
-</div>
-```
-
-```css
-.custom-component {
-  background-color: var(--red-500);
-  border-radius: var(--rounded);
-  block-size: var(--size-4);
-}
-```
-
 Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
 
 ## Components
