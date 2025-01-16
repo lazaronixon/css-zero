@@ -16,13 +16,13 @@
   opacity: 0;
   transform: var(--scale-95);
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-150);
+  transition-duration: var(--time-200);
   transition-property: display, overlay, opacity, transform;
 
   &::backdrop {
     opacity: 0;
     transition-behavior: allow-discrete;
-    transition-duration: var(--time-150);
+    transition-duration: var(--time-200);
     transition-property: display, overlay, opacity;
   }
 
