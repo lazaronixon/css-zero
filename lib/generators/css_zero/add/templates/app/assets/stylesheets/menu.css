@@ -27,7 +27,7 @@
   --btn-hover-color: var(--color-secondary);
   --btn-justify-content: start;
   --btn-outline-size: 0;
-  --btn-padding: var(--size-1_5) var(--size-2);
+  --btn-padding: 0.375rem 0.5rem;
 
   &:focus-visible {
     --btn-background: var(--color-secondary);
