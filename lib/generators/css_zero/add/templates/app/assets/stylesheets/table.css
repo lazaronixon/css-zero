@@ -20,7 +20,7 @@
   }
 
   th, td {
-    padding: var(--size-4);
+    padding: var(--size-2);
   }
 
   tfoot {
