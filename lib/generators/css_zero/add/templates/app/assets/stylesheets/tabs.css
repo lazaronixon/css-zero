@@ -1,6 +1,6 @@
 .tabs__list {
   background-color: var(--color-border-light);
-  block-size: var(--size-10);
+  block-size: var(--size-9);
   border-radius: var(--rounded-md);
   color: var(--color-text-subtle);
   display: inline-flex;
