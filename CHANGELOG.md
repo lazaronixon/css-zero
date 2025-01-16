@@ -4,6 +4,7 @@
 - Alert cosmetics
 - Add box-shadow to buttons
 - Increase dialog animation duration
+- Add shadow to badge
 
 ## [0.0.89] - 2024-01-15
 - Reimplement inputmask using maska
