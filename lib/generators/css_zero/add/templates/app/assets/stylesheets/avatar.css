@@ -10,8 +10,9 @@
   overflow: hidden;
 
   &:is(.btn) {
-    --btn-padding: 0;
+    --btn-block-size: auto;
     --btn-icon-color: none;
+    --btn-padding: 0;
     --btn-radius: var(--radius);
   }
 
