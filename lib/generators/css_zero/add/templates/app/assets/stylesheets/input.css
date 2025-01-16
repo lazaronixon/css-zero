@@ -3,6 +3,7 @@
   background-color: var(--input-background, var(--color-bg));
   border: 1px solid var(--input-border-color, var(--color-border));
   border-radius: var(--input-radius, var(--rounded-md));
+  box-shadow: var(--input-box-shadow, var(--shadow-sm));
   font-size: var(--input-font-size, var(--text-sm));
   inline-size: var(--input-inline-size, var(--size-full));
   min-block-size: var(--input-block-size, var(--size-10));
