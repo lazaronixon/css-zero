@@ -30,10 +30,6 @@ Check the [CSS files](app/assets/stylesheets) in the repository to see the avail
 
 [<img src="https://github.com/user-attachments/assets/3a7fbd1e-5cc8-4476-a60c-52bc28efca29">](https://csszero.lazaronixon.com)
 
-## Icons
-
-Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
-
 ## Scaffold
 
 This gem implements custom templates for scaffolds and authentication.
@@ -41,6 +37,10 @@ This gem implements custom templates for scaffolds and authentication.
 ```
 bin/rails generate scaffold contacts name email phone
 ```
+
+## Icons
+
+Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
 
 ## Development
 
