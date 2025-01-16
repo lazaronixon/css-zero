@@ -356,6 +356,14 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
+  Correct the arrow style of datalist in Chrome.
+*/
+
+::-webkit-calendar-picker-indicator {
+  line-height: 1em;
+}
+
+/*
   Enables size interpolation to allow animation.
 */
 

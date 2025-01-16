@@ -7,6 +7,7 @@
 - Add shadow to badge
 - Change gap-half utility
 - Add box-shadow to input
+- Correct the arrow style of datalist in Chrome
 
 ## [0.0.89] - 2024-01-15
 - Reimplement inputmask using maska
