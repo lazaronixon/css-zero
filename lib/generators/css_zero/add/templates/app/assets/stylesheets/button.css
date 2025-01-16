@@ -14,7 +14,7 @@
   gap: var(--size-2);
   inline-size: var(--btn-inline-size, auto);
   justify-content: var(--btn-justify-content, center);
-  padding: var(--btn-padding, 0.5rem 1rem);
+  padding: var(--btn-padding, 0.375rem 1rem);
   text-align: center;
   white-space: nowrap;
 
