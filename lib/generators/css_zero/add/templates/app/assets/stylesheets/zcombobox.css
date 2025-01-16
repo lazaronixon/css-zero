@@ -119,3 +119,7 @@
 .invalid .ts-control {
   border-color: var(--color-negative);
 }
+
+[data-controller*="combobox"] {
+  clip: rect(0 0 0 0); position: absolute;
+}
