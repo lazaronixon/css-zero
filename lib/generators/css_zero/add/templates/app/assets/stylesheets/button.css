@@ -5,6 +5,7 @@
   background-color: var(--btn-background);
   border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
+  box-shadow: var(--btn-box-shadow, var(--shadow-sm));
   color: var(--btn-color, var(--color-text));
   cursor: pointer;
   display: inline-flex;
@@ -50,6 +51,7 @@
 
 .btn--borderless {
   --btn-border-color: transparent;
+  --btn-box-shadow: none;
 }
 
 .btn--positive {
@@ -71,6 +73,7 @@
   --btn-border-color: transparent;
   --btn-hover-color: transparent;
   --btn-padding: 0;
+  --btn-box-shadow: none;
 }
 
 .btn--icon {

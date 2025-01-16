@@ -22,6 +22,7 @@
 
 .menu__item {
   --btn-border-color: transparent;
+  --btn-box-shadow: none;
   --btn-font-weight: var(--font-normal);
   --btn-hover-color: var(--color-secondary);
   --btn-justify-content: start;

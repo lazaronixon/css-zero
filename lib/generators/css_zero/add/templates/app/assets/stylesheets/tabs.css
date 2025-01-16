@@ -11,6 +11,7 @@
 .btn--tab {
   --btn-background: transparent;
   --btn-border-color: transparent;
+  --btn-box-shadow: none;
   --btn-hover-color: transparent;
   --btn-inline-size: var(--size-full);
 

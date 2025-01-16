@@ -2,6 +2,7 @@
 - Increase loading btn--loading
 - Accordion cosmetics
 - Alert cosmetics
+- Add box-shadow to buttons
 
 ## [0.0.89] - 2024-01-15
 - Reimplement inputmask using maska
