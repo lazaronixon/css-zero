@@ -6,8 +6,8 @@
   box-shadow: var(--input-box-shadow, var(--shadow-sm));
   font-size: var(--input-font-size, var(--text-sm));
   inline-size: var(--input-inline-size, var(--size-full));
-  min-block-size: var(--input-block-size, var(--size-10));
-  padding: var(--input-padding, 0.5rem 0.75rem);
+  min-block-size: var(--input-block-size, var(--size-9));
+  padding: var(--input-padding, 0.375rem 0.75rem);
 
   option {
     padding-block: 2px;
