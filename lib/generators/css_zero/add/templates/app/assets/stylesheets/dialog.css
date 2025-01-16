@@ -60,7 +60,7 @@
 }
 
 .dialog__close {
-  inset-block-start: var(--size-4);
-  inset-inline-end: var(--size-4);
+  inset-block-start: var(--size-3);
+  inset-inline-end:  var(--size-3);
   position: absolute;
 }

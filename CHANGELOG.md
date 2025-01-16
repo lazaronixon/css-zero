@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Small adjust close button for dialog and sheet
 
 ## [0.0.92] - 2024-01-16
 - Set block size for button
