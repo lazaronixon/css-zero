@@ -25,6 +25,26 @@
   font-size: var(--text-sm);
   line-height: inherit;
 
+  /* Setup animation */
+  opacity: 0;
+  transform: var(--scale-95);
+  transition-behavior: allow-discrete;
+  transition-duration: var(--time-150);
+  transition-property: display, opacity, transform;
+
+  /* In animation */
+  .dropdown-active & {
+    opacity: 1;
+    transform: var(--scale-100);
+  }
+
+  /* Out animation */
+  @starting-style {
+    .dropdown-active & {
+      opacity: 0; transform: var(--scale-95);
+    }
+  }
+
   .ts-dropdown-content:not(:has(.optgroup)) {
     padding: var(--size-1);
   }

@@ -14,6 +14,7 @@
 - Reduce table padding
 - Reduce size tab__list
 - Reduce button height
+- Animate combobox
 
 ## [0.0.89] - 2024-01-15
 - Reimplement inputmask using maska
