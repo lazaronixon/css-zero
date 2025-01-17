@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Simplify carousel
 
 ## [0.0.93] - 2024-01-17
 - Small adjust close button for dialog and sheet
