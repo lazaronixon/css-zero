@@ -55,7 +55,7 @@ trix-toolbar {
     color: var(--color-text-reversed);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 48rem) {
     .trix-button-group--history-tools { display: none; }
   }
 }
