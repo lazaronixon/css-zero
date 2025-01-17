@@ -22,29 +22,25 @@ Add the additional components you need. (Optional)
 bin/rails generate css_zero:add --help
 ```
 
-## Usage
-
-Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
-
 ## Components
 
 [<img src="https://github.com/user-attachments/assets/3a7fbd1e-5cc8-4476-a60c-52bc28efca29">](https://csszero.lazaronixon.com)
+
+## Utility classes and variables
+
+Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
 
 ## Scaffold
 
 This gem implements custom templates for scaffolds and authentication.
 
-```
-bin/rails generate scaffold contacts name email phone
-```
-
 ## Icons
 
-Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
+Some icons in the examples may not be included in your project. If you're looking for high-quality icons, I recommend checking out [Lucide](https://lucide.dev).
 
 ## Figma
 
-You can use use any shadcn compatible project like [shadcn/ui design system](https://www.figma.com/community/file/1203061493325953101) by [Pietro Schirano](https://twitter.com/skirano).
+You can use use any shadcn compatible project like [shadcn/ui design system](https://www.figma.com/community/file/1203061493325953101).
 
 ## Development
 
