@@ -13,12 +13,12 @@
   transition-duration: var(--time-150);
   transition-property: display, overlay, opacity, transform;
 
-  /* In animation */
+  /* Animation end */
   &:popover-open {
     opacity: 1; transform: var(--scale-100);
   }
 
-  /* Out animation */
+  /* Animation start */
   @starting-style {
     &:popover-open {
       opacity: 0; transform: var(--scale-95);

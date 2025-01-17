@@ -26,7 +26,7 @@
     transition-property: display, overlay, opacity;
   }
 
-  /* In animation */
+  /* Animation end */
   &[open] {
     opacity: 1; transform: var(--scale-100);
   }
@@ -35,7 +35,7 @@
     opacity: 1;
   }
 
-  /* Out animation */
+  /* Animation start */
   @starting-style {
     &[open] {
       opacity: 0; transform: var(--scale-95);

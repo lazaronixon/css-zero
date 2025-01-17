@@ -32,13 +32,12 @@
   transition-duration: var(--time-150);
   transition-property: display, opacity, transform;
 
-  /* In animation */
+  /* Animation end */
   .dropdown-active & {
-    opacity: 1;
-    transform: var(--scale-100);
+    opacity: 1; transform: var(--scale-100);
   }
 
-  /* Out animation */
+  /* Animation start */
   @starting-style {
     .dropdown-active & {
       opacity: 0; transform: var(--scale-95);

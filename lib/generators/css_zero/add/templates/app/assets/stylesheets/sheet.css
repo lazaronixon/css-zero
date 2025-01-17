@@ -25,7 +25,7 @@
     transition-property: display, overlay, opacity;
   }
 
-  /* In animation */
+  /* Animation end */
   &[open] {
     transform: translateX(0);
   }
@@ -34,7 +34,7 @@
     opacity: 1;
   }
 
-  /* Out animation */
+  /* Animation start */
   @starting-style {
     &[open] {
       transform: var(--sheet-transform);
