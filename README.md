@@ -42,6 +42,10 @@ bin/rails generate scaffold contacts name email phone
 
 Some icons in the examples are not copied to the project. If you are looking for good ones, I recommend [Lucide](https://lucide.dev).
 
+## Figma
+
+[shadcn/ui design system](https://www.figma.com/community/file/1203061493325953101) by [Pietro Schirano](https://twitter.com/skirano) - A design companion for shadcn/ui. Each component was painstakingly crafted to perfectly match the code implementation.
+
 ## Development
 
 To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
