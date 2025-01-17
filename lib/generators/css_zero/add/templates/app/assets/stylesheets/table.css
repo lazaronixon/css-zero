@@ -1,6 +1,12 @@
 :where(.table) {
+  caption-side: bottom;
   font-size: var(--text-sm);
   inline-size: var(--size-full);
+
+  caption {
+    color: var(--color-text-subtle);
+    margin-block-start: var(--size-4);
+  }
 
   thead {
     color: var(--color-text-subtle);
