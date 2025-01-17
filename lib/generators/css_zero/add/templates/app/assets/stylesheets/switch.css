@@ -25,7 +25,8 @@
     border-radius: var(--rounded-full);
     content: "";
     display: block;
-    transition: margin var(--time-150);
+    transition-duration: var(--time-150);
+    transition-property: margin;
   }
 
   &:focus-visible {
