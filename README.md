@@ -44,7 +44,7 @@ Some icons in the examples are not copied to the project. If you are looking for
 
 ## Figma
 
-[shadcn/ui design system](https://www.figma.com/community/file/1203061493325953101) by [Pietro Schirano](https://twitter.com/skirano) - A design companion for shadcn/ui. Each component was painstakingly crafted to perfectly match the code implementation.
+You can use use any shadcn compatible project like [shadcn/ui design system](https://www.figma.com/community/file/1203061493325953101) by [Pietro Schirano](https://twitter.com/skirano).
 
 ## Development
 
