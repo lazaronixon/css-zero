@@ -6,19 +6,18 @@
 
 .carousel__content {
   display: flex;
-  gap: var(--size-6);
+  gap: var(--size-4);
   inline-size: var(--size-full);
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-
-  @supports (-moz-appearance: none) {
-    scroll-behavior: auto;
-  }
 }
 
 .carousel__item {
-  flex: 0 0 var(--carousel-item-size, 100%);
+  --items: var(--carousel-items, 1);
+  --items-gap: calc(100% - 1rem * (var(--items) - 1));
+
+  flex: 0 0 calc(var(--items-gap) / var(--items));
   padding: var(--size-1);
   scroll-snap-stop: always;
   scroll-snap-align: start;
