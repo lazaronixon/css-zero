@@ -30,17 +30,13 @@ bin/rails generate css_zero:add --help
 
 Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
 
+## Icons
+
+If you're looking for high-quality icons, I recommend checking out [Lucide](https://lucide.dev).
+
 ## Scaffold
 
 This gem implements custom templates for scaffolds and authentication.
-
-## Icons
-
-Some icons in the examples may not be included in your project. If you're looking for high-quality icons, I recommend checking out [Lucide](https://lucide.dev).
-
-## Figma
-
-You can use use any shadcn compatible project like [shadcn/ui design system](https://www.figma.com/community/file/1203061493325953101).
 
 ## Development
 
