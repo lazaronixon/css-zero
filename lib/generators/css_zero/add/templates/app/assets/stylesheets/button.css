@@ -1,5 +1,6 @@
 .btn {
   --btn-background: var(--color-bg);
+  --hover-color: oklch(from var(--btn-background) calc(l * .95) c h);
 
   align-items: center;
   background-color: var(--btn-background);
@@ -24,7 +25,7 @@
   }
 
   &:hover {
-    background-color: var(--btn-hover-color, oklch(from var(--btn-background) calc(l * .95) c h));
+    background-color: var(--btn-hover-color, var(--hover-color));
   }
 
   &:focus-visible {
@@ -84,9 +85,7 @@
 }
 
 [aria-busy] .btn--loading:disabled {
-  > * {
-    visibility: hidden;
-  }
+  > * { visibility: hidden; }
 
   &::after {
     filter: var(--btn-icon-color, var(--color-filter-text));
