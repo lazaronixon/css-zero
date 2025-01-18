@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Improve carousel
 - Small refactor button
+- Small refcator toggle
 
 ## [0.0.93] - 2025-01-17
 - Small adjust close button for dialog and sheet

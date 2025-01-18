@@ -3,7 +3,7 @@
     position: absolute; clip: rect(0, 0, 0, 0);
   }
 
-  &:has([type="checkbox"]:checked) {
+  &:has(:checked) {
     --btn-background: var(--color-secondary);
   }
 
