@@ -1,21 +1,21 @@
 ## [Unreleased]
 - Simplify carousel
 
-## [0.0.93] - 2024-01-17
+## [0.0.93] - 2025-01-17
 - Small adjust close button for dialog and sheet
 - Add table caption style
 - Remove .popover--tooltip
 - Improve tooltip timer
 
-## [0.0.92] - 2024-01-16
+## [0.0.92] - 2025-01-16
 - Set block size for button
 - Early hide combobox
 - Remove btn-tab min-block-size
 
-## [0.0.91] - 2024-01-16
+## [0.0.91] - 2025-01-16
 - Reduce height combobox
 
-## [0.0.90] - 2024-01-16
+## [0.0.90] - 2025-01-16
 - Increase loading btn--loading
 - Accordion cosmetics
 - Alert cosmetics
@@ -33,53 +33,53 @@
 - Reduce button height
 - Animate combobox
 
-## [0.0.89] - 2024-01-15
+## [0.0.89] - 2025-01-15
 - Reimplement inputmask using maska
 - Use tom-select.base instead of tom-select.complete
 
-## [0.0.88] - 2024-01-13
+## [0.0.88] - 2025-01-13
 - Move from jsdelivr to esm.sh
 - Inputmask wasn't working with jsdelivr
 
-## [0.0.87] - 2024-01-13
+## [0.0.87] - 2025-01-13
 - Import only debounce from lodash
 - Use jsdelivr and update dependencies
 
-## [0.0.86] - 2024-01-11
+## [0.0.86] - 2025-01-11
 - Dont early hide combobox
 - Reduce h6 on prose
 - Small refactor popover_controller
 - Add context menu component
 - Make menu auto resetable when visible
 
-## [0.0.85] - 2024-01-09
+## [0.0.85] - 2025-01-09
 - Merge listbox_controller and filter_controller into command_controller.
 
-## [0.0.84] - 2024-01-09
+## [0.0.84] - 2025-01-09
 - Don't hide [hidden='until-found']
 - Don't need "after" filter event anymore
 - Add --dialog-size variable
 
-## [0.0.83] - 2024-01-08
+## [0.0.83] - 2025-01-08
 - Reimplement command component
 
-## [0.0.82] - 2024-01-08
+## [0.0.82] - 2025-01-08
 - Improve prose
 
-## [0.0.81] - 2024-01-07
+## [0.0.81] - 2025-01-07
 - Fix layouts.css
 - Improve carousel
 
-## [0.0.80] - 2024-01-06
+## [0.0.80] - 2025-01-06
 - popover--tooltip class
 - New responsive font names, --text-base-responsive to text-fluid-base
 - Remove .text-6xl, .text-7xl, .text-8xl, and .text-9xl
 
-## [0.0.79] - 2024-01-05
+## [0.0.79] - 2025-01-05
 - New popovers with floating-ui and popover tag. (popover/dropdown)
 - Remove tooltip component
 
-## [0.0.78] - 2024-01-04
+## [0.0.78] - 2025-01-04
 - Lighter table foot color
 - Keep the same spacing for layouts
 
