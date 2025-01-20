@@ -18,7 +18,7 @@ class CssZero::InstallGenerator < Rails::Generators::Base
   end
 
   def add_basic_components
-    invoke "css_zero:add", %w(layouts input switch button flash alert)
+    invoke "css_zero:add", %w(layouts flash alert input button)
   end
 
   private
