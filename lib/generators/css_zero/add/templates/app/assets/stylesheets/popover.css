@@ -6,19 +6,19 @@
   color: var(--color-text);
   inline-size: var(--popover-size, max-content);
 
-  /* Setup animation */
+  /* Final state of exit animation and setup */
   opacity: 0;
   transform: var(--scale-95);
   transition-behavior: allow-discrete;
   transition-duration: var(--time-150);
   transition-property: display, overlay, opacity, transform;
 
-  /* Animation end */
+  /* Final state of entry animation */
   &:popover-open {
     opacity: 1; transform: var(--scale-100);
   }
 
-  /* Animation start */
+  /* Initial state of entry animation */
   @starting-style {
     &:popover-open {
       opacity: 0; transform: var(--scale-95);

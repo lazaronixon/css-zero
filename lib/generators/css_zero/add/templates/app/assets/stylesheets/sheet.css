@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, .8);
   }
 
-  /* Setup animation */
+  /* Final state of exit animation and setup */
   transform: var(--sheet-transform);
   transition-behavior: allow-discrete;
   transition-duration: var(--time-500);
@@ -25,24 +25,14 @@
     transition-property: display, overlay, opacity;
   }
 
-  /* Animation end */
-  &[open] {
-    transform: translateX(0);
-  }
+  /* Final state of entry animation */
+  &[open] { transform: translateX(0); }
+  &[open]::backdrop { opacity: 1; }
 
-  &[open]::backdrop {
-    opacity: 1;
-  }
-
-  /* Animation start */
+  /* Initial state of entry animation */
   @starting-style {
-    &[open] {
-      transform: var(--sheet-transform);
-    }
-
-    &[open]::backdrop {
-      opacity: 0;
-    }
+    &[open] { transform: var(--sheet-transform); }
+    &[open]::backdrop { opacity: 0;}
   }
 
   @media (width >= 40rem) {

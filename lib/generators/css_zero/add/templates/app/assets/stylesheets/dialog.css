@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, .8);
   }
 
-  /* Setup animation */
+  /* Final state of exit animation and setup */
   opacity: 0;
   transform: var(--scale-95);
   transition-behavior: allow-discrete;
@@ -26,24 +26,14 @@
     transition-property: display, overlay, opacity;
   }
 
-  /* Animation end */
-  &[open] {
-    opacity: 1; transform: var(--scale-100);
-  }
+  /* Final state of entry animation */
+  &[open] { opacity: 1; transform: var(--scale-100); }
+  &[open]::backdrop { opacity: 1; }
 
-  &[open]::backdrop {
-    opacity: 1;
-  }
-
-  /* Animation start */
+  /* Initial state of entry animation */
   @starting-style {
-    &[open] {
-      opacity: 0; transform: var(--scale-95);
-    }
-
-    &[open]::backdrop {
-      opacity: 0;
-    }
+    &[open] { opacity: 0; transform: var(--scale-95); }
+    &[open]::backdrop { opacity: 0; }
   }
 
   /* Drawer component on mobile  */
