@@ -3,6 +3,7 @@
 - Small refactor button
 - Small refcator toggle
 - Fix selector zcombobox
+- Align avatar fallback text
 
 ## [0.0.93] - 2025-01-17
 - Small adjust close button for dialog and sheet

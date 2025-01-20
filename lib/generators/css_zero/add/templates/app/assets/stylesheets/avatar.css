@@ -21,6 +21,7 @@
   }
 
   img {
+    align-content: center;
     aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
     inline-size: var(--size-full);
