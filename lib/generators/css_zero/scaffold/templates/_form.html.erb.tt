@@ -12,13 +12,13 @@
   <%% end %>
 
 <% attributes.each do |attribute| -%>
-  <div class="flex flex-col gap-half mbe-4">
+  <div class="flex flex-col items-start gap-half mbe-4">
 <% if attribute.password_digest? -%>
     <%%= form.label :password, class: "text-sm font-medium leading-none" %>
     <%%= form.password_field :password, class: "input" %>
   </div>
 
-  <div class="flex flex-col gap-half mbe-4">
+  <div class="flex flex-col items-start gap-half mbe-4">
     <%%= form.label :password_confirmation, class: "text-sm font-medium leading-none" %>
     <%%= form.password_field :password_confirmation, class: "input" %>
 <% elsif attribute.attachments? -%>
@@ -27,6 +27,9 @@
 <% elsif attribute.field_type == :textarea -%>
     <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
     <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, rows: "auto", class: "input" %>
+<% elsif attribute.field_type == :checkbox -%>
+    <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
+    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, class: "checkbox" %>
 <% else -%>
     <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
     <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, class: "input" %>
