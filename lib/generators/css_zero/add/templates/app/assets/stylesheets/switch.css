@@ -4,9 +4,9 @@
   border-color: transparent;
   border-radius: var(--rounded-full);
   border-width: var(--border-2);
-  block-size: var(--size-6);
+  block-size: var(--size-5);
   cursor: pointer;
-  inline-size: var(--size-11);
+  inline-size: var(--size-9);
   transition-duration: var(--time-150);
   transition-property: var(--transition-colors);
 
@@ -15,7 +15,7 @@
   }
 
   &:checked::before {
-    margin-inline-start: var(--size-5);
+    margin-inline-start: var(--size-4);
   }
 
   &::before {

@@ -5,6 +5,7 @@
 - Fix selector zcombobox
 - Align avatar fallback text
 - Use default checkbox for scaffold
+- Reduce switch size
 
 ## [0.0.93] - 2025-01-17
 - Small adjust close button for dialog and sheet
