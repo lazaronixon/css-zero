@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.94] - 2025-01-20
 - Improve carousel
 - Small refactor button
 - Small refactor toggle
