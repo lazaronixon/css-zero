@@ -1,7 +1,7 @@
 ## [Unreleased]
 - Improve carousel
 - Small refactor button
-- Small refcator toggle
+- Small refactor toggle
 - Fix selector zcombobox
 - Align avatar fallback text
 - Use default checkbox for scaffold
