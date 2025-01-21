@@ -54,6 +54,8 @@
 
 * {
   border-color: var(--color-border);
+  scrollbar-color: #C1C1C1 transparent;
+  scrollbar-width: thin;
 }
 
 html {
@@ -63,6 +65,7 @@ html {
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
+  overscroll-behavior: none;
   font-synthesis-weight: none;
   text-rendering: optimizeLegibility;
 }

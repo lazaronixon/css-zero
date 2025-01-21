@@ -1,6 +1,8 @@
 ## [Unreleased]
 - autoanimate small adjust
 - Add box-shadow to btn--tab selected
+- Add scrollbar-color to base
+- Add overscroll-behavior to base
 
 ## [0.0.95] - 2025-01-20
 - Add show to dialog_controller
