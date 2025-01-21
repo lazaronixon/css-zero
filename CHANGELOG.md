@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.95] - 2025-01-20
 - Add show to dialog_controller
 - Add toggle and hideClear to popover_controller
 
