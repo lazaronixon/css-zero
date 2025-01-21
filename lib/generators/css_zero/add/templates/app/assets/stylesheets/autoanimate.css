@@ -3,13 +3,13 @@
 }
 
 ::view-transition-old(.auto-animation):only-child {
-  animation: var(--animate-fade-out) forwards;
-  animation-duration: var(--time-200);
+  animation: var(--animate-fade-out);
+  animation-duration: 250ms;
   opacity: 1;
 }
 
 ::view-transition-new(.auto-animation):only-child {
-  animation: var(--animate-fade-in) forwards;
-  animation-duration: var(--time-200);
+  animation: var(--animate-fade-in);
+  animation-duration: 250ms;
   opacity: 0;
 }
