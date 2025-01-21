@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add show to dialog_controller
 
 ## [0.0.94] - 2025-01-20
 - Improve carousel
