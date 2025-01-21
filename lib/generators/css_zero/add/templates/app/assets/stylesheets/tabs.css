@@ -18,6 +18,7 @@
 
   &[aria-selected=true] {
     --btn-background: var(--color-bg);
+    --btn-box-shadow: var(--shadow);
     --btn-hover-color: var(--color-bg);
   }
 }
