@@ -44,11 +44,6 @@
   }
 }
 
-/* Hide invalid feedback by default */
-.invalid-feedback {
-  display: none;
-}
-
 /* Containers that act like (and contain) inputs */
 .input--actor {
   input {
@@ -65,9 +60,14 @@
   }
 }
 
+/* Hide invalid feedback by default */
+.invalid-feedback {
+  display: none;
+}
+
 /* Checkbox, radio, and range */
-.checkbox, .radio {
-  accent-color: var(--color-primary); transform: scale(1.15);
+:is(.checkbox, .radio) {
+  accent-color: var(--color-primary); transform: scale(1.2);
 }
 
 .range {
