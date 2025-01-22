@@ -52,6 +52,14 @@
   img:not([class]) {
     filter: var(--input-icon-color, var(--color-filter-text));
   }
+
+  &:focus-within {
+    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
+  }
+}
+
+.invalid-feedback {
+  display: none;
 }
 
 :is(.checkbox, .radio) {
@@ -64,16 +72,11 @@
 
 /* Styles that are shared between components */
 :is(.input, .checkbox, .radio, .range) {
-  :is(&:focus-visible, &.input--actor:focus-within) {
+  &:focus-visible {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
 
   .field_with_errors & {
     border-color: var(--color-negative);
   }
-}
-
-/* Hide invalid-feedback by default */
-.invalid-feedback {
-  display: none;
 }
