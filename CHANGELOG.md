@@ -1,4 +1,6 @@
 ## [Unreleased]
+- Simplify elements focus
+- Small adjust space select option
 
 ## [0.0.96] - 2025-01-22
 - autoanimate small adjust
