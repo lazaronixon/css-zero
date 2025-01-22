@@ -30,7 +30,6 @@
 
   &:focus-visible {
     outline: var(--btn-outline-size, 2px) solid var(--color-selected-dark);
-    outline-offset: var(--border-2);
   }
 
   &:is(:disabled, [aria-disabled]) {
