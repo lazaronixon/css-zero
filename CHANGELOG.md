@@ -1,6 +1,6 @@
 ## [Unreleased]
 
-## [0.0.95] - 2025-01-22
+## [0.0.96] - 2025-01-22
 - autoanimate small adjust
 - Add box-shadow to btn--tab selected
 - Add scrollbar-color to base
