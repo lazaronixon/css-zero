@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.0.98] - 2025-01-23
 - Add tabs class
 - Adjust autosize textarea
 - Remove :where from components
