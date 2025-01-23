@@ -9,10 +9,6 @@
   min-block-size: var(--input-block-size, var(--size-9));
   padding: var(--input-padding, 0.375rem 0.75rem);
 
-  option {
-    padding-block: 3px;
-  }
-
   &:is(textarea[rows=auto]) {
     field-sizing: content;
     max-block-size: calc(10lh + var(--size-4));
@@ -62,15 +58,15 @@
   display: none;
 }
 
-:is(.checkbox, .radio) {
-  transform: scale(1.2);
-}
-
 :is(.checkbox, .radio, .range) {
   accent-color: var(--color-primary);
 }
 
-/* Styles that are shared between components */
+:is(.checkbox, .radio) {
+  transform: scale(1.2);
+}
+
+/* Styles shared between components */
 :is(.input, .checkbox, .radio, .range) {
   &:focus-visible {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);

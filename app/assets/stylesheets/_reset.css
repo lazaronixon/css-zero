@@ -388,6 +388,14 @@ html:has(dialog:modal[open]) {
 }
 
 /*
+  Restore space between options.
+*/
+
+option {
+  padding-block: 3px;
+}
+
+/*
   Make turbo frame become pseudo-box by default.
 */
 
