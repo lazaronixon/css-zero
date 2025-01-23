@@ -54,16 +54,16 @@
   }
 }
 
-.invalid-feedback {
-  display: none;
-}
-
 :is(.checkbox, .radio, .range) {
   accent-color: var(--color-primary);
 }
 
 :is(.checkbox, .radio) {
   transform: scale(1.2);
+}
+
+.invalid-feedback {
+  display: none;
 }
 
 /* Styles shared between components */
