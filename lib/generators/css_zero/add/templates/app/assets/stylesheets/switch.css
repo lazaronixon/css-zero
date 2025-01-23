@@ -34,7 +34,6 @@
   }
 
   &:disabled {
-    cursor: not-allowed;
-    opacity: var(--opacity-50);
+    cursor: not-allowed; opacity: var(--opacity-50);
   }
 }

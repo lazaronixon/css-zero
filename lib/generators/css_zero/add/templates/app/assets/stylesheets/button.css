@@ -33,8 +33,7 @@
   }
 
   &:is(:disabled, [aria-disabled]) {
-    opacity: var(--opacity-50);
-    pointer-events: none;
+    opacity: var(--opacity-50); pointer-events: none;
   }
 }
 
