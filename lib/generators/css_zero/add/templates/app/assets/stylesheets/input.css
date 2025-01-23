@@ -7,12 +7,12 @@
   font-size: var(--input-font-size, var(--text-sm));
   inline-size: var(--input-inline-size, var(--size-full));
   min-block-size: var(--input-block-size, var(--size-9));
-  padding: var(--input-padding, 0.375rem 0.75rem);
+  padding: var(--input-padding, .375rem .75rem);
 
   &:is(textarea[rows=auto]) {
     field-sizing: content;
-    max-block-size: calc(10lh + var(--size-4));
-    min-block-size: calc(3lh  + var(--size-4));
+    max-block-size: calc(.875rem + var(--input-max-rows, 10lh));
+    min-block-size: calc(.875rem + var(--input-rows, 3lh));
   }
 
   &:is(select):not([multiple], [size]) {

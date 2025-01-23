@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Add tabs class
+- Adjust autosize textarea
 
 ## [0.0.97] - 2025-01-22
 - Simplify elements focus
