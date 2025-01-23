@@ -1,3 +1,9 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2);
+}
+
 .tabs__list {
   background-color: var(--color-border-light);
   block-size: var(--size-9);
