@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Add tabs class
 - Adjust autosize textarea
+- Remove :where from components
 
 ## [0.0.97] - 2025-01-22
 - Simplify elements focus

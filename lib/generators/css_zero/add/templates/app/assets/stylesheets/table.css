@@ -1,4 +1,4 @@
-:where(.table) {
+.table {
   caption-side: bottom;
   font-size: var(--text-sm);
   inline-size: var(--size-full);
