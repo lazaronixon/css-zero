@@ -12,7 +12,7 @@
   &:is(textarea[rows=auto]) {
     field-sizing: content;
     max-block-size: calc(.875rem + var(--input-max-rows, 10lh));
-    min-block-size: calc(.875rem + var(--input-rows, 3lh));
+    min-block-size: calc(.875rem + var(--input-rows, 2lh));
   }
 
   &:is(select):not([multiple], [size]) {
