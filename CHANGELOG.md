@@ -7,6 +7,9 @@
 - Rename var(--blur)       to	var(--blur-sm)
 - Rename var(--rounded-sm) to	var(--rounded-xs)
 - Rename var(--rounded)    to	var(--rounded-sm)
+- Merge tom-select.css and zcombobox.css   into combobox.css
+- Merge flatpickr.css  and zdatepicker.css into datepicker.css
+- Merge trix.css       and ztrix.css       into trix.css
 
 ## [0.0.98] - 2025-01-23
 - Add tabs class

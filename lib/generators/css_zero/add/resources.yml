@@ -29,8 +29,7 @@ chart:
 check_all:
   - app/javascript/controllers/check_all_controller.js
 combobox:
-  - app/assets/stylesheets/tom-select.css
-  - app/assets/stylesheets/zcombobox.css
+  - app/assets/stylesheets/combobox.css
   - app/javascript/controllers/combobox_controller.js
   - app/assets/images/select-arrow.svg
 command:
@@ -40,8 +39,7 @@ command:
 collapsible:
   - app/javascript/controllers/collapsible_controller.js
 datepicker:
-  - app/assets/stylesheets/flatpickr.css
-  - app/assets/stylesheets/zdatepicker.css
+  - app/assets/stylesheets/datepicker.css
   - app/javascript/controllers/datepicker_controller.js
 dialog:
   - app/assets/stylesheets/dialog.css
@@ -121,7 +119,7 @@ tabs:
   - app/assets/stylesheets/tabs.css
   - app/javascript/controllers/tabs_controller.js
 trix:
-  - app/assets/stylesheets/ztrix.css
+  - app/assets/stylesheets/trix.css
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
   - app/assets/images/default-picture.webp
