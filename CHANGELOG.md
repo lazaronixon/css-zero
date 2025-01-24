@@ -1,4 +1,9 @@
 ## [Unreleased]
+
+## [1.0.2] - 2025-01-24
+- Import external css dependencies from esm.sh
+
+## [1.0.1] - 2025-01-24
 - Fix btn avatar size on safari
 
 ## [1.0.0] - 2025-01-24
