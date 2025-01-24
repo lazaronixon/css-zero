@@ -6,7 +6,7 @@
   background-color: var(--btn-background);
   border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
-  box-shadow: var(--btn-box-shadow, var(--shadow-sm));
+  box-shadow: var(--btn-box-shadow, var(--shadow-xs));
   color: var(--btn-color, var(--color-text));
   cursor: pointer;
   display: inline-flex;

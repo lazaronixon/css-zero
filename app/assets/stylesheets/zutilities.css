@@ -121,8 +121,8 @@
 .border-dark { border-color: var(--color-border-dark); }
 
 .rounded-none { border-radius: 0; }
+.rounded-xs { border-radius: var(--rounded-xs); }
 .rounded-sm { border-radius: var(--rounded-sm); }
-.rounded { border-radius: var(--rounded); }
 .rounded-md { border-radius: var(--rounded-md); }
 .rounded-lg { border-radius: var(--rounded-lg); }
 .rounded-full { border-radius: var(--rounded-full); }
@@ -131,8 +131,8 @@
 * Shadow
 *****************************************************************/
 .shadow-none { box-shadow: none; }
+.shadow-xs { box-shadow: var(--shadow-xs); }
 .shadow-sm { box-shadow: var(--shadow-sm); }
-.shadow { box-shadow: var(--shadow); }
 .shadow-md { box-shadow: var(--shadow-md); }
 .shadow-lg { box-shadow: var(--shadow-lg); }
 

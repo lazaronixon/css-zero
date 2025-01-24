@@ -1,6 +1,12 @@
 ## [Unreleased]
 - Set default text area --input-rows to 2lh
 - Do not use auto resizable textarea in scaffold
+- Rename var(--shadow-sm)  to	var(--shadow-xs)
+- Rename var(--shadow)     to	var(--shadow-sm)
+- Rename var(--blur-sm)    to	var(--blur-xs)
+- Rename var(--blur)       to	var(--blur-sm)
+- Rename var(--rounded-sm) to	var(--rounded-xs)
+- Rename var(--rounded)    to	var(--rounded-sm)
 
 ## [0.0.98] - 2025-01-23
 - Add tabs class

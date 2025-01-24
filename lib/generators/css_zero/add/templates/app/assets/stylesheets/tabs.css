@@ -24,7 +24,7 @@
 
   &[aria-selected=true] {
     --btn-background: var(--color-bg);
-    --btn-box-shadow: var(--shadow);
+    --btn-box-shadow: var(--shadow-sm);
     --btn-hover-color: var(--color-bg);
   }
 }

@@ -1,7 +1,7 @@
 .flash {
   align-items: center;
   animation: appear-then-fade 4s 300ms both;
-  backdrop-filter: var(--blur) var(--contrast-75);
+  backdrop-filter: var(--blur-sm) var(--contrast-75);
   background-color: rgb(from var(--color-text) r g b / .65);
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);

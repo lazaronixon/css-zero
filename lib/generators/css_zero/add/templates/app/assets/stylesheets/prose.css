@@ -64,7 +64,7 @@
   :is(pre, code) {
     background-color: var(--color-border-light);
     border: 1px solid var(--color-border);
-    border-radius: var(--rounded);
+    border-radius: var(--rounded-sm);
     font-family: var(--font-monospace-code);
     font-size: 0.85em;
   }

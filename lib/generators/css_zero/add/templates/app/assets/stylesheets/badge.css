@@ -13,7 +13,7 @@
 .badge--primary {
   --badge-background: var(--color-primary);
   --badge-border-color: transparent;
-  --badge-box-shadow: var(--shadow);
+  --badge-box-shadow: var(--shadow-sm);
   --badge-color: var(--color-text-reversed);
 }
 
@@ -27,13 +27,13 @@
 .badge--positive {
   --badge-background: var(--color-positive);
   --badge-border-color: transparent;
-  --badge-box-shadow: var(--shadow);
+  --badge-box-shadow: var(--shadow-sm);
   --badge-color: white;
 }
 
 .badge--negative {
   --badge-background: var(--color-negative);
   --badge-border-color: transparent;
-  --badge-box-shadow: var(--shadow);
+  --badge-box-shadow: var(--shadow-sm);
   --badge-color: white;
 }

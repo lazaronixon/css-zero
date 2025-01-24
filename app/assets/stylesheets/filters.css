@@ -2,11 +2,11 @@
   /****************************************************************
   * Blur
   * Variables for applying blur filters to an element.
-  * filter|backdrop-filter: var(--blur);
+  * filter|backdrop-filter: var(--blur-sm);
   *****************************************************************/
   --blur-none: blur(0);
-  --blur-sm:   blur(4px);
-  --blur:      blur(8px);
+  --blur-xs:   blur(4px);
+  --blur-sm:   blur(8px);
   --blur-md:   blur(12px);
   --blur-lg:   blur(16px);
   --blur-xl:   blur(24px);

@@ -3,5 +3,5 @@
   border-radius: var(--rounded-xl);
   border-width: var(--border);
   padding: var(--size-6);
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-sm);
 }
