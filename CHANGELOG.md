@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Set default text area --input-rows to 2lh
+- Do not use auto resizable textarea in scaffold
 
 ## [0.0.98] - 2025-01-23
 - Add tabs class

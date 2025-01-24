@@ -24,9 +24,6 @@
 <% elsif attribute.attachments? -%>
     <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
     <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, multiple: true, class: "input" %>
-<% elsif attribute.field_type == :textarea -%>
-    <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
-    <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, rows: "auto", class: "input" %>
 <% elsif attribute.field_type == :checkbox -%>
     <%%= form.label :<%= attribute.column_name %>, class: "text-sm font-medium leading-none" %>
     <%%= form.<%= attribute.field_type %> :<%= attribute.column_name %>, class: "checkbox" %>
