@@ -29,6 +29,11 @@
     <%%= stylesheet_link_tag <%= style_link_target %>, "data-turbo-track": "reload" %>
     <%%= stylesheet_link_tag "css-zero/utilities", "data-turbo-track": "reload" %>
     <%- end -%>
+    <%- if importmaps? -%>
+    <%%= javascript_importmap_tags %>
+    <%- else -%>
+    <%%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+    <%- end -%>
   </head>
 
   <body class="header-layout">

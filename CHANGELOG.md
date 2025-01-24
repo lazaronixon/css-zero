@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+## [1.0.3] - 2025-01-24
+- Fix css:install not adding javascript_importmap_tags
+
 ## [1.0.2] - 2025-01-24
 - Import external css dependencies from esm.sh
 
