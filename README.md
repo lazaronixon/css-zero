@@ -28,7 +28,7 @@ bin/rails generate css_zero:add --help
 
 ## Utility classes and variables
 
-Check the [CSS files](app/assets/stylesheets) in the repository to see the available variables and utility classes.
+Check the [CSS files](app/assets/stylesheets/css-zero) in the repository to see the available variables and utility classes.
 
 ## Icons
 

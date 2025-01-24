@@ -1,15 +1,38 @@
 ## [Unreleased]
 - Set default text area --input-rows to 2lh
 - Do not use auto resizable textarea in scaffold
+
 - Rename var(--shadow-sm)  to	var(--shadow-xs)
 - Rename var(--shadow)     to	var(--shadow-sm)
 - Rename var(--blur-sm)    to	var(--blur-xs)
 - Rename var(--blur)       to	var(--blur-sm)
 - Rename var(--rounded-sm) to	var(--rounded-xs)
 - Rename var(--rounded)    to	var(--rounded-sm)
+
 - Merge tom-select.css and zcombobox.css   into combobox.css
 - Merge flatpickr.css  and zdatepicker.css into datepicker.css
 - Merge trix.css       and ztrix.css       into trix.css
+
+- Files were moved from the root folder to `css-zero`, `_reset.css` was renamed to `reset.css`, and
+  `zutilities.css` renamed to `utilities.css`.
+
+- Previously styles inside gems could mix with the styles from inside your application,
+  the new architecture requires you to set the files manually.
+
+Before:
+
+```
+<%= stylesheet_link_tag :all, "data-turbo-track": "reload" %>
+```
+
+Later:
+
+```
+<%= stylesheet_link_tag "css-zero/reset", "data-turbo-track": "reload" %>
+<%= stylesheet_link_tag "css-zero/variables", "data-turbo-track": "reload" %>
+<%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+<%= stylesheet_link_tag "css-zero/utilities", "data-turbo-track": "reload" %>
+```
 
 ## [0.0.98] - 2025-01-23
 - Add tabs class

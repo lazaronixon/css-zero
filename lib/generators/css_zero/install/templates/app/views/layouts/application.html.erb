@@ -17,13 +17,17 @@
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
 
-    <%- style_link_target = sprockets? ? "\"application\"" : ":all" -%>
-    <%%# Includes all stylesheet files in app/assets/stylesheets %>
-    <%%= stylesheet_link_tag <%= style_link_target %>, "data-turbo-track": "reload" %>
-    <%- if importmaps? -%>
-    <%%= javascript_importmap_tags %>
+    <%- style_link_target = options[:skip_asset_pipeline] ? "\"application\"" : ":app" -%>
+    <%- if options[:skip_hotwire] || options[:skip_javascript] -%>
+    <%%= stylesheet_link_tag "css-zero/reset" %>
+    <%%= stylesheet_link_tag "css-zero/variables" %>
+    <%%= stylesheet_link_tag <%= style_link_target %> %>
+    <%%= stylesheet_link_tag "css-zero/utilities" %>
     <%- else -%>
-    <%%= javascript_include_tag "application", "data-turbo-track": "reload", type: "module" %>
+    <%%= stylesheet_link_tag "css-zero/reset", "data-turbo-track": "reload" %>
+    <%%= stylesheet_link_tag "css-zero/variables", "data-turbo-track": "reload" %>
+    <%%= stylesheet_link_tag <%= style_link_target %>, "data-turbo-track": "reload" %>
+    <%%= stylesheet_link_tag "css-zero/utilities", "data-turbo-track": "reload" %>
     <%- end -%>
   </head>
 

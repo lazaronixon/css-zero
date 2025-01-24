@@ -10,17 +10,17 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require _reset
- *= require animations
- *= require borders
- *= require colors
- *= require effects
- *= require filters
- *= require sizes
- *= require transform
- *= require transition
- *= require typography
+ *= require css-zero/reset
+ *= require css-zero/animations
+ *= require css-zero/borders
+ *= require css-zero/colors
+ *= require css-zero/effects
+ *= require css-zero/filters
+ *= require css-zero/sizes
+ *= require css-zero/transform
+ *= require css-zero/transition
+ *= require css-zero/typography
  *= require_tree .
  *= require_self
- *= require zutilities
+ *= require css-zero/utilities
  */
