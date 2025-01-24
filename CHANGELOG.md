@@ -15,10 +15,11 @@
 - Merge flatpickr.css  and zdatepicker.css into datepicker.css
 - Merge trix.css       and ztrix.css       into trix.css
 
-- Files were moved from the root folder to `css-zero`, `_reset.css` was renamed to `reset.css`, and
-  `zutilities.css` renamed to `utilities.css`.
+- Files were moved from the root to `/css-zero`
+- The file `_reset.css` was renamed to `reset.css`
+- The file `zutilities.css` was renamed to `utilities.css`
 
-- Previously styles inside gems could mix with the styles from inside your application,
+- Previously, styles inside gems could mix with the styles from inside your application,
   the new architecture requires you to set the files manually.
 
 Before:
