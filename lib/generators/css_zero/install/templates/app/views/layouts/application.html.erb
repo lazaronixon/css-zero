@@ -18,17 +18,10 @@
     <link rel="apple-touch-icon" href="/icon.png">
 
     <%- style_link_target = options[:skip_asset_pipeline] ? "\"application\"" : ":app" -%>
-    <%- if options[:skip_hotwire] || options[:skip_javascript] -%>
-    <%%= stylesheet_link_tag "css-zero/reset" %>
-    <%%= stylesheet_link_tag "css-zero/variables" %>
-    <%%= stylesheet_link_tag <%= style_link_target %> %>
-    <%%= stylesheet_link_tag "css-zero/utilities" %>
-    <%- else -%>
     <%%= stylesheet_link_tag "css-zero/reset", "data-turbo-track": "reload" %>
     <%%= stylesheet_link_tag "css-zero/variables", "data-turbo-track": "reload" %>
     <%%= stylesheet_link_tag <%= style_link_target %>, "data-turbo-track": "reload" %>
     <%%= stylesheet_link_tag "css-zero/utilities", "data-turbo-track": "reload" %>
-    <%- end -%>
     <%- if importmaps? -%>
     <%%= javascript_importmap_tags %>
     <%- else -%>
