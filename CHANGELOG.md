@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [1.0.0] - 2025-01-24
 - Set default text area --input-rows to 2lh
 - Do not use auto resizable textarea in scaffold
 
