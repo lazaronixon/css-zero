@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Change base.css to use zinc-950 for dark color-bg
 
 ## [1.0.3] - 2025-01-24
 - Fix css:install not adding javascript_importmap_tags
