@@ -1,6 +1,6 @@
 .sheet {
   background-color: var(--color-bg);
-  border-inline-start-width: var(--border);
+  border-inline-width: var(--sheet-border);
   box-shadow: var(--shadow-lg);
   block-size: var(--size-full);
   color: var(--color-text);
@@ -41,11 +41,13 @@
 }
 
 .sheet--left {
+  --sheet-border: 0 1px;
   --sheet-margin: 0 auto;
   --sheet-transform: translateX(-100%);
 }
 
 .sheet--right {
+  --sheet-border: 1px 0;
   --sheet-margin: auto 0;
   --sheet-transform: translateX(100%);
 }
