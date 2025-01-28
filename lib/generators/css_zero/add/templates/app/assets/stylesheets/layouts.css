@@ -43,7 +43,7 @@
   border-block-end-width: var(--border);
   block-size: var(--size-16);
   display: flex;
-  gap: var(--size-2);
+  gap: var(--size-4);
   grid-area: header;
   padding-inline: var(--size-4);
 }

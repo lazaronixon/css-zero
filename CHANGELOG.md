@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Increase gap for header items
 
 ## [1.0.4] - 2025-01-25
 - Change base.css to use zinc-950 for dark color-bg
