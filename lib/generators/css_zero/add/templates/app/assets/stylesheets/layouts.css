@@ -42,8 +42,8 @@
   background-color: rgb(from var(--color-border-light) r g b / .5);
   border-block-end-width: var(--border);
   block-size: var(--size-16);
+  column-gap: var(--size-4);
   display: flex;
-  gap: var(--size-4);
   grid-area: header;
   padding-inline: var(--size-4);
 }
@@ -54,9 +54,9 @@
   display: flex;
   flex-direction: column;
   grid-area: sidebar;
-  gap: var(--size-2);
   overflow-x: hidden;
   padding: var(--sidebar-padding, 0);
+  row-gap: var(--size-2);
 }
 
 #main {

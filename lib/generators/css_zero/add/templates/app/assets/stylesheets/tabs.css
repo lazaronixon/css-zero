@@ -1,7 +1,7 @@
 .tabs {
   display: flex;
   flex-direction: column;
-  gap: var(--size-2);
+  row-gap: var(--size-2);
 }
 
 .tabs__list {
@@ -9,8 +9,8 @@
   block-size: var(--size-9);
   border-radius: var(--rounded-md);
   color: var(--color-text-subtle);
+  column-gap: var(--size-2);
   display: inline-flex;
-  gap: var(--size-2);
   padding: var(--size-1);
 }
 

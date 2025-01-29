@@ -5,9 +5,9 @@
   background-color: rgb(from var(--color-text) r g b / .65);
   border-radius: var(--rounded-full);
   color: var(--color-text-reversed);
+  column-gap: var(--size-2);
   display: flex;
   font-size: var(--text-fluid-base);
-  gap: var(--size-2);
   justify-content: center;
   line-height: var(--leading-none);
   margin-block-start: var(--flash-position, 0);

@@ -30,14 +30,14 @@ trix-toolbar {
   .trix-button-row {
     background-color: var(--color-bg);
     border-block-width: 1px;
+    column-gap: 1px;
     padding-block: var(--size-1_5);
-    gap: 1px;
   }
 
   .trix-button-group {
     border: 0 !important;
+    column-gap: 1px;
     margin: 0 !important;
-    gap: 1px;
   }
 
   .trix-button {
