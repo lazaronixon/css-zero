@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [1.0.5] - 2025-02-25
 - Increase gap for header items
 - Small adjust on combobox alignment
 - Add popover to usage
