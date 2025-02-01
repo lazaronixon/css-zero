@@ -28,6 +28,8 @@ chart:
   - app/javascript/controllers/chart_controller.js
 check_all:
   - app/javascript/controllers/check_all_controller.js
+collapsible:
+  - app/javascript/controllers/collapsible_controller.js
 combobox:
   - app/assets/stylesheets/combobox.css
   - app/javascript/controllers/combobox_controller.js
@@ -36,8 +38,6 @@ command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/command_controller.js
   - app/assets/images/search.svg
-collapsible:
-  - app/javascript/controllers/collapsible_controller.js
 datepicker:
   - app/assets/stylesheets/datepicker.css
   - app/javascript/controllers/datepicker_controller.js
@@ -118,6 +118,8 @@ table:
 tabs:
   - app/assets/stylesheets/tabs.css
   - app/javascript/controllers/tabs_controller.js
+toggle:
+  - app/assets/stylesheets/toggle.css
 trix:
   - app/assets/stylesheets/trix.css
 upload_preview:
@@ -125,7 +127,5 @@ upload_preview:
   - app/assets/images/default-picture.webp
   - app/assets/images/camera.svg
   - app/assets/images/minus.svg
-toggle:
-  - app/assets/stylesheets/toggle.css
 web_share:
   - app/javascript/controllers/web_share_controller.js
