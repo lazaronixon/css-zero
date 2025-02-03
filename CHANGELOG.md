@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Improve command with first option select
 
 ## [1.0.5] - 2025-02-25
 - Increase gap for header items
