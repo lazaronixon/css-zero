@@ -1,5 +1,7 @@
 ## [Unreleased]
 - Improve command with first option select
+- Rename transform.css to transforms.css
+- Rename transition.css to transitions.css
 
 ## [1.0.5] - 2025-02-25
 - Increase gap for header items
