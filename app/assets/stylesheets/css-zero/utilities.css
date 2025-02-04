@@ -319,15 +319,17 @@
 /****************************************************************
 * Hiding/Showing
 *****************************************************************/
-.show\@sm, .show\@md, .show\@lg { display: none; }
+.show\@sm, .show\@md, .show\@lg, .show\@xl { display: none; }
 
 .show\@sm { @media (width >= 40rem) { display: flex; } }
 .show\@md { @media (width >= 48rem) { display: flex; } }
 .show\@lg { @media (width >= 64rem) { display: flex; } }
+.show\@xl { @media (width >= 80rem) { display: flex; } }
 
 .hide\@sm { @media (width >= 40rem) { display: none; } }
 .hide\@md { @media (width >= 48rem) { display: none; } }
 .hide\@lg { @media (width >= 64rem) { display: none; } }
+.hide\@xl { @media (width >= 80rem) { display: none; } }
 
 .hide\@pwa { @media (display-mode: standalone) { display: none; } }
 .hide\@browser { @media (display-mode: browser) { display: none; } }
@@ -337,11 +339,4 @@
 /****************************************************************
 * Accessibility
 *****************************************************************/
-.sr-only {
-  block-size: 1px;
-  clip-path: inset(50%);
-  inline-size: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-}
+.sr-only { block-size: 1px; clip-path: inset(50%); inline-size: 1px; overflow: hidden; position: absolute; white-space: nowrap; }
