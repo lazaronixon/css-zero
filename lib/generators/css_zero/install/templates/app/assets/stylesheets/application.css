@@ -17,8 +17,8 @@
  *= require css-zero/effects
  *= require css-zero/filters
  *= require css-zero/sizes
- *= require css-zero/transform
- *= require css-zero/transition
+ *= require css-zero/transforms
+ *= require css-zero/transitions
  *= require css-zero/typography
  *= require_tree .
  *= require_self
