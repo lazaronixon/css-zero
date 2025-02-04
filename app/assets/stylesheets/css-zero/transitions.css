@@ -6,6 +6,7 @@
   *****************************************************************/
   --transition: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter;
   --transition-colors: color, background-color, border-color, text-decoration-color, fill, stroke;
+  --transition-transform: transform, translate, scale, rotate;
 
   /****************************************************************
   * Transition Timing
@@ -20,13 +21,4 @@
   --time-500:  500ms;
   --time-700:  700ms;
   --time-1000: 1000ms;
-
-  /****************************************************************
-  * Transition Timing Function
-  * Variables for controlling the easing of CSS transitions.
-  * transition-timing-function: var(--ease-in);
-  *****************************************************************/
-  --ease-in:     cubic-bezier(0.4, 0, 1, 1);
-  --ease-out:    cubic-bezier(0, 0, 0.2, 1);
-  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
 }
