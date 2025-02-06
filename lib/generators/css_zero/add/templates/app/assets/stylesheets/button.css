@@ -83,10 +83,10 @@
 }
 
 [aria-busy] .btn--loading:disabled {
-  > * { visibility: hidden; }
+  position: relative;
 
-  &::after {
-    filter: var(--btn-icon-color, var(--color-filter-text));
+  > * {
+    visibility: hidden;
   }
 
   &::after {
@@ -95,6 +95,7 @@
     background-size: cover;
     block-size: var(--size-5);
     content: "";
+    filter: var(--btn-icon-color, var(--color-filter-text));
     inline-size: var(--size-5);
     position: absolute;
   }

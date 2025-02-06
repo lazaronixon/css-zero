@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Fix btn--loading
 
 ## [1.0.5] - 2025-02-01
 - Increase gap for header items
