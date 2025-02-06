@@ -5,6 +5,7 @@
 - Remove transition-timing-function variables
 - Update maska 3.0.4 -> 3.1.0
 - Remove breakpoint-2xl variable
+- Fix btn--loading
 
 ## [1.0.5] - 2025-02-25
 - Increase gap for header items
