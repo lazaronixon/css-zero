@@ -6,6 +6,7 @@
 - Update maska 3.0.4 -> 3.1.0
 - Remove breakpoint-2xl variable
 - Sets the cursor to a pointer on buttons
+- Use fit-content instead of nowrap for buttons
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading

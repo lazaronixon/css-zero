@@ -16,9 +16,9 @@
   inline-size: var(--btn-inline-size, auto);
   justify-content: var(--btn-justify-content, center);
   min-block-size: var(--btn-block-size, var(--size-9));
+  min-inline-size: fit-content;
   padding: var(--btn-padding, .375rem 1rem);
   text-align: center;
-  white-space: nowrap;
 
   img:not([class]) {
     filter: var(--btn-icon-color, var(--color-filter-text));
