@@ -4,7 +4,7 @@
   box-shadow: var(--shadow-lg);
   block-size: var(--size-full);
   color: var(--color-text);
-  inline-size: var(--size-3-4);
+  inline-size: var(--sheet-size, var(--size-3-4));
   margin-inline: var(--sheet-margin);
   max-block-size: unset;
 
@@ -36,7 +36,7 @@
   }
 
   @media (width >= 40rem) {
-    max-inline-size: var(--max-i-sm);
+    max-inline-size: var(--sheet-size, var(--max-i-sm));
   }
 }
 
