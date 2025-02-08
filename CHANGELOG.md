@@ -8,6 +8,7 @@
 - Sets the cursor to a pointer on buttons
 - Use fit-content instead of nowrap for buttons
 - Remove animations when prefers-reduced-motion
+- Simplify sidebar-layout
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading

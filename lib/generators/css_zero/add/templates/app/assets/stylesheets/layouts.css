@@ -8,13 +8,7 @@
   @media (width >= 48rem) {
     --sidebar-border-width: var(--border);
     --sidebar-padding: var(--size-2);
-    --sidebar-width: 220px;
-  }
-
-  @media (width >= 64rem) {
-    --sidebar-border-width: var(--border);
-    --sidebar-padding: var(--size-2);
-    --sidebar-width: 280px;
+    --sidebar-width: 256px;
   }
 }
 
