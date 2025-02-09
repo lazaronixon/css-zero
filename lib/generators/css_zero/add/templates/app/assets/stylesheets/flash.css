@@ -2,9 +2,9 @@
   align-items: center;
   animation: appear-then-fade 4s 300ms both;
   backdrop-filter: var(--blur-sm) var(--contrast-75);
-  background-color: rgb(from var(--color-text) r g b / .65);
+  background-color: var(--flash-background, rgb(from var(--color-text) r g b / .65));
   border-radius: var(--rounded-full);
-  color: var(--color-text-reversed);
+  color: var(--flash-color, var(--color-text-reversed));
   column-gap: var(--size-2);
   display: flex;
   font-size: var(--text-fluid-base);
@@ -19,6 +19,16 @@
   [data-turbo-preview] & {
     display: none;
   }
+}
+
+.flash--positive {
+  --flash-background: var(--color-positive);
+  --flash-color: white;
+}
+
+.flash--negative {
+  --flash-background: var(--color-negative);
+  --flash-color: white;
 }
 
 .flash--extended {
