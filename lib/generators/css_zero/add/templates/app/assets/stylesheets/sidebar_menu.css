@@ -27,6 +27,10 @@
       margin-inline-start: auto;
     }
 
+    &::-webkit-details-marker {
+      display: none;
+    }
+
     details[open] > &::after {
       transform: var(--rotate-90);
     }
