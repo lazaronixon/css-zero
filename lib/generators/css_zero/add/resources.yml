@@ -80,7 +80,9 @@ inputmask:
   - app/javascript/controllers/inputmask_controller.js
 layouts:
   - app/assets/stylesheets/layouts.css
+  - app/assets/stylesheets/sidebar_menu.css
   - app/assets/images/menu.svg
+  - app/assets/images/chevron-right.svg
 lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js
