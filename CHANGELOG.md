@@ -10,6 +10,7 @@
 - Remove animations when prefers-reduced-motion
 - Simplify sidebar-layout
 - Add --sheet-size to sheet.css
+- Improve accordion
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading

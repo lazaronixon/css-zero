@@ -15,7 +15,7 @@
       block-size: auto;
     }
 
-    &[open] summary::after {
+    &[open] > summary::after {
       transform: var(--rotate-180);
     }
   }
@@ -25,7 +25,6 @@
     cursor: pointer;
     display: flex;
     font-weight: var(--font-medium);
-    justify-content: space-between;
     padding-block: var(--size-4);
 
     &:hover {
@@ -47,6 +46,7 @@
       content: "";
       filter: var(--color-filter-text);
       inline-size: var(--size-4);
+      margin-inline-start: auto;
       transition-duration: var(--time-200);
       transition-property: transform;
     }
