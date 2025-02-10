@@ -12,12 +12,14 @@
 .swal2-confirm {
   background-color: var(--color-primary);
   border: 1px solid transparent;
+  box-shadow: var(--shadow-xs);
   color: var(--color-text-reversed);
 }
 
 .swal2-cancel {
   background-color: var(--color-bg);
   border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-xs);
   color: var(--color-text);
 }
 
