@@ -14,6 +14,7 @@
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add custom_confirm component**
+- Little gap for command and menu items
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading
