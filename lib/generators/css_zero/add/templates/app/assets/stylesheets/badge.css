@@ -7,6 +7,7 @@
   display: inline-flex;
   font-size: var(--text-xs);
   font-weight: var(--font-semibold);
+  line-height: var(--leading-4);
   padding: var(--size-0_5) var(--size-2_5);
 }
 
