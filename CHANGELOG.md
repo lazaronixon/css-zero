@@ -5,7 +5,6 @@
 - Remove transition-timing-function variables
 - Update maska 3.0.4 -> 3.1.0
 - Remove breakpoint-2xl variable
-- Sets the cursor to a pointer on buttons
 - Use fit-content instead of nowrap for buttons
 - Remove animations when prefers-reduced-motion
 - Simplify sidebar-layout

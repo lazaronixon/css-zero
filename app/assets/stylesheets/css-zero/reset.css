@@ -388,14 +388,6 @@ html:has(dialog:modal[open]) {
 }
 
 /*
-  Sets the cursor to a pointer on buttons.
-*/
-
-button {
-  cursor: pointer;
-}
-
-/*
   Restore space between options.
 */
 
