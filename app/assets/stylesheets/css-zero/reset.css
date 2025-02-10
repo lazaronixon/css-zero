@@ -356,11 +356,11 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
-  Correct the arrow style of datalist in Chrome.
+  Make elements with the HTML hidden attribute stay hidden by default.
 */
 
-::-webkit-calendar-picker-indicator {
-  line-height: 1em;
+[hidden]:where(:not([hidden='until-found'])) {
+  display: none !important;
 }
 
 /*
@@ -388,6 +388,14 @@ html:has(dialog:modal[open]) {
 }
 
 /*
+  Correct the arrow style of datalist in Chrome.
+*/
+
+::-webkit-calendar-picker-indicator {
+  line-height: 1em;
+}
+
+/*
   Restore space between options.
 */
 
@@ -401,14 +409,6 @@ option {
 
 turbo-frame {
   display: contents;
-}
-
-/*
-  Make elements with the HTML hidden attribute stay hidden by default.
-*/
-
-[hidden]:where(:not([hidden='until-found'])) {
-  display: none !important;
 }
 
 /*
