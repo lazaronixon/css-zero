@@ -16,6 +16,7 @@
 - **Add turbo_confirm component**
 - Little gap for command and menu items
 - Move flash to application layout in scaffolds
+- Set default --flash-position to size-4
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading

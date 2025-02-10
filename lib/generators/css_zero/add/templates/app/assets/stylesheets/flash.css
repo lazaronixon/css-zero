@@ -10,7 +10,7 @@
   font-size: var(--text-fluid-base);
   justify-content: center;
   line-height: var(--leading-none);
-  margin-block-start: var(--flash-position, 0);
+  margin-block-start: var(--flash-position, var(--size-4));
   margin-inline: auto;
   min-block-size: var(--size-11);
   padding: var(--size-1) var(--size-4);
