@@ -9,10 +9,6 @@ class CssZero::InstallGenerator < Rails::Generators::Base
     copy_file "app/assets/stylesheets/base.css"
   end
 
-  def copy_application_css
-    copy_file "app/assets/stylesheets/application.css", force: true if sprockets?
-  end
-
   def copy_application_layout
     template "app/views/layouts/application.html.erb", force: true
   end
@@ -25,9 +21,5 @@ class CssZero::InstallGenerator < Rails::Generators::Base
 
   def importmaps?
     Rails.root.join("config/importmap.rb").exist?
-  end
-
-  def sprockets?
-    Rails.root.join("app/assets/config/manifest.js").exist?
   end
 end
