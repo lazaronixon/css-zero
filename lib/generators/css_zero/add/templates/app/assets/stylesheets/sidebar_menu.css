@@ -13,8 +13,13 @@
   --btn-font-weight: var(--font-normal);
   --btn-hover-color: var(--color-secondary);
   --btn-justify-content: start;
+  --btn-outline-size: 0;
   --btn-inline-size: var(--size-full);
   --btn-padding: var(--size-1) var(--size-2);
+
+  &:focus-visible {
+    --btn-background: var(--color-secondary);
+  }
 
   &:is(summary) {
     &::after {
@@ -41,7 +46,6 @@
   display: flex;
   flex-direction: column;
   row-gap: var(--size-4);
-  padding-inline: var(--size-0_5);
   overflow-y: scroll;
 }
 
