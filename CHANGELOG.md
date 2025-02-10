@@ -15,6 +15,7 @@
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**
 - Little gap for command and menu items
+- Move flash to application layout in scaffolds
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading

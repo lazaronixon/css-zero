@@ -1,7 +1,3 @@
-<%% if notice.present? %>
-  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= notice %></div>
-<%% end %>
-
 <%% content_for :title, "<%= human_name.pluralize %>" %>
 
 <div class="flex items-center justify-between mbe-4">

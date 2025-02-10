@@ -1,7 +1,3 @@
-<%% if notice.present? %>
-  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= notice %></div>
-<%% end %>
-
 <%%= render @<%= singular_table_name %> %>
 
 <div class="flex flex-wrap items-center gap mbs-6" style="--row-gap: .5rem">
