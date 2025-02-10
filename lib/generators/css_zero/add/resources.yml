@@ -38,6 +38,9 @@ command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/command_controller.js
   - app/assets/images/search.svg
+custom_confirm:
+  - app/assets/stylesheets/custom_confirm.css
+  - app/javascript/controllers/custom_confirm_controller.js
 datepicker:
   - app/assets/stylesheets/datepicker.css
   - app/javascript/controllers/datepicker_controller.js
