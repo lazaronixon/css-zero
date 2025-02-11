@@ -30,6 +30,8 @@
       filter: var(--color-filter-text);
       inline-size: var(--size-4);
       margin-inline-start: auto;
+      min-inline-size: var(--size-4);
+      transition: transform var(--time-200);
     }
 
     details[open] > &::after {
