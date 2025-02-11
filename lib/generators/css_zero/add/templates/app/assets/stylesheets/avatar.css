@@ -12,6 +12,7 @@
   &:is(.btn) {
     --btn-block-size: auto;
     --btn-icon-color: none;
+    --btn-inline-size: var(--size);
     --btn-padding: 0;
     --btn-radius: var(--radius);
   }
