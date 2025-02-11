@@ -18,6 +18,7 @@
 - Move flash to application layout in scaffolds
 - Set default --flash-position to size-4
 - Reduce line-height for badge
+- Use :where(.table) making simpler to utility classes
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading
