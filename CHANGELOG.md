@@ -6,7 +6,6 @@
 - Update maska 3.0.4 -> 3.1.0
 - Update tom-select 2.4.1 -> 2.4.2
 - Remove breakpoint-2xl variable
-- Use fit-content instead of nowrap for buttons
 - Remove animations when prefers-reduced-motion
 - Remove tablet breakpoint for sidebar-layout
 - Add --sheet-size to sheet.css
