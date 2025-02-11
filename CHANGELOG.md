@@ -10,7 +10,7 @@
 - Remove animations when prefers-reduced-motion
 - Remove tablet breakpoint for sidebar-layout
 - Add --sheet-size to sheet.css
-- Allow nested accordion
+- Small improvements to accordion
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**

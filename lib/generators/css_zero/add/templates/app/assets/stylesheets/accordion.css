@@ -14,10 +14,6 @@
     &[open]::details-content {
       block-size: auto;
     }
-
-    &[open] > summary::after {
-      transform: var(--rotate-180);
-    }
   }
 
   summary {
@@ -49,6 +45,10 @@
       margin-inline-start: auto;
       transition-duration: var(--time-200);
       transition-property: transform;
+    }
+
+    details[open] > &::after {
+      transform: var(--rotate-180);
     }
   }
 }
