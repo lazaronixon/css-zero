@@ -7,16 +7,16 @@
 - Remove breakpoint-2xl variable
 - Use fit-content instead of nowrap for buttons
 - Remove animations when prefers-reduced-motion
-- Simplify sidebar-layout
+- Remove tablet breakpoint for sidebar-layout
 - Add --sheet-size to sheet.css
-- Improve accordion
+- Allow nested accordion
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**
 - Little gap for command and menu items
 - Move flash to application layout in scaffolds
 - Set default --flash-position to size-4
-- Change line-height for badge
+- Reduce line-height for badge
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading
