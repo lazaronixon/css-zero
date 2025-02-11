@@ -56,7 +56,6 @@
 
 .leading-none { line-height: var(--leading-none); }
 .leading-tight { line-height: var(--leading-tight); }
-.leading-normal { line-height: var(--leading-normal); }
 
 .text-start { text-align: start; }
 .text-end { text-align: end; }
