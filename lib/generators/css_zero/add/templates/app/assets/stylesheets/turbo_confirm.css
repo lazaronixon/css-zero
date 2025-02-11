@@ -7,6 +7,7 @@
   --swal2-border-radius: var(--rounded-lg);
   --swal2-background: var(--color-bg);
   --swal2-color: var(--color-text);
+  --swal2-hover: rgba(0, 0, 0, 0.05);
 }
 
 .swal2-confirm {
@@ -24,6 +25,11 @@
 }
 
 :is(.swal2-confirm, .swal2-cancel) {
-  &:hover { background-image: linear-gradient(#00000008, #00000008) !important; }
-  &:focus-visible { box-shadow: 0 0 0 2px var(--color-selected-dark); }
+  &:hover {
+    background-image: linear-gradient(var(--swal2-hover), var(--swal2-hover)) !important;
+  }
+
+  &:focus-visible {
+    box-shadow: 0 0 0 2px var(--color-selected-dark);
+  }
 }
