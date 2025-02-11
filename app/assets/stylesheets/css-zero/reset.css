@@ -364,6 +364,22 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
+  Make elements with the HTML contents attribute become pseudo-box by default.
+*/
+
+[contents] {
+  display: contents !important;
+}
+
+/*
+  Make turbo frame become pseudo-box by default.
+*/
+
+turbo-frame {
+  display: contents;
+}
+
+/*
   Enables size interpolation to allow animation.
 */
 
@@ -377,14 +393,6 @@ input:where([type='button'], [type='reset'], [type='submit']),
 
 :root {
   color-scheme: light dark;
-}
-
-/*
-  Prevent page scroll when modal dialog is open.
-*/
-
-html:has(dialog:modal[open]) {
-  overflow: hidden;
 }
 
 /*
@@ -404,19 +412,11 @@ option {
 }
 
 /*
-  Make turbo frame become pseudo-box by default.
+  Prevent page scroll when modal dialog is open.
 */
 
-turbo-frame {
-  display: contents;
-}
-
-/*
-  Make elements with the HTML contents attribute become pseudo-box by default.
-*/
-
-[contents] {
-  display: contents !important;
+html:has(dialog:modal[open]) {
+  overflow: hidden;
 }
 
 /*
