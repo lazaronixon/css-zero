@@ -4,6 +4,7 @@
 - Rename transition.css to transitions.css
 - Remove transition-timing-function variables
 - Update maska 3.0.4 -> 3.1.0
+- Update tom-select 2.4.1 -> 2.4.2
 - Remove breakpoint-2xl variable
 - Use fit-content instead of nowrap for buttons
 - Remove animations when prefers-reduced-motion
