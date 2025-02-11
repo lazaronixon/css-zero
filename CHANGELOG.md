@@ -5,19 +5,19 @@
 - Remove transition-timing-function variables
 - Update maska 3.0.4 -> 3.1.0
 - Update tom-select 2.4.1 -> 2.4.2
-- Remove breakpoint-2xl variable
+- Remove --breakpoint-2xl variable
 - Remove animations when prefers-reduced-motion
 - Remove tablet breakpoint for sidebar-layout
 - Add --sheet-size to sheet.css
 - Small improvements to accordion
-- **Add sidebar_menu.css to layouts component**
-- **Add flash--positive and flash--negative**
-- **Add turbo_confirm component**
 - Little gap for command and menu items
 - Move flash to application layout in scaffolds
 - Set default --flash-position to size-4
-- Reduce line-height for badge
-- Use :where(.table) making simpler to utility classes
+- Reduce badge line-height
+- Reduce .table specificity with :where
+- **Add sidebar_menu.css to layouts component**
+- **Add flash--positive and flash--negative**
+- **Add turbo_confirm component**
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading
