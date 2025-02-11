@@ -408,7 +408,7 @@ turbo-frame {
 */
 
 option {
-  padding-block: 3px;
+  padding: 2px 4px;
 }
 
 /*
