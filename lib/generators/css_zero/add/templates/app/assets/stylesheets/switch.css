@@ -7,8 +7,7 @@
   block-size: var(--size-5);
   cursor: pointer;
   inline-size: var(--size-9);
-  transition-duration: var(--time-150);
-  transition-property: var(--transition-colors);
+  transition: background-color var(--time-150);
 
   &:checked {
     background-color: var(--color-primary);
@@ -25,8 +24,7 @@
     border-radius: var(--rounded-full);
     content: "";
     display: block;
-    transition-duration: var(--time-150);
-    transition-property: margin;
+    transition: margin var(--time-150);
   }
 
   &:focus-visible {
