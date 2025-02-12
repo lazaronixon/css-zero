@@ -4,6 +4,7 @@
 
   align-items: center;
   background-color: var(--btn-background);
+  block-size: var(--btn-block-size, var(--size-9));
   border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
   box-shadow: var(--btn-box-shadow, var(--shadow-xs));
@@ -15,7 +16,6 @@
   font-weight: var(--btn-font-weight, var(--font-medium));
   inline-size: var(--btn-inline-size, auto);
   justify-content: var(--btn-justify-content, center);
-  min-block-size: var(--btn-block-size, var(--size-9));
   padding: var(--btn-padding, .375rem 1rem);
   text-align: center;
   white-space: nowrap;

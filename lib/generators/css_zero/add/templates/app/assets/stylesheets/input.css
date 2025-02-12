@@ -1,12 +1,12 @@
 .input {
   appearance: none;
   background-color: var(--input-background, var(--color-bg));
+  block-size: var(--input-block-size, var(--size-9));
   border: 1px solid var(--input-border-color, var(--color-border));
   border-radius: var(--input-radius, var(--rounded-md));
   box-shadow: var(--input-box-shadow, var(--shadow-xs));
   font-size: var(--input-font-size, var(--text-sm));
   inline-size: var(--input-inline-size, var(--size-full));
-  min-block-size: var(--input-block-size, var(--size-9));
   padding: var(--input-padding, .375rem .75rem);
 
   &:is(textarea[rows=auto]) {
