@@ -146,10 +146,12 @@
 .sticky	{ position: sticky; }
 
 .min-i-0 { min-inline-size: 0; }
+.max-i-none { max-inline-size: none; }
 .max-i-full { max-inline-size: 100%; }
 
 .b-full { block-size: 100%; }
 .i-full { inline-size: 100%; }
+
 .i-min { inline-size: min-content; }
 
 .overflow-x-auto { overflow-x: auto; scroll-snap-type: x mandatory; }

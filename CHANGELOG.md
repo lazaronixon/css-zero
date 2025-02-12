@@ -15,6 +15,7 @@
 - Set default --flash-position to size-4
 - Reduce badge line-height
 - Reduce .table specificity with :where
+- Add max-i-none utillity class
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**
