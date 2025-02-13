@@ -125,7 +125,7 @@ toggle:
 trix:
   - app/assets/stylesheets/trix.css
 turbo_confirm:
-  - app/assets/stylesheets/turbo_confirm.css
+  - app/assets/stylesheets/dialog.css
   - app/javascript/controllers/turbo_confirm_controller.js
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
