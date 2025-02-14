@@ -4,7 +4,7 @@
 
   align-items: center;
   background-color: var(--btn-background);
-  block-size: var(--btn-block-size, var(--size-9));
+  block-size: var(--btn-block-size, auto);
   border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
   box-shadow: var(--btn-box-shadow, var(--shadow-xs));
@@ -70,7 +70,6 @@
 
 .btn--plain {
   --btn-background: transparent;
-  --btn-block-size: auto;
   --btn-border-color: transparent;
   --btn-hover-color: transparent;
   --btn-padding: 0;

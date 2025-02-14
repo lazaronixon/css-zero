@@ -7,7 +7,6 @@
 
 .sidebar-menu__button {
   --btn-background: transparent;
-  --btn-block-size: auto;
   --btn-border-color: transparent;
   --btn-box-shadow: none;
   --btn-font-weight: var(--font-normal);

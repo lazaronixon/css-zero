@@ -16,7 +16,6 @@
 
 .btn--tab {
   --btn-background: transparent;
-  --btn-block-size: auto;
   --btn-border-color: transparent;
   --btn-box-shadow: none;
   --btn-hover-color: transparent;

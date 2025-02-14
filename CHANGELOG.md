@@ -16,6 +16,7 @@
 - Reduce badge line-height
 - Reduce .table specificity with :where
 - Add max-i-none utillity class
+- Set default --btn-block-size --input-block-size to auto
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**
