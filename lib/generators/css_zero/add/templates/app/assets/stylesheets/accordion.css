@@ -18,7 +18,7 @@
 
   summary {
     align-items: center;
-    cursor: pointer;
+    cursor: default;
     display: flex;
     font-weight: var(--font-medium);
     padding-block: var(--size-4);

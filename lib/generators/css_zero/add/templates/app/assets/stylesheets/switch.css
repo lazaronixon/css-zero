@@ -5,7 +5,6 @@
   border-radius: var(--rounded-full);
   border-width: var(--border-2);
   block-size: var(--size-5);
-  cursor: pointer;
   inline-size: var(--size-9);
   transition: background-color var(--time-150);
 
