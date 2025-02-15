@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.0 - 2025-02-15
 - Improve command with first option select
 - Rename transform.css to transforms.css
 - Rename transition.css to transitions.css
