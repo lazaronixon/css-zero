@@ -19,6 +19,7 @@
 - Set default --btn-block-size --input-block-size to auto
 - Set .gap-half column-gap: 0.25rem
 - Set default cursor for accordion/button/datepicker/switch
+- Small fix check_all_controller
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**
