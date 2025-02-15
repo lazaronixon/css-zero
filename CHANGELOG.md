@@ -18,10 +18,11 @@
 - Add max-i-none utillity class
 - Set default --btn-block-size --input-block-size to auto
 - Set .gap-half column-gap: 0.25rem
-- Use default cursor for accordion/button/datepicker/switch
+- Set default cursor for accordion/button/datepicker/switch
 - **Add sidebar_menu.css to layouts component**
 - **Add flash--positive and flash--negative**
 - **Add turbo_confirm component**
+- **Add avatar-group**
 
 ## [1.0.6] - 2025-02-06
 - Fix btn--loading

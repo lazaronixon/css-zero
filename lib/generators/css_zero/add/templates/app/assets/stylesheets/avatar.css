@@ -40,3 +40,12 @@
     user-select: none;
   }
 }
+
+.avatar-group {
+  align-items: center;
+  display: flex;
+
+  > :not(:last-child) {
+    margin-inline-end: calc(var(--size-2) * -1);
+  }
+}
