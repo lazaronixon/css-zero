@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.1 - 2025-02-16
 - Make .field_with_errors become pseudo-box by default.
 - Add search method to form controller
 - Add card-selectable to card
