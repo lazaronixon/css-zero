@@ -1,6 +1,6 @@
 .input {
   appearance: none;
-  background-color: var(--input-background, var(--color-bg));
+  background-color: var(--input-background, transparent);
   block-size: var(--input-block-size, auto);
   border: 1px solid var(--input-border-color, var(--color-border));
   border-radius: var(--input-radius, var(--rounded-md));
