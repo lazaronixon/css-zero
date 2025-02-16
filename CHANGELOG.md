@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Make .field_with_errors become pseudo-box by default.
+- Add search method to form controller
 
 ## 1.1.0 - 2025-02-15
 - Improve command with first option select
