@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.2 - 2025-02-17
 - Input transparent instead of color-bg
 - Don't use rounded button for .btn--icon
 - Add --btn-text-align to .btn
