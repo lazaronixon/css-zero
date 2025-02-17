@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Remove --btn-text-align from .btn
 
 ## 1.1.2 - 2025-02-17
 - Input transparent instead of color-bg
