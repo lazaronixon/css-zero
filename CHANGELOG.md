@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Input transparent instead of color-bg
+- Don't use rounded button for .btn--icon
 
 ## 1.1.1 - 2025-02-16
 - Make .field_with_errors become pseudo-box by default.

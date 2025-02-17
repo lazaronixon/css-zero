@@ -78,7 +78,6 @@
 
 .btn--icon {
   --btn-padding: var(--size-2);
-  --btn-radius: var(--rounded-full);
 }
 
 [aria-busy] .btn--loading:disabled {
