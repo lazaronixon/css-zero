@@ -61,12 +61,10 @@
   accent-color: var(--color-primary);
 }
 
-/* Hide invalid-feedback element */
 .invalid-feedback {
   display: none;
 }
 
-/* Styles shared between components */
 :is(.input, .checkbox, .radio, .range) {
   &:focus-visible {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
