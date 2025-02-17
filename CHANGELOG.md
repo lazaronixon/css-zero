@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.3 - 2025-02-17
 - Remove --btn-text-align from .btn
 
 ## 1.1.2 - 2025-02-17
