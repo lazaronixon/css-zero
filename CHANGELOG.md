@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Small adjusts for menu components
 - Better input focus color for invalid inputs
+- Rename .btn--tab to .tabs__button
 
 ## 1.1.3 - 2025-02-17
 - Remove --btn-text-align from .btn

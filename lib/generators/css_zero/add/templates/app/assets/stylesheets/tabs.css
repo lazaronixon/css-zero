@@ -14,7 +14,7 @@
   padding: var(--size-1);
 }
 
-.btn--tab {
+.tabs__button {
   --btn-background: transparent;
   --btn-border-color: transparent;
   --btn-box-shadow: none;
