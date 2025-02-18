@@ -35,7 +35,8 @@
   }
 
   &:disabled {
-    cursor: not-allowed; opacity: var(--opacity-50);
+    cursor: not-allowed;
+    opacity: var(--opacity-50);
   }
 }
 
@@ -70,11 +71,12 @@
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
 
-  &:focus-visible:user-invalid  {
+  &:focus-visible:user-invalid {
     outline: none;
   }
 
   .field_with_errors & {
-    border-color: var(--color-negative); display: contents;
+    border-color: var(--color-negative);
+    display: contents;
   }
 }
