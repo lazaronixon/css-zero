@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Remove input outline on user-invalid focus-visible
 
 ## 1.1.4 - 2025-02-18
 - Small adjusts for menu components

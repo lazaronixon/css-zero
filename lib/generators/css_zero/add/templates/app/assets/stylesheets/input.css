@@ -71,7 +71,7 @@
   }
 
   &:focus-visible:user-invalid  {
-    outline: var(--input-outline-size, 2px) solid rgb(from var(--color-negative) r g b / .2);
+    outline: none;
   }
 
   .field_with_errors & {
