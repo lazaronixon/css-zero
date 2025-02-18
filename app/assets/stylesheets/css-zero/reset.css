@@ -380,14 +380,6 @@ turbo-frame {
 }
 
 /*
-  Make input validation wrapper become pseudo-box by default.
-*/
-
-.field_with_errors {
-  display: contents;
-}
-
-/*
   Enables size interpolation to allow animation.
 */
 

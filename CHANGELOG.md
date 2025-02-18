@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Remove input outline on user-invalid focus-visible
+- Remove field_with_errors from reset.css
 
 ## 1.1.4 - 2025-02-18
 - Small adjusts for menu components
