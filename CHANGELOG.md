@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Small adjusts for menu components
 
 ## 1.1.3 - 2025-02-17
 - Remove --btn-text-align from .btn
