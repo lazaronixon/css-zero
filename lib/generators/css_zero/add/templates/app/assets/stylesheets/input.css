@@ -70,7 +70,7 @@
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
 
-  &:focus-visible:user-invalid  {
+  &:focus-visible:user-invalid {
     outline: none;
   }
 
