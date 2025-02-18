@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.4 - 2025-02-18
 - Small adjusts for menu components
 - Better input focus color for invalid inputs
 - Rename .btn--tab to .tabs__button
