@@ -35,7 +35,8 @@
   }
 
   &:disabled {
-    cursor: not-allowed; opacity: var(--opacity-50);
+    cursor: not-allowed;
+    opacity: var(--opacity-50);
   }
 }
 
@@ -75,6 +76,7 @@
   }
 
   .field_with_errors & {
-    border-color: var(--color-negative); display: contents;
+    border-color: var(--color-negative);
+    display: contents;
   }
 }
