@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Style for datepicker static month selector
+- Add aria-current=page to sidebar_menu
 
 ## 1.1.5 - 2025-02-18
 - Remove input outline on user-invalid focus-visible
