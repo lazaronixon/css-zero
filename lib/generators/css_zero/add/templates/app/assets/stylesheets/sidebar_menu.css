@@ -17,6 +17,10 @@
   --btn-padding: var(--size-1) var(--size-2);
   --btn-text-align: start;
 
+  &[aria-current=page] {
+    --btn-background: var(--color-secondary);
+  }
+
   &:focus-visible {
     --btn-background: var(--color-secondary);
   }
