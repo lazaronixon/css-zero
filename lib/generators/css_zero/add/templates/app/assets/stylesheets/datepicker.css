@@ -24,6 +24,11 @@
       color: var(--color-text);
     }
 
+    span.cur-month {
+      font-size: var(--text-sm);
+      font-weight: var(--font-medium);
+    }
+
     svg {
       fill: var(--color-border-dark);
     }
