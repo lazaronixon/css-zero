@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Revert (Reduce gap-half row-gap)
 
 ## 1.1.6 - 2025-02-24
 - Style for datepicker static month selector
