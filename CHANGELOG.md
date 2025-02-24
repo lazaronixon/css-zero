@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.6 - 2025-02-24
 - Style for datepicker static month selector
 - Add aria-current=page to sidebar_menu
 - Reduce gap-half row-gap
