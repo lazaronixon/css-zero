@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.7 - 2025-02-24
 - Revert (Reduce gap-half row-gap)
 
 ## 1.1.6 - 2025-02-24
