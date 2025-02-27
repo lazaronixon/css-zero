@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Make trix width 100%
+- Added dropzone component
 
 ## 1.1.7 - 2025-02-24
 - Revert (Reduce gap-half row-gap)

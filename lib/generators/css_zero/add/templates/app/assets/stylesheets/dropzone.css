@@ -1,0 +1,24 @@
+@import url("https://esm.sh/dropzone@6.0.0-beta.2/dist/dropzone.css");
+
+.dropzone {
+  border-radius: var(--rounded-xl);
+  border: 2px dashed var(--color-border);
+  padding: var(--size-2);
+
+  .dz-preview.dz-image-preview {
+    background: transparent;
+  }
+
+  .dz-preview .dz-error-message {
+    background: var(--color-negative);
+    word-break: break-all;
+  }
+
+  .dz-preview .dz-error-message::after {
+    border-bottom: 6px solid var(--color-negative);
+  }
+
+  .dz-preview:has(.dz-remove) .dz-error-message  {
+    top: 148px;
+  }
+}
