@@ -51,6 +51,9 @@ dropdown:
   - app/assets/stylesheets/menu.css
   - app/javascript/controllers/menu_controller.js
   - app/javascript/controllers/context_menu_controller.js
+dropzone:
+  - app/assets/stylesheets/dropzone.css
+  - app/javascript/controllers/dropzone_controller.js
 flash:
   - app/assets/stylesheets/flash.css
   - app/javascript/controllers/element_removal_controller.js
