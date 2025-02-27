@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.8 - 2025-02-27
 - Make trix width 100%
 - Added dropzone component
 
