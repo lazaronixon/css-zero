@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Tab buttons should support aria-current=page
+- Use just-debounce instead of lodash.debounce
 
 ## 1.1.8 - 2025-02-27
 - Make trix width 100%
