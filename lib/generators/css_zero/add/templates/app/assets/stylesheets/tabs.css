@@ -21,7 +21,7 @@
   --btn-hover-color: transparent;
   --btn-inline-size: var(--size-full);
 
-  &[aria-selected=true] {
+  &:is([aria-selected=true], [aria-current=page]) {
     --btn-background: var(--color-bg);
     --btn-box-shadow: var(--shadow-sm);
     --btn-hover-color: var(--color-bg);

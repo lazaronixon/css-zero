@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Tab buttons should support aria-current=page
 
 ## 1.1.8 - 2025-02-27
 - Make trix width 100%
