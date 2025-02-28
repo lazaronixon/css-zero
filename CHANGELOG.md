@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.9 - 2025-02-28
 - Tab buttons should support aria-current=page
 - Use just-debounce instead of lodash.debounce
 
