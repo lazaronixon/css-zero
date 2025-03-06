@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Improve context-menu component
 
 ## 1.1.9 - 2025-02-28
 - Tab buttons should support aria-current=page
