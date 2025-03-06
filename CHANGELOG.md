@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Improve context-menu component
+- Submit form after receiving otp input code
 
 ## 1.1.9 - 2025-02-28
 - Tab buttons should support aria-current=page
