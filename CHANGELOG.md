@@ -4,6 +4,7 @@
 - Don't rely on private dropzone methods
 - Fix group with two items
 - Change card-selectable to "card card--selectable"
+- Add card with aria-disabled
 
 ## 1.1.9 - 2025-02-28
 - Tab buttons should support aria-current=page
