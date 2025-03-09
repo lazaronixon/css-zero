@@ -6,14 +6,7 @@
   box-shadow: var(--shadow-sm);
 }
 
-.card-selectable {
-  background-color: var(--color-bg);
-  border-radius: var(--rounded-xl);
-  border-width: var(--border);
-  padding: var(--size-3);
-
-  &:has(:checked) {
-    background-color: var(--color-secondary);
-    border-color: var(--color-primary);
-  }
+.card--selectable:has(:checked) {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
 }
