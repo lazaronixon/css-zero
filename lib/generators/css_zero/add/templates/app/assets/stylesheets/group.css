@@ -12,9 +12,12 @@
     border-start-start-radius: 0;
   }
 
+  :is(:first-child + :last-child) {
+    margin-inline-start: -1px;
+  }
+
   :not(:first-child, :last-child) {
-    border-radius: 0;
-    margin-inline: -1px;
+    border-radius: 0; margin-inline: -1px;
   }
 
   > :focus-visible {
