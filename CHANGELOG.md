@@ -2,6 +2,7 @@
 - Improve context-menu component
 - Submit form after receiving otp input code
 - Don't rely on private dropzone methods
+- Fix group with two items
 
 ## 1.1.9 - 2025-02-28
 - Tab buttons should support aria-current=page
