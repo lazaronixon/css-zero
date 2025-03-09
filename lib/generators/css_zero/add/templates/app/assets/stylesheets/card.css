@@ -2,8 +2,21 @@
   background-color: var(--color-bg);
   border-radius: var(--rounded-xl);
   border-width: var(--border);
-  padding: var(--size-6);
   box-shadow: var(--shadow-sm);
+  padding: var(--size-6);
+  position: relative;
+
+  &[aria-disabled] {
+    pointer-events: none;
+  }
+
+  &[aria-disabled]::after {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: inherit;
+    content: "";
+    inset: 0;
+    position: absolute;
+  }
 }
 
 .card--selectable:has(:checked) {
