@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.10 - 2025-03-10
 - Improve context-menu component
 - Submit form after receiving otp input code
 - Don't rely on private dropzone methods
