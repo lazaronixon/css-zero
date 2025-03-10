@@ -1,0 +1,12 @@
+.resizable-inline {
+  resize: inline;
+}
+
+.resizable-block {
+  resize: block;
+}
+
+:is(.resizable-inline, .resizable-block) {
+  background-image: linear-gradient(-45deg, var(--color-border) .75rem, transparent 0.75rem);
+  overflow: hidden;
+}

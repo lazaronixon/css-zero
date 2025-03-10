@@ -108,6 +108,8 @@ progress:
   - app/assets/stylesheets/progress.css
 prose:
   - app/assets/stylesheets/prose.css
+resizable:
+  - app/assets/stylesheets/resizable.css
 sheet:
   - app/assets/stylesheets/sheet.css
   - app/javascript/controllers/dialog_controller.js

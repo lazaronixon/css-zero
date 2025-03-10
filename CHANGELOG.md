@@ -6,6 +6,7 @@
 - Change card-selectable to "card card--selectable"
 - Add card with aria-disabled
 - Darker skeleton
+- Add resizable component
 
 ## 1.1.9 - 2025-02-28
 - Tab buttons should support aria-current=page
