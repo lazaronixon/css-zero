@@ -1,0 +1,13 @@
+.btn--copied img {
+  animation: var(--animate-fade-out), var(--animate-slide-out-up);
+  animation-duration: var(--time-500);
+}
+
+.btn--revealed img {
+  background-image: url("off.svg");
+  background-size: cover;
+}
+
+.input--clearable ::-webkit-search-cancel-button {
+  display: none;
+}

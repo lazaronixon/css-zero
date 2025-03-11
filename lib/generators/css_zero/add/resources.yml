@@ -69,6 +69,7 @@ input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
 input_concerns:
+  - app/assets/stylesheets/input_concerns.css
   - app/javascript/controllers/autoselect_controller.js
   - app/javascript/controllers/copyable_input_controller.js
   - app/assets/images/copy.svg
@@ -76,7 +77,7 @@ input_concerns:
   - app/assets/images/x.svg
   - app/javascript/controllers/revealable_input_controller.js
   - app/assets/images/eye.svg
-  - app/assets/images/eye-off.svg
+  - app/assets/images/off.svg
   - app/javascript/controllers/otp_input_controller.js
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
