@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Simplify copyable_input_controller
 
 ## 1.1.10 - 2025-03-10
 - Improve context-menu component
