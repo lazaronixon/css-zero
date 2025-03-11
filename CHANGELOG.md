@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.11 - 2025-03-11
 - Reimplement input concerns
 - Update trix
 - Update tomselect
