@@ -72,7 +72,6 @@ input_concerns:
   - app/javascript/controllers/autoselect_controller.js
   - app/javascript/controllers/copyable_input_controller.js
   - app/assets/images/copy.svg
-  - app/assets/images/check.svg
   - app/javascript/controllers/clearable_input_controller.js
   - app/assets/images/x.svg
   - app/javascript/controllers/revealable_input_controller.js
