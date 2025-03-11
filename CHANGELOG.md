@@ -2,6 +2,7 @@
 - Reimplement input concerns
 - Update trix
 - Update tomselect
+- Update charts.js
 
 ## 1.1.10 - 2025-03-10
 - Improve context-menu component
