@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Better carousel in firefox
+- Better group.css
 
 ## 1.1.11 - 2025-03-11
 - Reimplement input concerns
