@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Better carousel in firefox
 - Better group.css
+- Improve hovercard and tooltip
 
 ## 1.1.11 - 2025-03-11
 - Reimplement input concerns
