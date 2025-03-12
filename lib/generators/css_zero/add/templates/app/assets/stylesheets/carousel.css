@@ -11,10 +11,6 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-
-  @supports (-moz-appearance: none) {
-    scroll-behavior: auto;
-  }
 }
 
 .carousel__item {
