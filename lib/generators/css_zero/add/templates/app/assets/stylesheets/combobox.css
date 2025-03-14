@@ -26,19 +26,19 @@
   font-size: var(--text-sm);
   line-height: inherit;
 
-  /* Final state of exit animation and setup */
+  /* Exit Stage To */
   opacity: 0;
   transform: var(--scale-95);
   transition-behavior: allow-discrete;
   transition-duration: var(--time-150);
   transition-property: display, opacity, transform;
 
-  /* Final state of entry animation */
+  /* On Stage */
   .dropdown-active & {
     opacity: 1; transform: var(--scale-100);
   }
 
-  /* Initial state of entry animation */
+  /* Enter Stage From */
   @starting-style {
     .dropdown-active & {
       opacity: 0; transform: var(--scale-95);
