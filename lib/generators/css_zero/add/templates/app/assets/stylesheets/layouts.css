@@ -40,6 +40,7 @@
   display: flex;
   grid-area: header;
   padding-inline: var(--size-4);
+  view-transition-name: header;
 }
 
 #sidebar {
@@ -51,6 +52,7 @@
   overflow-x: hidden;
   padding: var(--sidebar-padding, 0);
   row-gap: var(--size-2);
+  view-transition-name: sidebar;
 }
 
 #main {
