@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Improve sheet and dialog animations
+- Small refactor accordion
 
 ## 1.1.12 - 2025-03-12
 - Better carousel in firefox
