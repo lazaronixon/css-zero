@@ -2,10 +2,10 @@
   details {
     border-block-end-width: var(--border);
     font-size: var(--text-sm);
-    overflow: hidden;
 
     &::details-content {
       block-size: 0;
+      overflow: hidden;
       transition-behavior: allow-discrete;
       transition-duration: var(--time-200);
       transition-property: content-visibility block-size;
