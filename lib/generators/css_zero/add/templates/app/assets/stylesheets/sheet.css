@@ -12,10 +12,10 @@
     background-color: rgba(0, 0, 0, .8);
   }
 
-  /* Final state of exit animation and setup */
+  /* Exit Stage To */
   transform: var(--sheet-transform);
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-500);
+  transition-duration: var(--time-300);
   transition-property: display, overlay, transform;
 
   &::backdrop {
@@ -25,11 +25,17 @@
     transition-property: display, overlay, opacity;
   }
 
-  /* Final state of entry animation */
-  &[open] { transform: translateX(0); }
-  &[open]::backdrop { opacity: 1; }
+  /* On Stage */
+  &[open] {
+    transform: translateX(0);
+    transition-duration: var(--time-500);
+  }
 
-  /* Initial state of entry animation */
+  &[open]::backdrop {
+    opacity: 1;
+  }
+
+  /* Enter Stage From */
   @starting-style {
     &[open] { transform: var(--sheet-transform); }
     &[open]::backdrop { opacity: 0;}
