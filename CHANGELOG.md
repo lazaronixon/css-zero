@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.12 - 2025-03-12
 - Better carousel in firefox
 - Better group.css
 - Improve hovercard and tooltip
