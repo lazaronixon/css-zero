@@ -1,25 +1,37 @@
 @import url("https://esm.sh/flatpickr@4.6.13/dist/flatpickr.min.css");
 
 .flatpickr-calendar {
+  --calendar-size: 250px;
+  --container-size: 220px;
+  --day-size: var(--size-8);
+
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--rounded-md);
   box-shadow: var(--shadow-md);
   font-size: var(--text-sm);
-  inline-size: 285px;
-  padding: var(--size-3);
+  inline-size: var(--calendar-size);
 
-  :is(.dayContainer, .flatpickr-days) {
-    inline-size: 100%;
-    min-inline-size: 100%;
-    max-inline-size: 100%;
+  .flatpickr-innerContainer {
+    justify-content: center;
+    padding-block-end: var(--size-3);
+  }
+
+  .flatpickr-days {
+    inline-size: var(--container-size);
+  }
+
+  .dayContainer {
+    inline-size: var(--container-size);
+    min-inline-size: var(--container-size);
+    max-inline-size: var(--container-size);
+  }
+
+  .dayContainer + .dayContainer {
+    box-shadow: -1px 0 0 var(--color-border);
   }
 
   .flatpickr-months {
-    > * {
-      position: static;
-    }
-
     .flatpickr-month {
       color: var(--color-text);
     }
@@ -118,14 +130,13 @@
   }
 
   .flatpickr-day {
-    --day-size: var(--size-9);
     border-radius: var(--rounded-md);
     border-color: transparent !important;
     box-shadow: none !important;
     color: var(--color-text);
     height: var(--day-size);
     line-height: var(--day-size);
-    margin-block-start: 1px;
+    margin-block-start: var(--size-2);
     max-width: var(--day-size);
 
     &:is(.inRange) {
