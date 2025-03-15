@@ -12,25 +12,26 @@
     background-color: rgba(0, 0, 0, .8);
   }
 
-  /* Exit Stage To */
-  opacity: 0;
-  transform: var(--scale-95);
+  /* Setup transition */
   transition-behavior: allow-discrete;
   transition-duration: var(--time-200);
   transition-property: display, overlay, opacity, transform;
 
   &::backdrop {
-    opacity: 0;
     transition-behavior: allow-discrete;
     transition-duration: var(--time-150);
     transition-property: display, overlay, opacity;
   }
 
-  /* On Stage */
+  /* Exit stage to */
+  & { opacity: 0; transform: var(--scale-95); }
+  &::backdrop { opacity: 0; }
+
+  /* On stage */
   &[open] { opacity: 1; transform: var(--scale-100); }
   &[open]::backdrop { opacity: 1; }
 
-  /* Enter Stage From */
+  /* Enter stage from */
   @starting-style {
     &[open] { opacity: 0; transform: var(--scale-95); }
     &[open]::backdrop { opacity: 0; }

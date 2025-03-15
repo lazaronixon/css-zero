@@ -1,5 +1,5 @@
 ## [Unreleased]
-- Improve sheet and dialog animations
+- Small refactor on transitions
 - Small refactor accordion
 - Improve view transitions for layouts
 - Make datepicker compatible with multiple months

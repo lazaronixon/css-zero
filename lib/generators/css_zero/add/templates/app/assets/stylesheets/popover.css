@@ -6,19 +6,21 @@
   color: var(--color-text);
   inline-size: var(--popover-size, max-content);
 
-  /* Exit Stage To */
-  opacity: 0;
-  transform: var(--scale-95);
+  /* Setup transition */
   transition-behavior: allow-discrete;
   transition-duration: var(--time-150);
   transition-property: display, overlay, opacity, transform;
 
-  /* On Stage */
+  /* Exit stage to */
+  opacity: 0;
+  transform: var(--scale-95);
+
+  /* On stage */
   &:popover-open {
     opacity: 1; transform: var(--scale-100);
   }
 
-  /* Enter Stage From */
+  /* Enter stage from */
   @starting-style {
     &:popover-open {
       opacity: 0; transform: var(--scale-95);
