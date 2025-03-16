@@ -5,29 +5,29 @@
 *****************************************************************/
 
 :root {
-  --animate-fade-in: fade-in .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-fade-in-bloom: fade-in-bloom 2s cubic-bezier(.25, 0, .3, 1);
-  --animate-fade-out: fade-out .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-fade-out-bloom: fade-out-bloom 2s cubic-bezier(.25, 0, .3, 1);
-  --animate-scale-up: scale-up .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-scale-down: scale-down .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-out-up: slide-out-up .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-out-down: slide-out-down .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-out-right: slide-out-right .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-out-left: slide-out-left .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-in-up: slide-in-up .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-in-down: slide-in-down .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-in-right: slide-in-right .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-slide-in-left: slide-in-left .5s cubic-bezier(.25, 0, .3, 1);
-  --animate-shake-x: shake-x .75s cubic-bezier(0, 0, 0, 1);
-  --animate-shake-y: shake-y .75s cubic-bezier(0, 0, 0, 1);
-  --animate-shake-z: shake-z 1s cubic-bezier(0, 0, 0, 1);
+  --animate-fade-in: fade-in .5s var(--ease-3);
+  --animate-fade-in-bloom: fade-in-bloom 2s var(--ease-3);
+  --animate-fade-out: fade-out .5s var(--ease-3);
+  --animate-fade-out-bloom: fade-out-bloom 2s var(--ease-3);
+  --animate-scale-up: scale-up .5s var(--ease-3);
+  --animate-scale-down: scale-down .5s var(--ease-3);
+  --animate-slide-out-up: slide-out-up .5s var(--ease-3);
+  --animate-slide-out-down: slide-out-down .5s var(--ease-3);
+  --animate-slide-out-right: slide-out-right .5s var(--ease-3);
+  --animate-slide-out-left: slide-out-left .5s var(--ease-3);
+  --animate-slide-in-up: slide-in-up .5s var(--ease-3);
+  --animate-slide-in-down: slide-in-down .5s var(--ease-3);
+  --animate-slide-in-right: slide-in-right .5s var(--ease-3);
+  --animate-slide-in-left: slide-in-left .5s var(--ease-3);
+  --animate-shake-x: shake-x .75s var(--ease-out-5);
+  --animate-shake-y: shake-y .75s var(--ease-out-5);
+  --animate-shake-z: shake-z 1s var(--ease-in-out-3);
   --animate-spin: spin 2s linear infinite;
-  --animate-ping: ping 5s cubic-bezier(0, 0, .3, 1) infinite;
-  --animate-blink: blink 1s cubic-bezier(0, 0, .3, 1) infinite;
-  --animate-float: float 3s cubic-bezier(0, 0, 0, 1) infinite;
-  --animate-bounce: bounce 2s cubic-bezier(.5, -.3, .1, 1.5) infinite;
-  --animate-pulse: pulse 2s cubic-bezier(0, 0, .3, 1) infinite;
+  --animate-ping: ping 5s var(--ease-out-3) infinite;
+  --animate-blink: blink 1s var(--ease-out-3) infinite;
+  --animate-float: float 3s var(--ease-in-out-3) infinite;
+  --animate-bounce: bounce 2s var(--ease-squish-2) infinite;
+  --animate-pulse: pulse 2s var(--ease-out-3) infinite;
 }
 
 @keyframes fade-in {
