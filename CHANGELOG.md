@@ -4,6 +4,7 @@
 - Improve view transitions for layouts
 - Make datepicker compatible with multiple months
 - Improve auto-animate
+- Add transtion-time-functions to transitions.css
 
 ## 1.1.12 - 2025-03-12
 - Better carousel in firefox
