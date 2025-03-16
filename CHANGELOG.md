@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Use css :placeholder-shown for input clearable
 
 ## 1.1.13 - 2025-03-16
 - Small refactor on transitions
