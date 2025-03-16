@@ -8,6 +8,12 @@
   background-size: cover;
 }
 
-.input--clearable ::-webkit-search-cancel-button {
-  display: none;
+.input--clearable {
+  input::-webkit-search-cancel-button {
+    display: none;
+  }
+
+  &:has(:placeholder-shown) > button {
+    display: none;
+  }
 }
