@@ -2,14 +2,21 @@
   view-transition-class: auto-animation;
 }
 
-::view-transition-old(.auto-animation):only-child {
-  animation: var(--animate-fade-out);
-  animation-duration: 250ms;
-  opacity: 1;
+::view-transition-new(.auto-animation):only-child {
+  animation: add-animation 375ms ease-in;
 }
 
-::view-transition-new(.auto-animation):only-child {
-  animation: var(--animate-fade-in);
-  animation-duration: 250ms;
-  opacity: 0;
+::view-transition-old(.auto-animation):only-child {
+  animation: remove-animation 250ms ease-out;
+}
+
+@keyframes add-animation {
+  0%   { opacity: 0; transform: scale(.98); }
+  50%  { opacity: 0; transform: scale(.98); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes remove-animation {
+  0%   { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(.98); }
 }
