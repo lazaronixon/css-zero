@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.13 - 2025-03-16
 - Small refactor on transitions
 - Small refactor accordion
 - Improve view transitions for layouts
