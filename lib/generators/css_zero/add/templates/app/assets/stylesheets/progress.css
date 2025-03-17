@@ -12,7 +12,7 @@
     background: linear-gradient(to right, var(--track) 45%, var(--progress) 0%, var(--progress) 55%, var(--track) 0%);
     background-size: 225% 100%;
     background-position: right;
-    animation: progress-loading 2s infinite ease;
+    animation: progress-loading 2s infinite;
   }
 
   /*  Safari/Chromium  */
