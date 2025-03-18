@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Use css :placeholder-shown for input clearable
+- Add submitter parameter to form_controller
 
 ## 1.1.13 - 2025-03-16
 - Small refactor on transitions
