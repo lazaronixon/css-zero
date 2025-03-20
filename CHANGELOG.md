@@ -1,5 +1,7 @@
 ## [Unreleased]
 - Reimplement form_controller.
+- Style [aria-disabled=true] [aria-busy-true].
+- Update autosave_controller to use explicit aria values.
 
 ## 1.1.14 - 2025-03-20
 - Use css :placeholder-shown for input clearable

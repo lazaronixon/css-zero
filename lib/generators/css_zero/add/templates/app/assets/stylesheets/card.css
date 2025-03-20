@@ -6,11 +6,11 @@
   padding: var(--size-6);
   position: relative;
 
-  &[aria-disabled] {
+  &[aria-disabled=true] {
     pointer-events: none;
   }
 
-  &[aria-disabled]::after {
+  &[aria-disabled=true]::after {
     background-color: rgba(0, 0, 0, .3);
     border-radius: inherit;
     content: "";

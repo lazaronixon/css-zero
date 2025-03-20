@@ -33,7 +33,7 @@
     outline: var(--btn-outline-size, 2px) solid var(--color-selected-dark);
   }
 
-  &:is(:disabled, [aria-disabled]) {
+  &:is(:disabled, [aria-disabled=true]) {
     opacity: var(--opacity-50);
     pointer-events: none;
   }
@@ -82,7 +82,7 @@
   --btn-padding: var(--size-2);
 }
 
-[aria-busy] .btn--loading:disabled {
+[aria-busy=true] .btn--loading:disabled {
   > * {
     visibility: hidden;
   }
