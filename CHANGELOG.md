@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
 - Style [aria-disabled=true] [aria-busy-true].
 - Update autosave_controller to use explicit aria values.
