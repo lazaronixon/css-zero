@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Reimplement form_controller.
 
 ## 1.1.14 - 2025-03-20
 - Use css :placeholder-shown for input clearable
