@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add debounce param to submit action in form_controller
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
