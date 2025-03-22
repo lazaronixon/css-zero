@@ -1,24 +1,24 @@
 .carousel {
   align-items: center;
-  column-gap: var(--size-4);
   display: flex;
+  gap: var(--size-4);
 }
 
 .carousel__content {
-  column-gap: var(--size-4);
   display: flex;
+  gap: var(--carousel-items-gap, 1rem);
   inline-size: var(--size-full);
-  overflow-x: hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
 }
 
 .carousel__item {
+  --space: var(--carousel-items-gap, 1rem);
   --items: var(--carousel-items, 1);
-  --items-gap: calc(100% - 1rem * (var(--items) - 1));
+  --items-gap: calc(100% - var(--space) * (var(--items) - 1));
 
   flex: 0 0 calc(var(--items-gap) / var(--items));
   padding: var(--size-1);
-  scroll-snap-stop: always;
   scroll-snap-align: start;
 }
