@@ -195,3 +195,13 @@ trix-editor {
     }
   }
 }
+
+.trix--minimal {
+  .trix-button-group--file-tools {
+    display: none;
+  }
+
+  .trix-button-group--history-tools {
+    display: none;
+  }
+}
