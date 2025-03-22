@@ -9,6 +9,7 @@
   display: flex;
   inline-size: var(--size-full);
   overflow-x: hidden;
+  overscroll-behavior-x: contain;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
 }
@@ -19,6 +20,5 @@
 
   flex: 0 0 calc(var(--items-gap) / var(--items));
   padding: var(--size-1);
-  scroll-snap-stop: always;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }

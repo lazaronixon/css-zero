@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Add debounce param to submit action in form_controller
 - Add minimal Trix editor variant without file and history tools
+- Improve carousel scroll behavior and simplify navigation logic
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
