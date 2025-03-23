@@ -54,6 +54,9 @@ dropdown:
 dropzone:
   - app/assets/stylesheets/dropzone.css
   - app/javascript/controllers/dropzone_controller.js
+dual_range:
+  - app/assets/stylesheets/dual_range.css
+  - app/javascript/controllers/dual_range_controller.js
 flash:
   - app/assets/stylesheets/flash.css
   - app/javascript/controllers/element_removal_controller.js

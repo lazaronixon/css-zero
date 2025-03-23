@@ -1,0 +1,30 @@
+@import url("https://esm.sh/@stanko/dual-range-input@1.0.0/dist/index.css");
+
+.dual-range-input {
+  /* Height of the input */
+  --dri-height: 1rem;
+
+  /* Thumb size */
+  --dri-thumb-width: var(--dri-height);
+  --dri-thumb-height: var(--dri-height);
+
+  /* Thumb background color */
+  --dri-thumb-color: var(--color-primary);
+  --dri-thumb-hover-color: var(--dri-thumb-color);
+  --dri-thumb-active-color: var(--dri-thumb-color);
+
+  /* Thumb border */
+  --dri-thumb-border-color: var(--dri-thumb-color);
+  --dri-thumb-border-hover-color: var(--dri-thumb-border-color);
+  --dri-thumb-border-active-color: var(--dri-thumb-border-color);
+  --dri-thumb-border-radius: 1rem;
+  --dri-thumb-border-width: 1px;
+
+  /* Track size */
+  --dri-track-height: calc(var(--dri-height) * .45);
+  --dri-track-border-radius: 1rem;
+
+  /* Track color */
+  --dri-track-color: var(--color-border);
+  --dri-track-filled-color: var(--color-primary);
+}
