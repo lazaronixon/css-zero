@@ -3,6 +3,7 @@
 - Add minimal Trix editor variant without file and history tools
 - Add --carousel-items-gap variable
 - Add dual range slider component
+- Improve dropzone error message display style
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
