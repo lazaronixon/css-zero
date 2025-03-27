@@ -28,7 +28,7 @@
     object-fit: cover;
   }
 
-  span[role=img] {
+  span[role="img"] {
     align-items: center;
     background-color: var(--color-border-light);
     block-size: var(--size-full);

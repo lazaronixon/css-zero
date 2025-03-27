@@ -53,7 +53,7 @@
   --btn-padding: var(--size-1_5) var(--size-2);
   --btn-text-align: start;
 
-  &[aria-selected=true] {
+  &[aria-selected="true"] {
     --btn-background: var(--color-secondary);
   }
 }
