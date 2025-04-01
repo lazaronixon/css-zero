@@ -1,6 +1,6 @@
 .btn {
   --btn-background: var(--color-bg);
-  --hover-color: oklch(from var(--btn-background) calc(l * .95) c h);
+  --btn-hover-color: oklch(from var(--btn-background) calc(l * .95) c h);
 
   align-items: center;
   background-color: var(--btn-background);
@@ -26,7 +26,7 @@
   }
 
   &:hover {
-    background-color: var(--btn-hover-color, var(--hover-color));
+    background-color: var(--btn-hover-color);
   }
 
   &:focus-visible {
