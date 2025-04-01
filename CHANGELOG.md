@@ -1,5 +1,5 @@
 ## [Unreleased]
-- Add submitLater to form_controller
+- Add debouncedSubmit to form_controller
 - Add minimal Trix editor variant without file and history tools
 - Add --carousel-items-gap variable
 - Add dual range slider component
