@@ -1,10 +1,10 @@
 .progress {
-  --track: var(--color-border-light);
+  --track: rgb(from var(--color-primary) r g b / .2);
   --progress: var(--color-primary);
 
   background-color: var(--track);
   border-radius: var(--rounded-full);
-  block-size: var(--size-4);
+  block-size: var(--size-2);
   inline-size: var(--size-full);
   overflow: hidden;
 
