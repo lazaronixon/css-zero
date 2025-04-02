@@ -1,5 +1,13 @@
 @import url("https://esm.sh/@stanko/dual-range-input@1.0.0/dist/index.css");
 
+.range {
+  accent-color: var(--color-primary);
+}
+
+.range:focus-visible {
+  outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
+}
+
 .dual-range-input {
   /* Height of the input */
   --dri-height: 1rem;

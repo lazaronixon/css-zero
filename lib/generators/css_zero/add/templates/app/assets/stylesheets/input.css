@@ -59,14 +59,11 @@
 }
 
 :is(.checkbox, .radio) {
+  accent-color: var(--color-primary);
   transform: scale(1.2);
 }
 
-:is(.checkbox, .radio, .range) {
-  accent-color: var(--color-primary);
-}
-
-:is(.input, .checkbox, .radio, .range) {
+:is(.input, .checkbox, .radio) {
   &:focus-visible {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
