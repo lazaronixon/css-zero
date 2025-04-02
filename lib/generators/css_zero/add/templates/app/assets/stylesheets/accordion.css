@@ -31,10 +31,6 @@
       outline: var(--border-2) auto var(--color-selected-dark);
     }
 
-    &::-webkit-details-marker {
-      display: none;
-    }
-
     &::after {
       background-image: url("chevron-down.svg");
       background-size: cover;
