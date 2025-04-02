@@ -11,7 +11,7 @@
   /* Thumb background color */
   --dri-thumb-color: var(--color-primary);
   --dri-thumb-hover-color: var(--dri-thumb-color);
-  --dri-thumb-active-color: var(--dri-thumb-color);
+  --dri-thumb-active-color: var(--color-selected-dark);
 
   /* Thumb border */
   --dri-thumb-border-color: var(--dri-thumb-color);
