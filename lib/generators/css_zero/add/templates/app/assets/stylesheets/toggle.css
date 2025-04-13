@@ -1,13 +1,11 @@
-.btn--toggle {
-  [type="checkbox"] {
-    position: absolute; clip: rect(0, 0, 0, 0);
-  }
+.btn--toggle [type="checkbox"] {
+  position: absolute; clip: rect(0, 0, 0, 0);
+}
 
-  &:has(:checked) {
-    --btn-background: var(--color-secondary);
-  }
+.btn--toggle:has(:checked) {
+  --btn-background: var(--color-secondary);
+}
 
-  &:has(:focus-visible) {
-    outline: var(--border-2) solid var(--color-selected-dark);
-  }
+.btn--toggle:has(:focus-visible) {
+  outline: var(--border-2) solid var(--color-selected-dark);
 }
