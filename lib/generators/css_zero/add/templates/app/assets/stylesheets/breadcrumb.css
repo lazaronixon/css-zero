@@ -1,4 +1,4 @@
-.breadcrumb {
+:where(.breadcrumb) {
   align-items: center;
   color: var(--color-text-subtle);
   column-gap: var(--size-1);

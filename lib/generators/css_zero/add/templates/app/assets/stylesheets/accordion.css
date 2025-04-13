@@ -1,4 +1,4 @@
-.accordion {
+:where(.accordion) {
   details {
     border-block-end-width: var(--border);
     font-size: var(--text-sm);
