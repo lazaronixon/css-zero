@@ -24,6 +24,7 @@
     aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
     inline-size: var(--size-full);
+    object-fit: cover;
   }
 
   span[role="img"] {
