@@ -18,7 +18,6 @@
   justify-content: var(--btn-justify-content, center);
   padding: var(--btn-padding, .375rem 1rem);
   position: relative;
-  text-align: var(--btn-text-align, center);
   white-space: nowrap;
 
   img:not([class]) {
