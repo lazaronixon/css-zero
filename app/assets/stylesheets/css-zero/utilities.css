@@ -7,8 +7,8 @@
 .inline-flex { display: inline-flex; }
 
 .justify-start { justify-content: start; }
-.justify-center { justify-content: center; }
 .justify-end { justify-content: end; }
+.justify-center { justify-content: center; }
 .justify-between { justify-content: space-between; }
 
 .items-start { align-items: start; }
