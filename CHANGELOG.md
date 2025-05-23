@@ -7,6 +7,7 @@
 - Simplify dialogs for mobile screens
 - Rename popover showLater/hideLater to debouncedShow/debouncedHide
 - Remove ::-webkit-details-marker in accordion.css
+- Fix breadcrumb alignment
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.

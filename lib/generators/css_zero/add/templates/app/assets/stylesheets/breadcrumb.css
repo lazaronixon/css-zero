@@ -7,10 +7,6 @@
   font-size: var(--text-sm);
   overflow-wrap: break-word;
 
-  a {
-    padding-block-end: 2px;
-  }
-
   img {
     filter: var(--color-filter-text);
   }
