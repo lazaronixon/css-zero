@@ -137,7 +137,7 @@ turbo_confirm:
   - app/javascript/controllers/turbo_confirm_controller.js
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
-  - app/assets/images/default-picture.webp
+  - app/assets/images/default-avatar.svg
   - app/assets/images/camera.svg
   - app/assets/images/minus.svg
 web_share:
