@@ -2,10 +2,6 @@
   font-size: var(--text-fluid-base);
   max-inline-size: 65ch;
 
-  /* Antialiased fonts */
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-
   :is(h1, h2, h3, h4, h5, h6) {
     font-weight: var(--font-extrabold);
     hyphens: auto;
