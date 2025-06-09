@@ -27,7 +27,7 @@
 .self-center { align-self: center; }
 
 .gap { column-gap: var(--column-gap, 0.5rem); row-gap: var(--row-gap, 1rem); }
-.gap-half { column-gap: 0.25rem; row-gap: 0.5rem; }
+.gap-half { column-gap: var(--column-gap, 0.25rem); row-gap: var(--row-gap, 0.5rem); }
 
 /****************************************************************
 * Text
@@ -41,6 +41,7 @@
 .no-underline	{ text-decoration: none; }
 
 .uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
 .normal-case { text-transform: none; }
 
 .whitespace-nowrap { white-space: nowrap; }
@@ -93,6 +94,8 @@
 .bg-black { background-color: var(--color-text); }
 .bg-white { background-color: var(--color-text-reversed); }
 .bg-shade { background-color: var(--color-border-light); }
+.bg-selected { background-color: var(--color-selected); }
+.bg-highlight { background-color: var(--color-highlight); }
 .bg-transparent { background-color: transparent; }
 
 /****************************************************************
