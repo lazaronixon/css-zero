@@ -41,14 +41,14 @@
     /* Accent colors */
     --color-primary: var(--zinc-50);
     --color-secondary: var(--zinc-800);
-    --color-negative: var(--red-900);
-    --color-positive: var(--green-900);
+    --color-negative: var(--red-800);
+    --color-positive: var(--green-800);
 
     /* SVG color values */
     --color-filter-text: invert(1);
     --color-filter-text-reversed: invert(0);
-    --color-filter-negative: var(--colorize-red-900);
-    --color-filter-positive: var(--colorize-green-900);
+    --color-filter-negative: var(--colorize-red-800);
+    --color-filter-positive: var(--colorize-green-800);
   }
 }
 
