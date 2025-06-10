@@ -10,6 +10,7 @@
 - Fix breadcrumb alignment
 - Add items-baseline utility class
 - Remove font smoothing from prose.css
+- Add colorize variables to colorize.css
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
