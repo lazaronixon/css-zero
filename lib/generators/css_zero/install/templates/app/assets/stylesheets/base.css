@@ -31,8 +31,8 @@
     --color-text-reversed: black;
     --color-text-subtle: var(--zinc-400);
     --color-link: var(--blue-400);
-    --color-border-light: var(--zinc-900);
-    --color-border: var(--zinc-800);
+    --color-border-light: var(--zinc-800);
+    --color-border: var(--zinc-700);
     --color-border-dark: var(--zinc-600);
     --color-selected: var(--blue-950);
     --color-selected-dark: var(--blue-800);
