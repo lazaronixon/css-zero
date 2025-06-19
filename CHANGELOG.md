@@ -13,6 +13,8 @@
 - Add colorize variables to colorize.css
 - Remove .colorize-positive and .colorize-negative
 - Reimplement input reveal (input_concerns.css)
+- Adjust border color variables for improved contrast in dark mode
+- Reduce backdrop opacity for dialog and sheet components
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
