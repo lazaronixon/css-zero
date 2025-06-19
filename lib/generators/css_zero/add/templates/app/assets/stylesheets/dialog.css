@@ -9,7 +9,7 @@
   max-inline-size: var(--dialog-size, var(--max-i-lg));
 
   &::backdrop {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .5);
   }
 
   /* Setup transition */
