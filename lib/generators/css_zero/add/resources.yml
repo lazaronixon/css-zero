@@ -77,7 +77,7 @@ input_concerns:
   - app/assets/images/x.svg
   - app/javascript/controllers/revealable_input_controller.js
   - app/assets/images/eye.svg
-  - app/assets/images/off.svg
+  - app/assets/images/eye-off.svg
   - app/javascript/controllers/otp_input_controller.js
 inputmask:
   - app/javascript/controllers/inputmask_controller.js

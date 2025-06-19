@@ -1,11 +1,18 @@
+.btn--reveal .icon {
+  background-image: url("eye.svg");
+  background-size: cover;
+  block-size: var(--icon-size, var(--size-5));
+  filter: var(--color-filter-text);
+  inline-size: var(--icon-size, var(--size-5));
+}
+
+.btn--revealed .icon {
+  background-image: url("eye-off.svg");
+}
+
 .btn--copied img {
   animation: var(--animate-fade-out), var(--animate-slide-out-up);
   animation-duration: var(--time-500);
-}
-
-.btn--revealed img {
-  background-image: url("off.svg");
-  background-size: cover;
 }
 
 .input--clearable {
