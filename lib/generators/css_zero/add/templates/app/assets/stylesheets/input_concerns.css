@@ -1,4 +1,4 @@
-.btn--reveal .icon {
+.input--revealable > button > .icon {
   background-image: url("eye.svg");
   background-size: cover;
   block-size: var(--icon-size, var(--size-5));
@@ -6,11 +6,11 @@
   inline-size: var(--icon-size, var(--size-5));
 }
 
-.btn--revealed .icon {
+.input--revealed > button > .icon {
   background-image: url("eye-off.svg");
 }
 
-.btn--copied img {
+.input--copied > button > img {
   animation: var(--animate-fade-out), var(--animate-slide-out-up);
   animation-duration: var(--time-500);
 }
