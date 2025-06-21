@@ -1,6 +1,5 @@
 accordion:
   - app/assets/stylesheets/accordion.css
-  - app/assets/images/chevron-down.svg
 alert:
   - app/assets/stylesheets/alert.css
 autoanimate:
@@ -13,17 +12,14 @@ badge:
   - app/assets/stylesheets/badge.css
 breadcrumb:
   - app/assets/stylesheets/breadcrumb.css
-  - app/assets/images/chevron-right.svg
 button:
   - app/assets/stylesheets/button.css
-  - app/assets/images/loader-circle.svg
+  - app/assets/images/loading.svg
 card:
   - app/assets/stylesheets/card.css
 carousel:
   - app/assets/stylesheets/carousel.css
   - app/javascript/controllers/carousel_controller.js
-  - app/assets/images/arrow-left.svg
-  - app/assets/images/arrow-right.svg
 chart:
   - app/javascript/controllers/chart_controller.js
 check_all:
@@ -37,14 +33,12 @@ combobox:
 command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/command_controller.js
-  - app/assets/images/search.svg
 datepicker:
   - app/assets/stylesheets/datepicker.css
   - app/javascript/controllers/datepicker_controller.js
 dialog:
   - app/assets/stylesheets/dialog.css
   - app/javascript/controllers/dialog_controller.js
-  - app/assets/images/x.svg
 dropdown:
   - app/assets/stylesheets/popover.css
   - app/javascript/controllers/popover_controller.js
@@ -65,6 +59,10 @@ group:
   - app/assets/stylesheets/group.css
 hotkey:
   - app/javascript/controllers/hotkey_controller.js
+icons:
+  - app/assets/stylesheets/icons.css
+  - app/assets/images/heroicons/
+  - app/assets/images/loading.svg
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/select-arrow.svg
@@ -72,35 +70,22 @@ input_concerns:
   - app/assets/stylesheets/input_concerns.css
   - app/javascript/controllers/autoselect_controller.js
   - app/javascript/controllers/copyable_input_controller.js
-  - app/assets/images/copy.svg
   - app/javascript/controllers/clearable_input_controller.js
-  - app/assets/images/x.svg
   - app/javascript/controllers/revealable_input_controller.js
-  - app/assets/images/eye.svg
-  - app/assets/images/eye-off.svg
   - app/javascript/controllers/otp_input_controller.js
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/stylesheets/sidebar_menu.css
-  - app/assets/images/menu.svg
-  - app/assets/images/chevron-right.svg
 lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js
   - app/javascript/controllers/web_share_controller.js
-  - app/assets/images/download.svg
-  - app/assets/images/share.svg
-  - app/assets/images/x.svg
 local_time:
   - app/javascript/controllers/local_time_controller.js
 navigation:
   - app/javascript/controllers/navigation_controller.js
-pagination:
-  - app/assets/images/chevron-right.svg
-  - app/assets/images/chevron-left.svg
-  - app/assets/images/ellipsis.svg
 popover:
   - app/assets/stylesheets/popover.css
   - app/javascript/controllers/popover_controller.js
@@ -116,7 +101,6 @@ resizable:
 sheet:
   - app/assets/stylesheets/sheet.css
   - app/javascript/controllers/dialog_controller.js
-  - app/assets/images/x.svg
 skeleton:
   - app/assets/stylesheets/skeleton.css
 sortable:
@@ -138,7 +122,5 @@ turbo_confirm:
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
   - app/assets/images/default-avatar.svg
-  - app/assets/images/camera.svg
-  - app/assets/images/minus.svg
 web_share:
   - app/javascript/controllers/web_share_controller.js

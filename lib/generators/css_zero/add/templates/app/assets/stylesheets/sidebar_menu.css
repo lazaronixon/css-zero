@@ -26,13 +26,12 @@
 
   &:is(summary) {
     &::after {
-      background-image: url("chevron-right.svg");
-      background-size: cover;
+      background-color: currentcolor;
       block-size: var(--size-4);
       content: "";
-      filter: var(--color-filter-text);
       inline-size: var(--size-4);
       margin-inline-start: auto;
+      mask-image: url("/heroicons/chevron-right.svg");
       min-inline-size: var(--size-4);
       transition: transform var(--time-200);
     }

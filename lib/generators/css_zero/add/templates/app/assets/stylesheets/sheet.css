@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, .5);
   }
 
-  /* Setup Transition */
+  /* Setup transition */
   transition-behavior: allow-discrete;
   transition-duration: var(--time-300);
   transition-property: display, overlay, transform;

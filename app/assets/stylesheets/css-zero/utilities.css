@@ -99,12 +99,6 @@
 .bg-transparent { background-color: transparent; }
 
 /****************************************************************
-* SVG colors
-*****************************************************************/
-.colorize-black { filter: var(--color-filter-text); }
-.colorize-white { filter: var(--color-filter-text-reversed); }
-
-/****************************************************************
 * Border
 *****************************************************************/
 .border-0 { border-width: 0; }

@@ -12,9 +12,15 @@ class CssZero::AddGenerator < Rails::Generators::Base
   private
     def copy_resources_for(component)
       if resources.has_key?(component)
-        resources[component].each { |resource| copy_file(resource) }
+        copy_resources(resources, component)
       else
         say_status :invalid, component, :red
+      end
+    end
+
+    def copy_resources(resources, component)
+      resources[component].each do |resource|
+        resource.end_with?('/') ? directory(resource) : copy_file(resource)
       end
     end
 

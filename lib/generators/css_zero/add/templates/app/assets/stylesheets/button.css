@@ -20,10 +20,6 @@
   position: relative;
   white-space: nowrap;
 
-  img:not([class]) {
-    filter: var(--btn-icon-color, var(--color-filter-text));
-  }
-
   &:hover {
     background-color: var(--btn-hover-color);
   }
@@ -42,7 +38,6 @@
   --btn-background: var(--color-primary);
   --btn-border-color: transparent;
   --btn-color: var(--color-text-reversed);
-  --btn-icon-color: var(--color-filter-text-reversed);
 }
 
 .btn--secondary {
@@ -59,14 +54,12 @@
   --btn-background: var(--color-positive);
   --btn-border-color: transparent;
   --btn-color: white;
-  --btn-icon-color: invert(1);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-border-color: transparent;
   --btn-color: white;
-  --btn-icon-color: invert(1);
 }
 
 .btn--plain {
@@ -88,12 +81,11 @@
 
   &::after {
     animation: spin 1s linear infinite;
-    background-image: url("loader-circle.svg");
-    background-size: cover;
+    background-color: currentcolor;
     block-size: var(--size-5);
     content: "";
-    filter: var(--btn-icon-color, var(--color-filter-text));
     inline-size: var(--size-5);
+    mask-image: url("loading.svg");
     position: absolute;
   }
 }

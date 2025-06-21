@@ -7,14 +7,12 @@
 - Simplify dialogs for mobile screens
 - Rename popover showLater/hideLater to debouncedShow/debouncedHide
 - Remove ::-webkit-details-marker in accordion.css
-- Fix breadcrumb alignment
 - Add items-baseline utility class
 - Remove font smoothing from prose.css
-- Add colorize variables to colorize.css
-- Remove .colorize-positive and .colorize-negative
 - Reimplement input reveal and copy. (input_concerns.css)
 - Adjust border color variables for improved contrast in dark mode
 - Reduce backdrop opacity for dialog and sheet components
+- Add icons component and remove colorize classes.
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.

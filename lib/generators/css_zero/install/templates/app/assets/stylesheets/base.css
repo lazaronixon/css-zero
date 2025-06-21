@@ -18,12 +18,6 @@
   --color-negative: var(--red-600);
   --color-positive: var(--green-600);
 
-  /* SVG color values */
-  --color-filter-text: invert(0);
-  --color-filter-text-reversed: invert(1);
-  --color-filter-negative: var(--colorize-red-600);
-  --color-filter-positive: var(--colorize-green-600);
-
   @media (prefers-color-scheme: dark) {
     /* Abstractions */
     --color-bg: var(--zinc-950);
@@ -43,12 +37,6 @@
     --color-secondary: var(--zinc-800);
     --color-negative: var(--red-800);
     --color-positive: var(--green-800);
-
-    /* SVG color values */
-    --color-filter-text: invert(1);
-    --color-filter-text-reversed: invert(0);
-    --color-filter-negative: var(--colorize-red-800);
-    --color-filter-positive: var(--colorize-green-800);
   }
 }
 

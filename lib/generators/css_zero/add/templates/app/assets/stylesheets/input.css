@@ -45,10 +45,6 @@
     border: 0; inline-size: 100%; outline: 0;
   }
 
-  img:not([class]) {
-    filter: var(--input-icon-color, var(--color-filter-text));
-  }
-
   &:focus-within {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }

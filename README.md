@@ -32,7 +32,7 @@ Check the [CSS files](app/assets/stylesheets/css-zero) in the repository to see 
 
 ## Icons
 
-If you're looking for high-quality icons, I recommend checking out [Lucide](https://lucide.dev).
+Built-in icons from [Heroicons](https://heroicons.com), providing a small set of icons ready to use in your application.
 
 ## Scaffold
 

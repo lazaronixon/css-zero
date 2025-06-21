@@ -1,16 +1,12 @@
 .input--revealable > button > .icon {
-  background-image: url("eye.svg");
-  background-size: cover;
-  block-size: var(--icon-size, var(--size-5));
-  filter: var(--color-filter-text);
-  inline-size: var(--icon-size, var(--size-5));
+  --svg: url("/heroicons/eye.svg");
 }
 
 .input--revealed > button > .icon {
-  background-image: url("eye-off.svg");
+  --svg: url("/heroicons/eye-slash.svg");
 }
 
-.input--copied > button > img {
+.input--copied > button > .icon {
   animation: var(--animate-fade-out), var(--animate-slide-out-up);
   animation-duration: var(--time-500);
 }

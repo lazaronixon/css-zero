@@ -7,10 +7,6 @@
   font-size: var(--text-sm);
   overflow-wrap: break-word;
 
-  img {
-    filter: var(--color-filter-text);
-  }
-
   a:hover {
     color: var(--color-text);
   }
