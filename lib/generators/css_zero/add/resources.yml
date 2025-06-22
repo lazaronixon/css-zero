@@ -63,18 +63,14 @@ hotkey:
 icons:
   - app/assets/stylesheets/icons.css
   - app/assets/images/loading.svg
-  - app/assets/images/terminal.svg
-  - app/assets/images/circle-alert.svg
   - app/assets/images/chevron-left.svg
   - app/assets/images/chevron-right.svg
   - app/assets/images/chevrons-up-down.svg
-  - app/assets/images/search.svg
   - app/assets/images/x.svg
+  - app/assets/images/search.svg
   - app/assets/images/copy.svg
   - app/assets/images/download.svg
   - app/assets/images/share.svg
-  - app/assets/images/ellipsis.svg
-  - app/assets/images/move.svg
   - app/assets/images/camera.svg
   - app/assets/images/minus.svg
 input:

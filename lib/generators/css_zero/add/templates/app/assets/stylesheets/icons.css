@@ -25,17 +25,13 @@ img.icon {
 * Lucide (https://lucide.dev)
 * Open-source icon library with a consistent style
 *****************************************************************/
-.icon--terminal { --svg: url("terminal.svg"); }
-.icon--circle-alert { --svg: url("circle-alert.svg"); }
 .icon--chevron-left { --svg: url("chevron-left.svg"); }
 .icon--chevron-right { --svg: url("chevron-right.svg"); }
 .icon--chevrons-up-down { --svg: url("chevrons-up-down.svg"); }
-.icon--search { --svg: url("search.svg"); }
 .icon--x { --svg: url("x.svg"); }
+.icon--search { --svg: url("search.svg"); }
 .icon--copy { --svg: url("copy.svg"); }
 .icon--download { --svg: url("download.svg"); }
 .icon--share { --svg: url("share.svg"); }
-.icon--ellipsis { --svg: url("ellipsis.svg"); }
-.icon--move { --svg: url("move.svg"); }
 .icon--camera { --svg: url("camera.svg"); }
 .icon--minus { --svg: url("minus.svg"); }
