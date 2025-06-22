@@ -37,7 +37,8 @@
       content: "";
       inline-size: var(--size-4);
       margin-inline-start: auto;
-      mask-image: url("/heroicons/chevron-down.svg");
+      mask-image: url("chevron-down.svg");
+      mask-size: cover;
       transition: transform var(--time-200);
     }
 

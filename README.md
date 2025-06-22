@@ -30,10 +30,6 @@ bin/rails generate css_zero:add --help
 
 Check the [CSS files](app/assets/stylesheets/css-zero) in the repository to see the available variables and utility classes.
 
-## Icons
-
-Built-in icons from [Heroicons](https://heroicons.com), providing a small set of icons ready to use in your application.
-
 ## Scaffold
 
 This gem implements custom templates for scaffolds and authentication.

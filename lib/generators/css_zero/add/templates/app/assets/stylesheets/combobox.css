@@ -96,7 +96,7 @@
 
 .ts-wrapper.single .ts-control {
   background-color: var(--color-bg) !important;
-  background-image: url("select-arrow.svg") !important;
+  background-image: url("chevron-down-zinc-500.svg") !important;
   background-position: center right var(--size-2) !important;
   background-repeat: no-repeat !important;
   background-size: var(--size-4) auto !important;

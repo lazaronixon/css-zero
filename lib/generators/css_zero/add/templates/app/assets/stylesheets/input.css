@@ -16,7 +16,7 @@
   }
 
   &:is(select):not([multiple], [size]) {
-    background-image: url("select-arrow.svg");
+    background-image: url("chevron-down-zinc-500.svg");
     background-position: center right var(--size-2);
     background-repeat: no-repeat;
     background-size: var(--size-4) auto;

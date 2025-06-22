@@ -1,9 +1,9 @@
 .input--revealable > button > .icon {
-  --svg: url("/heroicons/eye.svg");
+  --svg: url("eye.svg");
 }
 
 .input--revealed > button > .icon {
-  --svg: url("/heroicons/eye-slash.svg");
+  --svg: url("eye-off.svg");
 }
 
 .input--copied > button > .icon {

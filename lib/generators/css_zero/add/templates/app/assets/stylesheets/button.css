@@ -86,6 +86,7 @@
     content: "";
     inline-size: var(--size-5);
     mask-image: url("loading.svg");
+    mask-size: cover;
     position: absolute;
   }
 }

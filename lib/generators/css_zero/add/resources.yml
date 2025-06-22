@@ -1,5 +1,6 @@
 accordion:
   - app/assets/stylesheets/accordion.css
+  - app/assets/images/chevron-down.svg
 alert:
   - app/assets/stylesheets/alert.css
 autoanimate:
@@ -29,7 +30,7 @@ collapsible:
 combobox:
   - app/assets/stylesheets/combobox.css
   - app/javascript/controllers/combobox_controller.js
-  - app/assets/images/select-arrow.svg
+  - app/assets/images/chevron-down-zinc-500.svg
 command:
   - app/assets/stylesheets/command.css
   - app/javascript/controllers/command_controller.js
@@ -61,11 +62,24 @@ hotkey:
   - app/javascript/controllers/hotkey_controller.js
 icons:
   - app/assets/stylesheets/icons.css
-  - app/assets/images/heroicons/
   - app/assets/images/loading.svg
+  - app/assets/images/terminal.svg
+  - app/assets/images/circle-alert.svg
+  - app/assets/images/chevron-left.svg
+  - app/assets/images/chevron-right.svg
+  - app/assets/images/chevrons-up-down.svg
+  - app/assets/images/search.svg
+  - app/assets/images/x.svg
+  - app/assets/images/copy.svg
+  - app/assets/images/download.svg
+  - app/assets/images/share.svg
+  - app/assets/images/ellipsis.svg
+  - app/assets/images/move.svg
+  - app/assets/images/camera.svg
+  - app/assets/images/minus.svg
 input:
   - app/assets/stylesheets/input.css
-  - app/assets/images/select-arrow.svg
+  - app/assets/images/chevron-down-zinc-500.svg
 input_concerns:
   - app/assets/stylesheets/input_concerns.css
   - app/javascript/controllers/autoselect_controller.js
@@ -78,6 +92,7 @@ inputmask:
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/stylesheets/sidebar_menu.css
+  - app/assets/images/chevron-right.svg
 lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js

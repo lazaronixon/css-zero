@@ -31,7 +31,8 @@
       content: "";
       inline-size: var(--size-4);
       margin-inline-start: auto;
-      mask-image: url("/heroicons/chevron-right.svg");
+      mask-image: url("chevron-right.svg");
+      mask-size: cover;
       min-inline-size: var(--size-4);
       transition: transform var(--time-200);
     }
