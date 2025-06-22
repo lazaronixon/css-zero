@@ -52,12 +52,15 @@ trix-toolbar {
     }
 
     &.trix-button--icon::before {
-      filter: var(--color-filter-text);
       opacity: 1;
     }
 
     &.trix-button--icon:disabled::before {
       opacity: 0.125;
+    }
+
+    [data-color-scheme="dark"] & {
+      &.trix-button--icon::before { filter: invert(1); }
     }
   }
 
