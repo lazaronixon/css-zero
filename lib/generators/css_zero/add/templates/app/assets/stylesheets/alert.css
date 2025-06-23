@@ -8,9 +8,9 @@
 }
 
 .alert--positive {
-  --alert-color: var(--color-positive);
+  --alert-color: oklch(from var(--color-positive) calc(l * 1.25) c h);
 }
 
 .alert--negative {
-  --alert-color: var(--color-negative);
+  --alert-color: oklch(from var(--color-negative) calc(l * 1.25) c h);
 }
