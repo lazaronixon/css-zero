@@ -132,6 +132,6 @@ turbo_confirm:
   - app/javascript/controllers/turbo_confirm_controller.js
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
-  - app/assets/images/default-avatar.svg
+  - app/assets/images/avatar.svg
 web_share:
   - app/javascript/controllers/web_share_controller.js
