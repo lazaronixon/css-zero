@@ -35,13 +35,13 @@
   --btn-background: var(--color-primary);
   --btn-border-color: transparent;
   --btn-color: var(--color-text-reversed);
-  --btn-hover-color: var(--color-primary);
+  --btn-hover-color: rgb(from var(--color-primary) r g b / .9);
 }
 
 .btn--secondary {
   --btn-background: var(--color-secondary);
   --btn-border-color: transparent;
-  --btn-hover-color: var(--color-secondary);
+  --btn-hover-color: rgb(from var(--color-secondary) r g b / .8);
 }
 
 .btn--borderless {
@@ -53,14 +53,14 @@
   --btn-background: var(--color-positive);
   --btn-border-color: transparent;
   --btn-color: white;
-  --btn-hover-color: var(--color-positive);
+  --btn-hover-color: rgb(from var(--color-positive) r g b / .9);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-border-color: transparent;
   --btn-color: white;
-  --btn-hover-color: var(--color-negative);
+  --btn-hover-color: rgb(from var(--color-negative) r g b / .9);
 }
 
 .btn--plain {
