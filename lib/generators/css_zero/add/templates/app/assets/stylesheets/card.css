@@ -20,6 +20,6 @@
 }
 
 .card--selectable:has(:checked) {
-  background-color: var(--color-secondary);
-  border-color: var(--color-primary);
+  background-color: rgb(from var(--color-border-light) r g b / .5);
+  border-color: var(--color-border-dark);
 }
