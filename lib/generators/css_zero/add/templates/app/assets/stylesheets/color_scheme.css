@@ -1,4 +1,4 @@
-.color-scheme {
+.color-scheme-toggle {
   @media (prefers-color-scheme: light) {
     .icon--sun { display: inline-flex; }
     .icon--moon { display: none; }
