@@ -4,14 +4,14 @@
     .icon--moon { display: none; }
   }
 
-  @media (prefers-color-scheme: dark) {
-    .icon--sun { display: none; }
-    .icon--moon { display: inline-flex; }
-  }
-
   [data-color-scheme="light"] & {
     .icon--sun { display: inline-flex; }
     .icon--moon { display: none; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .icon--sun { display: none; }
+    .icon--moon { display: inline-flex; }
   }
 
   [data-color-scheme="dark"] & {
