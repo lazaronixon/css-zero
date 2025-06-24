@@ -82,7 +82,7 @@
 
   &::after {
     animation: spin 1s linear infinite;
-    background-color: currentcolor;
+    background-color: currentColor;
     block-size: var(--size-5);
     content: "";
     inline-size: var(--size-5);

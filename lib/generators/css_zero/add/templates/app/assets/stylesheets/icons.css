@@ -1,5 +1,5 @@
 .icon {
-  background-color: var(--icon-color, currentcolor);
+  background-color: var(--icon-color, currentColor);
   block-size: var(--icon-size, 1rem);
   display: inline-block;
   flex-shrink: 0;

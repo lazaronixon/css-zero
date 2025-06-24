@@ -25,7 +25,7 @@
 
   &:is(summary) {
     &::after {
-      background-color: currentcolor;
+      background-color: currentColor;
       block-size: var(--size-4);
       content: "";
       inline-size: var(--size-4);
