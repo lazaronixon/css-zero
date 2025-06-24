@@ -13,6 +13,7 @@
 - Adjust border color variables for improved contrast in dark mode
 - Reduce backdrop opacity for dialog and sheet components
 - Add icons component and remove colorize classes.
+- Change default --btn-hover-color to --color-border-light.
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.

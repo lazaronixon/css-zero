@@ -1,9 +1,6 @@
 .btn {
-  --btn-background: var(--color-bg);
-  --btn-hover-color: oklch(from var(--btn-background) calc(l * .95) c h);
-
   align-items: center;
-  background-color: var(--btn-background);
+  background-color: var(--btn-background, var(--color-bg));
   block-size: var(--btn-block-size, auto);
   border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
@@ -21,7 +18,7 @@
   white-space: nowrap;
 
   &:hover {
-    background-color: var(--btn-hover-color);
+    background-color: var(--btn-hover-color, var(--color-border-light));
   }
 
   &:focus-visible {
@@ -38,11 +35,13 @@
   --btn-background: var(--color-primary);
   --btn-border-color: transparent;
   --btn-color: var(--color-text-reversed);
+  --btn-hover-color: var(--color-primary);
 }
 
 .btn--secondary {
   --btn-background: var(--color-secondary);
   --btn-border-color: transparent;
+  --btn-hover-color: var(--color-secondary);
 }
 
 .btn--borderless {
@@ -54,20 +53,22 @@
   --btn-background: var(--color-positive);
   --btn-border-color: transparent;
   --btn-color: white;
+  --btn-hover-color: var(--color-positive);
 }
 
 .btn--negative {
   --btn-background: var(--color-negative);
   --btn-border-color: transparent;
   --btn-color: white;
+  --btn-hover-color: var(--color-negative);
 }
 
 .btn--plain {
   --btn-background: transparent;
   --btn-border-color: transparent;
+  --btn-box-shadow: none;
   --btn-hover-color: transparent;
   --btn-padding: 0;
-  --btn-box-shadow: none;
 }
 
 .btn--icon {
