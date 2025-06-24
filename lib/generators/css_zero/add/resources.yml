@@ -69,6 +69,8 @@ icons:
   - app/assets/images/chevrons-up-down.svg
   - app/assets/images/x.svg
   - app/assets/images/search.svg
+  - app/assets/images/eye.svg
+  - app/assets/images/eye-off.svg
   - app/assets/images/copy.svg
   - app/assets/images/download.svg
   - app/assets/images/share.svg
