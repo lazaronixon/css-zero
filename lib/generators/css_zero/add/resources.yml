@@ -25,6 +25,9 @@ chart:
   - app/javascript/controllers/chart_controller.js
 check_all:
   - app/javascript/controllers/check_all_controller.js
+color_scheme:
+  - app/assets/stylesheets/color_scheme.css
+  - app/javascript/controllers/color_scheme_controller.js
 collapsible:
   - app/javascript/controllers/collapsible_controller.js
 combobox:
@@ -76,6 +79,8 @@ icons:
   - app/assets/images/share.svg
   - app/assets/images/camera.svg
   - app/assets/images/minus.svg
+  - app/assets/images/sun.svg
+  - app/assets/images/moon.svg
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/chevron-down-zinc-500.svg
