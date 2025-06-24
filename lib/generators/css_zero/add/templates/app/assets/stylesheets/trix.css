@@ -48,7 +48,7 @@ trix-toolbar {
     color: var(--color-text);
 
     &.trix-active {
-      background-color: var(--color-secondary);
+      background-color: var(--color-border-light);
     }
 
     &.trix-button--icon::before {

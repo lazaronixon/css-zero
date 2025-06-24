@@ -30,7 +30,7 @@
   --btn-padding: var(--size-1_5) var(--size-2);
 
   &:focus-visible {
-    --btn-background: var(--color-secondary);
+    --btn-background: var(--color-border-light);
   }
 }
 

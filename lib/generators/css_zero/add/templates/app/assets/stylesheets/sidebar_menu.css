@@ -16,11 +16,11 @@
   --btn-padding: var(--size-1) var(--size-2);
 
   &[aria-current="page"] {
-    --btn-background: var(--color-secondary);
+    --btn-background: var(--color-border-light);
   }
 
   &:focus-visible {
-    --btn-background: var(--color-secondary);
+    --btn-background: var(--color-border-light);
   }
 
   &:is(summary) {

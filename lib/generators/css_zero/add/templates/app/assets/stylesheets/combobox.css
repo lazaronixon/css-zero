@@ -77,7 +77,7 @@
   }
 
   .active {
-    background-color: var(--color-secondary);
+    background-color: var(--color-border-light);
     color: inherit !important;
   }
 
@@ -103,7 +103,7 @@
 }
 
 .ts-wrapper.multi .ts-control > .item {
-  background: var(--color-secondary);
+  background: var(--color-border-light);
   border-radius: var(--rounded-md);
   color: inherit;
   line-height: var(--leading-tight);

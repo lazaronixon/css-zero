@@ -144,7 +144,7 @@
     }
 
     &:is(.today, .inRange, :hover, :focus) {
-      background: var(--color-secondary);
+      background: var(--color-border-light);
       color: var(--color-text);
     }
 

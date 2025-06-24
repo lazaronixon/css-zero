@@ -3,7 +3,7 @@
 }
 
 .btn--toggle:has(:checked) {
-  --btn-background: var(--color-secondary);
+  --btn-background: var(--color-border-light);
 }
 
 .btn--toggle:has(:focus-visible) {
