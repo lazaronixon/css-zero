@@ -65,6 +65,7 @@ icons:
   - app/assets/images/loading.svg
   - app/assets/images/chevron-left.svg
   - app/assets/images/chevron-right.svg
+  - app/assets/images/ellipsis.svg
   - app/assets/images/chevrons-up-down.svg
   - app/assets/images/x.svg
   - app/assets/images/search.svg

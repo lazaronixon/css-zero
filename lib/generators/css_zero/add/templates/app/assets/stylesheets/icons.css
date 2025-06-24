@@ -27,6 +27,7 @@ img.icon {
 *****************************************************************/
 .icon--chevron-left { --svg: url("chevron-left.svg"); }
 .icon--chevron-right { --svg: url("chevron-right.svg"); }
+.icon--ellipsis { --svg: url("ellipsis.svg"); }
 .icon--chevrons-up-down { --svg: url("chevrons-up-down.svg"); }
 .icon--x { --svg: url("x.svg"); }
 .icon--search { --svg: url("search.svg"); }
