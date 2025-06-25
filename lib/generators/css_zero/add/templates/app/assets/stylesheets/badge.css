@@ -1,14 +1,18 @@
 .badge {
+  align-items: center;
   background-color: var(--badge-background, var(--color-bg));
-  border-radius: var(--rounded-md);
+  border-radius: var(--badge-radius, var(--rounded-md));
   border: 1px solid var(--badge-border-color, var(--color-border));
   box-shadow: var(--badge-box-shadow, none);
   color: var(--badge-color, var(--color-text));
+  column-gap: var(--size-1);
   display: inline-flex;
   font-size: var(--text-xs);
   font-weight: var(--font-semibold);
+  justify-content: center;
   line-height: var(--leading-4);
-  padding: var(--size-0_5) var(--size-2_5);
+  min-inline-size: var(--badge-min-inline-size, 0);
+  padding: var(--badge-padding, .125rem .5rem);
 }
 
 .badge--primary {
@@ -37,4 +41,9 @@
   --badge-border-color: transparent;
   --badge-box-shadow: var(--shadow-sm);
   --badge-color: white;
+}
+
+.badge--number {
+  --badge-min-inline-size: var(--size-5);
+  --badge-radius: var(--rounded-full);
 }
