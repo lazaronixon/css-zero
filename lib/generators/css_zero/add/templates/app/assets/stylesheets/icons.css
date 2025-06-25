@@ -29,6 +29,7 @@ img.icon {
 .icon--chevron-right { --svg: url("chevron-right.svg"); }
 .icon--ellipsis { --svg: url("ellipsis.svg"); }
 .icon--chevrons-up-down { --svg: url("chevrons-up-down.svg"); }
+.icon--menu { --svg: url("menu.svg"); }
 .icon--x { --svg: url("x.svg"); }
 .icon--search { --svg: url("search.svg"); }
 .icon--copy { --svg: url("copy.svg"); }
