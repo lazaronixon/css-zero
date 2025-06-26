@@ -1,14 +1,14 @@
 :root {
   /* Abstractions */
   --color-bg: light-dark(white, var(--zinc-950));
-  --color-text: light-dark(black, white);
-  --color-text-reversed: light-dark(white, black);
+  --color-text: light-dark(var(--zinc-950), white);
+  --color-text-reversed: light-dark(white, var(--zinc-950));
   --color-text-subtle: light-dark(var(--zinc-500), var(--zinc-400));
   --color-link: light-dark(var(--blue-700), var(--blue-400));
   --color-border-light: light-dark(var(--zinc-100), var(--zinc-800));
   --color-border: light-dark(var(--zinc-200), var(--zinc-700));
   --color-border-dark: light-dark(var(--zinc-400), var(--zinc-600));
-  --color-selected: light-dark(var(--blue-100), var(--blue-950));
+  --color-selected: light-dark(var(--sky-100), var(--sky-950));
   --color-selected-dark: light-dark(var(--blue-300), var(--blue-800));
   --color-highlight: light-dark(var(--yellow-200), var(--yellow-900));
 
