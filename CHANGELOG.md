@@ -15,6 +15,7 @@
 - Add icons component and remove colorize classes.
 - Change default --btn-hover-color to --color-border-light.
 - Add color_scheme component and change base.css
+- Update alert with background colors
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.

@@ -1,6 +1,7 @@
 .alert {
+  background-color: var(--alert-background, var(--color-bg));
   border-radius: var(--rounded-lg);
-  border-width: var(--border);
+  border: 1px solid var(--alert-border-color, var(--color-border));
   color: var(--alert-color, var(--color-text));
   font-size: var(--text-sm);
   inline-size: var(--size-full);
@@ -8,9 +9,13 @@
 }
 
 .alert--positive {
-  --alert-color: oklch(from var(--color-positive) calc(l * 1.25) c h);
+  --alert-background: var(--color-positive);
+  --alert-border-color: transparent;
+  --alert-color: white;
 }
 
 .alert--negative {
-  --alert-color: oklch(from var(--color-negative) calc(l * 1.25) c h);
+  --alert-background: var(--color-negative);
+  --alert-border-color: transparent;
+  --alert-color: white;
 }
