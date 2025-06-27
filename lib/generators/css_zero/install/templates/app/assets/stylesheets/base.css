@@ -1,30 +1,41 @@
 :root {
   /* Abstractions */
-  --color-bg: light-dark(white, var(--zinc-950));
-  --color-text: light-dark(var(--zinc-950), white);
-  --color-text-reversed: light-dark(white, var(--zinc-950));
-  --color-text-subtle: light-dark(var(--zinc-500), var(--zinc-400));
-  --color-link: light-dark(var(--blue-700), var(--blue-400));
-  --color-border-light: light-dark(var(--zinc-100), var(--zinc-800));
-  --color-border: light-dark(var(--zinc-200), var(--zinc-700));
-  --color-border-dark: light-dark(var(--zinc-400), var(--zinc-600));
-  --color-selected: light-dark(var(--sky-100), var(--sky-950));
-  --color-selected-dark: light-dark(var(--blue-300), var(--blue-800));
-  --color-highlight: light-dark(var(--yellow-200), var(--yellow-900));
+  --color-bg: white;
+  --color-text: var(--zinc-950);
+  --color-text-reversed: white;
+  --color-text-subtle: var(--zinc-500);
+  --color-link: var(--blue-700);
+  --color-border-light: var(--zinc-100);
+  --color-border: var(--zinc-200);
+  --color-border-dark: var(--zinc-400);
+  --color-selected: var(--sky-100);
+  --color-selected-dark: var(--blue-300);
+  --color-highlight: var(--yellow-200);
 
   /* Accent colors */
-  --color-primary: light-dark(var(--zinc-900), var(--zinc-50));
-  --color-secondary: light-dark(var(--zinc-100), var(--zinc-800));
-  --color-negative: light-dark(var(--red-600), var(--red-800));
-  --color-positive: light-dark(var(--green-600), var(--green-800));
-}
+  --color-primary: var(--zinc-900);
+  --color-secondary: var(--zinc-100);
+  --color-negative: var(--red-600);
+  --color-positive: var(--green-600);
 
-[data-color-scheme="light"] {
-  color-scheme: light;
-}
+  &[data-color-scheme="dark"] {
+    --color-bg: var(--zinc-950);
+    --color-text: white;
+    --color-text-reversed: var(--zinc-950);
+    --color-text-subtle: var(--zinc-400);
+    --color-link: var(--blue-400);
+    --color-border-light: var(--zinc-800);
+    --color-border: var(--zinc-700);
+    --color-border-dark: var(--zinc-600);
+    --color-selected: var(--sky-950);
+    --color-selected-dark: var(--blue-800);
+    --color-highlight: var(--yellow-900);
 
-[data-color-scheme="dark"] {
-  color-scheme: dark;
+    --color-primary: var(--zinc-50);
+    --color-secondary: var(--zinc-800);
+    --color-negative: var(--red-800);
+    --color-positive: var(--green-800);
+  }
 }
 
 * {
