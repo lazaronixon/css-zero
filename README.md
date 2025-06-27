@@ -10,6 +10,12 @@ Add this gem to your project.
 bundle add css-zero
 ```
 
+Or install directly from GitHub.
+
+```
+bundle add css-zero --github=lazaronixon/css-zero
+```
+
 Run the install command.
 
 ```
