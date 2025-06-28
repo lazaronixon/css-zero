@@ -9,6 +9,8 @@ autosave:
   - app/javascript/controllers/autosave_controller.js
 avatar:
   - app/assets/stylesheets/avatar.css
+back_navigation:
+  - app/javascript/controllers/back_navigation_controller.js
 badge:
   - app/assets/stylesheets/badge.css
 breadcrumb:
@@ -104,8 +106,6 @@ lightbox:
   - app/javascript/controllers/web_share_controller.js
 local_time:
   - app/javascript/controllers/local_time_controller.js
-navigation:
-  - app/javascript/controllers/navigation_controller.js
 popover:
   - app/assets/stylesheets/popover.css
   - app/javascript/controllers/popover_controller.js
