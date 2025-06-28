@@ -132,6 +132,8 @@ table:
 tabs:
   - app/assets/stylesheets/tabs.css
   - app/javascript/controllers/tabs_controller.js
+timezone_cookie:
+  - app/javascript/controllers/timezone_cookie_controller.js
 toggle:
   - app/assets/stylesheets/toggle.css
 trix:
