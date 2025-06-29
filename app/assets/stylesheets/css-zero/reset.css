@@ -388,14 +388,6 @@ turbo-frame {
 }
 
 /*
-  Set color scheme to light and dark.
-*/
-
-:root {
-  color-scheme: light dark;
-}
-
-/*
   Correct the arrow style of datalist in Chrome.
 */
 
