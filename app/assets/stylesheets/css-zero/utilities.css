@@ -98,16 +98,6 @@
 .bg-highlight { background-color: var(--color-highlight); }
 .bg-transparent { background-color: transparent; }
 
-
-
---color-ink-darkest: var(--zink-800);
---color-ink-darker: var(--zink-700);
---color-ink-dark: var(--zink-600);
---color-ink-medium: var(--zink-500);
---color-ink-light: var(--zink-400);
---color-ink-lighter: var(--zink-300);
---color-ink-lightest: var(--zink-200);
-
 /****************************************************************
 * Border
 *****************************************************************/
