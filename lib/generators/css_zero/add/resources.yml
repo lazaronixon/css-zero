@@ -118,6 +118,8 @@ range:
   - app/javascript/controllers/dual_range_controller.js
 resizable:
   - app/assets/stylesheets/resizable.css
+scroll_into_view:
+  - app/javascript/controllers/scroll_into_view_controller.js
 sheet:
   - app/assets/stylesheets/sheet.css
   - app/javascript/controllers/dialog_controller.js
