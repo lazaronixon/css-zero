@@ -15,3 +15,13 @@
   .icon--color-scheme-light { display: none; }
   .icon--color-scheme-dark { display: inline-flex; }
 }
+
+[data-color-scheme="system"] {
+  .icon--color-scheme-light { display: inline-flex; }
+  .icon--color-scheme-dark { display: none; }
+
+  @media (prefers-color-scheme: dark) {
+    .icon--color-scheme-light { display: none; }
+    .icon--color-scheme-dark { display: inline-flex; }
+  }
+}
