@@ -1,9 +1,23 @@
-.color-scheme-toggle {
-  .icon--sun { display: inline-flex; }
-  .icon--moon { display: none; }
+[data-color-scheme="light"] {
+  color-scheme: light;
 
-  [data-color-scheme="dark"] & {
-    .icon--sun { display: none; }
-    .icon--moon { display: inline-flex; }
+  .icon--color-scheme-light {
+    display: inline-flex;
+  }
+
+  .icon--color-scheme-dark {
+    display: none;
+  }
+}
+
+[data-color-scheme="dark"] {
+  color-scheme: dark;
+
+  .icon--color-scheme-light {
+    display: none;
+  }
+
+  .icon--color-scheme-dark {
+    display: inline-flex;
   }
 }

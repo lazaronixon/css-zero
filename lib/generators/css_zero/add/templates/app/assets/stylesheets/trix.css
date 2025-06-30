@@ -59,7 +59,7 @@ trix-toolbar {
       opacity: 0.125;
     }
 
-    [data-color-scheme="dark"] & {
+    @media (prefers-color-scheme: dark) {
       &.trix-button--icon::before { filter: invert(1); }
     }
   }
