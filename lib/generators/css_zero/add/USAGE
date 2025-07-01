@@ -2,7 +2,7 @@ Description:
   This will add components into your project.
 
 Components:
-  accordion alert autoanimate autosave avatar back_navigation badge breadcrumb button card carousel chart check_all color_scheme combobox command collapsible datepicker dialog dropdown dropzone dual_range flash form fullscreen group hotkey icons input input_concerns inputmask layouts lightbox local_time popover progress prose resizable scroll_into_view sheet skeleton sortable switch table tabs timezone_cookie trix turbo_confirm upload_preview toggle web_share
+  accordion alert autoanimate autosave avatar back_navigation badge breadcrumb button card carousel chart check_all color_scheme combobox command collapsible datepicker dialog dropdown dropzone dual_range flash form fullscreen group hotkey icons input input_concerns inputmask layouts lightbox popover progress prose resizable scroll_into_view sheet skeleton sortable switch table tabs timezone_cookie trix turbo_confirm upload_preview toggle web_share
 
 Example:
   bin/rails generate css_zero:add [components...]

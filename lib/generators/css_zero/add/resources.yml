@@ -104,8 +104,6 @@ lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js
   - app/javascript/controllers/web_share_controller.js
-local_time:
-  - app/javascript/controllers/local_time_controller.js
 popover:
   - app/assets/stylesheets/popover.css
   - app/javascript/controllers/popover_controller.js
