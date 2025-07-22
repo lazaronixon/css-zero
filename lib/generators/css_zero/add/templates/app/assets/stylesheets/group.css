@@ -1,26 +1,53 @@
 .group {
-  align-items: center;
   display: flex;
+  flex-direction: row;
+
+  > :first-child {
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+  }
+
+  > :last-child {
+    border-end-start-radius: 0;
+    border-start-start-radius: 0;
+  }
+
+  > :not(:first-child) {
+    border-inline-start: 0;
+  }
+
+  > :not(:first-child, :last-child) {
+    border-radius: 0;
+  }
+
+  > :focus-visible {
+    z-index: 1;
+  }
 }
 
-.group > :first-child {
-  border-end-end-radius: 0;
-  border-start-end-radius: 0;
-}
+.group-vertical {
+  display: flex;
+  flex-direction: column;
 
-.group > :last-child {
-  border-end-start-radius: 0;
-  border-start-start-radius: 0;
-}
+  > :first-child {
+    border-end-end-radius: 0;
+    border-end-start-radius: 0;
+  }
 
-.group > :not(:first-child) {
-  border-inline-start: 0;
-}
+  > :last-child {
+    border-start-end-radius: 0;
+    border-start-start-radius: 0;
+  }
 
-.group > :not(:first-child, :last-child) {
-  border-radius: 0;
-}
+  > :not(:first-child) {
+    border-block-start: 0;
+  }
 
-.group > :focus-visible {
-  z-index: 1;
+  > :not(:first-child, :last-child) {
+    border-radius: 0;
+  }
+
+  > :focus-visible {
+    z-index: 1;
+  }
 }

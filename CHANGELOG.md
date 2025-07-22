@@ -21,6 +21,7 @@
 - Add scroll_into_view component
 - Add text-link utility class
 - Remove underline and no-underline utility classes
+- Add .group-vertical class
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
