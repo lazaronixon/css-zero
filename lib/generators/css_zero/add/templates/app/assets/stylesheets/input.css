@@ -30,7 +30,7 @@
     border-color: var(--color-negative);
   }
 
-  &:user-invalid ~ .invalid-feedback {
+  &:user-invalid + .invalid-feedback {
     display: flex;
   }
 
@@ -38,6 +38,10 @@
     cursor: not-allowed;
     opacity: var(--opacity-50);
   }
+}
+
+.invalid-feedback {
+  display: none;
 }
 
 .input--actor {
@@ -48,10 +52,6 @@
   &:focus-within {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
-}
-
-.invalid-feedback {
-  display: none;
 }
 
 :is(.checkbox, .radio) {
