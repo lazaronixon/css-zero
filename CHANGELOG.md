@@ -22,6 +22,7 @@
 - Add text-link utility class
 - Remove underline and no-underline utility classes
 - Add .group-vertical class
+- Implement menu-controller #navigate
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
