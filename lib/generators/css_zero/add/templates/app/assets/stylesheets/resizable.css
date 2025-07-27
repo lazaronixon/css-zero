@@ -1,12 +1,26 @@
-.resizable-block {
-  resize: block;
+.resizable-horizontal {
+  display: flex;
+  flex-direction: row;
 }
 
-.resizable-inline {
-  resize: inline;
+.resizable-vertical {
+  display: flex;
+  flex-direction: column;
 }
 
-:is(.resizable-inline, .resizable-block) {
-  background-image: linear-gradient(-45deg, var(--color-border) .75rem, transparent .75rem);
-  overflow: hidden;
+.gutter {
+  background-color: var(--color-border);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+
+  &.gutter-horizontal {
+    background-image: url("grip-vertical-zink-500.svg");
+    cursor: col-resize;
+  }
+
+  &.gutter-vertical {
+    background-image: url("grip-horizontal-zink-500.svg");
+    cursor: row-resize;
+  }
 }

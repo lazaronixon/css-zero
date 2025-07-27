@@ -20,9 +20,10 @@
 - Add timezone_cookie component
 - Add text-link utility class
 - Remove underline and no-underline utility classes
-- Add .group-vertical class
+- Add .group-vertical class to group component
 - Implement menu-controller #navigate
 - Better target names in dialog, popover, context_menu controllers
+- Reimplement resizable component
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.

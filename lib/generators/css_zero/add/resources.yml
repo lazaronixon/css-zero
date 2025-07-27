@@ -118,6 +118,9 @@ range:
   - app/javascript/controllers/dual_range_controller.js
 resizable:
   - app/assets/stylesheets/resizable.css
+  - app/assets/stylesheets/resizable_controller.js
+  - app/assets/images/grip-horizontal-zink-500.svg
+  - app/assets/images/grip-vertical-zink-500.svg
 sheet:
   - app/assets/stylesheets/sheet.css
   - app/javascript/controllers/dialog_controller.js
