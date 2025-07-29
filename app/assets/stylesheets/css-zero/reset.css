@@ -420,14 +420,6 @@ turbo-frame {
 }
 
 /*
-  Restore space between options.
-*/
-
-option {
-  padding: 2px 4px;
-}
-
-/*
   Prevent page scroll when modal dialog is open.
 */
 

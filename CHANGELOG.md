@@ -27,6 +27,7 @@
 - Add Home and End key support to menu controller
 - Fix field_with_errors making fields hidden in input.css
 - Move error field and feedback styles to reset.css
+- Remove custom padding from option elements (reset.css)
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
