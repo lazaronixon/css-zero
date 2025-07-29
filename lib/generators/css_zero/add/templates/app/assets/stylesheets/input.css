@@ -40,6 +40,11 @@
   }
 }
 
+:is(.checkbox, .radio) {
+  accent-color: var(--color-primary);
+  transform: scale(1.2);
+}
+
 .input--actor {
   input {
     border: 0; inline-size: 100%; outline: 0;
@@ -48,19 +53,6 @@
   &:focus-within {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
-}
-
-:is(.checkbox, .radio) {
-  accent-color: var(--color-primary);
-  transform: scale(1.2);
-}
-
-.invalid-feedback {
-  display: none;
-}
-
-.field_with_errors {
-  display: contents;
 }
 
 :is(.input, .checkbox, .radio) {
