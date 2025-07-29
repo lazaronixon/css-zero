@@ -1,0 +1,7 @@
+.input--clearable > input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.input--clearable:has(:placeholder-shown) > button {
+  display: none;
+}

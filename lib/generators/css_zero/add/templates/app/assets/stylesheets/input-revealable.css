@@ -1,0 +1,7 @@
+.input--revealable > button > .icon {
+  --svg: url("eye.svg");
+}
+
+.input--revealed > button > .icon {
+  --svg: url("eye-off.svg");
+}

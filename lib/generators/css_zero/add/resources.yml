@@ -7,6 +7,8 @@ autoanimate:
   - app/assets/stylesheets/autoanimate.css
 autosave:
   - app/javascript/controllers/autosave_controller.js
+autoselect:
+  - app/javascript/controllers/autoselect_controller.js
 avatar:
   - app/assets/stylesheets/avatar.css
 back_navigation:
@@ -87,13 +89,17 @@ icons:
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/chevron-down-zinc-500.svg
-input_concerns:
-  - app/assets/stylesheets/input_concerns.css
-  - app/javascript/controllers/autoselect_controller.js
-  - app/javascript/controllers/copyable_input_controller.js
-  - app/javascript/controllers/clearable_input_controller.js
-  - app/javascript/controllers/revealable_input_controller.js
-  - app/javascript/controllers/otp_input_controller.js
+input_clearable:
+  - app/javascript/controllers/input_clearable_controller.js
+  - app/assets/stylesheets/input-clearable.css
+input_copyable:
+  - app/javascript/controllers/input_copyable_controller.js
+  - app/assets/stylesheets/input-copyable.css
+input_otp:
+  - app/javascript/controllers/input_otp_controller.js
+input_revealable:
+  - app/javascript/controllers/input_revealable_controller.js
+  - app/assets/stylesheets/input-revealable.css
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
 layouts:

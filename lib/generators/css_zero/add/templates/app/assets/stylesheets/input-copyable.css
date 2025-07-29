@@ -1,0 +1,4 @@
+.input--copied > button > .icon {
+  animation: var(--animate-fade-out), var(--animate-slide-out-up);
+  animation-duration: var(--time-500);
+}
