@@ -9,6 +9,10 @@
   inline-size: var(--input-inline-size, var(--size-full));
   padding: var(--input-padding, .375rem .75rem);
 
+  option {
+    padding: revert;
+  }
+
   &:is(textarea[rows="auto"]) {
     field-sizing: content;
     max-block-size: calc(.875rem + var(--input-max-rows, 10lh));
