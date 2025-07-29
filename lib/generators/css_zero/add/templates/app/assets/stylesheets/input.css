@@ -40,10 +40,6 @@
   }
 }
 
-.invalid-feedback {
-  display: none;
-}
-
 .input--actor {
   input {
     border: 0; inline-size: 100%; outline: 0;
@@ -59,6 +55,14 @@
   transform: scale(1.2);
 }
 
+.invalid-feedback {
+  display: none;
+}
+
+.field_with_errors {
+  display: contents;
+}
+
 :is(.input, .checkbox, .radio) {
   &:focus-visible {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
@@ -66,6 +70,5 @@
 
   .field_with_errors & {
     border-color: var(--color-negative);
-    display: contents;
   }
 }

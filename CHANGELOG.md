@@ -25,6 +25,7 @@
 - Better target names in dialog, popover, context_menu controllers
 - Reimplement resizable component
 - Add Home and End key support to menu controller
+- Fix field_with_errors making fields hidden in input.css
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
