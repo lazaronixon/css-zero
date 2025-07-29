@@ -9,18 +9,19 @@
 }
 
 .gutter {
-  background-color: var(--color-border);
-  background-repeat: no-repeat;
   background-position: 50%;
+  background-repeat: no-repeat;
   background-size: contain;
 
   &.gutter-horizontal {
     background-image: url("grip-vertical-zink-500.svg");
+    border-inline-width: var(--border);
     cursor: col-resize;
   }
 
   &.gutter-vertical {
     background-image: url("grip-horizontal-zink-500.svg");
+    border-block-width: var(--border);
     cursor: row-resize;
   }
 }
