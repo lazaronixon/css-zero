@@ -95,8 +95,6 @@ input_clearable:
 input_copyable:
   - app/javascript/controllers/input_copyable_controller.js
   - app/assets/stylesheets/input-copyable.css
-input_otp:
-  - app/javascript/controllers/input_otp_controller.js
 input_revealable:
   - app/javascript/controllers/input_revealable_controller.js
   - app/assets/stylesheets/input-revealable.css
@@ -153,5 +151,7 @@ turbo_confirm:
 upload_preview:
   - app/javascript/controllers/upload_preview_controller.js
   - app/assets/images/avatar.svg
+web_otp:
+  - app/javascript/controllers/web_otp_controller.js
 web_share:
   - app/javascript/controllers/web_share_controller.js
