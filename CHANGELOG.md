@@ -29,6 +29,7 @@
 - Move error field and feedback styles to reset.css
 - Remove custom padding from option elements (reset.css)
 - Extract input concerns to individual components
+- Rename .group to .group-inline and .group-vertical to .group-block
 
 ## 1.1.15 - 2025-03-20
 - Reimplement form_controller.
