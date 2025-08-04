@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Refactor notice flash to use tag.div in application.html.erb
 
 ## 2.0.0 - 2025-08-04
 - Add debouncedSubmit to form_controller
