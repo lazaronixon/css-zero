@@ -1,4 +1,5 @@
 .menu {
+  background-color: var(--color-surface);
   display: flex;
   flex-direction: column;
   padding: var(--size-1);

@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Introduce surface color for component backgrounds
 
 ## 2.0.1 - 2025-08-05
 - Refactor notice flash to use tag.div in application.html.erb

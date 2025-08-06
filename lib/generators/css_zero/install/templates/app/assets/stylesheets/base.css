@@ -1,5 +1,6 @@
 :root {
   --color-bg: light-dark(white, var(--zinc-950));
+  --color-surface: light-dark(white, var(--zinc-900));
   --color-text: light-dark(var(--zinc-950), white);
   --color-text-reversed: light-dark(white, var(--zinc-950));
   --color-text-subtle: light-dark(var(--zinc-500), var(--zinc-400));
