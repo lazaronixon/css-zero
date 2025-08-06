@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 2.0.2 - 2025-08-06
 - Introduce surface color for component backgrounds
 
 ## 2.0.1 - 2025-08-05
