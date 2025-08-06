@@ -1,3 +1,7 @@
+.btn--toggle {
+  --btn-background: var(--color-bg);
+}
+
 .btn--toggle [type="checkbox"] {
   position: absolute; clip: rect(0, 0, 0, 0);
 }

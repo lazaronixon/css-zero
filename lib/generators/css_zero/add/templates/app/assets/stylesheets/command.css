@@ -1,4 +1,5 @@
 .command {
+  background-color: var(--color-surface);
   border-width: var(--border);
   border-radius: var(--rounded-lg);
   box-shadow: var(--shadow-xs);
