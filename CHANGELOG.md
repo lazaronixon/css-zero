@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Fix command component accessibility issues
 
 ## 2.0.2 - 2025-08-06
 - Introduce surface color for component backgrounds
