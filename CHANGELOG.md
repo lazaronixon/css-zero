@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 2.0.3 - 2025-08-08
 - Fix command component accessibility issues
 - Handle Space and Enter keys in menu navigation
 
