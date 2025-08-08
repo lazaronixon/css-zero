@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Fix command component accessibility issues
+- Handle Space and Enter keys in menu navigation
 
 ## 2.0.2 - 2025-08-06
 - Introduce surface color for component backgrounds
