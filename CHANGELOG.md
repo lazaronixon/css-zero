@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Update trix toolbar styles for improved color handling
 
 ## 2.0.3 - 2025-08-08
 - Fix command component accessibility issues

@@ -29,10 +29,10 @@ trix-toolbar {
   position: sticky;
 
   .trix-button-row {
-    background-color: var(--color-bg);
+    background-color: white;
     border-block-width: 1px;
     column-gap: 1px;
-    padding-block: var(--size-1_5);
+    padding: var(--size-1_5) var(--size-1);
   }
 
   .trix-button-group {
@@ -42,13 +42,13 @@ trix-toolbar {
   }
 
   .trix-button {
-    background-color: var(--color-bg);
+    background-color: transparent;
     border: 0 !important;
     border-radius: var(--rounded-md);
-    color: var(--color-text);
+    color: var(--color-text-reversed);
 
     &.trix-active {
-      background-color: var(--color-border-light);
+      background-color: gainsboro;
     }
 
     &.trix-button--icon::before {
@@ -58,22 +58,10 @@ trix-toolbar {
     &.trix-button--icon:disabled::before {
       opacity: 0.125;
     }
-
-    [data-color-scheme="light"] & {
-      &.trix-button--icon::before { filter: invert(0); }
-    }
-
-    [data-color-scheme="dark"] & {
-      &.trix-button--icon::before { filter: invert(1); }
-    }
-
-    @media (prefers-color-scheme: dark) {
-      &.trix-button--icon::before { filter: invert(1); }
-    }
   }
 
   .trix-dialog {
-    background-color: var(--color-border-light);
+    background-color: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: var(--rounded-md);
     margin: var(--size-1);
@@ -82,7 +70,7 @@ trix-toolbar {
 
   .trix-input--dialog {
     border-color: var(--color-border);
-    background-color: var(--color-bg);
+    background-color: var(--color-surface);
     margin: 0;
   }
 
@@ -90,6 +78,10 @@ trix-toolbar {
     margin-inline-start: var(--size-1_5);
     background-color: var(--color-primary);
     color: var(--color-text-reversed);
+  }
+
+  [data-trix-dialog] [data-trix-validate]:invalid {
+    background-color: rgb(from var(--color-negative) r g b / .2);
   }
 
   @media (max-width: 48rem) {
