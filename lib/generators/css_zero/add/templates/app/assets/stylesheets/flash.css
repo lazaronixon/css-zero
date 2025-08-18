@@ -21,13 +21,11 @@
 }
 
 .flash--positive {
-  --flash-background: var(--color-positive);
-  --flash-color: white;
+  --flash-color: light-dark(var(--green-400), var(--green-600));
 }
 
 .flash--negative {
-  --flash-background: var(--color-negative);
-  --flash-color: white;
+  --flash-color: light-dark(var(--red-400), var(--red-600));
 }
 
 .flash--extended {

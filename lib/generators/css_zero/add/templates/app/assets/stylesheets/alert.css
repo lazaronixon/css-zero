@@ -9,13 +9,9 @@
 }
 
 .alert--positive {
-  --alert-background: var(--color-positive);
-  --alert-border-color: transparent;
-  --alert-color: white;
+  --alert-color: light-dark(var(--green-600), var(--green-400));
 }
 
 .alert--negative {
-  --alert-background: var(--color-negative);
-  --alert-border-color: transparent;
-  --alert-color: white;
+  --alert-color: light-dark(var(--red-600), var(--red-400));
 }
