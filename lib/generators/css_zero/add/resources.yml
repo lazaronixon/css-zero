@@ -3,6 +3,8 @@ accordion:
   - app/assets/images/chevron-down.svg
 alert:
   - app/assets/stylesheets/alert.css
+  - app/assets/images/circle-alert.svg
+  - app/assets/images/circle-check.svg
 autoanimate:
   - app/assets/stylesheets/autoanimate.css
 autosave:
@@ -90,6 +92,8 @@ icons:
   - app/assets/images/minus.svg
   - app/assets/images/sun.svg
   - app/assets/images/moon.svg
+  - app/assets/images/circle-alert.svg
+  - app/assets/images/circle-check.svg
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/chevron-down-zinc-500.svg
