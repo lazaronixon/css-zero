@@ -39,3 +39,5 @@ img.icon {
 .icon--minus { --svg: url("minus.svg"); }
 .icon--sun { --svg: url("sun.svg"); }
 .icon--moon { --svg: url("moon.svg"); }
+.icon--circle-alert { --svg: url("circle-alert.svg"); }
+.icon--circle-check { --svg: url("circle-check.svg"); }
