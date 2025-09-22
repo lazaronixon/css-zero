@@ -54,7 +54,7 @@
 
 :is(.checkbox, .radio) {
   accent-color: var(--color-primary);
-  transform: scale(1.2);
+  block-size: 1rem; inline-size: 1rem;
 
   &:focus-visible {
     outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
