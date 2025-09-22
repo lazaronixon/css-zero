@@ -18,8 +18,3 @@
     position: absolute;
   }
 }
-
-.card--selectable:has(:checked) {
-  background-color: rgb(from var(--color-border-light) r g b / .5);
-  border-color: var(--color-border-dark);
-}
