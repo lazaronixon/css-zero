@@ -4,6 +4,7 @@
 - Set foreground color for selection in base.css
 - Set checkbox and radio size with block-size and inline-size
 - Rename card--selectable card--toggle, and move to toggle.css
+- Remove prefers-reduced-motion styles from reset.css
 
 ## 2.0.3 - 2025-08-08
 - Fix command component accessibility issues
