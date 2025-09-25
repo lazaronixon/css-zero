@@ -52,20 +52,6 @@
   }
 }
 
-:is(.checkbox, .radio) {
-  accent-color: var(--color-primary);
-  block-size: var(--size-4);
-  inline-size: var(--size-4);
-
-  &:focus-visible {
-    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
-  }
-
-  .field_with_errors & {
-    border-color: var(--color-negative);
-  }
-}
-
 .input--actor {
   input {
     border: 0; inline-size: 100%; outline: 0;

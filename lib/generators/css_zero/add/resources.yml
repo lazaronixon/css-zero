@@ -96,6 +96,8 @@ icons:
   - app/assets/images/circle-check.svg
 input:
   - app/assets/stylesheets/input.css
+  - app/assets/stylesheets/checkbox.css
+  - app/assets/stylesheets/radio.css
   - app/assets/images/chevron-down-zinc-500.svg
 input_clearable:
   - app/javascript/controllers/input_clearable_controller.js
