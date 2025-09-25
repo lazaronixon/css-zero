@@ -3,6 +3,10 @@
   block-size: var(--checkbox-size, var(--size-4));
   inline-size: var(--checkbox-size, var(--size-4));
 
+  &:user-invalid {
+    border-color: var(--color-negative);
+  }
+
   &:focus-visible {
     outline: var(--checkbox-outline-size, 2px) solid var(--color-selected-dark);
   }
@@ -10,6 +14,10 @@
   &:disabled {
     cursor: not-allowed;
     opacity: var(--opacity-50);
+  }
+
+  .field_with_errors & {
+    border-color: var(--color-negative);
   }
 }
 
