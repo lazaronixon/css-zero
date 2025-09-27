@@ -105,13 +105,13 @@ input:
   - app/assets/images/chevron-down-zinc-500.svg
 input_clearable:
   - app/javascript/controllers/input_clearable_controller.js
-  - app/assets/stylesheets/input-clearable.css
+  - app/assets/stylesheets/input_clearable.css
 input_copyable:
   - app/javascript/controllers/input_copyable_controller.js
-  - app/assets/stylesheets/input-copyable.css
+  - app/assets/stylesheets/input_copyable.css
 input_revealable:
   - app/javascript/controllers/input_revealable_controller.js
-  - app/assets/stylesheets/input-revealable.css
+  - app/assets/stylesheets/input_revealable.css
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
 layouts:
