@@ -1,3 +1,15 @@
+.range {
+  accent-color: var(--range-color, var(--color-primary));
+
+  &:focus-visible {
+    outline: var(--range-outline-size, 2px) solid var(--color-selected-dark);
+  }
+
+  &:disabled {
+    cursor: not-allowed; opacity: var(--opacity-50);
+  }
+}
+
 @import url("https://esm.sh/@stanko/dual-range-input@1.0.0/dist/index.css");
 
 .dual-range-input {
@@ -16,12 +28,4 @@
   --dri-track-border-radius: 1rem;
   --dri-track-color: var(--color-border);
   --dri-track-filled-color: var(--color-primary);
-}
-
-.range {
-  accent-color: var(--color-primary);
-}
-
-.range:focus-visible {
-  outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
 }

@@ -1,7 +1,7 @@
 .checkbox {
   accent-color: var(--checkbox-color, var(--color-primary));
-  block-size: var(--checkbox-size, var(--size-4));
-  inline-size: var(--checkbox-size, var(--size-4));
+  block-size:   var(--checkbox-size, var(--size-4));
+  inline-size:  var(--checkbox-size, var(--size-4));
 
   &:user-invalid {
     border-color: var(--color-negative);
@@ -12,8 +12,7 @@
   }
 
   &:disabled {
-    cursor: not-allowed;
-    opacity: var(--opacity-50);
+    cursor: not-allowed; opacity: var(--opacity-50);
   }
 
   .field_with_errors & {
