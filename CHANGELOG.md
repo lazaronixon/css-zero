@@ -3,8 +3,9 @@
 - Change flash and alert positive/negative style
 - Set foreground color for selection in base.css
 - Set checkbox and radio size with block-size and inline-size
-- Split checkbox and radio styles into separate files
+- Extract checkbox and radio styles into separate files
 - Remove prefers-reduced-motion styles from reset.css
+- Extract dual range styles to separate file
 
 ## 2.0.3 - 2025-08-08
 - Fix command component accessibility issues
