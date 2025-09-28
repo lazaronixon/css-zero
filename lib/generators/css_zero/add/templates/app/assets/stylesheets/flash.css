@@ -1,6 +1,6 @@
 .flash {
   align-items: center;
-  animation: appear-then-fade 4s 300ms both;
+  animation: appear-then-fade 6s 300ms both;
   background-color: var(--flash-background, var(--color-text));
   border-radius: var(--rounded-full);
   color: var(--flash-color, var(--color-text-reversed));
@@ -17,6 +17,11 @@
 
   [data-turbo-preview] & {
     display: none;
+  }
+
+  &:hover,
+  &:focus-within {
+    animation-play-state: paused;
   }
 }
 
