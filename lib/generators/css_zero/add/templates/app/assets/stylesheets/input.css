@@ -29,7 +29,29 @@
   &::file-selector-button {
     font-weight: var(--font-medium);
   }
+}
 
+.input--actor {
+  input {
+    border: 0; inline-size: 100%; outline: 0;
+  }
+
+  &:focus-within {
+    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
+  }
+}
+
+:is(.checkbox, .radio) {
+  accent-color: var(--check-color, var(--color-primary));
+  block-size:   var(--check-size, var(--size-4));
+  inline-size:  var(--check-size, var(--size-4));
+}
+
+:is(.range) {
+  accent-color: var(--range-color, var(--color-primary));
+}
+
+:is(.input, .checkbox, .radio, .range) {
   &:user-invalid {
     border-color: var(--color-negative);
   }
@@ -48,15 +70,5 @@
 
   .field_with_errors & {
     border-color: var(--color-negative);
-  }
-}
-
-.input--actor {
-  input {
-    border: 0; inline-size: 100%; outline: 0;
-  }
-
-  &:focus-within {
-    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
 }
