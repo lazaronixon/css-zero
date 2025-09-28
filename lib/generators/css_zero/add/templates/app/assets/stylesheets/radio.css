@@ -7,6 +7,10 @@
     border-color: var(--color-negative);
   }
 
+  &:user-invalid + .invalid-feedback {
+    display: block;
+  }
+
   &:focus-visible {
     outline: var(--radio-outline-size, 2px) solid var(--color-selected-dark);
   }
