@@ -5,6 +5,7 @@
 - Set checkbox and radio size with block-size and inline-size
 - Remove prefers-reduced-motion styles from reset.css
 - Extract dual range to dual_range component
+- Add card-check to card.css
 
 ## 2.0.3 - 2025-08-08
 - Fix command component accessibility issues
