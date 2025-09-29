@@ -31,20 +31,10 @@
   }
 }
 
-.input--actor {
-  input {
-    border: 0; inline-size: 100%; outline: 0;
-  }
-
-  &:focus-within {
-    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
-  }
-}
-
 :is(.checkbox, .radio) {
   accent-color: var(--input-accent-color, var(--color-primary));
-  block-size:   var(--check-size, var(--size-4));
-  inline-size:  var(--check-size, var(--size-4));
+  block-size:   var(--input-check-size, var(--size-4));
+  inline-size:  var(--input-check-size, var(--size-4));
 }
 
 :is(.range) {
@@ -70,5 +60,15 @@
 
   .field_with_errors & {
     border-color: var(--color-negative);
+  }
+}
+
+.input--actor {
+  input {
+    border: 0; inline-size: 100%; outline: 0;
+  }
+
+  &:focus-within {
+    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
   }
 }
