@@ -1,4 +1,4 @@
-@import url("https://esm.sh/@stanko/dual-range-input@1.0.0/dist/index.css");
+@import url("https://esm.sh/@stanko/dual-range-input@1.0.1/dist/index.css");
 
 .dual-range-input {
   --dri-height: 1rem;
@@ -16,4 +16,6 @@
   --dri-track-border-radius: 1rem;
   --dri-track-color: var(--color-border);
   --dri-track-filled-color: var(--color-primary);
+  --dri-track-filled-gradient-mid-color: var(--dri-track-filled-color);
+  --dri-track-filled-gradient-end-color: var(--dri-track-filled-color);
 }
