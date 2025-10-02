@@ -1,7 +1,5 @@
 :root {
   /****************************************************************
-  * Blur
-  * Variables for applying blur filters to an element.
   * filter|backdrop-filter: var(--blur-sm);
   *****************************************************************/
   --blur-none: blur(0);
@@ -14,8 +12,6 @@
   --blur-3xl:  blur(64px);
 
   /****************************************************************
-  * Brightness
-  * Variables for applying brightness filters to an element.
   * filter|backdrop-filter: var(--brightness-50);
   *****************************************************************/
   --brightness-0:   brightness(0);
@@ -31,8 +27,6 @@
   --brightness-200: brightness(2);
 
   /****************************************************************
-  * Contrast
-  * Variables for applying contrast filters to an element.
   * filter|backdrop-filter: var(--contrast-50);
   *****************************************************************/
   --contrast-0:   contrast(0);

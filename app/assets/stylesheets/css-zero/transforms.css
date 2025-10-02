@@ -1,7 +1,5 @@
 :root {
   /****************************************************************
-  * Scale
-  * Variables for scaling elements with transform.
   * transform: var(--scale-100);
   *****************************************************************/
   --scale-50:  scale(0.50);
@@ -15,8 +13,6 @@
   --scale-150: scale(1.50);
 
   /****************************************************************
-  * Rotate
-  * Variables for rotating elements with transform.
   * transform: var(--rotate-45);
   *****************************************************************/
   --rotate-0:   rotate(0deg);
@@ -30,8 +26,6 @@
   --rotate-180: rotate(180deg);
 
   /****************************************************************
-  * Skew
-  * Varibles for skewing elements with transform.
   * transform: var(--skew-x-3);
   *****************************************************************/
   --skew-x-0:  skewX(0deg);

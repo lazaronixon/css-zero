@@ -1,7 +1,5 @@
 :root {
   /****************************************************************
-  * Transition Property
-  * Variables for controlling which CSS properties transition.
   * transition-property: var(--transition);
   *****************************************************************/
   --transition: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
@@ -9,8 +7,6 @@
   --transition-transform: transform, translate, scale, rotate;
 
   /****************************************************************
-  * Transition Timing
-  * Variables for controlling the timing of CSS transitions.
   * transition-duration|transition-delay: var(--time-75);
   *****************************************************************/
   --time-75:   75ms;
@@ -23,8 +19,6 @@
   --time-1000: 1000ms;
 
   /****************************************************************
-  * Transition Timing Function
-  * Variables for controlling the easing of CSS transitions.
   * transition-timing-function: var(--ease-3);
   *****************************************************************/
   --ease-1: cubic-bezier(.25, 0, .5, 1);

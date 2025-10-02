@@ -1,7 +1,5 @@
 :root {
   /****************************************************************
-  * Font Size
-  * Variables for controlling the font size of an element.
   * font-size: var(--text-xs);
   *****************************************************************/
   --text-xs:   0.75rem;  /* 12px */
@@ -31,8 +29,6 @@
   --text-fluid-7xl:  clamp(4.5rem, 2.91rem + 7.95vw, 8rem);         /* 72px..128px */
 
   /****************************************************************
-  * Font Weight
-  * Variables for controlling the font weight of an element.
   * font-weight: var(--font-hairline);
   *****************************************************************/
   --font-thin:       100;
@@ -46,8 +42,6 @@
   --font-black:      900;
 
   /****************************************************************
-  * Line Height
-  * Variables for controlling the leading (line height) of an element.
   * line-height: var(--leading-tight);
   *****************************************************************/
   --leading-none:    1;
@@ -66,8 +60,6 @@
   --leading-10:      2.5rem;  /* 40px */
 
   /****************************************************************
-  * Font Family (https://modernfontstacks.com)
-  * Variables for controlling the font family of an element.
   * font-family: var(--font-sans);
   *****************************************************************/
   --font-system-ui: system-ui, sans-serif;
@@ -87,8 +79,6 @@
   --font-handwritten: Segoe Print, Bradley Hand, Chilanka, TSCu_Comic, casual, cursive;
 
   /****************************************************************
-  * Letter Spacing
-  * Variables for controlling the tracking (letter spacing) of an element.
   * letter-spacing: var(--tracking-tighter);
   *****************************************************************/
   --tracking-tighter: -0.05em;

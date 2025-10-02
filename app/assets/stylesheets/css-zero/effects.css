@@ -1,7 +1,5 @@
 :root {
   /****************************************************************
-  * Box Shadow
-  * Variables for controlling the box shadow of an element.
   * box-shadow: var(--shadow-sm);
   ****************************************************************/
   --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -13,8 +11,6 @@
   --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 
   /****************************************************************
-  * Opacity
-  * Variables for controlling the opacity of an element.
   * opacity: var(--opacity-25);
   ****************************************************************/
   --opacity-5:   0.05;

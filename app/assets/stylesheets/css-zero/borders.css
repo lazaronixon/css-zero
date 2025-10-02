@@ -1,7 +1,5 @@
 :root {
   /****************************************************************
-  * Border Width
-  * Variables for controlling the width of an element's borders.
   * border-width: var(--border);
   *****************************************************************/
   --border:   1px;
@@ -10,8 +8,6 @@
   --border-8: 8px;
 
   /****************************************************************
-  * Border Radius
-  * Variables for controlling the border radius of an element.
   * border-radius: var(--rounded-sm);
   *****************************************************************/
   --rounded-xs:   0.125rem; /* 2px */
