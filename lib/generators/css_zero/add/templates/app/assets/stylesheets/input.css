@@ -1,4 +1,4 @@
-.input {
+:where(.input) {
   &:not([type="checkbox"], [type="radio"], [type="range"]) {
     appearance: none;
     background-color: var(--input-background, var(--color-surface));
