@@ -34,6 +34,10 @@
     background-size: var(--size-4) auto;
   }
 
+  > option {
+    padding: revert;
+  }
+
   &::file-selector-button {
     font-weight: var(--font-medium);
   }
@@ -52,10 +56,6 @@
 
   &:disabled {
     cursor: not-allowed; opacity: var(--opacity-50);
-  }
-
-  > option {
-    padding: revert;
   }
 
   .field_with_errors & {
