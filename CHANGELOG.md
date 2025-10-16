@@ -1,4 +1,4 @@
-## [Unreleased]
+## 2.1.0
 - Update trix toolbar styles for improved color handling
 - Change flash and alert positive/negative style
 - Set foreground color for selection in base.css
