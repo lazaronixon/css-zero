@@ -63,10 +63,12 @@
   }
 }
 
-.input--actor > input {
-  border: 0; inline-size: 100%; outline: 0;
-}
+.input--actor {
+  > input {
+    inline-size: 100%; outline: 0;
+  }
 
-.input--actor:focus-within {
-  outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
+  &:focus-within {
+    outline: var(--input-outline-size, 2px) solid var(--color-selected-dark);
+  }
 }
