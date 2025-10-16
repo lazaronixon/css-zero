@@ -1,19 +1,10 @@
 .flash {
-  align-items: center;
   animation: appear-then-fade 4s 300ms both;
   background-color: var(--flash-background, var(--color-text));
   border-radius: var(--rounded-full);
   color: var(--flash-color, var(--color-text-reversed));
-  column-gap: var(--size-2);
-  display: inline-flex;
-  font-size: var(--text-fluid-base);
-  justify-content: center;
-  line-height: var(--leading-none);
   margin-block-start: var(--flash-position, var(--size-5));
   margin-inline: auto;
-  min-block-size: var(--size-11);
-  padding: var(--size-1) var(--size-4);
-  text-align: center;
 
   &:is(:hover, :focus-within) {
     animation-play-state: paused;
@@ -22,6 +13,18 @@
   [data-turbo-preview] & {
     display: none;
   }
+}
+
+.flash__content {
+  align-items: center;
+  column-gap: var(--size-2);
+  display: flex;
+  font-size: var(--text-fluid-base);
+  justify-content: center;
+  line-height: var(--leading-none);
+  min-block-size: var(--size-11);
+  padding: var(--size-1) var(--size-4);
+  text-align: center;
 }
 
 .flash--positive {

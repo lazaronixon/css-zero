@@ -38,7 +38,9 @@
 
     <main id="main">
       <%% if notice.present? %>
-        <%%= tag.div notice, popover: "manual", class: "flash", style: "--flash-position: 5rem", data: { controller: "element-removal", action: "animationend->element-removal#remove", role: "alert" } %>
+        <div popover="manual" class="flash" data-controller="flash" data-action="animationend->flash#hide" role="alert">
+          <div class="flash__content"><%%= notice %></div>
+        </div>
       <%% end %>
       <div class="container">
         <%%= yield %>

@@ -7,7 +7,8 @@
 - Extract dual range to dual_range component
 - Add card-check to card.css
 - Flash add animation-play-state stop on hover
-- Use".input" for "checkbox, radio and range".
+- Use".input" for "checkbox, radio and range"
+- Reimplement flash component (Fix z-order)
 
 ## 2.0.3 - 2025-08-08
 - Fix command component accessibility issues
