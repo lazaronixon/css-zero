@@ -67,7 +67,7 @@ dual_range:
   - app/javascript/controllers/dual_range_controller.js
 flash:
   - app/assets/stylesheets/flash.css
-  - app/javascript/controllers/element_removal_controller.js
+  - app/javascript/controllers/flash_controller.js
 form:
   - app/javascript/controllers/form_controller.js
 fullscreen:
