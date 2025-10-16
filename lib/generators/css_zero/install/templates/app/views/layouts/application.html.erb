@@ -38,7 +38,7 @@
 
     <main id="main">
       <%% if notice.present? %>
-        <div popover="manual" class="flash" data-controller="flash" data-action="animationend->flash#hide" role="alert">
+      <div popover="manual" class="flash" style="--flash-position: 5rem" data-controller="flash" data-action="animationend->flash#hide" role="alert">
           <div class="flash__content"><%%= notice %></div>
         </div>
       <%% end %>
