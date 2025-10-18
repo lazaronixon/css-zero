@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
 
 ## 2.1.0 - 2025-10-16
