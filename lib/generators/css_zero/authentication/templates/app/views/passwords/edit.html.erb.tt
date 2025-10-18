@@ -1,5 +1,7 @@
 <%% if alert.present? %>
-  <div popover class="flash" style="--flash-position: 5rem;" data-controller="element-removal" data-action="animationend->element-removal#remove" role="alert"><%%= alert %></div>
+  <div popover="manual" class="flash" style="--flash-position: 5rem" data-controller="flash" data-action="animationend->flash#hide" role="alert">
+    <div class="flash__content"><%%= alert %></div>
+  </div>
 <%% end %>
 
 <h1 class="font-bold text-4xl mbe-4">Update your password</h1>

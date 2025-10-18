@@ -1,6 +1,7 @@
 ## [Unreleased]
+- Fix flash messages in authentication templates
 
-## 2.1.0
+## 2.1.0 - 2025-10-16
 - Update trix toolbar styles for improved color handling
 - Change flash and alert positive/negative style
 - Set foreground color for selection in base.css
