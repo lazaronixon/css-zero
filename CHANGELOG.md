@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Remove disabled and check styles from card.css
+- Add item component with styles and usage documentation
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates

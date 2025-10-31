@@ -1,0 +1,19 @@
+.item {
+  background-color: var(--item-background, transparent);
+  border: 1px solid var(--item-border-color, var(--color-border));
+  border-radius: var(--rounded-md);
+  padding: var(--size-4);
+}
+
+.item--muted {
+  --item-background: rgb(from var(--color-border-light) r g b / .5);
+}
+
+.item--borderless {
+  --item-border-color: transparent;
+}
+
+.item--check:has(:checked) {
+  --item-background: rgb(from var(--color-border-light) r g b / .5);
+  --item-border-color: var(--color-border-dark);
+}
