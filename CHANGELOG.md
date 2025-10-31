@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Remove disabled and check styles from card.css
 - Add item component with styles and usage documentation
+- Add support for short date, in days, and time ago formats to local_time
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
