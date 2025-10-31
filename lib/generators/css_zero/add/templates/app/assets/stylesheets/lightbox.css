@@ -1,8 +1,8 @@
 .lightbox {
   background-color: rgba(0, 0, 0, .8);
   block-size: 100dvh;
-  max-block-size: unset;
   inline-size: 100dvw;
+  max-block-size: unset;
   max-inline-size: unset;
   padding: var(--size-4);
 
@@ -32,6 +32,6 @@
 
 .lightbox__image {
   grid-area: 1/1;
-  max-inline-size: calc(100dvw - (var(--size-4) * 2));
   max-block-size:  calc(100dvh - (var(--size-4) * 2));
+  max-inline-size: calc(100dvw - (var(--size-4) * 2));
 }

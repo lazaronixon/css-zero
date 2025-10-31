@@ -2,8 +2,8 @@
   align-items: center;
   background-color: var(--btn-background, var(--color-surface));
   block-size: var(--btn-block-size, auto);
-  border-radius: var(--btn-radius, var(--rounded-md));
   border: 1px solid var(--btn-border-color, var(--color-border));
+  border-radius: var(--btn-radius, var(--rounded-md));
   box-shadow: var(--btn-box-shadow, var(--shadow-xs));
   color: var(--btn-color, var(--color-text));
   column-gap: var(--size-2);

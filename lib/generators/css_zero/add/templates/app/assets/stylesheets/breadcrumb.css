@@ -1,7 +1,7 @@
 :where(.breadcrumb) {
   align-items: center;
-  color: var(--color-text-subtle);
   column-gap: var(--size-1);
+  color: var(--color-text-subtle);
   display: flex;
   flex-wrap: wrap;
   font-size: var(--text-sm);

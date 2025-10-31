@@ -1,7 +1,7 @@
 .command {
   background-color: var(--color-surface);
-  border-width: var(--border);
   border-radius: var(--rounded-lg);
+  border-width: var(--border);
   box-shadow: var(--shadow-xs);
   display: flex;
   flex-direction: column;

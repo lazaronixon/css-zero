@@ -1,8 +1,8 @@
 @import url("https://esm.sh/dropzone@6.0.0-beta.2/dist/dropzone.css");
 
 .dropzone {
-  border-radius: var(--rounded-xl);
   border: 2px dashed var(--color-border);
+  border-radius: var(--rounded-xl);
   padding: var(--size-2);
 }
 

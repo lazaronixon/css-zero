@@ -36,8 +36,8 @@
 }
 
 .flash--extended {
-  animation-name: appear-then-fade-extended;
   animation-duration: 12s;
+  animation-name: appear-then-fade-extended;
 }
 
 @keyframes appear-then-fade {

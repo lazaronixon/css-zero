@@ -1,8 +1,8 @@
 .sheet {
   background-color: var(--color-bg);
+  block-size: var(--size-full);
   border-inline-width: var(--sheet-border);
   box-shadow: var(--shadow-lg);
-  block-size: var(--size-full);
   color: var(--color-text);
   inline-size: var(--sheet-size, var(--size-3-4));
   margin-inline: var(--sheet-margin);

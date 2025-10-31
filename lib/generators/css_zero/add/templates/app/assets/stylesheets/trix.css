@@ -24,8 +24,8 @@
 /* CSS Zero */
 
 trix-toolbar {
-  inset-block-start: 0;
   inline-size: 100%;
+  inset-block-start: 0;
   position: sticky;
 
   .trix-button-row {
@@ -64,20 +64,20 @@ trix-toolbar {
     background-color: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: var(--rounded-md);
-    margin: var(--size-1);
     box-shadow: var(--shadow-md);
+    margin: var(--size-1);
   }
 
   .trix-input--dialog {
-    border-color: var(--color-border);
     background-color: var(--color-surface);
+    border-color: var(--color-border);
     margin: 0;
   }
 
   .trix-button--dialog {
-    margin-inline-start: var(--size-1_5);
     background-color: var(--color-primary);
     color: var(--color-text-reversed);
+    margin-inline-start: var(--size-1_5);
   }
 
   [data-trix-dialog] [data-trix-validate]:invalid {
@@ -136,8 +136,8 @@ trix-editor {
     border-inline-start: 2px solid var(--color-border);
     font-style: italic;
     margin: 0;
-    padding-inline-start: var(--size-6);
     padding-inline-end: 0;
+    padding-inline-start: var(--size-6);
   }
 
   pre {
@@ -176,8 +176,8 @@ trix-editor {
   }
 
   .attachment--file {
-    color: var(--color--text);
     border: 1px solid var(--color-border);
+    color: var(--color--text);
   }
 
   .attachment__progress {

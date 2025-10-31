@@ -1,8 +1,8 @@
 .sidebar-menu {
+  block-size: var(--size-full);
   display: flex;
   flex-direction: column;
   row-gap: var(--size-4);
-  block-size: var(--size-full);
 }
 
 .sidebar-menu__button {
@@ -10,9 +10,9 @@
   --btn-border-color: transparent;
   --btn-box-shadow: none;
   --btn-font-weight: var(--font-normal);
+  --btn-inline-size: var(--size-full);
   --btn-justify-content: start;
   --btn-outline-size: 0;
-  --btn-inline-size: var(--size-full);
   --btn-padding: var(--size-1) var(--size-2);
 
   &[aria-current="page"] {
@@ -49,8 +49,8 @@
 .sidebar-menu__content {
   display: flex;
   flex-direction: column;
-  row-gap: var(--size-4);
   overflow-y: scroll;
+  row-gap: var(--size-4);
 }
 
 .sidebar-menu__group {

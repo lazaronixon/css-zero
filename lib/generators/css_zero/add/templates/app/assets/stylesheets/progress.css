@@ -1,18 +1,18 @@
 .progress {
-  --track: rgb(from var(--color-primary) r g b / .2);
   --progress: var(--color-primary);
+  --track: rgb(from var(--color-primary) r g b / .2);
 
   background-color: var(--track);
-  border-radius: var(--rounded-full);
   block-size: var(--size-2);
+  border-radius: var(--rounded-full);
   inline-size: var(--size-full);
   overflow: hidden;
 
   &:indeterminate {
-    background: linear-gradient(to right, var(--track) 45%, var(--progress) 0%, var(--progress) 55%, var(--track) 0%);
-    background-size: 225% 100%;
-    background-position: right;
     animation: progress-loading 2s infinite;
+    background: linear-gradient(to right, var(--track) 45%, var(--progress) 0%, var(--progress) 55%, var(--track) 0%);
+    background-position: right;
+    background-size: 225% 100%;
   }
 
   /*  Safari/Chromium  */

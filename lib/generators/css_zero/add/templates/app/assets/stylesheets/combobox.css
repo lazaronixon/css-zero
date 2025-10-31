@@ -5,11 +5,11 @@
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--rounded-md);
-  min-block-size: var(--size-9);
   color: var(--color-text);
   display: inline-flex;
   font-size: var(--text-sm);
   line-height: inherit;
+  min-block-size: var(--size-9);
   padding: var(--size-1_5) var(--size-3);
 
   > input {
