@@ -4,6 +4,7 @@
 - Add support for short date, and time ago formats to local_time
 - Add disableSubmitWhenInvalid method to form controller
 - Rename submitterTarget to submitTarget in autosave controller
+- Add input_otp component and remove web_otp component
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
