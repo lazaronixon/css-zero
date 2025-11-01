@@ -2,6 +2,7 @@
 - Remove disabled and check styles from card.css
 - Add item component with styles and usage documentation
 - Add support for short date, and time ago formats to local_time
+- Add disableSubmitWhenInvalid method to form controller
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
