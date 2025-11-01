@@ -1,7 +1,8 @@
 .item {
   background-color: var(--item-background, transparent);
   border: 1px solid var(--item-border-color, var(--color-border));
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded-lg);
+  font-size: var(--text-sm);
   padding: var(--size-4);
 }
 
