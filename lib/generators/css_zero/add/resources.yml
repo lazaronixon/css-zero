@@ -114,8 +114,6 @@ input_revealable:
   - app/assets/stylesheets/input_revealable.css
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
-item:
-  - app/assets/stylesheets/item.css
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/stylesheets/sidebar_menu.css
@@ -124,6 +122,8 @@ lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js
   - app/javascript/controllers/web_share_controller.js
+list:
+  - app/assets/stylesheets/list.css
 local_time:
   - app/javascript/controllers/local_time_controller.js
 popover:
