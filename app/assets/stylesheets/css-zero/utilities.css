@@ -148,6 +148,7 @@
 .i-full { inline-size: 100%; }
 
 .i-min { inline-size: min-content; }
+.i-fit { inline-size: fit-content; }
 
 .overflow-x-auto { overflow-x: auto; scroll-snap-type: x mandatory; }
 .overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; }

@@ -5,6 +5,7 @@
 - Add disableSubmitWhenInvalid method to form controller
 - Rename submitterTarget to submitTarget in autosave controller
 - Add input_otp component and remove web_otp component
+- Add .i-fit utility for inline-size: fit-content
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
