@@ -5,8 +5,9 @@
   flex-shrink: 0;
   inline-size: var(--icon-size, 1rem);
   mask-image: var(--svg);
+  mask-position: center;
   mask-repeat: no-repeat;
-  mask-size: cover;
+  mask-size: var(--icon-size, 1em);
   pointer-events: none;
   user-select: none;
 }
