@@ -7,6 +7,7 @@
 - Add input_otp component and remove web_otp component
 - Add .i-fit utility for inline-size: fit-content
 - Add .flex-1 utility for flex: 1
+- Remove .grow-0 utility class
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
