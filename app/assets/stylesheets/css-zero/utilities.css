@@ -327,8 +327,8 @@
 
 .hide\@pwa { @media (display-mode: standalone) { display: none; } }
 .hide\@browser { @media (display-mode: browser) { display: none; } }
-
 .hide\@print { @media print { display: none; } }
+.hide\@touch { @media (any-hover: none) { display: none; } }
 
 /****************************************************************
 * Accessibility
