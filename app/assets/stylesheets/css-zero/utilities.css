@@ -316,7 +316,6 @@
 * Hiding/Showing
 *****************************************************************/
 .show\@sm, .show\@md, .show\@lg, .show\@xl { display: none; }
-
 .show\@sm { @media (width >= 40rem) { display: flex; } }
 .show\@md { @media (width >= 48rem) { display: flex; } }
 .show\@lg { @media (width >= 64rem) { display: flex; } }
