@@ -136,7 +136,7 @@
 .inline-block { display: inline-block; }
 
 .relative { position: relative; }
-.sticky	{ position: sticky; }
+.sticky	{ position: sticky; inset-block-start: 0; z-index: 1; }
 
 .min-i-0 { min-inline-size: 0; }
 .max-i-none { max-inline-size: none; }
