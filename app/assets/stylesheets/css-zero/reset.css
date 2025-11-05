@@ -376,7 +376,7 @@ input:where([type='button'], [type='reset'], [type='submit']),
 */
 
 [contents] {
-  display: contents !important;
+  display: contents;
 }
 
 /*
