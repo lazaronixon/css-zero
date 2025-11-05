@@ -38,7 +38,6 @@
 
 .uppercase { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
-.normal-case { text-transform: none; }
 
 .whitespace-nowrap { white-space: nowrap; }
 .whitespace-normal { white-space: normal; }

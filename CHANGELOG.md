@@ -9,6 +9,7 @@
 - Add .flex-1 utility for flex: 1
 - Remove .grow-0 utility class
 - Update input feedback selector to use [feedback] attribute
+- Remove .normal-case utility from stylesheet
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
