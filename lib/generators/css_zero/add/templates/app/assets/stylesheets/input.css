@@ -46,8 +46,8 @@
     border-color: var(--color-negative);
   }
 
-  &:user-invalid + .invalid-feedback {
-    display: block;
+  &:user-invalid + [feedback] {
+    display: flex;
   }
 
   &:focus-visible {

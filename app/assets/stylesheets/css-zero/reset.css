@@ -372,7 +372,7 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
-  Make elements with the HTML contents attribute become pseudo-box by default.
+  Make elements with the HTML contents attribute stay pseudo-box by default.
 */
 
 [contents] {
@@ -380,7 +380,15 @@ input:where([type='button'], [type='reset'], [type='submit']),
 }
 
 /*
-  Make turbo frame become pseudo-box by default.
+  Make elements with the HTML feedback attribute stay hidden by default.
+*/
+
+[feedback] {
+  display: none;
+}
+
+/*
+  Make elements with turbo frames stay pseudo-box by default.
 */
 
 turbo-frame {
@@ -388,19 +396,11 @@ turbo-frame {
 }
 
 /*
-  Make field with errors become pseudo-box by default.
+  Make Rails field_with_errors stay pseudo-box by default.
 */
 
 .field_with_errors {
   display: contents;
-}
-
-/*
-  Make invalid-feedback become hidden by default.
-*/
-
-.invalid-feedback {
-  display: none;
 }
 
 /*
