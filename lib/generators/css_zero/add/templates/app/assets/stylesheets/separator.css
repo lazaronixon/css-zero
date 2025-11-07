@@ -1,0 +1,11 @@
+.separator-horizontal {
+  background-color: var(--color-border-dark);
+  block-size: 1px;
+  inline-size: var(--size-full);
+}
+
+.separator-vertical {
+  background-color: var(--color-border-dark);
+  block-size: var(--size-full);
+  inline-size: 1px;
+}
