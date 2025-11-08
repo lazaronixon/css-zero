@@ -10,6 +10,7 @@
 .command__input {
   --input-background: transparent;
   --input-border-color: transparent;
+  --input-box-shadow: none;
   --input-outline-size: 0;
   --input-padding: var(--size-2_5);
 }
@@ -18,6 +19,10 @@
   border-block-start-width: var(--border);
   max-block-size: 300px;
   overflow-y: auto;
+
+  &:not(:has(.command__item:not([hidden]))) {
+    display: none;
+  }
 }
 
 .command__group:not(:first-child) {
@@ -29,6 +34,10 @@
   flex-direction: column;
   padding: var(--size-1);
   row-gap: 1px;
+
+  &:not(:has(.command__item:not([hidden]))) {
+    display: none;
+  }
 }
 
 .command__group-header {
@@ -61,15 +70,4 @@
   color: var(--color-text-subtle);
   font-size: var(--text-xs);
   margin-inline-start: auto;
-}
-
-.command__list--filtering:not(:has(.selected)) {
-  .command__empty { display: flex; }
-}
-
-.command__list--filtering {
-  .command__group { display: none; }
-  .command__group:has(.selected) { display: flex; }
-  .command__item { display: none; }
-  .command__item:is(.selected) { display: flex; }
 }
