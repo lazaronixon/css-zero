@@ -47,7 +47,7 @@
   }
 
   &:user-invalid + [feedback] {
-    display: flex;
+    display: unset;
   }
 
   &:focus-visible {
