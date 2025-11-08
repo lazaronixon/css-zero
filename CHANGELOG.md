@@ -14,7 +14,6 @@
 - Update .sticky utility to set top and z-index
 - Add separator component with CSS styles and generator support
 - Simplify command filtering logic and update styles
-- Use unset instead of flex for show@* display utilities
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
