@@ -25,7 +25,7 @@
     outline: var(--btn-outline-size, 2px) solid var(--color-selected-dark);
   }
 
-  &:is(:disabled, [aria-disabled="true"]) {
+  &:disabled {
     opacity: var(--opacity-50);
     pointer-events: none;
   }
