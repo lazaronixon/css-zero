@@ -55,6 +55,9 @@
 .leading-none { line-height: var(--leading-none); }
 .leading-tight { line-height: var(--leading-tight); }
 
+.text-undecorated { text-decoration: none; }
+.text-underline { text-decoration: underline; }
+
 .text-start { text-align: start; }
 .text-end { text-align: end; }
 .text-center { text-align: center; }
