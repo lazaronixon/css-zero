@@ -8,6 +8,8 @@
 - Add .i-fit utility for inline-size: fit-content
 - Add .flex-1 utility for flex: 1
 - Remove .grow-0 utility class
+- Rename .grow to .flex-item-grow
+- Rename .shrink-0 to .flex-item-no-shrink
 - Update input feedback selector to use [feedback] attribute
 - Remove .normal-case utility from stylesheet
 - Add .hide@touch utility for touch devices

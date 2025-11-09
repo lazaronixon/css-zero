@@ -17,9 +17,8 @@
 .items-baseline { align-items: baseline; }
 
 .flex-1 { flex: 1; }
-.grow { flex-grow: 1; }
-.shrink { flex-shrink: 1; }
-.shrink-0 { flex-shrink: 0; }
+.flex-item-grow { flex-grow: 1; }
+.flex-item-no-shrink { flex-shrink: 0; }
 
 .self-start { align-self: start; }
 .self-end { align-self: end; }
