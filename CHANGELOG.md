@@ -14,6 +14,7 @@
 - Update .sticky utility to set top and z-index
 - Add separator component with CSS styles and generator support
 - Simplify command filtering logic and update styles
+- Refactor sidebar menu content scrolling and flex sizing
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates

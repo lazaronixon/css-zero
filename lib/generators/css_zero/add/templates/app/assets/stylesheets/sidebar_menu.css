@@ -48,8 +48,10 @@
 
 .sidebar-menu__content {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  overflow-y: scroll;
+  min-block-size: 0;
+  overflow-y: auto;
   row-gap: var(--size-4);
 }
 
