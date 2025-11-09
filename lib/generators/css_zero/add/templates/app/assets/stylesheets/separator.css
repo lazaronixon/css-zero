@@ -1,6 +1,7 @@
 .separator {
   background-color: var(--color-border-dark);
   block-size: 1px;
+  flex-shrink: 0;
   inline-size: var(--size-full);
 }
 
