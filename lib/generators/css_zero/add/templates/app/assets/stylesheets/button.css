@@ -76,7 +76,7 @@
   --btn-padding: var(--size-2);
 }
 
-[aria-busy="true"] .btn--loading:disabled {
+[aria-busy] .btn--submitter:disabled {
   > * {
     visibility: hidden;
   }
