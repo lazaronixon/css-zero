@@ -16,7 +16,7 @@
 - Simplify command filtering logic and update styles
 - Refactor sidebar menu content scrolling and flex sizing
 - Rename .group-inline and .group-block to .group and .group-vertical
-- Rename .btn--loading to btn--submitter
+- Rename .btn--loading to .btn--busy
 
 ## 2.1.1 - 2025-10-18
 - Fix flash messages in authentication templates
