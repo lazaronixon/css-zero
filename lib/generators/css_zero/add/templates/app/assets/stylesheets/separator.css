@@ -5,6 +5,9 @@
   inline-size: var(--size-full);
 }
 
-.separator--vertical {
-  block-size: var(--size-full); inline-size: 1px;
+.separator-vertical {
+  background-color: var(--color-border-dark);
+  block-size: var(--size-full);
+  flex-shrink: 0;
+  inline-size: 1px;
 }
