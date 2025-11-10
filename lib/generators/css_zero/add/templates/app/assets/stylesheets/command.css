@@ -61,7 +61,7 @@
   --btn-outline-size: 0;
   --btn-padding: var(--size-1_5) var(--size-2);
 
-  &[aria-selected] {
+  &[aria-selected="true"] {
     --btn-background: var(--color-border-light);
   }
 }
