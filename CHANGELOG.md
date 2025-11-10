@@ -1,6 +1,6 @@
 ## [Unreleased]
 
-## 2.2.0 - 2025-11-10
+## 3.0.0 - 2025-11-10
 - Remove disabled and check styles from card.css
 - Add list component with styles and usage documentation
 - Add support for short date, and time ago formats to local_time
