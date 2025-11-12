@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Remove debounce from filter method in command controller
 
 ## 3.0.0 - 2025-11-10
 - Remove disabled and check styles from card.css
