@@ -9,10 +9,6 @@
   &:is(:hover, :focus-within) {
     animation-play-state: paused;
   }
-
-  [data-turbo-preview] & {
-    display: none;
-  }
 }
 
 .flash__content {
