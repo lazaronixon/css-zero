@@ -2,6 +2,7 @@
 - Remove debounce from filter method in command controller
 - Form, make debounce timeout configurable with a default value
 - No need to hide flash messages during Turbo preview
+- Fixed list component install
 
 ## 3.0.0 - 2025-11-10
 - Remove disabled and check styles from card.css
