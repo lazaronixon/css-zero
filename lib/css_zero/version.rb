@@ -1,3 +1,3 @@
 module CssZero
-  VERSION = "3.1.0"
+  VERSION = "3.0.1"
 end

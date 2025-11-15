@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 3.0.1 - 2025-11-15
 - Remove debounce from filter method in command controller
 - Form, make debounce timeout configurable with a default value
 - No need to hide flash messages during Turbo preview
