@@ -9,13 +9,13 @@
   inline-size: var(--size);
   overflow: hidden;
 
-  &:is(.btn) {
+  &.btn {
     --btn-inline-size: var(--size);
     --btn-padding: 0;
     --btn-radius: var(--radius);
   }
 
-  &:is(.btn):hover {
+  &.btn:hover {
     filter: var(--brightness-90);
   }
 
