@@ -1,13 +1,13 @@
 .separator {
-  background-color: var(--color-border-dark);
+  background-color: var(--sep-color, var(--color-border));
   block-size: 1px;
   flex-shrink: 0;
-  inline-size: var(--size-full);
+  inline-size: var(--sep-size, var(--size-full));
 }
 
 .separator-vertical {
-  background-color: var(--color-border-dark);
-  block-size: var(--size-full);
+  background-color: var(--sep-color, var(--color-border));
+  block-size: var(--sep-size, var(--size-full));
   flex-shrink: 0;
   inline-size: 1px;
 }

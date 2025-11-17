@@ -1,5 +1,6 @@
 ## [Unreleased]
 - Fix default icon size from 1em to 1rem
+- Add CSS variables for separator color and size
 
 ## 3.0.1 - 2025-11-15
 - Remove debounce from filter method in command controller
