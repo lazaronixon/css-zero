@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Fix default icon size from 1em to 1rem
 
 ## 3.0.1 - 2025-11-15
 - Remove debounce from filter method in command controller

@@ -7,7 +7,7 @@
   mask-image: var(--svg);
   mask-position: center;
   mask-repeat: no-repeat;
-  mask-size: var(--icon-size, 1em);
+  mask-size: var(--icon-size, 1rem);
   pointer-events: none;
   user-select: none;
 }
