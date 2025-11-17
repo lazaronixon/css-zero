@@ -5,6 +5,12 @@
   grid-template-columns: var(--sidebar-width, 0) 1fr;
   grid-template-rows: auto 1fr;
 
+  &:is(.closed) {
+    --sidebar-border-width: 0;
+    --sidebar-padding: 0;
+    --sidebar-width: 0;
+  }
+
   @media (width >= 48rem) {
     --sidebar-border-width: var(--border);
     --sidebar-padding: var(--size-2);
