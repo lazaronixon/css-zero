@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
 - Add CSS variables for separator color and size
 - Replace menu icon with panel-left icon
