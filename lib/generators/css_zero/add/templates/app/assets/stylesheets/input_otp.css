@@ -1,5 +1,5 @@
 .input--otp {
-  font-family: ui-monospace, monospace;
+  font-family: var(--font-monospace-code);
   font-weight: var(--font-black);
   inline-size: var(--input-otp-size, auto);
   letter-spacing: 1ch;

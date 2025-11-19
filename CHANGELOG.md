@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Use CSS variable for OTP input font family
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
