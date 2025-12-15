@@ -9,7 +9,7 @@
   /* Anchor position */
   position-area: var(--popover-position, block-end);
   position-try-fallbacks: var(--popover-position-try-fallbacks, flip-block);
-  margin-block: var(--popover-margin-block, var(--size-1) 0);
+  margin-block: var(--popover-margin-block, .25rem 0);
 
   /* Setup transition */
   transition-duration: var(--time-150);
@@ -39,31 +39,31 @@
 
 .popover--block-end-center {
   --popover-position: block-end;
-  --popover-margin-block: var(--size-1) 0;
+  --popover-margin-block: .25rem 0;
 }
 
 .popover--block-end-start {
   --popover-position: block-end span-inline-end;
-  --popover-margin-block: var(--size-1) 0;
+  --popover-margin-block: .25rem 0;
 }
 
 .popover--block-end-end {
   --popover-position: block-end span-inline-start;
-  --popover-margin-block: var(--size-1) 0;
+  --popover-margin-block: .25rem 0;
 }
 
 .popover--block-start-center {
   --popover-position: block-start;
-  --popover-margin-block: 0 var(--size-1);
+  --popover-margin-block: 0 .25rem;
 }
 
 .popover--block-start-start {
   --popover-position: block-start span-inline-end;
-  --popover-margin-block: 0 var(--size-1);
+  --popover-margin-block: 0 .25rem;
 }
 
 .popover--block-start-end {
   --popover-position: block-start span-inline-start;
-  --popover-margin-block: 0 var(--size-1);
+  --popover-margin-block: 0 .25rem;
 }
 
