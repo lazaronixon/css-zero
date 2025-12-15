@@ -6,14 +6,17 @@
   color: var(--color-text);
   inline-size: var(--popover-size, max-content);
 
+  /* Anchor position */
+  position-area: var(--popover-position, block-end);
+  position-try-fallbacks: var(--popover-position-try-fallbacks, flip-block);
+  margin-block-start: var(--size-1);
+
   /* Setup transition */
-  transition-behavior: allow-discrete;
   transition-duration: var(--time-150);
-  transition-property: display, overlay, opacity, transform;
+  transition-property: display, opacity, overlay, transform;
 
   /* Exit stage to */
-  opacity: 0;
-  transform: var(--scale-95);
+  opacity: 0; transform: var(--scale-95);
 
   /* On stage */
   &:popover-open {
@@ -27,3 +30,33 @@
     }
   }
 }
+
+.popover--position-none {
+  --popover-position: none;
+  --popover-position-try-fallbacks: none;
+}
+
+.popover--block-end-center {
+  --popover-position: block-end;
+}
+
+.popover--block-end-start {
+  --popover-position: block-end span-inline-end;
+}
+
+.popover--block-end-end {
+  --popover-position: block-end span-inline-start;
+}
+
+.popover--block-start-center {
+  --popover-position: block-start;
+}
+
+.popover--block-start-start {
+  --popover-position: block-start span-inline-end;
+}
+
+.popover--block-start-end {
+  --popover-position: block-start span-inline-start;
+}
+
