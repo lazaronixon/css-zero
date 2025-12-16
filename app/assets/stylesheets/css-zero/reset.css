@@ -423,6 +423,6 @@ turbo-frame {
   Prevent page scroll when modal dialog is open.
 */
 
-html:has(dialog:modal[open]) {
+body:has(dialog:modal) {
   overflow: hidden;
 }
