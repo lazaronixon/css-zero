@@ -31,7 +31,7 @@
   }
 }
 
-.popover--position-none {
+.popover--unanchored {
   --popover-position: none;
   --popover-position-try-fallbacks: none;
   --popover-margin-block: 0;
