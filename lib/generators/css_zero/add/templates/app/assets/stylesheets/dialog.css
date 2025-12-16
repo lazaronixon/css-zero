@@ -13,7 +13,6 @@
   }
 
   /* Setup transition */
-  transition-behavior: allow-discrete;
   transition-duration: var(--time-200);
   transition-property: display, overlay, opacity, transform;
 
