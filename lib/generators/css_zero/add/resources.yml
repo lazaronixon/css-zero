@@ -83,7 +83,6 @@ icons:
   - app/assets/images/chevron-right.svg
   - app/assets/images/ellipsis.svg
   - app/assets/images/chevrons-up-down.svg
-  - app/assets/images/menu.svg
   - app/assets/images/x.svg
   - app/assets/images/search.svg
   - app/assets/images/eye.svg
@@ -136,7 +135,7 @@ prose:
   - app/assets/stylesheets/prose.css
 resizable:
   - app/assets/stylesheets/resizable.css
-  - app/assets/stylesheets/resizable_controller.js
+  - app/javascript/controllers/resizable_controller.js
   - app/assets/images/grip-horizontal-zink-500.svg
   - app/assets/images/grip-vertical-zink-500.svg
 separator:
