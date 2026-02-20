@@ -5,6 +5,8 @@
 - Remove allow-discrete from dialog
 - Bring back debounce to command_controller
 - Add mouse pointer utilities
+- Rename break-words to wrap-break-word
+- Rename break-all to wrap-anywhere
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
