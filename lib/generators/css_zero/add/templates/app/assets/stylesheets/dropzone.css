@@ -1,4 +1,4 @@
-@import url("https://esm.sh/dropzone@6.0.0-beta.2/dist/dropzone.css");
+@import url("https://esm.sh/@deltablot/dropzone@7.4.3/dist/dropzone.css");
 
 .dropzone {
   border: 2px dashed var(--color-border);
