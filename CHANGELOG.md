@@ -8,6 +8,7 @@
 - Rename break-words to wrap-break-word
 - Rename break-all to wrap-anywhere
 - Fix flash_controller remove -> hide
+- Remove some alpha variables from filters.css
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
