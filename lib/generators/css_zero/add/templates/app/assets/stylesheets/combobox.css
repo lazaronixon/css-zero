@@ -76,6 +76,10 @@
     padding: var(--size-1_5) var(--size-2);
   }
 
+  [data-selectable].option {
+    cursor: default;
+  }
+
   .active {
     background-color: var(--color-border-light);
     color: inherit !important;
@@ -100,6 +104,11 @@
   background-position: center right var(--size-2) !important;
   background-repeat: no-repeat !important;
   background-size: var(--size-4) auto !important;
+  cursor: text;
+
+  input {
+    cursor: inherit;
+  }
 }
 
 .ts-wrapper.multi .ts-control > .item {
