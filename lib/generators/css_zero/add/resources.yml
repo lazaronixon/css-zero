@@ -126,6 +126,8 @@ list:
   - app/assets/stylesheets/list.css
 local_time:
   - app/javascript/controllers/local_time_controller.js
+pagination:
+  - app/assets/stylesheets/pagination.css
 popover:
   - app/assets/stylesheets/popover.css
   - app/javascript/controllers/popover_controller.js

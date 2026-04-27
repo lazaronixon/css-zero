@@ -10,6 +10,7 @@
 - Fix flash_controller remove -> hide
 - Remove some alpha variables from filters.css
 - Change combobox pointer to default
+- Add pagination component
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem

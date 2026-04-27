@@ -7,7 +7,7 @@
   box-shadow: var(--btn-box-shadow, var(--shadow-xs));
   color: var(--btn-color, var(--color-text));
   column-gap: var(--size-2);
-  cursor: default;
+  cursor: var(--btn-cursor, default);
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));
   font-weight: var(--btn-font-weight, var(--font-medium));
