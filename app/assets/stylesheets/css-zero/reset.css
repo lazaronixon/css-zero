@@ -30,7 +30,7 @@ html,
   line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   tab-size: 4; /* 3 */
-  font-family: var(--default-font-family, system-ui, sans-serif); /* 4 */
+  font-family: var(--default-font-family, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'); /* 4 */
   font-feature-settings: var(--default-font-feature-settings, normal); /* 5 */
   font-variation-settings: var(--default-font-variation-settings, normal); /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
