@@ -2,13 +2,17 @@
   /****************************************************************
   * box-shadow: var(--shadow-sm);
   ****************************************************************/
-  --shadow-xs: 0 1px 2px 0 light-dark(rgb(0 0 0 / 0.05), transparent);
-  --shadow-sm: 0 1px 3px 0 light-dark(rgb(0 0 0 / 0.1), transparent), 0 1px 2px -1px light-dark(rgb(0 0 0 / 0.1), transparent);
-  --shadow-md: 0 4px 6px -1px light-dark(rgb(0 0 0 / 0.1), transparent), 0 2px 4px -2px light-dark(rgb(0 0 0 / 0.1), transparent);
-  --shadow-lg: 0 10px 15px -3px light-dark(rgb(0 0 0 / 0.1), transparent), 0 4px 6px -4px light-dark(rgb(0 0 0 / 0.1), transparent);
-  --shadow-xl: 0 20px 25px -5px light-dark(rgb(0 0 0 / 0.1), transparent), 0 8px 10px -6px light-dark(rgb(0 0 0 / 0.1), transparent);
-  --shadow-2xl: 0 25px 50px -12px light-dark(rgb(0 0 0 / 0.25), transparent);
-  --shadow-inner: inset 0 2px 4px 0 light-dark(rgb(0 0 0 / 0.05), transparent);
+  --_shadow-color-light: light-dark(rgb(0 0 0 / 0.05), transparent);
+  --_shadow-color:       light-dark(rgb(0 0 0 / 0.1), transparent);
+  --_shadow-color-dark:  light-dark(rgb(0 0 0 / 0.25), transparent);
+
+  --shadow-xs: 0 1px 2px 0 var(--_shadow-color-light);
+  --shadow-sm: 0 1px 3px 0 var(--_shadow-color), 0 1px 2px -1px var(--_shadow-color);
+  --shadow-md: 0 4px 6px -1px var(--_shadow-color), 0 2px 4px -2px var(--_shadow-color);
+  --shadow-lg: 0 10px 15px -3px var(--_shadow-color), 0 4px 6px -4px var(--_shadow-color);
+  --shadow-xl: 0 20px 25px -5px var(--_shadow-color), 0 8px 10px -6px var(--_shadow-color);
+  --shadow-2xl: 0 25px 50px -12px var(--_shadow-color-dark);
+  --shadow-inner: inset 0 2px 4px 0 var(--_shadow-color-light);
 
   /****************************************************************
   * opacity: var(--opacity-25);
