@@ -331,11 +331,6 @@
 .hide\@lg { @media (width >= 64rem) { display: none; } }
 .hide\@xl { @media (width >= 80rem) { display: none; } }
 
-.hide\@pwa { @media (display-mode: standalone) { display: none; } }
-.hide\@browser { @media (display-mode: browser) { display: none; } }
-.hide\@print { @media print { display: none; } }
-.hide\@touch { @media (any-hover: none) { display: none; } }
-
 /****************************************************************
 * Accessibility
 *****************************************************************/
