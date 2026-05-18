@@ -16,6 +16,9 @@
   --text-8xl:  6rem;     /* 96px */
   --text-9xl:  8rem;     /* 128px */
 
+  /****************************************************************
+  * font-size: var(--text-fluid-xs);
+  *****************************************************************/
   --text-fluid-xs:   clamp(0.75rem, 0.64rem + 0.57vw, 1rem);        /* 12px..16px */
   --text-fluid-sm:   clamp(0.875rem, 0.761rem + 0.568vw, 1.125rem); /* 14px..18px */
   --text-fluid-base: clamp(1rem, 0.89rem + 0.57vw, 1.25rem);        /* 16px..20px */
