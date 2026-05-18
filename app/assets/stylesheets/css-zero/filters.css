@@ -2,14 +2,14 @@
   /****************************************************************
   * Private Variables
   ****************************************************************/
-  --drop-shadow-color-3:  light-dark(rgb(0 0 0 / 0.03), transparent);
-  --drop-shadow-color-4:  light-dark(rgb(0 0 0 / 0.04), transparent);
-  --drop-shadow-color-5:  light-dark(rgb(0 0 0 / 0.05), transparent);
-  --drop-shadow-color-6:  light-dark(rgb(0 0 0 / 0.06), transparent);
-  --drop-shadow-color-7:  light-dark(rgb(0 0 0 / 0.07), transparent);
-  --drop-shadow-color-8:  light-dark(rgb(0 0 0 / 0.08), transparent);
-  --drop-shadow-color-10: light-dark(rgb(0 0 0 / 0.1), transparent);
-  --drop-shadow-color-15: light-dark(rgb(0 0 0 / 0.15), transparent);
+  --color-drop-shadow-3:  light-dark(rgb(0 0 0 / 0.03), transparent);
+  --color-drop-shadow-4:  light-dark(rgb(0 0 0 / 0.04), transparent);
+  --color-drop-shadow-5:  light-dark(rgb(0 0 0 / 0.05), transparent);
+  --color-drop-shadow-6:  light-dark(rgb(0 0 0 / 0.06), transparent);
+  --color-drop-shadow-7:  light-dark(rgb(0 0 0 / 0.07), transparent);
+  --color-drop-shadow-8:  light-dark(rgb(0 0 0 / 0.08), transparent);
+  --color-drop-shadow-10: light-dark(rgb(0 0 0 / 0.1), transparent);
+  --color-drop-shadow-15: light-dark(rgb(0 0 0 / 0.15), transparent);
 
   /****************************************************************
   * filter|backdrop-filter: var(--blur-sm);
@@ -53,12 +53,12 @@
   * filter: var(--drop-shadow);
   *****************************************************************/
   --drop-shadow-none: drop-shadow(0 0 #0000);
-  --drop-shadow-sm:   drop-shadow(0 1px 1px var(--drop-shadow-color-5));
-  --drop-shadow:      drop-shadow(0 1px 2px var(--drop-shadow-color-10)) drop-shadow(0 1px 1px var(--drop-shadow-color-6));
-  --drop-shadow-md:   drop-shadow(0 4px 3px var(--drop-shadow-color-7)) drop-shadow(0 2px 2px var(--drop-shadow-color-6));
-  --drop-shadow-lg:   drop-shadow(0 10px 8px var(--drop-shadow-color-4)) drop-shadow(0 4px 3px var(--drop-shadow-color-10));
-  --drop-shadow-xl:   drop-shadow(0 20px 13px var(--drop-shadow-color-3)) drop-shadow(0 8px 5px var(--drop-shadow-color-8));
-  --drop-shadow-2xl:  drop-shadow(0 25px 25px var(--drop-shadow-color-15));
+  --drop-shadow-sm:   drop-shadow(0 1px 1px var(--color-drop-shadow-5));
+  --drop-shadow:      drop-shadow(0 1px 2px var(--color-drop-shadow-10)) drop-shadow(0 1px 1px var(--color-drop-shadow-6));
+  --drop-shadow-md:   drop-shadow(0 4px 3px var(--color-drop-shadow-7)) drop-shadow(0 2px 2px var(--color-drop-shadow-6));
+  --drop-shadow-lg:   drop-shadow(0 10px 8px var(--color-drop-shadow-4)) drop-shadow(0 4px 3px var(--color-drop-shadow-10));
+  --drop-shadow-xl:   drop-shadow(0 20px 13px var(--color-drop-shadow-3)) drop-shadow(0 8px 5px var(--color-drop-shadow-8));
+  --drop-shadow-2xl:  drop-shadow(0 25px 25px var(--color-drop-shadow-15));
 
   /****************************************************************
   * filter|backdrop-filter: var(--grayscale);
