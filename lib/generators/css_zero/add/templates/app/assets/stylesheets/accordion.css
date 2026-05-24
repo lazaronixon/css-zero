@@ -8,7 +8,7 @@
       overflow: hidden;
       transition-behavior: allow-discrete;
       transition-duration: var(--time-200);
-      transition-property: content-visibility block-size;
+      transition-property: content-visibility, block-size;
     }
 
     &[open]::details-content {
