@@ -7,7 +7,7 @@
 }
 
 ::view-transition-old(.auto-animation):only-child {
-  animation: remove-animation 250ms ease-out;
+  animation: remove-animation 250ms ease-out forwards;
 }
 
 @keyframes add-animation {

@@ -13,6 +13,7 @@
 - Add pagination component
 - Remove .hide@pwa, .hide@browser, .hide@print, and .hide@touch
 - Remove text-fluid-* utility classes
+- Fix blink for auto-animate remove animation
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
