@@ -10,12 +10,11 @@
 - Fix flash_controller remove -> hide
 - Remove some alpha variables from filters.css
 - Change combobox pointer to default
-- Add pagination component
+- Extract pagination component
 - Remove .hide@pwa, .hide@browser, .hide@print, and .hide@touch
 - Remove text-fluid-* utility classes
 - Improve autoanimate and fix blinking.
-- Add .font-black utility class
-- Add .text-current utility class
+- Add .font-black, .text-current, .text-balance, .text-pretty
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
