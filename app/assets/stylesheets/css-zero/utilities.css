@@ -35,6 +35,7 @@
 .font-medium { font-weight: var(--font-medium); }
 .font-semibold { font-weight: var(--font-semibold); }
 .font-bold { font-weight: var(--font-bold); }
+.font-black { font-weight: var(--font-black); }
 
 .uppercase { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
