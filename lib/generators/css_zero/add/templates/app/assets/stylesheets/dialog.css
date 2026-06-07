@@ -13,6 +13,7 @@
   }
 
   /* Setup transition */
+  transition-behavior: allow-discrete;
   transition-duration: var(--time-200);
   transition-property: display, overlay, opacity, transform;
 
@@ -34,6 +35,10 @@
   @starting-style {
     &[open] { opacity: 0; transform: var(--scale-95); }
     &[open]::backdrop { opacity: 0; }
+  }
+
+  @supports (-webkit-hyphens: none) {
+    transition-behavior: revert;
   }
 
   @media (width < 40rem) {

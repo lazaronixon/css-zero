@@ -12,6 +12,7 @@
   margin-block: var(--popover-margin-block, .25rem 0);
 
   /* Setup transition */
+  transition-behavior: allow-discrete;
   transition-duration: var(--time-150);
   transition-property: display, opacity, overlay, transform;
 
@@ -28,6 +29,10 @@
     &:popover-open {
       opacity: 0; transform: var(--scale-95);
     }
+  }
+
+  @supports (-webkit-hyphens: none) {
+    transition-behavior: revert;
   }
 }
 
@@ -66,4 +71,5 @@
   --popover-position: block-start span-inline-start;
   --popover-margin-block: 0 .25rem;
 }
+
 
