@@ -317,11 +317,10 @@
 /****************************************************************
 * Hiding/Showing
 *****************************************************************/
-.show\@sm, .show\@md, .show\@lg, .show\@xl { display: none; }
-.show\@sm { @media (width >= 40rem) { display: flex; } }
-.show\@md { @media (width >= 48rem) { display: flex; } }
-.show\@lg { @media (width >= 64rem) { display: flex; } }
-.show\@xl { @media (width >= 80rem) { display: flex; } }
+.show\@sm { display: none; @media (width >= 40rem) { display: flex; } }
+.show\@md { display: none; @media (width >= 48rem) { display: flex; } }
+.show\@lg { display: none; @media (width >= 64rem) { display: flex; } }
+.show\@xl { display: none; @media (width >= 80rem) { display: flex; } }
 
 .hide\@sm { @media (width >= 40rem) { display: none; } }
 .hide\@md { @media (width >= 48rem) { display: none; } }
