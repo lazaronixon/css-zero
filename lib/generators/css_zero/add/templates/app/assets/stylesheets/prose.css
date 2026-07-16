@@ -73,7 +73,6 @@
     border-radius: 0.5em;
     overflow-x: auto;
     padding: 0.5lh 2ch;
-    text-wrap: nowrap;
   }
 
   pre code {
@@ -99,7 +98,6 @@
 
   table {
     border: 1px solid var(--color-border-dark);
-    border-collapse: collapse;
     margin: 1lh 0;
   }
 
