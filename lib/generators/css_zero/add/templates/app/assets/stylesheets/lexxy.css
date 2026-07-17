@@ -15,8 +15,20 @@
   --lexxy-font-mono: var(--font-monospace-code);
 }
 
-.lexxy-editor__toolbar-button::after {
-  box-sizing: initial;
+lexxy-toolbar {
+  background: var(--lexxy-color-canvas);
+  border-color: var(--lexxy-color-ink-lighter);
+  border-start-end-radius: inherit;
+  border-start-start-radius: inherit;
+  font-size: var(--text-sm);
+  line-height: var(--leading-tight);
+  inset-block-start: 0;
+  position: sticky;
+  z-index: 1;
+
+  ::after {
+    box-sizing: initial;
+  }
 }
 
 .lexxy-editor__content {
