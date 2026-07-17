@@ -22,11 +22,12 @@ lexxy-toolbar {
   border-start-start-radius: inherit;
   font-size: var(--text-sm);
   line-height: var(--leading-tight);
-  inset-block-start: 0;
-  position: sticky;
-  z-index: 1;
 
-  ::after {
+  :is(.lexxy--sticky-toolbar) & {
+    inset-block-start: 0; position: sticky; z-index: 1;
+  }
+
+  button::after {
     box-sizing: initial;
   }
 }
