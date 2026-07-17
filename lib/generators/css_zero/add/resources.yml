@@ -118,6 +118,8 @@ layouts:
   - app/assets/stylesheets/sidebar_menu.css
   - app/javascript/controllers/toggle_class_controller.js
   - app/assets/images/panel-left.svg
+lexxy:
+  - app/assets/stylesheets/lexxy.css
 lightbox:
   - app/assets/stylesheets/lightbox.css
   - app/javascript/controllers/lightbox_controller.js
@@ -160,8 +162,6 @@ timezone_cookie:
   - app/javascript/controllers/timezone_cookie_controller.js
 toggle:
   - app/assets/stylesheets/toggle.css
-trix:
-  - app/assets/stylesheets/trix.css
 turbo_confirm:
   - app/assets/stylesheets/dialog.css
   - app/javascript/controllers/turbo_confirm_controller.js

@@ -1,0 +1,24 @@
+@import url("https://esm.sh/@37signals/lexxy@0.9.24/dist/stylesheets/lexxy.css");
+
+:root {
+  --lexxy-color-ink: var(--color-text);
+  --lexxy-color-ink-medium: var(--color-text-subtle);
+  --lexxy-color-ink-light: var(--color-border-dark);
+  --lexxy-color-ink-lighter: var(--color-border);
+  --lexxy-color-ink-lightest: var(--color-border-light);
+  --lexxy-color-ink-inverted: var(--color-text-reversed);
+  --lexxy-color-accent-dark: var(--color-link);
+  --lexxy-color-accent-medium: var(--lexxy-color-accent-dark);
+  --lexxy-color-accent-light: var(--color-border-light);
+  --lexxy-color-accent-lightest: var(--lexxy-color-accent-light);
+  --lexxy-font-base: var(--font-system-ui);
+  --lexxy-font-mono: var(--font-monospace-code);
+}
+
+.lexxy-editor__toolbar-button::after {
+  box-sizing: initial;
+}
+
+.lexxy-editor__content {
+  outline: initial;
+}
