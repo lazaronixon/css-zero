@@ -15,27 +15,32 @@
   --lexxy-font-mono: var(--font-monospace-code);
 }
 
-lexxy-toolbar {
+:where(lexxy-toolbar) {
   background: var(--lexxy-color-canvas);
   border-color: var(--lexxy-color-ink-lighter);
-  border-start-end-radius: inherit;
-  border-start-start-radius: inherit;
+  border-start-end-radius: .35rem;
+  border-start-start-radius: .35rem;
   font-size: var(--text-sm);
   line-height: var(--leading-tight);
+}
 
-  :is(.lexxy--sticky-toolbar) & {
-    inset-block-start: 0; position: sticky; z-index: 1;
-  }
+.lexxy-editor__content {
+  outline: none;
+}
 
-  button::after {
-    box-sizing: initial;
-  }
+.lexxy-editor__toolbar-button::after {
+  box-sizing: content-box;
 }
 
 .lexxy-code-language-picker {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m12 19.5c-.7 0-1.3-.3-1.7-.8l-9.8-11.1c-.7-.8-.6-1.9.2-2.6.8-.6 1.9-.6 2.5.2l8.6 9.8c0 .1.2.1.4 0l8.6-9.8c.7-.8 1.8-.9 2.6-.2s.9 1.8.2 2.6l-9.8 11.1c-.4.5-1.1.8-1.7.8z' fill='%23808080'/%3E%3C/svg%3E");
 }
 
-.lexxy-editor__content {
-  outline: initial;
+.lexxy--borderless {
+  lexxy-toolbar { border-radius: 0; }
+  lexxy-editor  { border-block-end: 0; border-inline: 0; border-radius: 0; }
+}
+
+.lexxy--sticky-toolbar {
+  lexxy-toolbar { inset-block-start: 0; position: sticky; z-index: 10; }
 }
