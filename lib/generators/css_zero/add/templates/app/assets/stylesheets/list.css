@@ -7,7 +7,7 @@
 .list-row {
   background-color: var(--item-background, transparent);
   border: 1px solid var(--item-border-color, var(--color-border));
-  border-radius: var(--rounded-lg);
+  border-radius: var(--rounded-xl);
   font-size: var(--text-sm);
   padding: var(--size-4);
 }

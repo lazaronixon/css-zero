@@ -9,7 +9,6 @@
   --btn-border-color: transparent;
   --btn-box-shadow: none;
   --btn-cursor: pointer;
-  --btn-padding: .375rem .75rem;
 
   &[aria-current="page"] {
     --btn-border-color: var(--color-border);

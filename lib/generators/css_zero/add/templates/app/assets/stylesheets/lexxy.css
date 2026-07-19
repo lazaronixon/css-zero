@@ -20,12 +20,12 @@
   border-color: var(--lexxy-color-ink-lighter);
   border-start-end-radius: .35rem;
   border-start-start-radius: .35rem;
-  font-size: var(--text-sm);
-  line-height: var(--leading-tight);
+  font-size: var(--text-base);
+  line-height: var(--leading-none);
 }
 
 .lexxy-editor__content {
-  outline: none;
+  outline: 0;
 }
 
 .lexxy-editor__toolbar-button::after {

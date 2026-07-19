@@ -5,7 +5,7 @@
   border-radius: var(--rounded-full);
   border-width: var(--border-2);
   block-size: var(--size-5);
-  inline-size: var(--size-9);
+  inline-size: var(--size-8);
   transition: background-color var(--time-150);
 
   &:checked {
@@ -13,7 +13,7 @@
   }
 
   &:checked::before {
-    margin-inline-start: var(--size-4);
+    margin-inline-start: var(--size-3);
   }
 
   &::before {

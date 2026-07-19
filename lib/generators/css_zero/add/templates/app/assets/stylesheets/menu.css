@@ -7,9 +7,10 @@
 }
 
 .menu__header {
-  font-size: var(--text-sm);
+  color: var(--color-text-subtle);
+  font-size: var(--text-xs);
   font-weight: var(--font-medium);
-  padding: var(--size-1_5) var(--size-2);
+  padding: var(--size-1) var(--size-1_5);
 }
 
 .menu__group {
@@ -28,7 +29,8 @@
   --btn-font-weight: var(--font-normal);
   --btn-justify-content: start;
   --btn-outline-size: 0;
-  --btn-padding: var(--size-1_5) var(--size-2);
+  --btn-padding: var(--size-1) var(--size-1_5);
+  --btn-radius: var(--rounded-md);
 
   &:focus-visible {
     --btn-background: var(--color-border-light);

@@ -1,6 +1,6 @@
 .popover {
   background-color: var(--color-surface);
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded-lg);
   border-width: var(--border);
   box-shadow: var(--shadow-md);
   color: var(--color-text);
@@ -13,7 +13,7 @@
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-150);
+  transition-duration: var(--time-100);
   transition-property: display, opacity, overlay, transform;
 
   /* Exit stage to */
@@ -32,7 +32,7 @@
   }
 
   @supports (-webkit-hyphens: none) {
-    transition-behavior: revert;
+    transition-behavior: normal;
   }
 }
 
@@ -71,5 +71,4 @@
   --popover-position: block-start span-inline-start;
   --popover-margin-block: 0 .25rem;
 }
-
 

@@ -1,6 +1,6 @@
 .dialog {
   background-color: var(--color-bg);
-  border-radius: var(--rounded-lg);
+  border-radius: var(--rounded-xl);
   border-width: var(--border);
   box-shadow: var(--shadow-lg);
   color: var(--color-text);
@@ -9,17 +9,17 @@
   max-inline-size: var(--dialog-size, var(--max-i-lg));
 
   &::backdrop {
-    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: var(--blur-xs);
   }
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-200);
+  transition-duration: var(--time-100);
   transition-property: display, overlay, opacity, transform;
 
   &::backdrop {
     transition-behavior: allow-discrete;
-    transition-duration: var(--time-150);
+    transition-duration: var(--time-100);
     transition-property: display, overlay, opacity;
   }
 
@@ -38,16 +38,12 @@
   }
 
   @supports (-webkit-hyphens: none) {
-    transition-behavior: revert;
-  }
-
-  @media (width < 40rem) {
-    border-radius: 0;
+    transition-behavior: normal;
   }
 }
 
 .dialog__content {
-  padding: var(--size-6);
+  padding: var(--size-4);
 }
 
 .dialog__close {

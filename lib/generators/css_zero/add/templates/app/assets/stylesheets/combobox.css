@@ -4,13 +4,12 @@
   align-items: center;
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded-lg);
   color: var(--color-text);
   display: inline-flex;
   font-size: var(--text-sm);
-  line-height: inherit;
-  min-block-size: var(--size-9);
-  padding: var(--size-1_5) var(--size-3);
+  min-block-size: var(--size-8);
+  padding: var(--size-1) var(--size-2_5);
 
   > input {
     color: inherit; font-size: inherit;
@@ -20,15 +19,14 @@
 .ts-dropdown {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded-lg);
   box-shadow: var(--shadow-md);
   color: var(--color-text);
   font-size: var(--text-sm);
-  line-height: inherit;
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-150);
+  transition-duration: var(--time-100);
   transition-property: display, opacity, transform;
 
   /* Exit stage to */
@@ -66,14 +64,10 @@
     padding: var(--size-1_5) var(--size-2);
   }
 
-  .create {
-    padding: var(--size-1_5) var(--size-2);
-  }
-
-  .option {
+  :is(.option, .create) {
     border: 1px solid transparent;
-    border-radius: var(--rounded-md);
-    padding: var(--size-1_5) var(--size-2);
+    border-radius: var(--rounded-lg);
+    padding: var(--size-1) var(--size-1_5);
   }
 
   [data-selectable].option {
@@ -90,7 +84,7 @@
   }
 
   .spinner {
-    margin: var(--size-1_5) 0 0;
+    margin: var(--size-1) 0 0;
   }
 
   .spinner::after {
@@ -113,9 +107,9 @@
 
 .ts-wrapper.multi .ts-control > .item {
   background: var(--color-border-light);
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded-lg);
   color: inherit;
-  line-height: var(--leading-tight);
+  line-height: var(--leading-none);
 }
 
 .disabled .ts-control {

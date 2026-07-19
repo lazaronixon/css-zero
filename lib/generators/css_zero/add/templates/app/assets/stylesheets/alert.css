@@ -5,7 +5,7 @@
   color: var(--alert-color, var(--color-text));
   font-size: var(--text-sm);
   inline-size: var(--size-full);
-  padding: var(--size-4);
+  padding: var(--size-2) var(--size-2_5);
 }
 
 .alert--positive {

@@ -2,13 +2,13 @@
   align-items: center;
   background-color: var(--badge-background, var(--color-bg));
   border: 1px solid var(--badge-border-color, var(--color-border));
-  border-radius: var(--badge-radius, var(--rounded-md));
+  border-radius: var(--badge-radius, var(--rounded-3xl));
   box-shadow: var(--badge-box-shadow, none);
   color: var(--badge-color, var(--color-text));
   column-gap: var(--size-1);
   display: inline-flex;
   font-size: var(--text-xs);
-  font-weight: var(--font-semibold);
+  font-weight: var(--font-medium);
   justify-content: center;
   line-height: var(--leading-4);
   min-inline-size: var(--badge-min-inline-size, 0);

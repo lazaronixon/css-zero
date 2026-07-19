@@ -17,23 +17,29 @@
   }
 
   summary {
-    align-items: center;
+    align-items: flex-start;
     cursor: default;
     display: flex;
     font-weight: var(--font-medium);
-    padding-block: var(--size-4);
+    padding-block: var(--size-2_5);
 
     &:hover {
       text-decoration: underline;
     }
 
     &:focus-visible {
-      outline: var(--border-2) auto var(--color-selected-dark);
+      outline: var(--border-2) solid var(--color-selected-dark);
+    }
+
+    &:is([aria-disabled="true"]) {
+      opacity: var(--opacity-50);
+      pointer-events: none;
     }
 
     &::after {
       background-color: currentColor;
       block-size: var(--size-4);
+      color: var(--color-text-subtle);
       content: "";
       inline-size: var(--size-4);
       margin-inline-start: auto;

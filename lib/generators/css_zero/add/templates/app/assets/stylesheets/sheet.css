@@ -9,13 +9,14 @@
   max-block-size: unset;
 
   &::backdrop {
-    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: var(--blur-xs);
   }
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-300);
-  transition-property: display, overlay, transform;
+  transition-duration: var(--time-200);
+  transition-property: display, overlay, opacity, transform;
+  transition-timing-function: ease-in-out;
 
   &::backdrop {
     transition-behavior: allow-discrete;
@@ -24,17 +25,21 @@
   }
 
   /* Exit stage to */
-  & { transform: var(--sheet-transform); }
+  & { opacity: 0; transform: var(--sheet-transform); }
   &::backdrop { opacity: 0; }
 
   /* On stage */
-  &[open] { transform: translateX(0); }
+  &[open] { opacity: 1; transform: translateX(0); }
   &[open]::backdrop { opacity: 1; }
 
   /* Enter stage from */
   @starting-style {
-    &[open] { transform: var(--sheet-transform); }
-    &[open]::backdrop { opacity: 0;}
+    &[open] { opacity: 0; transform: var(--sheet-transform); }
+    &[open]::backdrop { opacity: 0; }
+  }
+
+  @supports (-webkit-hyphens: none) {
+    transition-behavior: normal;
   }
 
   @media (width >= 40rem) {
@@ -45,13 +50,13 @@
 .sheet--left {
   --sheet-border: 0 1px;
   --sheet-margin-inline: 0 auto;
-  --sheet-transform: translateX(-100%);
+  --sheet-transform: translateX(-2.5rem);
 }
 
 .sheet--right {
   --sheet-border: 1px 0;
   --sheet-margin-inline: auto 0;
-  --sheet-transform: translateX(100%);
+  --sheet-transform: translateX(2.5rem);
 }
 
 .sheet__content {

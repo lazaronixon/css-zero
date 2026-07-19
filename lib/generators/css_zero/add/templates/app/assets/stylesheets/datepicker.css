@@ -1,20 +1,20 @@
 @import url("https://esm.sh/flatpickr@4.6.13/dist/flatpickr.min.css");
 
 .flatpickr-calendar {
-  --calendar-size: 250px;
-  --container-size: 220px;
-  --day-size: var(--size-8);
+  --calendar-size: 220px;
+  --day-size: var(--size-7);
+  --container-size: calc(var(--day-size) * 7);
 
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--rounded-md);
+  border-radius: var(--rounded-lg);
   box-shadow: var(--shadow-md);
   font-size: var(--text-sm);
   inline-size: var(--calendar-size);
 
   .flatpickr-innerContainer {
     justify-content: center;
-    padding-block-end: var(--size-3);
+    padding-block-end: var(--size-2);
   }
 
   .flatpickr-days {
@@ -56,7 +56,7 @@
 
   .flatpickr-monthDropdown-months {
     appearance: none;
-    border-radius: var(--rounded-md);
+    border-radius: var(--rounded-lg);
     font-size: var(--text-sm);
     font-weight: var(--font-medium);
     line-height: var(--leading-normal);
@@ -70,12 +70,10 @@
 
   .numInputWrapper {
     input {
-      border-radius: var(--rounded-md);
       color: var(--color-text);
       font-size: var(--text-sm);
       font-weight: var(--font-medium);
       line-height: var(--leading-normal);
-      padding: 0;
       text-align: center;
     }
 
@@ -131,13 +129,17 @@
 
   .flatpickr-day {
     border-color: transparent !important;
-    border-radius: var(--rounded-md);
+    border-radius: var(--rounded-lg);
     box-shadow: none !important;
     color: var(--color-text);
     height: var(--day-size);
     line-height: var(--day-size);
     margin-block-start: var(--size-2);
     max-width: var(--day-size);
+
+    &:is(.hidden) {
+      visibility: visible;
+    }
 
     &:is(.inRange) {
       border-radius: 0;

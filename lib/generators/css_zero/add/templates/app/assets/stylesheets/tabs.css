@@ -5,11 +5,12 @@
 }
 
 .tabs__list {
+  align-self: start;
   background-color: var(--color-border-light);
-  block-size: var(--size-9);
-  border-radius: var(--rounded-md);
+  block-size: var(--size-8);
+  border-radius: var(--rounded-lg);
   color: var(--color-text-subtle);
-  column-gap: var(--size-2);
+  column-gap: var(--size-1);
   display: inline-flex;
   padding: var(--size-1);
 }
@@ -19,7 +20,6 @@
   --btn-border-color: transparent;
   --btn-box-shadow: none;
   --btn-hover-color: transparent;
-  --btn-inline-size: var(--size-full);
 
   &:is([aria-selected="true"], [aria-current="page"]) {
     --btn-background: var(--color-bg);

@@ -3,17 +3,17 @@
   background-color: var(--btn-background, var(--color-surface));
   block-size: var(--btn-block-size, auto);
   border: 1px solid var(--btn-border-color, var(--color-border));
-  border-radius: var(--btn-radius, var(--rounded-md));
+  border-radius: var(--btn-radius, var(--rounded-lg));
   box-shadow: var(--btn-box-shadow, var(--shadow-xs));
   color: var(--btn-color, var(--color-text));
-  column-gap: var(--size-2);
+  column-gap: var(--size-1_5);
   cursor: var(--btn-cursor, default);
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));
   font-weight: var(--btn-font-weight, var(--font-medium));
   inline-size: var(--btn-inline-size, auto);
   justify-content: var(--btn-justify-content, center);
-  padding: var(--btn-padding, .375rem 1rem);
+  padding: var(--btn-padding, .25rem .625rem);
   position: relative;
   white-space: nowrap;
 
@@ -73,7 +73,7 @@
 }
 
 .btn--icon {
-  --btn-padding: var(--size-2);
+  --btn-padding: var(--size-1_5);
 }
 
 [aria-busy="true"] .btn--busy:disabled {
@@ -84,9 +84,9 @@
   &::after {
     animation: x-spin 1s linear infinite;
     background-color: currentColor;
-    block-size: var(--size-5);
+    block-size: var(--size-4);
     content: "";
-    inline-size: var(--size-5);
+    inline-size: var(--size-4);
     mask-image: url("loading.svg");
     mask-size: cover;
     position: absolute;

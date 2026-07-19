@@ -8,7 +8,7 @@
     box-shadow: var(--input-box-shadow, var(--shadow-xs));
     font-size: var(--input-font-size, var(--text-sm));
     inline-size: var(--input-inline-size, var(--size-full));
-    padding: var(--input-padding, .375rem .75rem);
+    padding: var(--input-padding, .25rem .625rem);
   }
 
   &:is([type="checkbox"], [type="radio"]) {

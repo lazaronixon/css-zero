@@ -1,6 +1,6 @@
 .avatar {
   --radius: var(--rounded-full);
-  --size: var(--avatar-size, var(--size-10));
+  --size: var(--avatar-size, var(--size-8));
 
   block-size: var(--size);
   border-radius: var(--radius);

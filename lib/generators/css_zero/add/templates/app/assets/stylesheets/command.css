@@ -1,22 +1,20 @@
 .command {
   background-color: var(--color-surface);
-  border-radius: var(--rounded-lg);
+  border-radius: var(--rounded-xl);
   border-width: var(--border);
   box-shadow: var(--shadow-xs);
   display: flex;
+  padding: var(--size-2);
   flex-direction: column;
 }
 
 .command__input {
-  --input-background: transparent;
-  --input-border-color: transparent;
+  --input-background: var(--color-border-light);
   --input-box-shadow: none;
   --input-outline-size: 0;
-  --input-padding: var(--size-2_5);
 }
 
 .command__list {
-  border-block-start-width: var(--border);
   max-block-size: 300px;
   overflow-y: auto;
 
@@ -32,7 +30,7 @@
 .command__group {
   display: flex;
   flex-direction: column;
-  padding: var(--size-1);
+  padding-block: var(--size-1);
   row-gap: 1px;
 
   &:not(:has(.command__item:not([hidden]))) {
@@ -43,14 +41,8 @@
 .command__group-header {
   color: var(--color-text-subtle);
   font-size: var(--text-xs);
-  padding: var(--size-1_5) var(--size-2);
-}
-
-.command__empty {
-  display: none;
-  font-size: var(--text-sm);
-  justify-content: center;
-  padding-block: var(--size-6);
+  font-weight: var(--font-medium);
+  padding: var(--size-1) var(--size-1_5);
 }
 
 .command__item {
@@ -59,7 +51,8 @@
   --btn-font-weight: var(--font-normal);
   --btn-justify-content: start;
   --btn-outline-size: 0;
-  --btn-padding: var(--size-1_5) var(--size-2);
+  --btn-padding: var(--size-1) var(--size-1_5);
+  --btn-radius: var(--rounded-sm);
 
   &[aria-selected="true"] {
     --btn-background: var(--color-border-light);
