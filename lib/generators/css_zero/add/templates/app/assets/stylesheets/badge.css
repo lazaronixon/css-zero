@@ -10,7 +10,6 @@
   font-size: var(--text-xs);
   font-weight: var(--font-medium);
   justify-content: center;
-  line-height: var(--leading-4);
   min-inline-size: var(--badge-min-inline-size, 0);
   padding: var(--badge-padding, .125rem .5rem);
 }
