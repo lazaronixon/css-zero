@@ -18,6 +18,7 @@
 - Enable exit transitions for popover and dialog.
 - Charts prettier by default
 - Replace Trix editor with Lexxy
+- Reduce gap-half inline size
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem

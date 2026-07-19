@@ -25,7 +25,7 @@
 .self-center { align-self: center; }
 
 .gap { column-gap: var(--column-gap, 0.5rem); row-gap: var(--row-gap, 1rem); }
-.gap-half { column-gap: var(--column-gap, 0.25rem); row-gap: var(--row-gap, 0.5rem); }
+.gap-half { column-gap: var(--column-gap, 0.375rem); row-gap: var(--row-gap, 0.5rem); }
 .gap-none { --column-gap: 0; --row-gap: 0; gap: 0; }
 
 /****************************************************************
