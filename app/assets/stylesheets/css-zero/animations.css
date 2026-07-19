@@ -3,91 +3,91 @@
 *****************************************************************/
 
 :root {
-  --animate-fade-in: fade-in .5s var(--ease-3);
-  --animate-fade-in-bloom: fade-in-bloom 2s var(--ease-3);
-  --animate-fade-out: fade-out .5s var(--ease-3);
-  --animate-fade-out-bloom: fade-out-bloom 2s var(--ease-3);
-  --animate-scale-up: scale-up .5s var(--ease-3);
-  --animate-scale-down: scale-down .5s var(--ease-3);
-  --animate-slide-out-up: slide-out-up .5s var(--ease-3);
-  --animate-slide-out-down: slide-out-down .5s var(--ease-3);
-  --animate-slide-out-right: slide-out-right .5s var(--ease-3);
-  --animate-slide-out-left: slide-out-left .5s var(--ease-3);
-  --animate-slide-in-up: slide-in-up .5s var(--ease-3);
-  --animate-slide-in-down: slide-in-down .5s var(--ease-3);
-  --animate-slide-in-right: slide-in-right .5s var(--ease-3);
-  --animate-slide-in-left: slide-in-left .5s var(--ease-3);
-  --animate-shake-x: shake-x .75s var(--ease-out-5);
-  --animate-shake-y: shake-y .75s var(--ease-out-5);
-  --animate-shake-z: shake-z 1s var(--ease-in-out-3);
-  --animate-spin: spin 2s linear infinite;
-  --animate-ping: ping 5s var(--ease-out-3) infinite;
-  --animate-blink: blink 1s var(--ease-out-3) infinite;
-  --animate-float: float 3s var(--ease-in-out-3) infinite;
-  --animate-bounce: bounce 2s var(--ease-squish-2) infinite;
-  --animate-pulse: pulse 2s var(--ease-out-3) infinite;
+  --animate-fade-in: x-fade-in .5s var(--ease-3);
+  --animate-fade-in-bloom: x-fade-in-bloom 2s var(--ease-3);
+  --animate-fade-out: x-fade-out .5s var(--ease-3);
+  --animate-fade-out-bloom: x-fade-out-bloom 2s var(--ease-3);
+  --animate-scale-up: x-scale-up .5s var(--ease-3);
+  --animate-scale-down: x-scale-down .5s var(--ease-3);
+  --animate-slide-out-up: x-slide-out-up .5s var(--ease-3);
+  --animate-slide-out-down: x-slide-out-down .5s var(--ease-3);
+  --animate-slide-out-right: x-slide-out-right .5s var(--ease-3);
+  --animate-slide-out-left: x-slide-out-left .5s var(--ease-3);
+  --animate-slide-in-up: x-slide-in-up .5s var(--ease-3);
+  --animate-slide-in-down: x-slide-in-down .5s var(--ease-3);
+  --animate-slide-in-right: x-slide-in-right .5s var(--ease-3);
+  --animate-slide-in-left: x-slide-in-left .5s var(--ease-3);
+  --animate-shake-x: x-shake-x .75s var(--ease-out-5);
+  --animate-shake-y: x-shake-y .75s var(--ease-out-5);
+  --animate-shake-z: x-shake-z 1s var(--ease-in-out-3);
+  --animate-spin: x-spin 2s linear infinite;
+  --animate-ping: x-ping 5s var(--ease-out-3) infinite;
+  --animate-blink: x-blink 1s var(--ease-out-3) infinite;
+  --animate-float: x-float 3s var(--ease-in-out-3) infinite;
+  --animate-bounce: x-bounce 2s var(--ease-squish-2) infinite;
+  --animate-pulse: x-pulse 2s var(--ease-out-3) infinite;
 }
 
-@keyframes fade-in {
+@keyframes x-fade-in {
   to { opacity: 1 }
 }
 
-@keyframes fade-in-bloom {
+@keyframes x-fade-in-bloom {
     0% { opacity: 0; filter: brightness(1) blur(20px) }
    10% { opacity: 1; filter: brightness(2) blur(10px) }
   100% { opacity: 1; filter: brightness(1) blur(0) }
 }
 
-@keyframes fade-out {
+@keyframes x-fade-out {
   to { opacity: 0 }
 }
 
-@keyframes fade-out-bloom {
+@keyframes x-fade-out-bloom {
   100% { opacity: 0; filter: brightness(1) blur(20px) }
    10% { opacity: 1; filter: brightness(2) blur(10px) }
     0% { opacity: 1; filter: brightness(1) blur(0) }
 }
-@keyframes scale-up {
+@keyframes x-scale-up {
   to { transform: scale(1.25) }
 }
 
-@keyframes scale-down {
+@keyframes x-scale-down {
   to { transform: scale(.75) }
 }
 
-@keyframes slide-out-up {
+@keyframes x-slide-out-up {
   to { transform: translateY(-100%) }
 }
 
-@keyframes slide-out-down {
+@keyframes x-slide-out-down {
   to { transform: translateY(100%) }
 }
 
-@keyframes slide-out-right {
+@keyframes x-slide-out-right {
   to { transform: translateX(100%) }
 }
 
-@keyframes slide-out-left {
+@keyframes x-slide-out-left {
   to { transform: translateX(-100%) }
 }
 
-@keyframes slide-in-up {
+@keyframes x-slide-in-up {
   from { transform: translateY(100%) }
 }
 
-@keyframes slide-in-down {
+@keyframes x-slide-in-down {
   from { transform: translateY(-100%) }
 }
 
-@keyframes slide-in-right {
+@keyframes x-slide-in-right {
   from { transform: translateX(-100%) }
 }
 
-@keyframes slide-in-left {
+@keyframes x-slide-in-left {
   from { transform: translateX(100%) }
 }
 
-@keyframes shake-x {
+@keyframes x-shake-x {
   0%, 100% { transform: translateX(0%) }
   20% { transform: translateX(-5%) }
   40% { transform: translateX(5%) }
@@ -95,7 +95,7 @@
   80% { transform: translateX(5%) }
 }
 
-@keyframes shake-y {
+@keyframes x-shake-y {
   0%, 100% { transform: translateY(0%) }
   20% { transform: translateY(-5%) }
   40% { transform: translateY(5%) }
@@ -103,7 +103,7 @@
   80% { transform: translateY(5%) }
 }
 
-@keyframes shake-z {
+@keyframes x-shake-z {
   0%, 100% { transform: rotate(0deg) }
   20% { transform: rotate(-2deg) }
   40% { transform: rotate(2deg) }
@@ -111,18 +111,18 @@
   80% { transform: rotate(2deg) }
 }
 
-@keyframes spin {
+@keyframes x-spin {
   to { transform: rotate(1turn) }
 }
 
-@keyframes ping {
+@keyframes x-ping {
   90%, 100% {
     transform: scale(2);
     opacity: 0;
   }
 }
 
-@keyframes blink {
+@keyframes x-blink {
   0%, 100% {
     opacity: 1
   }
@@ -131,22 +131,22 @@
   }
 }
 
-@keyframes float {
+@keyframes x-float {
   50% { transform: translateY(-25%) }
 }
 
-@keyframes bounce {
+@keyframes x-bounce {
   25% { transform: translateY(-20%) }
   40% { transform: translateY(-3%) }
   0%, 60%, 100% { transform: translateY(0) }
 }
 
-@keyframes pulse {
+@keyframes x-pulse {
   50% { transform: scale(.9,.9) }
 }
 
 @media (prefers-color-scheme: dark) {
-  @keyframes fade-in-bloom {
+  @keyframes x-fade-in-bloom {
       0% { opacity: 0; filter: brightness(1) blur(20px) }
      10% { opacity: 1; filter: brightness(0.5) blur(10px) }
     100% { opacity: 1; filter: brightness(1) blur(0) }
@@ -154,7 +154,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  @keyframes fade-out-bloom {
+  @keyframes x-fade-out-bloom {
     100% { opacity: 0; filter: brightness(1) blur(20px) }
      10% { opacity: 1; filter: brightness(0.5) blur(10px) }
       0% { opacity: 1; filter: brightness(1) blur(0) }
