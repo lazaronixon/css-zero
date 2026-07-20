@@ -1,18 +1,18 @@
 .avatar {
-  --radius: var(--rounded-full);
-  --size: var(--avatar-size, var(--size-8));
+  --avatar-radius: var(--rounded-full);
+  --avatar-size: var(--size-8);
 
-  block-size: var(--size);
-  border-radius: var(--radius);
+  block-size: var(--avatar-size);
+  border-radius: var(--avatar-radius);
   display: flex;
   flex-shrink: 0;
-  inline-size: var(--size);
+  inline-size: var(--avatar-size);
   overflow: hidden;
 
   &.btn {
-    --btn-inline-size: var(--size);
+    --btn-inline-size: var(--avatar-size);
     --btn-padding: 0;
-    --btn-radius: var(--radius);
+    --btn-radius: var(--avatar-radius);
   }
 
   &.btn:hover {
@@ -30,9 +30,9 @@
     align-items: center;
     background-color: var(--color-border-light);
     block-size: var(--size-full);
-    border-radius: var(--radius);
+    border-radius: var(--avatar-radius);
     display: flex;
-    font-size: calc(var(--size) * .4);
+    font-size: calc(var(--avatar-size) * .4);
     inline-size: var(--size-full);
     justify-content: center;
     user-select: none;
