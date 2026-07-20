@@ -6,7 +6,7 @@
   color: var(--color-text);
   inline-size: var(--sheet-size, var(--size-3-4));
   margin-inline: var(--sheet-margin-inline);
-  max-block-size: unset;
+  max-block-size: none;
 
   &::backdrop {
     backdrop-filter: var(--blur-xs);

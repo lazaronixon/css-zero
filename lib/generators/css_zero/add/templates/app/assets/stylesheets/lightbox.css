@@ -2,8 +2,8 @@
   background-color: rgba(0, 0, 0, .8);
   block-size: 100dvh;
   inline-size: 100dvw;
-  max-block-size: unset;
-  max-inline-size: unset;
+  max-block-size: none;
+  max-inline-size: none;
   padding: var(--size-4);
 
   &[open] {

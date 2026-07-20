@@ -6,7 +6,7 @@
   color: var(--color-text);
   inline-size: var(--size-full);
   margin: auto;
-  max-inline-size: var(--dialog-size, var(--max-i-lg));
+  max-inline-size: calc(100% - 2rem);
 
   &::backdrop {
     backdrop-filter: var(--blur-xs);
@@ -39,6 +39,10 @@
 
   @supports (-webkit-hyphens: none) {
     transition-behavior: normal;
+  }
+
+  @media (width >= 40rem) {
+    max-inline-size: var(--dialog-size, var(--max-i-sm));
   }
 }
 
