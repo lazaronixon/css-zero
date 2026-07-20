@@ -135,8 +135,6 @@ popover:
   - app/javascript/controllers/popover_controller.js
 progress:
   - app/assets/stylesheets/progress.css
-prose:
-  - app/assets/stylesheets/prose.css
 resizable:
   - app/assets/stylesheets/resizable.css
   - app/javascript/controllers/resizable_controller.js
