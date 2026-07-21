@@ -21,6 +21,7 @@
 - Reduce gap-half inline size
 - Modernize components
 - Remove prose.css in favor of lexxy-content
+- Added btn--feedback
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem

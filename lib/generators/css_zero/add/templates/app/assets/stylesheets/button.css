@@ -76,7 +76,15 @@
   --btn-padding: var(--size-1_5);
 }
 
-[aria-busy="true"] .btn--busy:disabled {
+.btn--feedback {
+  transition: transform var(--time-150);
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+[aria-busy] .btn--busy:disabled {
   > * {
     visibility: hidden;
   }
