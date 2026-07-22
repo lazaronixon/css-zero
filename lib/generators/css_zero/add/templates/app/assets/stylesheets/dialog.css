@@ -2,7 +2,6 @@
   background-color: var(--color-bg);
   border-radius: var(--rounded-xl);
   border-width: var(--border);
-  box-shadow: var(--shadow-lg);
   color: var(--color-text);
   inline-size: var(--size-full);
   margin: auto;
