@@ -149,6 +149,8 @@ skeleton:
   - app/assets/stylesheets/skeleton.css
 sortable:
   - app/javascript/controllers/sortable_controller.js
+sound:
+  - app/javascript/controllers/sound_controller.js
 switch:
   - app/assets/stylesheets/switch.css
 table:
