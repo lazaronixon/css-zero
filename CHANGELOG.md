@@ -23,6 +23,7 @@
 - Remove prose.css in favor of lexxy-content
 - Added btn--feedback
 - Add sound controller for audio feedback (cuelume)
+- New flash component
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
