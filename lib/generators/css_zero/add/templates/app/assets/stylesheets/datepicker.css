@@ -11,6 +11,11 @@
   box-shadow: var(--shadow-md);
   font-size: var(--text-sm);
   inline-size: var(--datepicker-size);
+  transform-origin: top;
+
+  &.animate.open {
+    animation: datepicker-in var(--time-300) var(--ease-spring-2);
+  }
 
   .flatpickr-innerContainer {
     justify-content: center;
@@ -188,4 +193,8 @@
   &::before, &::after {
     display: none;
   }
+}
+
+@keyframes datepicker-in {
+  from { opacity: 0; transform: var(--scale-95); }
 }

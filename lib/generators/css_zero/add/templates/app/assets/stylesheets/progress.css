@@ -9,7 +9,7 @@
   overflow: hidden;
 
   &:indeterminate {
-    animation: progress-loading 2s infinite;
+    animation: progress-loading 2s linear infinite;
     background: linear-gradient(to right, var(--progress-bar-color) 45%, var(--progress-value-color) 0%, var(--progress-value-color) 55%, var(--progress-bar-color) 0%);
     background-position: right;
     background-size: 225% 100%;

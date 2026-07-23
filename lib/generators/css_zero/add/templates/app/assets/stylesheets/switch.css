@@ -12,7 +12,9 @@
   block-size: var(--switch-block-size);
   display: inline-flex;
   inline-size: var(--switch-inline-size);
-  transition: background-color var(--time-150);
+  transition-duration: var(--time-150);
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
 
   &:checked {
     background-color: var(--color-primary);
@@ -29,7 +31,9 @@
     border-radius: var(--rounded-full);
     content: "";
     display: block;
-    transition: translate var(--time-150);
+    transition-duration: var(--time-300);
+    transition-property: translate;
+    transition-timing-function: var(--ease-spring-2);
   }
 
   &:focus-visible {

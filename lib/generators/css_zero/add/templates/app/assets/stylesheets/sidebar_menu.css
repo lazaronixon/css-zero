@@ -33,7 +33,9 @@
       mask-image: url("chevron-right.svg");
       mask-size: cover;
       min-inline-size: var(--size-4);
-      transition: transform var(--time-200);
+      transition-duration: var(--time-200);
+      transition-property: transform;
+      transition-timing-function: ease-out;
     }
 
     details[open] > &::after {

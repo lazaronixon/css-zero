@@ -10,6 +10,7 @@
       transition-behavior: allow-discrete;
       transition-duration: var(--time-200);
       transition-property: content-visibility, block-size, opacity;
+      transition-timing-function: ease-out;
     }
 
     &[open]::details-content {
@@ -46,7 +47,9 @@
       margin-inline-start: auto;
       mask-image: url("chevron-down.svg");
       mask-size: cover;
-      transition: transform var(--time-200);
+      transition-duration: var(--time-200);
+      transition-property: transform;
+      transition-timing-function: ease-out;
     }
 
     details[open] > &::after {

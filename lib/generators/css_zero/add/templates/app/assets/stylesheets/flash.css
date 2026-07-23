@@ -1,6 +1,6 @@
 .flash {
-  animation: flash-in-out 5s both;
-  animation-timing-function: var(--ease-out-3);
+  animation: flash-in-out var(--flash-duration, 5s) both;
+  animation-timing-function: var(--ease-bounce-2);
   background-color: var(--color-surface);
   border-radius: var(--rounded-lg);
   border-width: var(--border);
@@ -25,18 +25,23 @@
 }
 
 .flash--extended {
-  animation-duration: 12s;
-  animation-name: flash-in-out-extended;
+  --flash-duration: 12s;
 }
 
 @keyframes flash-in-out {
-  0% { opacity: 0; transform: translateY(-100%); }
-  8%, 92% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-100%); }
-}
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
 
-@keyframes flash-in-out-extended {
-  0% { opacity: 0; transform: translateY(-100%); }
-  3.3%, 96.7% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-100%); }
+  8%, 92% {
+    opacity: 1;
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
 }
