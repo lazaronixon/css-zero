@@ -33,7 +33,7 @@
       outline: var(--border-2) solid var(--color-selected-dark);
     }
 
-    &:is([aria-disabled="true"]) {
+    &[aria-disabled="true"] {
       opacity: var(--opacity-50);
       pointer-events: none;
     }
