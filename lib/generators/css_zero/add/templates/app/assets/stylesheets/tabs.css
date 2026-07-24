@@ -13,6 +13,20 @@
   column-gap: var(--size-1);
   display: inline-flex;
   padding: var(--size-1);
+  position: relative;
+
+  &::before {
+    background-color: var(--color-bg);
+    border-radius: var(--rounded-lg);
+    box-shadow: var(--shadow-sm);
+    content: "";
+    inset: anchor(top) anchor(right) anchor(bottom) anchor(left);
+    position: absolute;
+    position-anchor: --tabs-selected;
+    transition-duration: var(--time-300);
+    transition-property: inset;
+    transition-timing-function: var(--ease-spring-2);
+  }
 }
 
 .tabs__button {
@@ -21,9 +35,11 @@
   --btn-box-shadow: none;
   --btn-hover-color: transparent;
 
-  &:is([aria-selected="true"], [aria-current="page"]) {
-    --btn-background: var(--color-bg);
-    --btn-box-shadow: var(--shadow-sm);
-    --btn-hover-color: var(--color-bg);
+  &[aria-selected="true"] {
+    anchor-name: --tabs-selected;
+  }
+
+  &[aria-current="page"] {
+    anchor-name: --tabs-selected;
   }
 }
