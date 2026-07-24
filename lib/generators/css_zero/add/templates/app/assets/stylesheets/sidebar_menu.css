@@ -23,7 +23,7 @@
     --btn-background: var(--color-border-light);
   }
 
-  &:is(summary) {
+  &:summary {
     &::after {
       background-color: currentColor;
       block-size: var(--size-4);
