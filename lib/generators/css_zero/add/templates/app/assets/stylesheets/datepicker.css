@@ -13,7 +13,7 @@
   inline-size: var(--datepicker-size);
 
   &.animate.open {
-    animation: datepicker-in var(--time-100) var(--ease-out-3);
+    animation: datepicker-in var(--time-300) var(--ease-spring-2);
   }
 
   .flatpickr-innerContainer {

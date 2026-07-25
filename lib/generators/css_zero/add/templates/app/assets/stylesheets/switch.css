@@ -31,9 +31,9 @@
     border-radius: var(--rounded-full);
     content: "";
     display: block;
-    transition-duration: var(--time-150);
+    transition-duration: var(--time-300);
     transition-property: translate;
-    transition-timing-function: var(--ease-out-3);
+    transition-timing-function: var(--ease-spring-2);
   }
 
   &:focus-visible {

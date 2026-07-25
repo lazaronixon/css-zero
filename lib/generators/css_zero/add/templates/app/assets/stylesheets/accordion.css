@@ -47,9 +47,9 @@
       margin-inline-start: auto;
       mask-image: url("chevron-down.svg");
       mask-size: cover;
-      transition-duration: var(--time-200);
+      transition-duration: var(--time-300);
       transition-property: transform;
-      transition-timing-function: var(--ease-out-3);
+      transition-timing-function: var(--ease-spring-2);
     }
 
     details[open] > &::after {

@@ -26,9 +26,9 @@
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-100);
+  transition-duration: var(--time-300);
   transition-property: display, opacity, transform;
-  transition-timing-function: var(--ease-out-3);
+  transition-timing-function: var(--ease-spring-2);
 
   /* Exit stage to */
   opacity: 0;
