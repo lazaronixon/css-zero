@@ -10,7 +10,7 @@
       transition-behavior: allow-discrete;
       transition-duration: var(--time-200);
       transition-property: content-visibility, block-size, opacity;
-      transition-timing-function: ease-out;
+      transition-timing-function: var(--ease-out-3);
     }
 
     &[open]::details-content {
@@ -49,7 +49,7 @@
       mask-size: cover;
       transition-duration: var(--time-200);
       transition-property: transform;
-      transition-timing-function: ease-out;
+      transition-timing-function: var(--ease-out-3);
     }
 
     details[open] > &::after {
