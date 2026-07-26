@@ -1,12 +1,12 @@
 .carousel {
   align-items: center;
+  column-gap: var(--size-4);
   display: flex;
-  gap: var(--size-4);
 }
 
 .carousel__content {
+  column-gap: var(--carousel-items-gap, 1rem);
   display: flex;
-  gap: var(--carousel-items-gap, 1rem);
   inline-size: var(--size-full);
   overflow: hidden;
   scroll-behavior: smooth;

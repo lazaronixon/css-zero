@@ -5,7 +5,7 @@
   <%%= link_to "New <%= human_name.downcase %>", <%= new_helper(type: :path) %>, class: "btn btn--primary" %>
 </div>
 
-<div id="<%= plural_table_name %>" class="flex flex-col" style="gap: 2rem;">
+<div id="<%= plural_table_name %>" class="flex flex-col" style="row-gap: 2rem;">
   <%% @<%= plural_table_name %>.each do |<%= singular_table_name %>| %>
     <div class="flex flex-col items-start gap">
       <%%= render <%= singular_table_name %> %>
