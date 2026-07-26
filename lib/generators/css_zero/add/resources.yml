@@ -113,6 +113,8 @@ input_revealable:
   - app/assets/stylesheets/input_revealable.css
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
+keyboard:
+  - app/assets/stylesheets/keyboard.css
 layouts:
   - app/assets/stylesheets/layouts.css
   - app/assets/stylesheets/sidebar_menu.css
