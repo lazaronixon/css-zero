@@ -45,7 +45,6 @@ command:
   - app/javascript/controllers/command_controller.js
 context_menu:
   - app/assets/stylesheets/popover.css
-  - app/javascript/controllers/popover_controller.js
   - app/assets/stylesheets/menu.css
   - app/javascript/controllers/context_menu_controller.js
 datepicker:
@@ -56,7 +55,6 @@ dialog:
   - app/javascript/controllers/dialog_controller.js
 dropdown:
   - app/assets/stylesheets/popover.css
-  - app/javascript/controllers/popover_controller.js
   - app/assets/stylesheets/menu.css
   - app/javascript/controllers/menu_controller.js
 dropzone:
@@ -134,7 +132,7 @@ pagination:
   - app/assets/stylesheets/pagination.css
 popover:
   - app/assets/stylesheets/popover.css
-  - app/javascript/controllers/popover_controller.js
+  - app/javascript/controllers/interest_controller.js
 progress:
   - app/assets/stylesheets/progress.css
 resizable:

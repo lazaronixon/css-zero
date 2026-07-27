@@ -25,6 +25,8 @@
 - Add sound controller for audio feedback (cuelume)
 - Reimplement flash component
 - Add keyboard component
+- Replace popover_controller with interest_controller
+- Reimplement dialog_controller on top of invoker commands
 
 ## 3.1.0 - 2025-11-17
 - Fix default icon size from 1em to 1rem
