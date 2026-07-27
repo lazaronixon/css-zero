@@ -14,5 +14,7 @@ Gem::Specification.new do |spec|
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/lazaronixon/css-zero"
 
-  spec.files = Dir["{app,lib}/**/*", "Rakefile", "CHANGELOG", "LICENSE", "README.md"]
+  spec.add_dependency "railties", ">= 8.0"
+
+  spec.files = Dir["{app,lib}/**/*", "Rakefile", "CHANGELOG.md", "LICENSE.txt", "README.md"]
 end

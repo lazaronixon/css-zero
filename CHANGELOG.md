@@ -2,7 +2,6 @@
 - Use CSS variable for OTP input font family
 - Use CSS only popover (Anchor positioning)
 - Use --sheet-margin-inline for sheet
-- Remove allow-discrete from dialog
 - Bring back debounce to command_controller
 - Add mouse pointer utilities
 - Rename break-words to wrap-break-word

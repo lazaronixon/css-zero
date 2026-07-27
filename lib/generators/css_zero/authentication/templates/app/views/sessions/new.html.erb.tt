@@ -18,6 +18,6 @@
 
   <div class="flex items-center gap">
     <%%= form.submit "Sign in", class: "btn btn--primary" %>
-    <%%= link_to "Forgot password?", new_password_path, class: "text-sm font-medium underline" %>
+    <%%= link_to "Forgot password?", new_password_path, class: "text-sm font-medium text-link" %>
   </div>
 <%% end %>

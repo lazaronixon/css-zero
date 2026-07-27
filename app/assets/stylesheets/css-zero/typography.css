@@ -32,7 +32,7 @@
   --text-fluid-7xl:  clamp(4.5rem, 2.91rem + 7.95vw, 8rem);         /* 72px..128px */
 
   /****************************************************************
-  * font-weight: var(--font-hairline);
+  * font-weight: var(--font-thin);
   *****************************************************************/
   --font-thin:       100;
   --font-extralight: 200;
@@ -63,7 +63,7 @@
   --leading-10:      2.5rem;  /* 40px */
 
   /****************************************************************
-  * font-family: var(--font-sans);
+  * font-family: var(--font-system-ui);
   *****************************************************************/
   --font-system-ui: system-ui, sans-serif;
   --font-transitional: Charter, Bitstream Charter, Sitka Text, Cambria, serif;

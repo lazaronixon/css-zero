@@ -31,11 +31,11 @@ chart:
   - app/javascript/controllers/chart_controller.js
 check_all:
   - app/javascript/controllers/check_all_controller.js
+collapsible:
+  - app/javascript/controllers/collapsible_controller.js
 color_scheme:
   - app/assets/stylesheets/color_scheme.css
   - app/javascript/controllers/color_scheme_controller.js
-collapsible:
-  - app/javascript/controllers/collapsible_controller.js
 combobox:
   - app/assets/stylesheets/combobox.css
   - app/javascript/controllers/combobox_controller.js
@@ -83,8 +83,6 @@ icons:
   - app/assets/images/chevrons-up-down.svg
   - app/assets/images/x.svg
   - app/assets/images/search.svg
-  - app/assets/images/eye.svg
-  - app/assets/images/eye-off.svg
   - app/assets/images/copy.svg
   - app/assets/images/download.svg
   - app/assets/images/share.svg
@@ -94,6 +92,7 @@ icons:
   - app/assets/images/moon.svg
   - app/assets/images/circle-alert.svg
   - app/assets/images/circle-check.svg
+  - app/assets/images/panel-left.svg
 input:
   - app/assets/stylesheets/input.css
   - app/assets/images/chevron-down-zinc-500.svg
@@ -109,6 +108,8 @@ input_otp:
 input_revealable:
   - app/javascript/controllers/input_revealable_controller.js
   - app/assets/stylesheets/input_revealable.css
+  - app/assets/images/eye.svg
+  - app/assets/images/eye-off.svg
 inputmask:
   - app/javascript/controllers/inputmask_controller.js
 keyboard:
@@ -118,6 +119,7 @@ layouts:
   - app/assets/stylesheets/sidebar_menu.css
   - app/javascript/controllers/toggle_class_controller.js
   - app/assets/images/panel-left.svg
+  - app/assets/images/chevron-right.svg
 lexxy:
   - app/assets/stylesheets/lexxy.css
 lightbox:
