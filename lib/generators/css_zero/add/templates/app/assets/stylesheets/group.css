@@ -2,6 +2,7 @@
   align-items: stretch;
   display: flex;
   flex-direction: row;
+  inline-size: fit-content;
 
   > :not(:first-child) {
     border-end-start-radius: 0;
@@ -15,6 +16,7 @@
   }
 
   > :focus-visible {
+    position: relative;
     z-index: 1;
   }
 }
@@ -23,6 +25,7 @@
   align-items: stretch;
   display: flex;
   flex-direction: column;
+  inline-size: fit-content;
 
   > :not(:first-child) {
     border-block-start: 0;
@@ -36,6 +39,7 @@
   }
 
   > :focus-visible {
+    position: relative;
     z-index: 1;
   }
 }
