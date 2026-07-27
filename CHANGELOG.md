@@ -1,4 +1,4 @@
-## [Unreleased]
+## 4.0.0 - 2026-07-27
 - Use CSS variable for OTP input font family
 - Use CSS only popover (Anchor positioning)
 - Use --sheet-margin-inline for sheet
