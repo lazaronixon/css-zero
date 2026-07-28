@@ -43,6 +43,10 @@
   align-items: center;
   display: flex;
 
+  > .avatar {
+    box-shadow: 0 0 0 var(--size-0_5) var(--color-bg);
+  }
+
   > :not(:last-child) {
     margin-inline-end: calc(var(--size-2) * -1);
   }
