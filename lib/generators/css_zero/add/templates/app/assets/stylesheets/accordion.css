@@ -1,7 +1,10 @@
 :where(.accordion) {
   details {
-    border-block-end-width: var(--border);
     font-size: var(--text-sm);
+
+    &:not(:last-child) {
+      border-block-end-width: var(--border);
+    }
 
     &::details-content {
       block-size: 0;
