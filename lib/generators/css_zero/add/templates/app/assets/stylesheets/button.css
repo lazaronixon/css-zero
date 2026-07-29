@@ -79,7 +79,7 @@
 .btn--feedback {
   transition-duration: var(--time-150);
   transition-property: transform;
-  transition-timing-function: var(--ease-spring-2);
+  transition-timing-function: var(--ease-out-3);
 
   &:active {
     transform: scale(0.97);

@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Revert spring animations
 
 ## 4.0.0 - 2026-07-27
 - Use CSS variable for OTP input font family
