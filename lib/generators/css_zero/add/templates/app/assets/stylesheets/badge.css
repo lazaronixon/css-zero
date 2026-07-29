@@ -7,11 +7,13 @@
   color: var(--badge-color, var(--color-text));
   column-gap: var(--size-1);
   display: inline-flex;
+  flex-shrink: 0;
   font-size: var(--text-xs);
   font-weight: var(--font-medium);
   justify-content: center;
   min-inline-size: var(--badge-min-inline-size, 0);
   padding: var(--badge-padding, .125rem .5rem);
+  white-space: nowrap;
 }
 
 .badge--primary {
