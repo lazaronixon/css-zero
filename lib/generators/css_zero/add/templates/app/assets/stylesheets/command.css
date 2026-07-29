@@ -62,5 +62,6 @@
 .command__item-key {
   color: var(--color-text-subtle);
   font-size: var(--text-xs);
+  letter-spacing: var(--tracking-widest);
   margin-inline-start: auto;
 }
