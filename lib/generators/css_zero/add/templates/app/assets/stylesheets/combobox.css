@@ -14,6 +14,10 @@
   > input {
     color: inherit; font-size: inherit;
   }
+
+  &:focus-within {
+    outline: 2px solid var(--color-selected-dark);
+  }
 }
 
 .ts-dropdown {
@@ -82,6 +86,11 @@
 
   .highlight {
     background-color: transparent !important;
+  }
+
+  .no-results {
+    color: var(--color-text-subtle);
+    text-align: center;
   }
 
   .spinner {
