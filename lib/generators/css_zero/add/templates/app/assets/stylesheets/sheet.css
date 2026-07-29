@@ -1,5 +1,5 @@
 .sheet {
-  background-color: var(--color-bg);
+  background-color: var(--color-surface);
   block-size: var(--size-full);
   border-inline-width: var(--sheet-border);
   box-shadow: var(--shadow-lg);
@@ -14,7 +14,7 @@
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-100);
+  transition-duration: var(--time-200);
   transition-property: display, overlay, opacity, transform;
   transition-timing-function: var(--ease-out-3);
 
@@ -61,8 +61,7 @@
 }
 
 .sheet__content {
-  block-size: var(--size-full);
-  padding: var(--size-6);
+  block-size: inherit; padding: var(--size-4);
 }
 
 .sheet__close {
