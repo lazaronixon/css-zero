@@ -1,6 +1,7 @@
 ## [Unreleased]
 - Revert spring animations
 - Add .dialog__footer subcomponent
+- Add .card__footer subcomponent
 
 ## 4.0.0 - 2026-07-27
 - Use CSS variable for OTP input font family
