@@ -11,7 +11,8 @@
   --btn-cursor: pointer;
 
   &[aria-current="page"] {
+    --btn-background: var(--color-surface);
     --btn-border-color: var(--color-border);
+    --btn-box-shadow: var(--shadow-xs);
   }
 }
-
