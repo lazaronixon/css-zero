@@ -1,9 +1,9 @@
 .progress {
-  --progress-bar-color: rgb(from var(--color-primary) r g b / .2);
+  --progress-bar-color: var(--color-border-light);
   --progress-value-color: var(--color-primary);
 
   background-color: var(--progress-bar-color);
-  block-size: var(--size-2);
+  block-size: var(--size-1);
   border-radius: var(--rounded-full);
   inline-size: var(--size-full);
   overflow: hidden;
