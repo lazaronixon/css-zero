@@ -6,7 +6,7 @@
   border-radius: var(--btn-radius, var(--rounded-lg));
   box-shadow: var(--btn-box-shadow, var(--shadow-xs));
   color: var(--btn-color, var(--color-text));
-  column-gap: var(--size-1_5);
+  column-gap: var(--btn-column-gap, var(--size-1_5));
   cursor: var(--btn-cursor, default);
   display: inline-flex;
   font-size: var(--btn-font-size, var(--text-sm));
