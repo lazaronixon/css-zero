@@ -1,4 +1,6 @@
 .avatar {
+  --avatar-badge-size: calc(var(--avatar-size) * .3125);
+  --avatar-box-shadow: 0 0 0 2px var(--color-bg);
   --avatar-radius: var(--rounded-full);
   --avatar-size: var(--size-8);
 
@@ -7,7 +9,7 @@
   display: flex;
   flex-shrink: 0;
   inline-size: var(--avatar-size);
-  overflow: hidden;
+  position: relative;
 
   &.btn {
     --btn-inline-size: var(--avatar-size);
@@ -22,6 +24,7 @@
   img {
     aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
+    border-radius: var(--avatar-radius);
     inline-size: var(--size-full);
     object-fit: cover;
   }
@@ -31,11 +34,37 @@
     background-color: var(--color-border-light);
     block-size: var(--size-full);
     border-radius: var(--avatar-radius);
+    color: var(--color-text-subtle);
     display: flex;
-    font-size: calc(var(--avatar-size) * .4);
+    font-size: calc(var(--avatar-size) * .5);
     inline-size: var(--size-full);
     justify-content: center;
     user-select: none;
+
+    .icon {
+      --icon-size: 1em;
+    }
+  }
+}
+
+.avatar__badge {
+  background-color: var(--avatar-badge-color, var(--color-primary));
+  block-size: var(--avatar-badge-size);
+  border-radius: var(--rounded-full);
+  box-shadow: var(--avatar-box-shadow);
+  inline-size: var(--avatar-badge-size);
+  inset: auto 0 0 auto;
+  position: absolute;
+
+  &:has(.icon) {
+    align-items: center;
+    color: var(--color-text-reversed);
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    --icon-size: calc(var(--avatar-badge-size) * .75);
   }
 }
 
@@ -44,7 +73,7 @@
   display: flex;
 
   > .avatar {
-    box-shadow: 0 0 0 var(--size-0_5) var(--color-bg);
+    box-shadow: var(--avatar-box-shadow);
   }
 
   > :not(:last-child) {

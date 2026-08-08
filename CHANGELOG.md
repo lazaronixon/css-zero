@@ -1,3 +1,6 @@
+# Unreleased
+- Avatar badge
+
 ## 4.0.1 - 2026-08-02
 - Revert spring animations
 - Add .dialog__footer subcomponent
