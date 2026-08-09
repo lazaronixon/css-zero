@@ -1,10 +1,12 @@
-# Unreleased
+## 4.0.2 - 2026-08-09
+- Introduce --btn-column-gap
 - Add avatar badge
 - Improve badge
 - Introduce --card-padding
 - Remove command group separator
 - Improve list
 - Improve separator
+- Update cuelume to 0.2.2
 
 ## 4.0.1 - 2026-08-02
 - Revert spring animations
