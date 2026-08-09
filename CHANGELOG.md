@@ -3,6 +3,7 @@
 - Improve badge
 - Introduce --card-padding
 - Remove command group separator
+- Improve list
 
 ## 4.0.1 - 2026-08-02
 - Revert spring animations
