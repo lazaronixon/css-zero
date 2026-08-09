@@ -1,15 +1,16 @@
 .card {
+  --card-padding: var(--size-4);
   background-color: var(--color-surface);
   border-radius: var(--rounded-xl);
   border-width: var(--border);
   box-shadow: var(--shadow-sm);
-  padding: var(--size-4);
+  padding: var(--card-padding, var(--size-4));
 }
 
 .card__footer {
   background-color: rgb(from var(--color-border-light) r g b / .5);
   border-block-start-width: var(--border);
-  margin-block-end: calc(var(--size-4) * -1);
-  margin-inline: calc(var(--size-4) * -1);
-  padding: var(--size-4);
+  margin-block-end: calc(var(--card-padding) * -1);
+  margin-inline: calc(var(--card-padding) * -1);
+  padding: var(--card-padding);
 }
