@@ -2,6 +2,7 @@
 - Add avatar badge
 - Improve badge
 - Introduce --card-padding
+- Remove command group separator
 
 ## 4.0.1 - 2026-08-02
 - Revert spring animations
