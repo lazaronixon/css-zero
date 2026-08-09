@@ -2,12 +2,12 @@
   background-color: var(--sep-color, var(--color-border));
   block-size: 1px;
   flex-shrink: 0;
-  inline-size: var(--sep-size, var(--size-full));
+  inline-size: var(--size-full);
 }
 
 .separator-vertical {
+  align-self: stretch;
   background-color: var(--sep-color, var(--color-border));
-  block-size: var(--sep-size, var(--size-full));
   flex-shrink: 0;
   inline-size: 1px;
 }
