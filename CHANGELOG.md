@@ -1,5 +1,6 @@
 # Unreleased
-- Avatar badge
+- Add avatar badge
+- Improve badge
 
 ## 4.0.1 - 2026-08-02
 - Revert spring animations

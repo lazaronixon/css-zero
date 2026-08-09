@@ -3,7 +3,6 @@
   background-color: var(--badge-background, var(--color-bg));
   border: 1px solid var(--badge-border-color, var(--color-border));
   border-radius: var(--badge-radius, var(--rounded-3xl));
-  box-shadow: var(--badge-box-shadow, none);
   color: var(--badge-color, var(--color-text));
   column-gap: var(--size-1);
   display: inline-flex;
@@ -11,40 +10,36 @@
   font-size: var(--text-xs);
   font-weight: var(--font-medium);
   justify-content: center;
+  line-height: var(--leading-tight);
   min-inline-size: var(--badge-min-inline-size, 0);
   padding: var(--badge-padding, .125rem .5rem);
   white-space: nowrap;
+
+  .icon {
+    --icon-size: 1em;
+  }
 }
 
 .badge--primary {
   --badge-background: var(--color-primary);
   --badge-border-color: transparent;
-  --badge-box-shadow: var(--shadow-sm);
   --badge-color: var(--color-text-reversed);
 }
 
 .badge--secondary {
   --badge-background: var(--color-secondary);
   --badge-border-color: transparent;
-  --badge-box-shadow: none;
   --badge-color: var(--color-text);
 }
 
 .badge--positive {
   --badge-background: var(--color-positive);
   --badge-border-color: transparent;
-  --badge-box-shadow: var(--shadow-sm);
   --badge-color: white;
 }
 
 .badge--negative {
   --badge-background: var(--color-negative);
   --badge-border-color: transparent;
-  --badge-box-shadow: var(--shadow-sm);
   --badge-color: white;
-}
-
-.badge--number {
-  --badge-min-inline-size: var(--size-5);
-  --badge-radius: var(--rounded-full);
 }
