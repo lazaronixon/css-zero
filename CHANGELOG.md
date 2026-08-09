@@ -1,3 +1,6 @@
+## Unreleased
+- Add data-sound-enabled-value
+
 ## 4.0.2 - 2026-08-09
 - Introduce --btn-column-gap
 - Add avatar badge
