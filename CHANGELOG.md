@@ -1,8 +1,9 @@
-## Unreleased
+## 4.0.3 - 2026-08-10
 - Add data-sound-volume-value
 - Button sizes
 - Avatar sizes
 - Switch small
+- Adjust icon sizes
 
 ## 4.0.2 - 2026-08-09
 - Introduce --btn-column-gap

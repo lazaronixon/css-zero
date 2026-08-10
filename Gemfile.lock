@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    css-zero (4.0.2)
+    css-zero (4.0.3)
       railties (>= 8.0)
 
 GEM
