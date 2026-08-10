@@ -1,6 +1,7 @@
 ## Unreleased
 - Add data-sound-enabled-value
 - Button sizes
+- Avatar sizes
 
 ## 4.0.2 - 2026-08-09
 - Introduce --btn-column-gap

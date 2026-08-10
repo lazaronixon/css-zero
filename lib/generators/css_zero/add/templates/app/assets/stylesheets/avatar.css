@@ -47,6 +47,14 @@
   }
 }
 
+.avatar--sm {
+  --avatar-size: var(--size-6);
+}
+
+.avatar--lg {
+  --avatar-size: var(--size-10);
+}
+
 .avatar__badge {
   background-color: var(--avatar-badge-color, var(--color-primary));
   block-size: var(--avatar-badge-size);
