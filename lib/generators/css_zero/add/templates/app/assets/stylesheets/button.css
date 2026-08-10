@@ -31,6 +31,8 @@
   }
 }
 
+/* Variants */
+
 .btn--primary {
   --btn-background: var(--color-primary);
   --btn-border-color: transparent;
@@ -75,6 +77,35 @@
 .btn--icon {
   --btn-padding: var(--size-1_5);
 }
+
+/* Sizes */
+
+.btn--xs {
+  --btn-font-size: var(--text-xs);
+  --btn-padding: var(--size-0_5) var(--size-2);
+}
+
+.btn--icon-xs {
+  --btn-padding: .1875rem;
+}
+
+.btn--sm {
+  --btn-padding: var(--size-0_5) var(--size-2_5);
+}
+
+.btn--icon-sm {
+  --btn-padding: var(--size-1);
+}
+
+.btn--lg {
+  --btn-padding: var(--size-1_5) var(--size-3);
+}
+
+.btn--icon-lg {
+  --btn-padding: var(--size-2);
+}
+
+/* Extras */
 
 .btn--feedback {
   transition-duration: var(--time-150);
