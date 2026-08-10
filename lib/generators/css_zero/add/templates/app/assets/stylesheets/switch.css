@@ -44,3 +44,7 @@
     cursor: not-allowed; opacity: var(--opacity-50);
   }
 }
+
+.switch--sm {
+  --switch-size: var(--size-3);
+}
