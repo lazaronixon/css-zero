@@ -1,5 +1,5 @@
 ## Unreleased
-- Add data-sound-enabled-value
+- Add data-sound-volume-value
 - Button sizes
 - Avatar sizes
 - Switch small
