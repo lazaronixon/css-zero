@@ -16,7 +16,7 @@
   white-space: nowrap;
 
   .icon {
-    --icon-size: 1em;
+    --icon-size: var(--size-3);
   }
 }
 

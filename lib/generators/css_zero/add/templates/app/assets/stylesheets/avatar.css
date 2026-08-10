@@ -40,10 +40,6 @@
     inline-size: var(--size-full);
     justify-content: center;
     user-select: none;
-
-    .icon {
-      --icon-size: 1em;
-    }
   }
 }
 
