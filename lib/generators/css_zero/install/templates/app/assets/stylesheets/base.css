@@ -4,8 +4,8 @@
   --color-surface-negative: light-dark(var(--red-100), var(--red-950));
   --color-text: light-dark(var(--zinc-950), white);
   --color-text-reversed: light-dark(white, var(--zinc-950));
-  --color-text-negative: light-dark(var(--red-600), var(--red-400));
   --color-text-subtle: light-dark(var(--zinc-500), var(--zinc-400));
+  --color-text-negative: light-dark(var(--red-600), var(--red-400));
   --color-link: light-dark(var(--blue-700), var(--blue-400));
   --color-border-light: light-dark(var(--zinc-100), var(--zinc-800));
   --color-border: light-dark(var(--zinc-200), var(--zinc-700));
@@ -15,7 +15,6 @@
   --color-highlight: light-dark(var(--yellow-200), var(--yellow-900));
   --color-primary: light-dark(var(--zinc-900), var(--zinc-50));
   --color-secondary: light-dark(var(--zinc-100), var(--zinc-800));
-  --color-positive: light-dark(var(--green-700), var(--green-500));
 }
 
 * {

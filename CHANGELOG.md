@@ -3,6 +3,9 @@
 - Add --color-text-negative
 - Add .bg-negative
 - Remove --color-negative
+- Remove --color-positive
+- Remove positive variants
+- Remove .text-positive
 
 ## 4.0.3 - 2026-08-10
 - Add data-sound-volume-value

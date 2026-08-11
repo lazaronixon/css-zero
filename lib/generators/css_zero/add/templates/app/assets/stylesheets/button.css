@@ -56,13 +56,6 @@
   --btn-box-shadow: none;
 }
 
-.btn--positive {
-  --btn-background: var(--color-positive);
-  --btn-border-color: transparent;
-  --btn-color: white;
-  --btn-hover-color: rgb(from var(--color-positive) r g b / .9);
-}
-
 .btn--negative {
   --btn-background: var(--color-surface-negative);
   --btn-border-color: transparent;
