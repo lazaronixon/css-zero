@@ -131,7 +131,7 @@
 }
 
 .invalid .ts-control {
-  border-color: var(--color-negative);
+  border-color: var(--color-text-negative);
 }
 
 [data-controller~="combobox"] {

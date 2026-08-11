@@ -67,7 +67,7 @@
 .text-reversed { color: var(--color-text-reversed); }
 .text-subtle { color: var(--color-text-subtle); }
 .text-positive { color: var(--color-positive); }
-.text-negative { color: var(--color-negative); }
+.text-negative { color: var(--color-text-negative); }
 .text-link { color: var(--color-link); text-decoration: underline; }
 
 .text-xs { font-size: var(--text-xs); }
@@ -90,6 +90,7 @@
 .bg-shade { background-color: var(--color-border-light); }
 .bg-selected { background-color: var(--color-selected); }
 .bg-highlight { background-color: var(--color-highlight); }
+.bg-negative { background-color: var(--color-surface-negative); }
 .bg-transparent { background-color: transparent; }
 
 /****************************************************************

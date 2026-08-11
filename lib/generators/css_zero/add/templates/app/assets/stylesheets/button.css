@@ -64,10 +64,10 @@
 }
 
 .btn--negative {
-  --btn-background: var(--color-negative);
+  --btn-background: var(--color-surface-negative);
   --btn-border-color: transparent;
-  --btn-color: white;
-  --btn-hover-color: rgb(from var(--color-negative) r g b / .9);
+  --btn-color: var(--color-text-negative);
+  --btn-hover-color: rgb(from var(--color-surface-negative) r g b / .9);
 }
 
 .btn--plain {

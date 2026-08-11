@@ -1,3 +1,9 @@
+## Next
+- Add --color-surface-negative
+- Add --color-text-negative
+- Add .bg-negative
+- Remove --color-negative
+
 ## 4.0.3 - 2026-08-10
 - Add data-sound-volume-value
 - Button sizes

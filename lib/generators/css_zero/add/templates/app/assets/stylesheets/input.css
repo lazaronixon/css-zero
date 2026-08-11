@@ -43,7 +43,7 @@
   }
 
   &:user-invalid {
-    border-color: var(--color-negative);
+    border-color: var(--color-text-negative);
   }
 
   &:user-invalid + [feedback] {
@@ -59,7 +59,7 @@
   }
 
   .field_with_errors & {
-    border-color: var(--color-negative);
+    border-color: var(--color-text-negative);
   }
 }
 
