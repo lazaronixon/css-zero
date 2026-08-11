@@ -1,4 +1,4 @@
-## Next
+## 4.1.0 - 2026-08-11
 - Add --color-surface-negative
 - Add --color-text-negative
 - Add .bg-negative
