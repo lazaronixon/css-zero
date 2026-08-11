@@ -20,6 +20,10 @@
     background-color: rgb(from var(--color-border-light) r g b / .5);
   }
 
+  tr:has(:checked) {
+    background-color: var(--color-border-light);
+  }
+
   th {
     font-weight: var(--font-medium);
     text-align: start;

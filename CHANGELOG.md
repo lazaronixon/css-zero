@@ -7,6 +7,7 @@
 - Remove positive variants
 - Remove .text-positive
 - Cosmetic dropzone text message
+- Table with checkbox
 
 ## 4.0.3 - 2026-08-10
 - Add data-sound-volume-value
