@@ -1,5 +1,7 @@
 ## Unreleased
 - Simplify resizable
+- Adjust input range
+- Adjust dual range
 
 ## 4.1.0 - 2026-08-11
 - Add --color-surface-negative

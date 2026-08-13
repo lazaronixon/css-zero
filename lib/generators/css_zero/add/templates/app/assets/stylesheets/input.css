@@ -19,6 +19,7 @@
 
   &:is([type="range"]) {
     accent-color: var(--input-accent-color, var(--color-primary));
+    zoom: var(--input-range-zoom, .625);
   }
 
   &:is(textarea[rows="auto"]) {
