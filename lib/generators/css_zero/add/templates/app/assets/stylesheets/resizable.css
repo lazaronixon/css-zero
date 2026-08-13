@@ -9,19 +9,34 @@
 }
 
 .gutter {
+  align-items: center;
+  background-image: linear-gradient(var(--color-border), var(--color-border));
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.gutter::after {
+  background-color: var(--color-border);
+  border-radius: var(--rounded-lg);
+  content: "";
 }
 
 .gutter-horizontal {
-  background-image: url("grip-vertical-zink-500.svg");
-  border-inline-width: var(--border);
+  background-size: var(--border) 100%;
   cursor: col-resize;
 }
 
+.gutter-horizontal::after {
+  block-size: var(--size-6); inline-size: var(--size-1);
+}
+
 .gutter-vertical {
-  background-image: url("grip-horizontal-zink-500.svg");
-  border-block-width: var(--border);
+  background-size: 100% var(--border);
   cursor: row-resize;
+}
+
+.gutter-vertical::after {
+  block-size: var(--size-1); inline-size: var(--size-6);
 }
