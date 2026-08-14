@@ -22,7 +22,7 @@
     zoom: var(--input-range-zoom, .625);
   }
 
-  &:is(textarea[rows="auto"]) {
+  &:is([rows="auto"]) {
     field-sizing: content;
     max-block-size: calc(.875rem + var(--input-max-rows, 10lh));
     min-block-size: calc(.875rem + var(--input-rows, 2lh));
@@ -65,8 +65,8 @@
 }
 
 .input--actor {
-  > input {
-    inline-size: 100%; outline: 0;
+  > :is(input, textarea) {
+    field-sizing: inherit; flex-grow: 1; outline: 0; resize: none;
   }
 
   &:focus-within {
