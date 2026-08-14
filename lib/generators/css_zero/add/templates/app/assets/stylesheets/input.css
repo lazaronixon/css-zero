@@ -66,7 +66,7 @@
 
 .input--actor {
   > :is(input, textarea) {
-    field-sizing: inherit; flex-grow: 1; outline: 0; resize: none;
+    field-sizing: inherit; flex-grow: 1; min-inline-size: 0; outline: 0; resize: none;
   }
 
   &:focus-within {
