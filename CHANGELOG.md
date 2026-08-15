@@ -4,6 +4,7 @@
 - Adjust dual range
 - Support textarea in input actor
 - Allow rows="auto" on any input
+- Replace default avatar image
 
 ## 4.1.0 - 2026-08-11
 - Add --color-surface-negative
