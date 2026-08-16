@@ -103,7 +103,7 @@ input_copyable:
   - app/javascript/controllers/input_copyable_controller.js
   - app/assets/stylesheets/input_copyable.css
 input_otp:
-  - app/javascript/controllers/form_controller.js
+  - app/javascript/controllers/input_otp_controller.js
   - app/assets/stylesheets/input_otp.css
 input_revealable:
   - app/javascript/controllers/input_revealable_controller.js

@@ -5,6 +5,8 @@
 - Support textarea in input actor
 - Allow rows="auto" on any input
 - Replace default avatar image
+- Rebuild input_otp on top of input-otp-zero
+- Remove .input--otp
 
 ## 4.1.0 - 2026-08-11
 - Add --color-surface-negative

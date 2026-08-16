@@ -1,8 +1,40 @@
-.input--otp {
-  font-family: ui-monospace, monospace;
-  font-weight: var(--font-black);
-  inline-size: var(--input-otp-size, auto);
-  letter-spacing: 1ch;
-  min-inline-size: var(--input-otp-size, auto);
-  text-align: center;
+@import url("https://esm.sh/input-otp-zero@0.0.3/dist/input-otp-zero.css");
+
+input-otp {
+  --input-otp-gap: var(--size-2);
+  --input-otp-group-gap: var(--size-3);
+
+  --input-otp-slot-width: var(--size-8);
+  --input-otp-slot-height: var(--size-8);
+  --input-otp-slot-radius: var(--rounded-lg);
+  --input-otp-slot-background: var(--color-surface);
+  --input-otp-slot-background-active: var(--color-surface);
+
+  --input-otp-border-color: var(--color-border);
+  --input-otp-border-color-active: var(--color-border-dark);
+
+  --input-otp-ring-color: var(--color-selected-dark);
+
+  --input-otp-color: var(--color-text);
+  --input-otp-placeholder-color: var(--color-text-subtle);
+  --input-otp-font-family: var(--font-monospace-code);
+  --input-otp-font-size: var(--text-sm);
+  --input-otp-font-weight: var(--font-medium);
+
+  --input-otp-caret-color: var(--color-text);
+  --input-otp-caret-height: var(--size-4);
+  --input-otp-caret-blink-duration: var(--time-1000);
+
+  --input-otp-separator-color: var(--color-text-subtle);
+  --input-otp-separator-width: var(--size-6);
+
+  --input-otp-transition-duration: var(--time-150);
+  --input-otp-transition-easing: var(--ease-out-3);
+  --input-otp-disabled-opacity: var(--opacity-50);
+}
+
+.input-otp--lg {
+  --input-otp-slot-width: var(--size-11);
+  --input-otp-slot-height: var(--size-12);
+  --input-otp-font-size: var(--text-xl);
 }
