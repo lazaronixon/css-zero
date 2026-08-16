@@ -37,4 +37,5 @@ input-otp {
   --input-otp-slot-width: var(--size-11);
   --input-otp-slot-height: var(--size-12);
   --input-otp-font-size: var(--text-xl);
+  --input-otp-caret-height: var(--size-6);
 }
