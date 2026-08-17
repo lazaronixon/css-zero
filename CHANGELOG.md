@@ -1,3 +1,7 @@
+## Unreleased
+- Hide sidebar content when closed
+- Adjust sidebar menu current and focus styles
+
 ## 4.2.0 - 2026-08-16
 - Simplify resizable
 - Adjust input range
