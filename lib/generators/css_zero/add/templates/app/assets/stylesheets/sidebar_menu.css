@@ -12,15 +12,15 @@
   --btn-font-weight: var(--font-normal);
   --btn-inline-size: var(--size-full);
   --btn-justify-content: start;
-  --btn-outline-size: 0;
   --btn-padding: var(--size-1) var(--size-2);
 
   &[aria-current="page"] {
     --btn-background: var(--color-border-light);
+    --btn-font-weight: var(--font-medium);
   }
 
   &:focus-visible {
-    --btn-background: var(--color-border-light);
+    outline-offset: calc(var(--border-2) * -1);
   }
 
   &:is(summary) {
