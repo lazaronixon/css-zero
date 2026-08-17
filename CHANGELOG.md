@@ -1,4 +1,4 @@
-## Unreleased
+## 4.2.0 - 2026-08-16
 - Simplify resizable
 - Adjust input range
 - Adjust dual range
