@@ -8,7 +8,7 @@
 
   /* Anchor position */
   position-area: var(--popover-position, block-end);
-  position-try-fallbacks: var(--popover-position-try-fallbacks, flip-block);
+  position-try: var(--popover-position-try, flip-block);
   margin-block: var(--popover-margin-block, .25rem 0);
 
   /* Setup transition */
@@ -39,7 +39,7 @@
 
 .popover--unanchored {
   --popover-position: none;
-  --popover-position-try-fallbacks: none;
+  --popover-position-try: none;
   --popover-margin-block: 0;
 }
 
