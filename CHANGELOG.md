@@ -1,4 +1,4 @@
-## Unreleased
+## 4.2.1 - 2026-08-26
 - Hide sidebar content when closed
 - Adjust sidebar menu current and focus styles
 
