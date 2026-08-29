@@ -13,8 +13,8 @@
 
   &:is([type="checkbox"], [type="radio"]) {
     accent-color: var(--input-accent-color, var(--color-primary));
-    block-size:   var(--input-check-size, var(--size-4));
-    inline-size:  var(--input-check-size, var(--size-4));
+    block-size: var(--input-check-size, var(--size-4));
+    inline-size: var(--input-check-size, var(--size-4));
   }
 
   &:is([type="range"]) {

@@ -32,6 +32,6 @@
 
 .lightbox__image {
   grid-area: 1/1;
-  max-block-size:  calc(100dvh - (var(--size-4) * 2));
+  max-block-size: calc(100dvh - (var(--size-4) * 2));
   max-inline-size: calc(100dvw - (var(--size-4) * 2));
 }

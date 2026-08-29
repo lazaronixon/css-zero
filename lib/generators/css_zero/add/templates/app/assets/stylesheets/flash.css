@@ -41,7 +41,7 @@
     animation-timing-function: ease-out;
   }
 
-  100% { 
+  100% {
     opacity: 0;
     transform: translateY(-100%);
   }

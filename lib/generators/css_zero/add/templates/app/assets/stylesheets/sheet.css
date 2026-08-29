@@ -66,6 +66,6 @@
 
 .sheet__close {
   inset-block-start: var(--size-3);
-  inset-inline-end:  var(--size-3);
+  inset-inline-end: var(--size-3);
   position: absolute;
 }
