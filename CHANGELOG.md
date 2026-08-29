@@ -3,6 +3,10 @@
 - Adjust dialog transition durations
 - Adjust flash animation easing
 - Adjust tabs indicator easing
+- Adjust combobox transition duration
+- Adjust datepicker animation duration
+- Adjust popover transition duration
+- Adjust sheet transition and slide distance
 
 ## 4.2.1 - 2026-08-26
 - Hide sidebar content when closed

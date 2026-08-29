@@ -13,7 +13,7 @@
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-100);
+  transition-duration: var(--time-150);
   transition-property: display, opacity, overlay, transform;
   transition-timing-function: var(--ease-out-3);
 
@@ -72,4 +72,3 @@
   --popover-position: block-start span-inline-start;
   --popover-margin-block: 0 .25rem;
 }
-

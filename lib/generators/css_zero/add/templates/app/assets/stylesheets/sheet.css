@@ -14,9 +14,9 @@
 
   /* Setup transition */
   transition-behavior: allow-discrete;
-  transition-duration: var(--time-200);
+  transition-duration: var(--time-300);
   transition-property: display, overlay, opacity, transform;
-  transition-timing-function: var(--ease-out-3);
+  transition-timing-function: var(--ease-out-4);
 
   &::backdrop {
     transition-behavior: allow-discrete;
@@ -51,13 +51,13 @@
 .sheet--left {
   --sheet-border: 0 1px;
   --sheet-margin-inline: 0 auto;
-  --sheet-transform: translateX(-2.5rem);
+  --sheet-transform: translateX(-100%);
 }
 
 .sheet--right {
   --sheet-border: 1px 0;
   --sheet-margin-inline: auto 0;
-  --sheet-transform: translateX(2.5rem);
+  --sheet-transform: translateX(100%);
 }
 
 .sheet__content {

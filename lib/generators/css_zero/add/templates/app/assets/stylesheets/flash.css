@@ -31,36 +31,28 @@
 
 @keyframes flash-in-out {
   0% {
-    opacity: 0;
-    transform: translateY(-100%);
+    opacity: 0; transform: translateY(-100%);
   }
 
   8%, 92% {
-    opacity: 1;
-    transform: translateY(0);
-    animation-timing-function: var(--ease-out-3);
+    opacity: 1; transform: translateY(0);
   }
 
   100% {
-    opacity: 0;
-    transform: translateY(-100%);
+    opacity: 0; transform: translateY(-100%);
   }
 }
 
 @keyframes flash-in-out-extended {
   0% {
-    opacity: 0;
-    transform: translateY(-100%);
+    opacity: 0; transform: translateY(-100%);
   }
 
   3.3%, 96.7% {
-    opacity: 1;
-    transform: translateY(0);
-    animation-timing-function: var(--ease-out-3);
+    opacity: 1; transform: translateY(0);
   }
 
   100% {
-    opacity: 0;
-    transform: translateY(-100%);
+    opacity: 0; transform: translateY(-100%);
   }
 }
