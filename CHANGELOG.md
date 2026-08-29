@@ -7,6 +7,7 @@
 - Adjust datepicker animation duration
 - Adjust popover transition duration
 - Adjust sheet transition and slide distance
+- Simplify autosave
 
 ## 4.2.1 - 2026-08-26
 - Hide sidebar content when closed
