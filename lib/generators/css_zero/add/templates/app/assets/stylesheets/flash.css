@@ -1,6 +1,6 @@
 .flash {
   animation: flash-in-out 5s both;
-  animation-timing-function: var(--ease-bounce-2);
+  animation-timing-function: var(--ease-out-3);
   background-color: var(--color-surface);
   border-radius: var(--rounded-lg);
   border-width: var(--border);
@@ -38,7 +38,7 @@
   8%, 92% {
     opacity: 1;
     transform: translateY(0);
-    animation-timing-function: ease-out;
+    animation-timing-function: var(--ease-out-3);
   }
 
   100% {
@@ -56,7 +56,7 @@
   3.3%, 96.7% {
     opacity: 1;
     transform: translateY(0);
-    animation-timing-function: ease-out;
+    animation-timing-function: var(--ease-out-3);
   }
 
   100% {

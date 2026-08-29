@@ -1,5 +1,8 @@
 ## Unreleased
 - Use position-try shorthand in popover
+- Adjust dialog transition durations
+- Adjust flash animation easing
+- Adjust tabs indicator easing
 
 ## 4.2.1 - 2026-08-26
 - Hide sidebar content when closed

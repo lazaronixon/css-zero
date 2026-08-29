@@ -25,7 +25,7 @@
     position-anchor: --tabs-selected;
     transition-duration: var(--time-150);
     transition-property: inset;
-    transition-timing-function: var(--ease-in-out-3);
+    transition-timing-function: var(--ease-in-out-4);
   }
 }
 
