@@ -40,6 +40,11 @@
       color: var(--color-text);
     }
 
+    .flatpickr-current-month {
+      inline-size: 85%;
+      padding-block-start: 5.48px;
+    }
+
     span.cur-month {
       font-size: var(--text-sm);
       font-weight: var(--font-medium);
