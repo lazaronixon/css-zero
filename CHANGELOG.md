@@ -1,3 +1,6 @@
+## Unreleased
+- Prevent month header from wrapping in datepicker
+
 ## 4.2.2 - 2026-08-29
 - Use position-try shorthand in popover
 - Adjust dialog transition durations
