@@ -1,5 +1,6 @@
-## Unreleased
+## 4.2.3 - 2026-09-07
 - Prevent month header from wrapping in datepicker
+- Refactor autosave
 - Rebuild menu on top of roving-ux
 
 ## 4.2.2 - 2026-08-29
