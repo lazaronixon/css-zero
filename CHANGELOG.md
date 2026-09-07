@@ -1,5 +1,6 @@
 ## Unreleased
 - Prevent month header from wrapping in datepicker
+- Rebuild menu on top of roving-ux
 
 ## 4.2.2 - 2026-08-29
 - Use position-try shorthand in popover
