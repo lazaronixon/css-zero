@@ -3,7 +3,7 @@
 }
 
 .btn--toggle [type="checkbox"] {
-  position: absolute; clip: rect(0, 0, 0, 0);
+  position: absolute; clip-path: inset(50%);
 }
 
 .btn--toggle:has(:checked) {

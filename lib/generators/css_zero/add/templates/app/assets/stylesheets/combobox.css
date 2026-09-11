@@ -135,5 +135,5 @@
 }
 
 [data-controller~="combobox"] {
-  clip: rect(0 0 0 0); position: absolute;
+  clip-path: inset(50%); position: absolute;
 }
