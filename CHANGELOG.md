@@ -1,5 +1,12 @@
 ## Unreleased
 - Remove Safari exit animation guard from dialog, popover and sheet
+- Update activestorage to 8.1.301
+- Update combobox-nav to 3.0.2
+- Update dropzone to 7.4.4
+- Update input-otp-zero to 0.0.4
+- Update lexxy to 0.9.32
+- Update maska to 3.2.1
+- Update tom-select to 2.6.2
 
 ## 4.2.3 - 2026-09-07
 - Prevent month header from wrapping in datepicker

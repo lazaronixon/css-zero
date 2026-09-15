@@ -1,4 +1,4 @@
-@import url("https://esm.sh/input-otp-zero@0.0.3/dist/input-otp-zero.css");
+@import url("https://esm.sh/input-otp-zero@0.0.4/dist/input-otp-zero.css");
 
 input-otp {
   --input-otp-gap: var(--size-2);
