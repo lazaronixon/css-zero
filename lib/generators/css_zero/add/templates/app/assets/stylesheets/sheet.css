@@ -39,10 +39,6 @@
     &[open]::backdrop { opacity: 0; }
   }
 
-  @supports (-webkit-hyphens: none) {
-    transition-behavior: normal;
-  }
-
   @media (width >= 40rem) {
     max-inline-size: var(--sheet-size, var(--max-i-sm));
   }

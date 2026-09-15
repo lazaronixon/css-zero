@@ -1,3 +1,6 @@
+## Unreleased
+- Remove Safari exit animation guard from dialog, popover and sheet
+
 ## 4.2.3 - 2026-09-07
 - Prevent month header from wrapping in datepicker
 - Refactor autosave
