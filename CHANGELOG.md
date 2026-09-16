@@ -1,5 +1,6 @@
 ## Unreleased
 - Remove Safari exit animation guard from dialog, popover and sheet
+- Remove obsolete ::-webkit-details-marker rule from sidebar menu
 - Update activestorage to 8.1.301
 - Update combobox-nav to 3.0.2
 - Update dropzone to 7.4.4

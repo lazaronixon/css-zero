@@ -41,10 +41,6 @@
     details[open] > &::after {
       transform: var(--rotate-90);
     }
-
-    &::-webkit-details-marker {
-      display: none;
-    }
   }
 }
 
