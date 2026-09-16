@@ -22,7 +22,6 @@
   }
 
   img {
-    aspect-ratio: var(--aspect-square);
     block-size: var(--size-full);
     border-radius: var(--avatar-radius);
     inline-size: var(--size-full);

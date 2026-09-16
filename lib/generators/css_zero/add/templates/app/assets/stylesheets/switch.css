@@ -30,7 +30,6 @@
     block-size: var(--switch-size);
     border-radius: var(--rounded-full);
     content: "";
-    display: block;
     transition-duration: var(--time-150);
     transition-property: translate;
     transition-timing-function: var(--ease-out-3);

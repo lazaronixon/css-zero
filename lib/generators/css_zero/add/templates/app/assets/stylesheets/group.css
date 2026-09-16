@@ -1,5 +1,4 @@
 .group {
-  align-items: stretch;
   display: flex;
   flex-direction: row;
   inline-size: fit-content;
@@ -22,7 +21,6 @@
 }
 
 .group-vertical {
-  align-items: stretch;
   display: flex;
   flex-direction: column;
   inline-size: fit-content;
