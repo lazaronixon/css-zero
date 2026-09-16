@@ -4,7 +4,7 @@
   border-radius: var(--rounded-xl);
   border-width: var(--border);
   box-shadow: var(--shadow-sm);
-  padding: var(--card-padding, var(--size-4));
+  padding: var(--card-padding);
 }
 
 .card__footer {
