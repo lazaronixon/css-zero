@@ -1,4 +1,7 @@
 ## Unreleased
+- Rename .overflow-x-auto and .overflow-y-auto to .overflow-i-auto and .overflow-b-auto
+- Remove scroll snap from overflow utilities
+- Use logical overflow properties in command and sidebar
 - Remove Safari exit animation guard from dialog, popover and sheet
 - Remove obsolete ::-webkit-details-marker rule from sidebar menu
 - Remove redundant padding fallback from card

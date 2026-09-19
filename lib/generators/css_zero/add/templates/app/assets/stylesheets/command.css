@@ -16,7 +16,7 @@
 
 .command__list {
   max-block-size: 300px;
-  overflow-y: auto;
+  overflow-block: auto;
 
   &:not(:has(.command__item:not([hidden]))) {
     display: none;

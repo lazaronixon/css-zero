@@ -151,8 +151,8 @@
 .i-min { inline-size: min-content; }
 .i-fit { inline-size: fit-content; }
 
-.overflow-x-auto { overflow-x: auto; scroll-snap-type: x mandatory; }
-.overflow-y-auto { overflow-y: auto; scroll-snap-type: y mandatory; }
+.overflow-i-auto { overflow-inline: auto; }
+.overflow-b-auto { overflow-block: auto; }
 .overflow-hidden { overflow: hidden; }
 
 .object-contain { object-fit: contain; }
