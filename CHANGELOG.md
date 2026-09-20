@@ -1,9 +1,11 @@
-## Unreleased
+## 4.3.0 - 2026-09-20
 - Rename .overflow-x-auto and .overflow-y-auto to .overflow-i-auto and .overflow-b-auto
 - Remove scroll snap from overflow utilities
 - Use logical overflow properties in command and sidebar
+- Refactor command
 - Remove Safari exit animation guard from dialog, popover and sheet
 - Remove obsolete ::-webkit-details-marker rule from sidebar menu
+- Replace deprecated clip with clip-path in combobox and toggle
 - Remove redundant padding fallback from card
 - Remove redundant default declarations from avatar, group and switch
 - Update activestorage to 8.1.301
