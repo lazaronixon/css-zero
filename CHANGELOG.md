@@ -1,5 +1,6 @@
 ## Unreleased
 - Use logical scroll snap axis in carousel
+- Rebuild resizable on top of resizable-panels-zero
 
 ## 4.3.0 - 2026-09-20
 - Rename .overflow-x-auto and .overflow-y-auto to .overflow-i-auto and .overflow-b-auto

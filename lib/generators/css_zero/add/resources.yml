@@ -138,7 +138,6 @@ progress:
   - app/assets/stylesheets/progress.css
 resizable:
   - app/assets/stylesheets/resizable.css
-  - app/javascript/controllers/resizable_controller.js
 separator:
   - app/assets/stylesheets/separator.css
 sheet:

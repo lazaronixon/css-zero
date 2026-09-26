@@ -1,42 +1,41 @@
-.resizable-horizontal {
-  display: flex;
-  flex-direction: row;
+@import url("https://esm.sh/resizable-panels-zero@0.0.1/dist/resizable-panels-zero.css");
+
+resizable-group {
+  --resizable-separator-size: var(--border);
+  --resizable-separator-color: var(--color-border);
+  --resizable-separator-color-hover: var(--color-border);
+  --resizable-separator-color-active: var(--color-border);
+  --resizable-separator-color-disabled: var(--color-border-light);
+
+  --resizable-focus-ring-width: var(--border-2);
+  --resizable-focus-ring-color: var(--color-selected-dark);
+
+  --resizable-overlay-size: var(--border-2);
+  --resizable-overlay-color: var(--color-border);
+  --resizable-overlay-color-active: var(--color-border-dark);
+
+  --resizable-transition-duration: var(--time-150);
+  --resizable-transition-easing: var(--ease-out-3);
 }
 
-.resizable-vertical {
-  display: flex;
-  flex-direction: column;
-}
-
-.gutter {
+resizable-separator {
   align-items: center;
-  background-image: linear-gradient(var(--color-border), var(--color-border));
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-}
+  z-index: 1;
 
-.gutter::after {
-  background-color: var(--color-border);
-  border-radius: var(--rounded-lg);
-  content: "";
-}
+  &::after {
+    background-color: var(--color-border);
+    border-radius: var(--rounded-lg);
+    content: "";
+    flex-shrink: 0;
+  }
 
-.gutter-horizontal {
-  background-size: var(--border) 100%;
-  cursor: col-resize;
-}
+  &[aria-orientation="vertical"]::after {
+    block-size: var(--size-6); inline-size: var(--size-1);
+  }
 
-.gutter-horizontal::after {
-  block-size: var(--size-6); inline-size: var(--size-1);
-}
-
-.gutter-vertical {
-  background-size: 100% var(--border);
-  cursor: row-resize;
-}
-
-.gutter-vertical::after {
-  block-size: var(--size-1); inline-size: var(--size-6);
+  &[aria-orientation="horizontal"]::after {
+    block-size: var(--size-1); inline-size: var(--size-6);
+  }
 }
