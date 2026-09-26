@@ -1,3 +1,6 @@
+## Unreleased
+- Use logical scroll snap axis in carousel
+
 ## 4.3.0 - 2026-09-20
 - Rename .overflow-x-auto and .overflow-y-auto to .overflow-i-auto and .overflow-b-auto
 - Remove scroll snap from overflow utilities

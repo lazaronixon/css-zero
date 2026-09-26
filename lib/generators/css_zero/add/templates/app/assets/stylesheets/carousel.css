@@ -10,7 +10,7 @@
   inline-size: var(--size-full);
   overflow: hidden;
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: inline mandatory;
 }
 
 .carousel__item {
