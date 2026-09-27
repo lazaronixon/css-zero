@@ -1,63 +1,76 @@
-.command {
-  background-color: var(--color-surface);
-  border-radius: var(--rounded-xl);
-  border-width: var(--border);
-  box-shadow: var(--shadow-xs);
-  display: flex;
-  padding: var(--size-2);
-  flex-direction: column;
-}
+@import url("https://esm.sh/cmdk-zero@0.0.3/dist/cmdk-zero.css");
 
-.command__input {
-  --input-background: var(--color-border-light);
-  --input-box-shadow: none;
-  --input-outline-size: 0;
-}
+cmdk-root {
+  --cmdk-padding: var(--size-2);
+  --cmdk-radius: var(--rounded-xl);
+  --cmdk-background: var(--color-surface);
+  --cmdk-border-width: var(--border);
+  --cmdk-border-color: var(--color-border);
+  --cmdk-shadow: var(--shadow-xs);
 
-.command__list {
-  max-block-size: 300px;
-  overflow-block: auto;
+  --cmdk-color: var(--color-text);
+  --cmdk-muted-color: var(--color-text-subtle);
+  --cmdk-font-family: var(--font-system-ui);
+  --cmdk-font-size: var(--text-sm);
 
-  &:not(:has(.command__item:not([hidden]))) {
-    display: none;
+  --cmdk-input-font-size: var(--text-sm);
+  --cmdk-input-padding: 0;
+  --cmdk-input-gap: 0;
+  --cmdk-placeholder-color: var(--color-text-subtle);
+
+  --cmdk-list-height-limit: var(--size-72);
+  --cmdk-list-max-height: var(--size-72);
+
+  --cmdk-item-height: var(--size-8);
+  --cmdk-item-padding: 0 var(--size-2);
+  --cmdk-item-gap: var(--size-2);
+  --cmdk-item-spacing: 0;
+  --cmdk-item-radius: var(--rounded-lg);
+  --cmdk-item-color: var(--color-text);
+  --cmdk-item-selected-background: var(--color-border-light);
+  --cmdk-item-selected-color: var(--color-text);
+  --cmdk-item-active-background: var(--color-border-light);
+  --cmdk-item-disabled-color: var(--color-text-subtle);
+
+  --cmdk-heading-font-size: var(--text-xs);
+  --cmdk-heading-padding: var(--size-1_5) var(--size-2);
+  --cmdk-heading-spacing: 0;
+  --cmdk-group-spacing: var(--size-1);
+
+  --cmdk-separator-color: var(--color-border);
+  --cmdk-separator-spacing: var(--size-1);
+
+  --cmdk-empty-height: var(--size-16);
+
+  --cmdk-transition-duration: var(--time-100);
+  --cmdk-transition-easing: var(--ease-out-3);
+
+  .input {
+    --input-background: var(--color-border-light);
+    --input-border-color: var(--color-border-light);
+    --input-box-shadow: none;
+    --input-outline-size: 0;
+    --icon-color: var(--color-text-subtle);
+  }
+
+  [data-cmdk-input] {
+    border-block-end: 0;
   }
 }
 
-.command__group {
-  display: flex;
-  flex-direction: column;
-  padding-block: var(--size-1);
-  row-gap: 1px;
-
-  &:not(:has(.command__item:not([hidden]))) {
-    display: none;
-  }
+cmdk-list {
+  scrollbar-width: none;
 }
 
-.command__group-header {
-  color: var(--color-text-subtle);
-  font-size: var(--text-xs);
+cmdk-group-heading {
   font-weight: var(--font-medium);
-  padding: var(--size-1) var(--size-1_5);
 }
 
-.command__item {
-  --btn-border-color: transparent;
-  --btn-box-shadow: none;
-  --btn-font-weight: var(--font-normal);
-  --btn-justify-content: start;
-  --btn-outline-size: 0;
-  --btn-padding: var(--size-1) var(--size-1_5);
-  --btn-radius: var(--rounded-sm);
-
-  &[aria-selected="true"] {
-    --btn-background: var(--color-border-light);
-  }
-}
-
-.command__item-key {
-  color: var(--color-text-subtle);
-  font-size: var(--text-xs);
+cmdk-item > kbd {
+  font-family: var(--font-system-ui);
   letter-spacing: var(--tracking-widest);
-  margin-inline-start: auto;
+}
+
+.dialog--cmdk {
+  overflow: clip;
 }
