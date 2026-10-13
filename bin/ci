@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "active_support/continuous_integration"
+
+ActiveSupport::ContinuousIntegration.run do
+  step "Tests: unit", "bin/test"
+
+  Bundler.with_unbundled_env do
+    step "Tests: integration (user install)", "test/integration/user_install_test.sh"
+  end
+end

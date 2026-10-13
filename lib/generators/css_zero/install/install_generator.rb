@@ -20,6 +20,6 @@ class CssZero::InstallGenerator < Rails::Generators::Base
   private
 
   def importmaps?
-    Rails.root.join("config/importmap.rb").exist?
+    File.exist?(File.expand_path("config/importmap.rb", destination_root))
   end
 end

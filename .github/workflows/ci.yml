@@ -1,0 +1,54 @@
+name: CI
+concurrency:
+  group: "${{github.workflow}}-${{github.ref}}"
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+
+permissions: {}
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: ["3.2", "3.3", "3.4", "4.0"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: rm Gemfile.lock
+      - uses: ruby/setup-ruby@14594264cd68ce8a2345dd349bc3d138a4ef85c8 # v1.327.0
+        with:
+          ruby-version: ${{matrix.ruby}}
+          bundler: latest
+          bundler-cache: true
+      - name: Run tests
+        run: bin/test
+        env:
+          RUBYOPT: -w
+
+  user-install:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      GEM_HOME: ${{ github.workspace }}/.gem # Needs to be a writable directory to install gems
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: ruby/setup-ruby@14594264cd68ce8a2345dd349bc3d138a4ef85c8 # v1.327.0
+        with:
+          ruby-version: "4.0"
+          bundler: latest
+      - run: echo "$GEM_HOME/bin" >> "$GITHUB_PATH"
+      - run: test/integration/user_install_test.sh
+        shell: bash
