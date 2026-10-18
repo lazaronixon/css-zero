@@ -9,7 +9,7 @@
     &::details-content {
       block-size: 0;
       opacity: 0;
-      overflow: hidden;
+      overflow: clip;
       transition-behavior: allow-discrete;
       transition-duration: var(--time-200);
       transition-property: content-visibility, block-size, opacity;
