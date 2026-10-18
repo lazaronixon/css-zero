@@ -41,7 +41,6 @@
     }
 
     .flatpickr-current-month {
-      inline-size: 85%;
       padding-block-start: 6.48px;
     }
 
@@ -68,6 +67,7 @@
     border-radius: var(--rounded-lg);
     font-size: var(--text-sm);
     font-weight: var(--font-medium);
+    line-height: normal;
     padding: 0;
     text-align: center;
 
