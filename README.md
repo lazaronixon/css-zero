@@ -36,6 +36,14 @@ bin/rails generate css_zero:add --help
 
 Check the [CSS files](app/assets/stylesheets/css-zero) in the repository to see the available variables and utility classes.
 
+## Agent skill
+
+Install a skill that teaches AI coding agents how to use CSS Zero.
+
+```
+npx skills add lazaronixon/css-zero
+```
+
 ## Scaffold
 
 This gem implements custom templates for scaffolds and authentication.
